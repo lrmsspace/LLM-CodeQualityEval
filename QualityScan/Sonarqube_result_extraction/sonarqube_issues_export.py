@@ -5,7 +5,7 @@ import time
 
 SONARQUBE_URL = "http://localhost:9000"
 PROJECT_KEY = "Codeium_Java_new"     
-AUTH_TOKEN = "sqp_2a09ab34f29a1680ec23b7f818eab04be7f02086"       
+AUTH_TOKEN = "sqp_2a09ab34f29a167f814861ae4be7f02086"       
 
 SEVERITIES = ["BLOCKER", "CRITICAL", "MAJOR", "MINOR", "INFO"]
 PAGE_SIZE = 500
