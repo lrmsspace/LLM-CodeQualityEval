@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="0" column="0"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="27" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="27" column="15"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="27" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min" verbose="Unused variable: min" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="27" column="23"/>
+            <symbol>min</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min_index" verbose="Unused variable: min_index" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1084-two-city-scheduling.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="27" column="35"/>
+            <symbol>min_index</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;twoCitySchedCost&apos; is never used." verbose="The function &apos;twoCitySchedCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1084-two-city-scheduling.c" line="26" column="0"/>
+            <symbol>twoCitySchedCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

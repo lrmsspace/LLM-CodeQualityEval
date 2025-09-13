@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="0" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;dx&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;dx&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="80" column="20" info="dx is overwritten"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="66" column="31" info="dx is assigned"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;dy&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;dy&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="81" column="20" info="dy is overwritten"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="67" column="31" info="dy is assigned"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;x&apos; is assigned an expression that holds the same value." verbose="Variable &apos;x&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="78" column="17"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="46" column="23" info="x is assigned &apos;i&apos; here."/>
+            <symbol>x</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;y&apos; is assigned an expression that holds the same value." verbose="Variable &apos;y&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="79" column="17"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="47" column="23" info="y is assigned &apos;j&apos; here."/>
+            <symbol>y</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="38" column="51" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dx&apos; is assigned a value that is never used." verbose="Variable &apos;dx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="98" column="31"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dy&apos; is assigned a value that is never used." verbose="Variable &apos;dy&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3459-length-of-longest-v-shaped-diagonal-segment.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="99" column="31"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;lenOfVDiagonal&apos; is never used." verbose="The function &apos;lenOfVDiagonal&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3459-length-of-longest-v-shaped-diagonal-segment.c" line="38" column="0"/>
+            <symbol>lenOfVDiagonal</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

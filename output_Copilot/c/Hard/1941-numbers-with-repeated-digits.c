@@ -1,0 +1,43 @@
+/**https://leetcode.com/problems/numbers-with-repeated-digits/ */
+//Given an integer n, return the number of positive integers in the range [1, n] that have at least one repeated digit.
+// 
+//Example 1:
+//Input: n = 20
+//Output: 1
+//Explanation: The only positive number (<= 20) with at least 1 repeated digit is 11.
+//Example 2:
+//Input: n = 100
+//Output: 10
+//Explanation: The positive numbers (<= 100) with atleast 1 repeated digit are 11, 22, 33, 44, 55, 66, 77, 88, 99, and 100.
+//Example 3:
+//Input: n = 1000
+//Output: 262
+// 
+//Constraints:
+//	1 <= n <= 109
+int numDupDigitsAtMostN(int n) {
+    int* digits = (int*)malloc(10 * sizeof(int));
+    int* dp = (int*)malloc(10 * sizeof(int));
+    int m = 0, result = 0;
+    for (int i = 0; i <= 9; i++) {
+        dp[i] = 0;
+    }
+    for (int i = 1; i <= n; i++) {
+        m = 0;
+        for (int j = i; j > 0; j /= 10) {
+            digits[m++] = j % 10;
+        }
+        for (int j = 0; j < m; j++) {
+            for (int k = 0; k < digits[j]; k++) {
+                if (dp[k] == 0) result += dp[9] * fmax(0, m - j - 1);
+            }
+            if (dp[digits[j]] == 1) break;
+            dp[digits[j]] = 1;
+            if (j == m - 1) result++;
+        }
+        for (int j = 0; j <= 9; j++) {
+            dp[j] = 0;
+        }
+    }
+    return n - result;    
+}

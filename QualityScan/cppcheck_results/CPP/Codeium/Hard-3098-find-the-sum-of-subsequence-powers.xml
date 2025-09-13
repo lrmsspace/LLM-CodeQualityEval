@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;mx-mn&apos;." verbose="Signed integer overflow for expression &apos;mx-mn&apos;." cwe="190" file0="F:/Benchmark/new/Codeium/output/cpp/Hard/3098-find-the-sum-of-subsequence-powers.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Hard\3098-find-the-sum-of-subsequence-powers.cpp" line="47" column="45" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Hard\3098-find-the-sum-of-subsequence-powers.cpp" line="41" column="22" info="Assignment &apos;mn=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Hard\3098-find-the-sum-of-subsequence-powers.cpp" line="43" column="31" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Hard\3098-find-the-sum-of-subsequence-powers.cpp" line="42" column="22" info="Assignment &apos;mx=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumOfPowers&apos; is never used." verbose="The function &apos;sumOfPowers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Hard\3098-find-the-sum-of-subsequence-powers.cpp" line="29" column="0"/>
+            <symbol>sumOfPowers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

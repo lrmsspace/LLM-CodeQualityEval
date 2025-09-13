@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1061-interval-list-intersections.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1061-interval-list-intersections.c" line="27" column="25"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;res&apos; is assigned a value that is never used." verbose="Variable &apos;res&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1061-interval-list-intersections.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1061-interval-list-intersections.c" line="28" column="15"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;left&apos; is assigned a value that is never used." verbose="Variable &apos;left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1061-interval-list-intersections.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1061-interval-list-intersections.c" line="36" column="22"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;right&apos; is assigned a value that is never used." verbose="Variable &apos;right&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1061-interval-list-intersections.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1061-interval-list-intersections.c" line="37" column="23"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;intervalIntersection&apos; is never used." verbose="The function &apos;intervalIntersection&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1061-interval-list-intersections.c" line="26" column="0"/>
+            <symbol>intervalIntersection</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

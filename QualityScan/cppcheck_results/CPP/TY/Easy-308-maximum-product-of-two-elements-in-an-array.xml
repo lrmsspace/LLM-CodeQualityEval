@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max1-1&apos;." verbose="Signed integer overflow for expression &apos;max1-1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/308-maximum-product-of-two-elements-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="32" column="22" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="23" column="26" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="22" column="20" info="Assignment &apos;max1=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max2-1&apos;." verbose="Signed integer overflow for expression &apos;max2-1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/308-maximum-product-of-two-elements-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="32" column="35" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="23" column="26" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="22" column="36" info="Assignment &apos;max2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProduct&apos; is never used." verbose="The function &apos;maxProduct&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="21" column="0"/>
+            <symbol>maxProduct</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

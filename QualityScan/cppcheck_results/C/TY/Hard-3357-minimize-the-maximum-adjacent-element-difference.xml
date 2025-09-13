@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;a[4]&apos; accessed at index 4, which is out of bounds." verbose="Array &apos;a[4]&apos; accessed at index 4, which is out of bounds." cwe="788" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="39" column="90" info="Array index out of bounds"/>
+        </error>
+        <error id="pointerOutOfBounds" severity="portability" msg="Undefined behaviour, pointer arithmetic &apos;a+5&apos; is out of bounds." verbose="Undefined behaviour, pointer arithmetic &apos;a+5&apos; is out of bounds." cwe="758" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="45" column="30" info="Pointer arithmetic overflow"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="31" column="24" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="32" column="40"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="32" column="60"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="32" column="66"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3357-minimize-the-maximum-adjacent-element-difference.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="32" column="72"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDifference&apos; is never used." verbose="The function &apos;minDifference&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3357-minimize-the-maximum-adjacent-element-difference.c" line="31" column="0"/>
+            <symbol>minDifference</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;max&apos; shadows outer variable" verbose="Local variable &apos;max&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="36" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="32" column="9" info="Shadowed declaration"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="31" column="26" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max&apos; is assigned a value that is never used." verbose="Variable &apos;max&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="50" column="17"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestSubarray&apos; is never used." verbose="The function &apos;longestSubarray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c" line="31" column="0"/>
+            <symbol>longestSubarray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

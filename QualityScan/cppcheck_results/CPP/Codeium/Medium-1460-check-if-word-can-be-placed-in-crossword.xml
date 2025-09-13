@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/1460-check-if-word-can-be-placed-in-crossword.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1460-check-if-word-can-be-placed-in-crossword.cpp" line="0" column="0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;board&apos; can be declared as reference to const" verbose="Parameter &apos;board&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/1460-check-if-word-can-be-placed-in-crossword.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1460-check-if-word-can-be-placed-in-crossword.cpp" line="47" column="38" info="Parameter &apos;board&apos; can be declared as reference to const"/>
+            <symbol>board</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;placeWordInCrossword&apos; is never used." verbose="The function &apos;placeWordInCrossword&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1460-check-if-word-can-be-placed-in-crossword.cpp" line="32" column="0"/>
+            <symbol>placeWordInCrossword</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

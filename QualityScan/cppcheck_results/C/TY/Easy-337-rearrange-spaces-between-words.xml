@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;text&apos; can be declared as pointer to const" verbose="Parameter &apos;text&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="19" column="29" info="Parameter &apos;text&apos; can be declared as pointer to const"/>
+            <symbol>text</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="33" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="28" column="25" info="Assuming condition is false"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="30" column="15"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: space" verbose="Uninitialized variable: space" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="25" column="13"/>
+            <symbol>space</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="20" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="20" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="20" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/337-rearrange-spaces-between-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="20" column="24"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reorderSpaces&apos; is never used." verbose="The function &apos;reorderSpaces&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\337-rearrange-spaces-between-words.c" line="19" column="0"/>
+            <symbol>reorderSpaces</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

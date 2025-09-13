@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;bx&apos; shadows outer variable" verbose="Local variable &apos;bx&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="107" column="31" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="52" column="21" info="Shadowed declaration"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;by&apos; shadows outer variable" verbose="Local variable &apos;by&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="107" column="35" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="52" column="25" info="Shadowed declaration"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="13" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="13" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sx" verbose="Uninitialized variable: sx" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="103" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="27" info="Assuming condition is false"/>
+            <symbol>sx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sy" verbose="Uninitialized variable: sy" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="103" column="21"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="27" info="Assuming condition is false"/>
+            <symbol>sy</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: bx" verbose="Uninitialized variable: bx" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="103" column="25"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="27" info="Assuming condition is false"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: by" verbose="Uninitialized variable: by" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="103" column="29"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="27" info="Assuming condition is false"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="48" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

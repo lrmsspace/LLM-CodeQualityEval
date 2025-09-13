@@ -1,0 +1,6 @@
+projectKey=Tabnine_Python
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Tabnine_Python
+ceTaskId=3588ad62-0c93-4704-a471-089f1fe573ac
+ceTaskUrl=http://localhost:9000/api/ce/task?id=3588ad62-0c93-4704-a471-089f1fe573ac

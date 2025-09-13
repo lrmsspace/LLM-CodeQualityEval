@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;vowels[5]&apos; accessed at index 8, which is out of bounds." verbose="Array &apos;vowels[5]&apos; accessed at index 8, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="35" column="76" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;vowels[5]&apos; accessed at index 14, which is out of bounds." verbose="Array &apos;vowels[5]&apos; accessed at index 14, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="35" column="101" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;vowels[5]&apos; accessed at index 20, which is out of bounds." verbose="Array &apos;vowels[5]&apos; accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="35" column="126" info="Array index out of bounds"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="35" column="31"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestBeautifulSubstring&apos; is never used." verbose="The function &apos;longestBeautifulSubstring&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="27" column="0"/>
+            <symbol>longestBeautifulSubstring</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

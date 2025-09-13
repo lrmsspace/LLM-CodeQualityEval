@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;edgesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;edgesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2241-minimize-the-total-price-of-the-trips.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2241-minimize-the-total-price-of-the-trips.c" line="35" column="63" info="Parameter &apos;edgesColSize&apos; can be declared as pointer to const"/>
+            <symbol>edgesColSize</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;price&apos; can be declared as pointer to const" verbose="Parameter &apos;price&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2241-minimize-the-total-price-of-the-trips.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2241-minimize-the-total-price-of-the-trips.c" line="35" column="82" info="Parameter &apos;price&apos; can be declared as pointer to const"/>
+            <symbol>price</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;tripsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;tripsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2241-minimize-the-total-price-of-the-trips.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2241-minimize-the-total-price-of-the-trips.c" line="35" column="137" info="Parameter &apos;tripsColSize&apos; can be declared as pointer to const"/>
+            <symbol>tripsColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumTotalPrice&apos; is never used." verbose="The function &apos;minimumTotalPrice&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2241-minimize-the-total-price-of-the-trips.c" line="35" column="0"/>
+            <symbol>minimumTotalPrice</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

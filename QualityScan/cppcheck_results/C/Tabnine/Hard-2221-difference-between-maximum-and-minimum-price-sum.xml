@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;price&apos; can be declared as pointer to const" verbose="Parameter &apos;price&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2221-difference-between-maximum-and-minimum-price-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="30" column="80" info="Parameter &apos;price&apos; can be declared as pointer to const"/>
+            <symbol>price</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;maxSum-minSum&apos;." verbose="Signed integer overflow for expression &apos;maxSum-minSum&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2221-difference-between-maximum-and-minimum-price-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="48" column="31" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="41" column="32" info="Assignment &apos;minSum=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="42" column="27" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="41" column="50" info="Assignment &apos;maxSum=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxOutput&apos; is never used." verbose="The function &apos;maxOutput&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2221-difference-between-maximum-and-minimum-price-sum.c" line="30" column="0"/>
+            <symbol>maxOutput</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

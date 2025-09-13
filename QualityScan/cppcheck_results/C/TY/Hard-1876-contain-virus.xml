@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;isInfectedColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;isInfectedColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="29" column="61" info="Parameter &apos;isInfectedColSize&apos; can be declared as pointer to const"/>
+            <symbol>isInfectedColSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt2&apos; is assigned a value that is never used." verbose="Variable &apos;cnt2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="216"/>
+            <symbol>cnt2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt3&apos; is assigned a value that is never used." verbose="Variable &apos;cnt3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="226"/>
+            <symbol>cnt3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt4&apos; is assigned a value that is never used." verbose="Variable &apos;cnt4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="236"/>
+            <symbol>cnt4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt5&apos; is assigned a value that is never used." verbose="Variable &apos;cnt5&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="246"/>
+            <symbol>cnt5</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt6&apos; is assigned a value that is never used." verbose="Variable &apos;cnt6&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="256"/>
+            <symbol>cnt6</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt7&apos; is assigned a value that is never used." verbose="Variable &apos;cnt7&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="266"/>
+            <symbol>cnt7</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt8&apos; is assigned a value that is never used." verbose="Variable &apos;cnt8&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="276"/>
+            <symbol>cnt8</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt9&apos; is assigned a value that is never used." verbose="Variable &apos;cnt9&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="286"/>
+            <symbol>cnt9</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt10&apos; is assigned a value that is never used." verbose="Variable &apos;cnt10&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="297"/>
+            <symbol>cnt10</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt11&apos; is assigned a value that is never used." verbose="Variable &apos;cnt11&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="308"/>
+            <symbol>cnt11</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt12&apos; is assigned a value that is never used." verbose="Variable &apos;cnt12&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="319"/>
+            <symbol>cnt12</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt13&apos; is assigned a value that is never used." verbose="Variable &apos;cnt13&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="330"/>
+            <symbol>cnt13</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt14&apos; is assigned a value that is never used." verbose="Variable &apos;cnt14&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="341"/>
+            <symbol>cnt14</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt15&apos; is assigned a value that is never used." verbose="Variable &apos;cnt15&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="352"/>
+            <symbol>cnt15</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt16&apos; is assigned a value that is never used." verbose="Variable &apos;cnt16&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="363"/>
+            <symbol>cnt16</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt17&apos; is assigned a value that is never used." verbose="Variable &apos;cnt17&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="374"/>
+            <symbol>cnt17</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt18&apos; is assigned a value that is never used." verbose="Variable &apos;cnt18&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="385"/>
+            <symbol>cnt18</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt19&apos; is assigned a value that is never used." verbose="Variable &apos;cnt19&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="398"/>
+            <symbol>cnt19</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt20&apos; is assigned a value that is never used." verbose="Variable &apos;cnt20&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="409"/>
+            <symbol>cnt20</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt21&apos; is assigned a value that is never used." verbose="Variable &apos;cnt21&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="420"/>
+            <symbol>cnt21</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt22&apos; is assigned a value that is never used." verbose="Variable &apos;cnt22&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="431"/>
+            <symbol>cnt22</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt23&apos; is assigned a value that is never used." verbose="Variable &apos;cnt23&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="442"/>
+            <symbol>cnt23</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt24&apos; is assigned a value that is never used." verbose="Variable &apos;cnt24&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="453"/>
+            <symbol>cnt24</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt25&apos; is assigned a value that is never used." verbose="Variable &apos;cnt25&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="464"/>
+            <symbol>cnt25</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt26&apos; is assigned a value that is never used." verbose="Variable &apos;cnt26&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="475"/>
+            <symbol>cnt26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="21"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="24"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="27"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="30"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt2" verbose="Unused variable: cnt2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="35"/>
+            <symbol>cnt2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt3" verbose="Unused variable: cnt3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="41"/>
+            <symbol>cnt3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt4" verbose="Unused variable: cnt4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="47"/>
+            <symbol>cnt4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt5" verbose="Unused variable: cnt5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="53"/>
+            <symbol>cnt5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt6" verbose="Unused variable: cnt6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="59"/>
+            <symbol>cnt6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt7" verbose="Unused variable: cnt7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="65"/>
+            <symbol>cnt7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt8" verbose="Unused variable: cnt8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="71"/>
+            <symbol>cnt8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt9" verbose="Unused variable: cnt9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="77"/>
+            <symbol>cnt9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt10" verbose="Unused variable: cnt10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="83"/>
+            <symbol>cnt10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt11" verbose="Unused variable: cnt11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="90"/>
+            <symbol>cnt11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt12" verbose="Unused variable: cnt12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="97"/>
+            <symbol>cnt12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt13" verbose="Unused variable: cnt13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="104"/>
+            <symbol>cnt13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt14" verbose="Unused variable: cnt14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="111"/>
+            <symbol>cnt14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt15" verbose="Unused variable: cnt15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="118"/>
+            <symbol>cnt15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt16" verbose="Unused variable: cnt16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="125"/>
+            <symbol>cnt16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt17" verbose="Unused variable: cnt17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="132"/>
+            <symbol>cnt17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt18" verbose="Unused variable: cnt18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="139"/>
+            <symbol>cnt18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt19" verbose="Unused variable: cnt19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="146"/>
+            <symbol>cnt19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt20" verbose="Unused variable: cnt20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="153"/>
+            <symbol>cnt20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt21" verbose="Unused variable: cnt21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="160"/>
+            <symbol>cnt21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt22" verbose="Unused variable: cnt22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="167"/>
+            <symbol>cnt22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt23" verbose="Unused variable: cnt23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="174"/>
+            <symbol>cnt23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt24" verbose="Unused variable: cnt24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="181"/>
+            <symbol>cnt24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt25" verbose="Unused variable: cnt25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="188"/>
+            <symbol>cnt25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt26" verbose="Unused variable: cnt26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1876-contain-virus.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="31" column="195"/>
+            <symbol>cnt26</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;containVirus&apos; is never used." verbose="The function &apos;containVirus&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1876-contain-virus.c" line="29" column="0"/>
+            <symbol>containVirus</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

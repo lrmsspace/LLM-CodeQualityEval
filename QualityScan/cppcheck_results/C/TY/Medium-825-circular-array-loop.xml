@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/825-circular-array-loop.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\825-circular-array-loop.c" line="40" column="9"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

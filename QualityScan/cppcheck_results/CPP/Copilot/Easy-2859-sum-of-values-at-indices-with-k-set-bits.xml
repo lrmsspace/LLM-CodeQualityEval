@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumIndicesWithKSetBits&apos; is never used." verbose="The function &apos;sumIndicesWithKSetBits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Easy\2859-sum-of-values-at-indices-with-k-set-bits.cpp" line="35" column="0"/>
+            <symbol>sumIndicesWithKSetBits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

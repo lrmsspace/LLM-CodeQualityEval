@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="66" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="70" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="80" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="86" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="98" column="22" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/975-masking-personal-information.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="63" column="11"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maskPII&apos; is never used." verbose="The function &apos;maskPII&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\975-masking-personal-information.c" line="61" column="0"/>
+            <symbol>maskPII</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

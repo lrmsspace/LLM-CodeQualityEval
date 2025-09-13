@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;caption[j]!=&apos;z&apos;&apos; is always true" verbose="Condition &apos;caption[j]!=&apos;z&apos;&apos; is always true" cwe="571" file0="F:/Benchmark/new/Tabnine/output/cpp/Hard/3441-minimum-cost-good-caption.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3441-minimum-cost-good-caption.cpp" line="56" column="43" info="Condition &apos;caption[j]!=&apos;z&apos;&apos; is always true"/>
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3441-minimum-cost-good-caption.cpp" line="53" column="36" info="Assuming that condition &apos;caption[j]!=&apos;a&apos;&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minCostGoodCaption&apos; is never used." verbose="The function &apos;minCostGoodCaption&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3441-minimum-cost-good-caption.cpp" line="39" column="0"/>
+            <symbol>minCostGoodCaption</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

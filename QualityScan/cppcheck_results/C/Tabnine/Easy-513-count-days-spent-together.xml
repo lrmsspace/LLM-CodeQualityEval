@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="0" column="0"/>
+        </error>
+        <error id="multiCondition" severity="style" msg="Expression is always false because &apos;else if&apos; condition matches previous condition at line 56." verbose="Expression is always false because &apos;else if&apos; condition matches previous condition at line 56." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="66" column="25"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;startAlice==startBob&apos; is always true" verbose="Condition &apos;startAlice==startBob&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="51" column="24" info="Condition &apos;startAlice==startBob&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="30" column="20" info="Assuming that condition &apos;startAlice&lt;startBob&apos; is not redundant"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="40" column="27" info="Assuming that condition &apos;startAlice&gt;startBob&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arriveAlice&apos; can be declared as pointer to const" verbose="Parameter &apos;arriveAlice&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="20" column="29" info="Parameter &apos;arriveAlice&apos; can be declared as pointer to const"/>
+            <symbol>arriveAlice</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;leaveAlice&apos; can be declared as pointer to const" verbose="Parameter &apos;leaveAlice&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="20" column="48" info="Parameter &apos;leaveAlice&apos; can be declared as pointer to const"/>
+            <symbol>leaveAlice</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arriveBob&apos; can be declared as pointer to const" verbose="Parameter &apos;arriveBob&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="20" column="66" info="Parameter &apos;arriveBob&apos; can be declared as pointer to const"/>
+            <symbol>arriveBob</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;leaveBob&apos; can be declared as pointer to const" verbose="Parameter &apos;leaveBob&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="20" column="83" info="Parameter &apos;leaveBob&apos; can be declared as pointer to const"/>
+            <symbol>leaveBob</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;monthAlice&apos; can be declared as const array" verbose="Variable &apos;monthAlice&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="21" column="9" info="Variable &apos;monthAlice&apos; can be declared as const array"/>
+            <symbol>monthAlice</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;monthBob&apos; can be declared as const array" verbose="Variable &apos;monthBob&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/513-count-days-spent-together.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="22" column="9" info="Variable &apos;monthBob&apos; can be declared as const array"/>
+            <symbol>monthBob</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countDaysTogether&apos; is never used." verbose="The function &apos;countDaysTogether&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\513-count-days-spent-together.c" line="20" column="0"/>
+            <symbol>countDaysTogether</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

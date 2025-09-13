@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;stones&apos; can be declared as pointer to const" verbose="Parameter &apos;stones&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1336-stone-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1336-stone-game-vii.c" line="27" column="23" info="Parameter &apos;stones&apos; can be declared as pointer to const"/>
+            <symbol>stones</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1336-stone-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1336-stone-game-vii.c" line="28" column="13"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1336-stone-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1336-stone-game-vii.c" line="30" column="13"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;stoneGameVII&apos; is never used." verbose="The function &apos;stoneGameVII&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1336-stone-game-vii.c" line="27" column="0"/>
+            <symbol>stoneGameVII</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

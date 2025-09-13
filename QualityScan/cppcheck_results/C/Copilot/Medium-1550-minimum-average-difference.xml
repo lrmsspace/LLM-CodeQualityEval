@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="zerodivcond" severity="warning" msg="Either the condition &apos;i==0&apos; is redundant or there is division by zero at line 44." verbose="Either the condition &apos;i==0&apos; is redundant or there is division by zero at line 44." cwe="369" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1550-minimum-average-difference.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1550-minimum-average-difference.c" line="44" column="37" info="Division by zero"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1550-minimum-average-difference.c" line="42" column="24" info="rightCount is assigned &apos;numsSize-i-1&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1550-minimum-average-difference.c" line="46" column="15" info="Assuming that condition &apos;i==0&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1550-minimum-average-difference.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1550-minimum-average-difference.c" line="31" column="35" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumAverageDifference&apos; is never used." verbose="The function &apos;minimumAverageDifference&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1550-minimum-average-difference.c" line="31" column="0"/>
+            <symbol>minimumAverageDifference</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

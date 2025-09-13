@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="22" column="26" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;e&apos; can be declared as pointer to const" verbose="Variable &apos;e&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="69" column="118" info="Variable &apos;e&apos; can be declared as pointer to const"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;f&apos; can be declared as pointer to const" verbose="Variable &apos;f&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="70" column="118" info="Variable &apos;f&apos; can be declared as pointer to const"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;g&apos; can be declared as pointer to const" verbose="Variable &apos;g&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="71" column="118" info="Variable &apos;g&apos; can be declared as pointer to const"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;h&apos; can be declared as pointer to const" verbose="Variable &apos;h&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="72" column="117" info="Variable &apos;h&apos; can be declared as pointer to const"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="69" column="120"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="70" column="120"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="71" column="120"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="72" column="119"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;e&apos; is allocated memory that is never used." verbose="Variable &apos;e&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="69" column="135"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;f&apos; is allocated memory that is never used." verbose="Variable &apos;f&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="70" column="135"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;g&apos; is allocated memory that is never used." verbose="Variable &apos;g&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/636-permutations-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="71" column="135"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;permuteUnique&apos; is never used." verbose="The function &apos;permuteUnique&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\636-permutations-ii.c" line="22" column="0"/>
+            <symbol>permuteUnique</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

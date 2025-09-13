@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dy&apos; can be reduced." verbose="The scope of the variable &apos;dy&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="47" column="25"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;startPos&apos; can be declared as pointer to const" verbose="Parameter &apos;startPos&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="41" column="38" info="Parameter &apos;startPos&apos; can be declared as pointer to const"/>
+            <symbol>startPos</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="41" column="73" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;returnSize&apos; can be declared as pointer to const" verbose="Parameter &apos;returnSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="41" column="81" info="Parameter &apos;returnSize&apos; can be declared as pointer to const"/>
+            <symbol>returnSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="44" column="15"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="44" column="32"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans_i&apos; is assigned a value that is never used." verbose="Variable &apos;ans_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="45" column="26"/>
+            <symbol>ans_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dx&apos; is assigned a value that is never used." verbose="Variable &apos;dx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="47" column="20"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dy&apos; is assigned a value that is never used." verbose="Variable &apos;dy&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="47" column="28"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dy&apos; is assigned a value that is never used." verbose="Variable &apos;dy&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1499-execution-of-all-suffix-instructions-staying-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="48" column="33"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;executeInstructions&apos; is never used." verbose="The function &apos;executeInstructions&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1499-execution-of-all-suffix-instructions-staying-in-a-grid.c" line="41" column="0"/>
+            <symbol>executeInstructions</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

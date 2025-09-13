@@ -1,0 +1,70 @@
+/*
+ You are given positive integers n and target.
+ An array nums is beautiful if it meets the following conditions:
+ nums.length == n.
+ nums consists of pairwise distinct positive integers.
+ There doesn't exist two distinct indices, i and j, in the range [0, n - 1], such that nums[i] + nums[j] == target.
+ Return the minimum possible sum that a beautiful array could have modulo 109 + 7.
+ Example 1:
+ Input: n = 2, target = 3
+ Output: 4
+ Explanation: We can see that nums = [1,3] is beautiful.
+ - The array nums has length n = 2.
+ - The array nums consists of pairwise distinct positive integers.
+ - There doesn't exist two distinct indices, i and j, with nums[i] + nums[j] == 3.
+ It can be proven that 4 is the minimum possible sum that a beautiful array could have.
+ Example 2:
+ Input: n = 3, target = 3
+ Output: 8
+ Explanation: We can see that nums = [1,3,4] is beautiful.
+ - The array nums has length n = 3.
+ - The array nums consists of pairwise distinct positive integers.
+ - There doesn't exist two distinct indices, i and j, with nums[i] + nums[j] == 3.
+ It can be proven that 8 is the minimum possible sum that a beautiful array could have.
+ Example 3:
+ Input: n = 1, target = 1
+ Output: 1
+ Explanation: We can see, that nums = [1] is beautiful.
+ Constraints:
+ 1 <= n <= 109
+ 1 <= target <= 109
+*/
+
+/**
+ * @param {number} n
+ * @param {number} target
+ * @return {number}
+ */
+var minimumPossibleSum = function(n, target) {
+
+    // Base case: if n is 1, the minimum sum is 1
+    if (n === 1) {
+        return 1;
+    }
+    
+    // Initialize the dp array with zeros
+    const dp = Array(n).fill(0);
+    
+    // Initialize the sum array with zeros
+    const sum = Array(n).fill(0);
+    
+    // Calculate the sum array
+    for (let i = 1; i < n; i++) {
+        sum[i] = sum[i - 1] + i;
+    }   
+    // Iterate through the dp array
+    for (let i = 0; i < n; i++) {
+        // Iterate through the possible values of dp[i]
+        for (let j = 1; j <= target; j++) {
+            // If j is greater than or equal to the current value of sum[i],
+            // then we can try to find a smaller value that can be added to dp[i]
+            if (j >= sum[i]) {
+                dp[i] = Math.min(dp[i], dp[i - 1] + j - sum[i]);
+            }
+        }
+    }
+    
+    // Return the minimum possible sum modulo 10^9 + 7
+    return dp[n - 1] % (10 ** 9 + 7);   
+    
+};

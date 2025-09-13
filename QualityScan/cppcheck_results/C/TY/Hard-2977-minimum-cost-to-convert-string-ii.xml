@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/2977-minimum-cost-to-convert-string-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="0" column="0"/>
+        </error>
+        <error id="CastAddressToIntegerAtReturn" severity="portability" msg="Returning an address value in a function with integer return type is not portable." verbose="Returning an address value in a function with integer (int/long/etc) return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit address down to 32-bit integer. The safe way is to always return an integer." cwe="758" file0="F:/Benchmark/new/TY/output/c/Hard/2977-minimum-cost-to-convert-string-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="72" column="5"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2977-minimum-cost-to-convert-string-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="45" column="19"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2977-minimum-cost-to-convert-string-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="44" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2977-minimum-cost-to-convert-string-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="44" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2977-minimum-cost-to-convert-string-ii.c" line="43" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

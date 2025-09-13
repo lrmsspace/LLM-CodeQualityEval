@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;result&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;result&apos; that will be invalid when returning." cwe="562" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1804-the-skyline-problem.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="95" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="66" column="10" info="Variable created here."/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="95" column="12" info="Address of variable taken here."/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;heapSize-1&apos;." verbose="Signed integer overflow for expression &apos;heapSize-1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1804-the-skyline-problem.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="66" column="54" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="40" column="20" info="Assignment &apos;heapSize=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="signConversion" severity="warning" msg="Expression &apos;heapSize-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;heapSize-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1804-the-skyline-problem.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="66" column="54" info="Negative value is converted to an unsigned value"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="40" column="20" info="Assignment &apos;heapSize=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;right&apos; is assigned a value that is never used." verbose="Variable &apos;right&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1804-the-skyline-problem.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="43" column="19"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getSkyline&apos; is never used." verbose="The function &apos;getSkyline&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1804-the-skyline-problem.c" line="31" column="0"/>
+            <symbol>getSkyline</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

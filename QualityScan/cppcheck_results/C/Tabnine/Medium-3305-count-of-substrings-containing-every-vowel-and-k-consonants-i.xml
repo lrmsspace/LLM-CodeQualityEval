@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;word[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." verbose="Either the condition &apos;word[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="37" column="19" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="36" column="93" info="Assuming that condition &apos;word[i]==&apos;u&apos;&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;word[i-k]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." verbose="Either the condition &apos;word[i-k]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="48" column="19" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="47" column="113" info="Assuming that condition &apos;word[i-k]==&apos;u&apos;&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;word[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." verbose="Either the condition &apos;word[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowels[5]&apos; is accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="52" column="19" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="51" column="93" info="Assuming that condition &apos;word[i]==&apos;u&apos;&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;word&apos; can be declared as pointer to const" verbose="Parameter &apos;word&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="28" column="29" info="Parameter &apos;word&apos; can be declared as pointer to const"/>
+            <symbol>word</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countOfSubstrings&apos; is never used." verbose="The function &apos;countOfSubstrings&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3305-count-of-substrings-containing-every-vowel-and-k-consonants-i.c" line="28" column="0"/>
+            <symbol>countOfSubstrings</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

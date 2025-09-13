@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;positions&apos; can be declared as pointer to const" verbose="Parameter &apos;positions&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="33" info="Parameter &apos;positions&apos; can be declared as pointer to const"/>
+            <symbol>positions</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;healths&apos; can be declared as pointer to const" verbose="Parameter &apos;healths&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="68" info="Parameter &apos;healths&apos; can be declared as pointer to const"/>
+            <symbol>healths</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;directions&apos; can be declared as pointer to const" verbose="Parameter &apos;directions&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="100" info="Parameter &apos;directions&apos; can be declared as pointer to const"/>
+            <symbol>directions</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;survivedRobotsHealths&apos; is never used." verbose="The function &apos;survivedRobotsHealths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="0"/>
+            <symbol>survivedRobotsHealths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

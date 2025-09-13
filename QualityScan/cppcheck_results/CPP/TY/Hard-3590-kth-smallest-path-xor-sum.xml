@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;vals&apos; can be declared as reference to const" verbose="Parameter &apos;vals&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3590-kth-smallest-path-xor-sum.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="55" column="60" info="Parameter &apos;vals&apos; can be declared as reference to const"/>
+            <symbol>vals</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3590-kth-smallest-path-xor-sum.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="55" column="87" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3590-kth-smallest-path-xor-sum.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="69" column="29"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3590-kth-smallest-path-xor-sum.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="83" column="21"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3590-kth-smallest-path-xor-sum.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="85" column="21"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthSmallest&apos; is never used." verbose="The function &apos;kthSmallest&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3590-kth-smallest-path-xor-sum.cpp" line="55" column="0"/>
+            <symbol>kthSmallest</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

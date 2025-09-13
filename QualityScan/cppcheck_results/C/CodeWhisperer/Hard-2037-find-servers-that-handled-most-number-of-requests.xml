@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;result&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;result&apos; nulled but not freed upon failure" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2037-find-servers-that-handled-most-number-of-requests.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2037-find-servers-that-handled-most-number-of-requests.c" line="66" column="5"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arrival&apos; can be declared as pointer to const" verbose="Parameter &apos;arrival&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2037-find-servers-that-handled-most-number-of-requests.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2037-find-servers-that-handled-most-number-of-requests.c" line="40" column="33" info="Parameter &apos;arrival&apos; can be declared as pointer to const"/>
+            <symbol>arrival</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;load&apos; can be declared as pointer to const" verbose="Parameter &apos;load&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2037-find-servers-that-handled-most-number-of-requests.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2037-find-servers-that-handled-most-number-of-requests.c" line="40" column="64" info="Parameter &apos;load&apos; can be declared as pointer to const"/>
+            <symbol>load</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;busiestServers&apos; is never used." verbose="The function &apos;busiestServers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2037-find-servers-that-handled-most-number-of-requests.c" line="40" column="0"/>
+            <symbol>busiestServers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

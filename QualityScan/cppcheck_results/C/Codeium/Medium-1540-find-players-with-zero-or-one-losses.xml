@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1540-find-players-with-zero-or-one-losses.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1540-find-players-with-zero-or-one-losses.c" line="0" column="0"/>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: zeroLosses[winner]" verbose="Memory is allocated but not initialized: zeroLosses[winner]" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1540-find-players-with-zero-or-one-losses.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1540-find-players-with-zero-or-one-losses.c" line="48" column="23"/>
+            <symbol>zeroLosses[winner]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: oneLosses[loser]" verbose="Memory is allocated but not initialized: oneLosses[loser]" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1540-find-players-with-zero-or-one-losses.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1540-find-players-with-zero-or-one-losses.c" line="53" column="22"/>
+            <symbol>oneLosses[loser]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findWinners&apos; is never used." verbose="The function &apos;findWinners&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1540-find-players-with-zero-or-one-losses.c" line="38" column="0"/>
+            <symbol>findWinners</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;nums&apos; can be declared as reference to const" verbose="Parameter &apos;nums&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/308-maximum-product-of-two-elements-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="21" column="33" info="Parameter &apos;nums&apos; can be declared as reference to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProduct&apos; is never used." verbose="The function &apos;maxProduct&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\308-maximum-product-of-two-elements-in-an-array.cpp" line="21" column="0"/>
+            <symbol>maxProduct</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

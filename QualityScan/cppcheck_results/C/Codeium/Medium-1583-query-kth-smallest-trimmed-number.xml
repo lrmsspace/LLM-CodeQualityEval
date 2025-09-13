@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="charLiteralWithCharPtrCompare" severity="warning" msg="Char literal compared with pointer &apos;nums[j]+nums[j][0]&apos;. Did you intend to dereference it?" verbose="Char literal compared with pointer &apos;nums[j]+nums[j][0]&apos;. Did you intend to dereference it?" cwe="595" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1583-query-kth-smallest-trimmed-number.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1583-query-kth-smallest-trimmed-number.c" line="53" column="56"/>
+            <symbol>nums[j]+nums[j][0]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestTrimmedNumbers&apos; is never used." verbose="The function &apos;smallestTrimmedNumbers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1583-query-kth-smallest-trimmed-number.c" line="47" column="0"/>
+            <symbol>smallestTrimmedNumbers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;diff&gt;=0&apos; is redundant or the array &apos;freq[1001]&apos; is accessed at index -1, which is out of bounds." verbose="Either the condition &apos;diff&gt;=0&apos; is redundant or the array &apos;freq[1001]&apos; is accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/new/Copilot/output/c/Hard/2949-count-beautiful-substrings-ii.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\2949-count-beautiful-substrings-ii.c" line="57" column="13" info="Negative array index"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\2949-count-beautiful-substrings-ii.c" line="53" column="18" info="Assuming that condition &apos;diff&gt;=0&apos; is not redundant"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Copilot/output/c/Hard/2949-count-beautiful-substrings-ii.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\2949-count-beautiful-substrings-ii.c" line="39" column="11"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;beautifulSubstrings&apos; is never used." verbose="The function &apos;beautifulSubstrings&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\2949-count-beautiful-substrings-ii.c" line="38" column="0"/>
+            <symbol>beautifulSubstrings</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

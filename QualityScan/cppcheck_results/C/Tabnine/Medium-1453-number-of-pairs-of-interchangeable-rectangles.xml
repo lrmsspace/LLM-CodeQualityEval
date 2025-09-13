@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1453-number-of-pairs-of-interchangeable-rectangles.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1453-number-of-pairs-of-interchangeable-rectangles.c" line="0" column="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;interchangeableRectangles&apos; is never used." verbose="The function &apos;interchangeableRectangles&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1453-number-of-pairs-of-interchangeable-rectangles.c" line="26" column="0"/>
+            <symbol>interchangeableRectangles</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

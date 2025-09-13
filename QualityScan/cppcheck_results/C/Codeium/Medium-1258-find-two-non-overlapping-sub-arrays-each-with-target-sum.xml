@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c" line="23" column="26" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c" line="25" column="11"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: left" verbose="Unused variable: left" cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c" line="24" column="9"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: right" verbose="Unused variable: right" cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c" line="24" column="28"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minSumOfLengths&apos; is never used." verbose="The function &apos;minSumOfLengths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1258-find-two-non-overlapping-sub-arrays-each-with-target-sum.c" line="23" column="0"/>
+            <symbol>minSumOfLengths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

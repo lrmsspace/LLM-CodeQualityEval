@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="42" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="40" column="7"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="18"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="21"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="24"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: vis" verbose="Unused variable: vis" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="30"/>
+            <symbol>vis</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dis" verbose="Unused variable: dis" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="36"/>
+            <symbol>dis</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;q&apos; is allocated memory that is never used." verbose="Variable &apos;q&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="40" column="22"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="46"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3419-minimize-the-maximum-edge-weight-of-graph.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="38" column="50"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMaxWeight&apos; is never used." verbose="The function &apos;minMaxWeight&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3419-minimize-the-maximum-edge-weight-of-graph.c" line="37" column="0"/>
+            <symbol>minMaxWeight</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

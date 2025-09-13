@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, ternary operator lacks &apos;:&apos;." verbose="Syntax Error: AST broken, ternary operator lacks &apos;:&apos;." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1182-sum-of-mutated-array-closest-to-target.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1182-sum-of-mutated-array-closest-to-target.cpp" line="41" column="57"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

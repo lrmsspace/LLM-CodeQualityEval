@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1906-shortest-path-to-get-all-keys.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="0" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;nk&apos; is assigned an expression that holds the same value." verbose="Variable &apos;nk&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1906-shortest-path-to-get-all-keys.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="61" column="37"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="56" column="36" info="nk is assigned &apos;k&apos; here."/>
+            <symbol>nk</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1906-shortest-path-to-get-all-keys.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="36" column="9" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1906-shortest-path-to-get-all-keys.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="37" column="9" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;shortestPathAllKeys&apos; is never used." verbose="The function &apos;shortestPathAllKeys&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1906-shortest-path-to-get-all-keys.c" line="33" column="0"/>
+            <symbol>shortestPathAllKeys</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

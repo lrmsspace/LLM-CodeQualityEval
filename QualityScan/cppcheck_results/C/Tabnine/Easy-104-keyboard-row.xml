@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;row1&apos; can be declared as pointer to const" verbose="Variable &apos;row1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/104-keyboard-row.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\104-keyboard-row.c" line="30" column="11" info="Variable &apos;row1&apos; can be declared as pointer to const"/>
+            <symbol>row1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;row2&apos; can be declared as pointer to const" verbose="Variable &apos;row2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/104-keyboard-row.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\104-keyboard-row.c" line="31" column="11" info="Variable &apos;row2&apos; can be declared as pointer to const"/>
+            <symbol>row2</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;row3&apos; can be declared as pointer to const" verbose="Variable &apos;row3&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/104-keyboard-row.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\104-keyboard-row.c" line="32" column="11" info="Variable &apos;row3&apos; can be declared as pointer to const"/>
+            <symbol>row3</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findWords&apos; is never used." verbose="The function &apos;findWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\104-keyboard-row.c" line="28" column="0"/>
+            <symbol>findWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

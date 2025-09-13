@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidFunctionArg" severity="warning" msg="Invalid log2() argument nr 1. The value is 0 but the valid values are &apos;4.94066e-324:&apos;." verbose="Invalid log2() argument nr 1. The value is 0 but the valid values are &apos;4.94066e-324:&apos;." cwe="628" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1343-count-good-meals.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="28" column="27" info="Invalid argument"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="25" column="26" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="24" column="22" info="Assignment &apos;maxSum=0&apos;, assigned value is 0"/>
+            <symbol>log2</symbol>
+        </error>
+        <error id="floatConversionOverflow" severity="error" msg="Undefined behaviour: float (-inf) to integer conversion overflow." verbose="Undefined behaviour: float (-inf) to integer conversion overflow." cwe="190" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1343-count-good-meals.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="28" column="20" info="float to integer conversion"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="25" column="26" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="24" column="22" info="Assignment &apos;maxSum=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countPairs&apos; is never used." verbose="The function &apos;countPairs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1343-count-good-meals.cpp" line="22" column="0"/>
+            <symbol>countPairs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

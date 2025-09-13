@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;tail-&gt;next&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;tail-&gt;next&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1327-merge-in-between-linked-lists.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1327-merge-in-between-linked-lists.c" line="52" column="16" info="tail-&gt;next is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1327-merge-in-between-linked-lists.c" line="44" column="16" info="tail-&gt;next is assigned"/>
+            <symbol>tail-&gt;next</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mergeInBetween&apos; is never used." verbose="The function &apos;mergeInBetween&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1327-merge-in-between-linked-lists.c" line="29" column="0"/>
+            <symbol>mergeInBetween</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

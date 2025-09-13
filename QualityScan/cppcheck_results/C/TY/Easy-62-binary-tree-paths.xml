@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="36" column="0"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: ret" verbose="Memory leak: ret" cwe="401" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="37" column="1"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;root&apos; can be declared as pointer to const" verbose="Parameter &apos;root&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="26" column="42" info="Parameter &apos;root&apos; can be declared as pointer to const"/>
+            <symbol>root</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;size&apos; is assigned a value that is never used." verbose="Variable &apos;size&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="35" column="9"/>
+            <symbol>size</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="24"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mid" verbose="Unused variable: mid" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="27" column="30"/>
+            <symbol>mid</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: node" verbose="Unused variable: node" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="29" column="22"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;binaryTreePaths&apos; is never used." verbose="The function &apos;binaryTreePaths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="26" column="0"/>
+            <symbol>binaryTreePaths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

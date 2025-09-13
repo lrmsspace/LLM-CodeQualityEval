@@ -1,0 +1,53 @@
+/*
+ You are given an integer array nums. Transform nums by performing the following operations in the exact order specified:
+ Replace each even number with 0.
+ Replace each odd numbers with 1.
+ Sort the modified array in non-decreasing order.
+ Return the resulting array after performing these operations.
+ Example 1:
+ Input: nums = [4,3,2,1]
+ Output: [0,0,1,1]
+ Explanation:
+ Replace the even numbers (4 and 2) with 0 and the odd numbers (3 and 1) with 1. Now, nums = [0, 1, 0, 1].
+ After sorting nums in non-descending order, nums = [0, 0, 1, 1].
+ Example 2:
+ Input: nums = [1,5,1,4,2]
+ Output: [0,0,1,1,1]
+ Explanation:
+ Replace the even numbers (4 and 2) with 0 and the odd numbers (1, 5 and 1) with 1. Now, nums = [1, 1, 1, 0, 0].
+ After sorting nums in non-descending order, nums = [0, 0, 1, 1, 1].
+ Constraints:
+ 1 <= nums.length <= 100
+ 1 <= nums[i] <= 1000
+*/
+
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* transformArray(int* nums, int numsSize, int* returnSize) {
+    int* result = (int*)malloc(numsSize * sizeof(int));
+    *returnSize = numsSize;
+
+    // Transform the array
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i] % 2 == 0) {
+            result[i] = 0; // Even number becomes 0
+        } else {
+            result[i] = 1; // Odd number becomes 1
+        }
+    }
+
+    // Sort the transformed array
+    for (int i = 0; i < numsSize - 1; i++) {
+        for (int j = i + 1; j < numsSize; j++) {
+            if (result[i] > result[j]) {
+                int temp = result[i];
+                result[i] = result[j];
+                result[j] = temp;
+            }
+        }
+    }
+
+    return result;
+    
+}

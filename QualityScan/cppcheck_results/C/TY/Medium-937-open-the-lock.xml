@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;visited[0]&apos; is assigned a value that is never used." verbose="Variable &apos;visited[0]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/937-open-the-lock.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="39" column="16"/>
+            <symbol>visited[0]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur&apos; is assigned a value that is never used." verbose="Variable &apos;cur&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/937-open-the-lock.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="41" column="17"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;step&apos; is assigned a value that is never used." verbose="Variable &apos;step&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/937-open-the-lock.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="42" column="18"/>
+            <symbol>step</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/937-open-the-lock.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="30" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/937-open-the-lock.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="30" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;openLock&apos; is never used." verbose="The function &apos;openLock&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\937-open-the-lock.c" line="29" column="0"/>
+            <symbol>openLock</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

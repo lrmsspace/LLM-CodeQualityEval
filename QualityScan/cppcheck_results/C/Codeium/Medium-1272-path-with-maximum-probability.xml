@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;succProb&apos; can be declared as pointer to const" verbose="Parameter &apos;succProb&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1272-path-with-maximum-probability.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1272-path-with-maximum-probability.c" line="27" column="85" info="Parameter &apos;succProb&apos; can be declared as pointer to const"/>
+            <symbol>succProb</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProbability&apos; is never used." verbose="The function &apos;maxProbability&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1272-path-with-maximum-probability.c" line="27" column="0"/>
+            <symbol>maxProbability</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

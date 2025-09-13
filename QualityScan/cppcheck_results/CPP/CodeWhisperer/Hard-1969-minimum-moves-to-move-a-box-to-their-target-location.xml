@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;dir&apos; can be declared as reference to const" verbose="Variable &apos;dir&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="77" column="23" info="Variable &apos;dir&apos; can be declared as reference to const"/>
+            <symbol>dir</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: bx" verbose="Uninitialized variable: bx" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="70" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="26" info="Assuming condition is false"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: by" verbose="Uninitialized variable: by" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="70" column="16"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="53" column="26" info="Assuming condition is false"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="48" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

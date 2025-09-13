@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="46" column="48" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="65" column="9" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="66" column="9" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: b_x" verbose="Uninitialized variable: b_x" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="69" column="18"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="23" info="Assuming condition is false"/>
+            <symbol>b_x</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: b_y" verbose="Uninitialized variable: b_y" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="70" column="18"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="23" info="Assuming condition is false"/>
+            <symbol>b_y</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="46" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

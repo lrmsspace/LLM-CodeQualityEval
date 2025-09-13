@@ -1,0 +1,11 @@
+﻿Category,Filename,Reason,Line,Column
+Hard,2231-count-number-of-possible-root-nodes.js,Missing semicolon.,67,5
+Medium,785-mini-parser.js,Unexpected token,84,8
+Hard,1918-cat-and-mouse.js,Missing semicolon.,95,40
+Hard,2258-count-stepping-numbers-in-range.js,Missing semicolon.,43,27
+Medium,1170-count-servers-that-communicate.js,Unexpected token,42,52
+Medium,1125-alphabet-board-path.js,Unexpected token,65,0
+Hard,1862-24-game.js,Missing initializer in const declaration.,49,31
+Medium,675-construct-binary-tree-from-inorder-and-postorder-traversal.js,Missing semicolon.,43,79
+Hard,2094-the-earliest-and-latest-rounds-where-players-compete.js,Unexpected token,48,73
+Medium,623-generate-parentheses.js,Unexpected token,41,8

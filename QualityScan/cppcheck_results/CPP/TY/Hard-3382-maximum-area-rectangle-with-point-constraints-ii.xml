@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;xCoordCount&apos; shadows outer variable" verbose="Local variable &apos;xCoordCount&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="63" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="49" column="29" info="Shadowed declaration"/>
+            <symbol>xCoordCount</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;yCoordCount&apos; shadows outer variable" verbose="Local variable &apos;yCoordCount&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="64" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="55" column="29" info="Shadowed declaration"/>
+            <symbol>yCoordCount</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;xCoord&apos; shadows outer argument" verbose="Local variable &apos;xCoord&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="65" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="31" column="45" info="Shadowed declaration"/>
+            <symbol>xCoord</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;yCoord&apos; shadows outer argument" verbose="Local variable &apos;yCoord&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="66" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="31" column="66" info="Shadowed declaration"/>
+            <symbol>yCoord</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: xCoordCount" verbose="Uninitialized variable: xCoordCount" cwe="457" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="63" column="35"/>
+            <symbol>xCoordCount</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: yCoordCount" verbose="Uninitialized variable: yCoordCount" cwe="457" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="64" column="35"/>
+            <symbol>yCoordCount</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;xCoordCount&apos; is assigned a value that is never used." verbose="Variable &apos;xCoordCount&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="63" column="33"/>
+            <symbol>xCoordCount</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;yCoordCount&apos; is assigned a value that is never used." verbose="Variable &apos;yCoordCount&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3382-maximum-area-rectangle-with-point-constraints-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="64" column="33"/>
+            <symbol>yCoordCount</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxRectangleArea&apos; is never used." verbose="The function &apos;maxRectangleArea&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3382-maximum-area-rectangle-with-point-constraints-ii.cpp" line="31" column="0"/>
+            <symbol>maxRectangleArea</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

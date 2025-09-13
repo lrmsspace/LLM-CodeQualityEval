@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;target&apos; can be declared as pointer to const" verbose="Parameter &apos;target&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="19" column="24" info="Parameter &apos;target&apos; can be declared as pointer to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="19" column="53" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="25" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="22" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="22" column="21"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="22" column="24"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2058-minimum-operations-to-make-a-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="22" column="27"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minOperations&apos; is never used." verbose="The function &apos;minOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2058-minimum-operations-to-make-a-subsequence.c" line="19" column="0"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

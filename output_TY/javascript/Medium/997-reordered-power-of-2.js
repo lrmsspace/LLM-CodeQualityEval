@@ -1,0 +1,27 @@
+/**https://leetcode.com/problems/reordered-power-of-2/ */
+//You are given an integer n. We reorder the digits in any order (including the original order) such that the leading digit is not zero.
+//Return true if and only if we can do this so that the resulting number is a power of two.
+// 
+//Example 1:
+//Input: n = 1
+//Output: true
+//Example 2:
+//Input: n = 10
+//Output: false
+// 
+//Constraints:
+//	1 <= n <= 109
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var reorderedPowerOf2 = function(n) {
+    let sortedN = n.toString().split('').sort().join('');
+    for(let i = 0; i < 32; i++){
+        let powerOf2 = Math.pow(2, i);
+        if(sortedN === powerOf2.toString().split('').sort().join('')){
+            return true;
+        }
+    }
+    return false;
+};

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/945-swap-adjacent-in-lr-string.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\945-swap-adjacent-in-lr-string.cpp" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexThenCheck" severity="style" msg="Array index &apos;i&apos; is used before limits check." verbose="Defensive programming: The variable &apos;i&apos; is used as an array index before it is checked that is within limits. This can mean that the array might be accessed out of bounds. Reorder conditions such as &apos;(a[i] &amp;&amp; i &lt; 10)&apos; to &apos;(i &lt; 10 &amp;&amp; a[i])&apos;. That way the array will not be accessed if the index is out of limits." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/945-swap-adjacent-in-lr-string.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\945-swap-adjacent-in-lr-string.cpp" line="31" column="22"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canTransform&apos; is never used." verbose="The function &apos;canTransform&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\945-swap-adjacent-in-lr-string.cpp" line="23" column="0"/>
+            <symbol>canTransform</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

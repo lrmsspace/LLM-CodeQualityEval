@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;k&lt;m&apos; is always true" verbose="Condition &apos;k&lt;m&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="32" column="32" info="Condition &apos;k&lt;m&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="31" column="19" info="k is assigned &apos;i&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="28" column="23" info="Assuming that condition &apos;i&lt;m&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;l&lt;n&apos; is always true" verbose="Condition &apos;l&lt;n&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="32" column="51" info="Condition &apos;l&lt;n&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="31" column="26" info="l is assigned &apos;j&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="29" column="27" info="Assuming that condition &apos;j&lt;n&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="25" column="48" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fish&apos; is assigned a value that is never used." verbose="Variable &apos;fish&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="30" column="22"/>
+            <symbol>fish</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;fish&apos; is assigned a value that is never used." verbose="Variable &apos;fish&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="33" column="22"/>
+            <symbol>fish</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dir&apos; is assigned a value that is never used." verbose="Variable &apos;dir&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1714-maximum-number-of-fish-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="35" column="25"/>
+            <symbol>dir</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findMaxFish&apos; is never used." verbose="The function &apos;findMaxFish&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1714-maximum-number-of-fish-in-a-grid.c" line="25" column="0"/>
+            <symbol>findMaxFish</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidTestForOverflow" severity="warning" msg="Invalid test for overflow &apos;remainingEnergy+enemyEnergies[i]&gt;=enemyEnergies[i]&apos;; signed integer overflow is undefined behavior. Some mainstream compilers removes handling of overflows when optimising the code and change the code to &apos;remainingEnergy&gt;=0&apos;." verbose="Invalid test for overflow &apos;remainingEnergy+enemyEnergies[i]&gt;=enemyEnergies[i]&apos;; signed integer overflow is undefined behavior. Some mainstream compilers removes handling of overflows when optimising the code and change the code to &apos;remainingEnergy&gt;=0&apos;." cwe="391" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3207-maximum-points-after-enemy-battles.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3207-maximum-points-after-enemy-battles.c" line="55" column="48"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;enemyEnergies&apos; can be declared as pointer to const" verbose="Parameter &apos;enemyEnergies&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3207-maximum-points-after-enemy-battles.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3207-maximum-points-after-enemy-battles.c" line="34" column="30" info="Parameter &apos;enemyEnergies&apos; can be declared as pointer to const"/>
+            <symbol>enemyEnergies</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumPoints&apos; is never used." verbose="The function &apos;maximumPoints&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3207-maximum-points-after-enemy-battles.c" line="34" column="0"/>
+            <symbol>maximumPoints</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

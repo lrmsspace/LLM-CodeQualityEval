@@ -1,0 +1,36 @@
+/**https://leetcode.com/problems/distinct-echo-substrings/ */
+//Return the number of distinct non-empty substrings of text that can be written as the concatenation of some string with itself (i.e. it can be written as a + a where a is some string).
+// 
+//Example 1:
+//Input: text = "abcabcabc"
+//Output: 3
+//Explanation: The 3 substrings are "abcabc", "bcabca" and "cabcab".
+//Example 2:
+//Input: text = "leetcodeleetcode"
+//Output: 2
+//Explanation: The 2 substrings are "ee" and "leetcodeleetcode".
+// 
+//Constraints:
+//	1 <= text.length <= 2000
+//	text has only lowercase English letters.
+int distinctEchoSubstrings(char* text) {
+    int n = strlen(text);
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            if (strncmp(text + i, text + j, j - i) == 0) {
+                count++;
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            if (strncmp(text + i, text + j, j - i) == 0 && strncmp(text + j, text + i, j - i) == 0) {
+                count--;
+                break;
+            }
+        }
+    }
+    return count;
+    
+}

@@ -1,0 +1,40 @@
+#https://leetcode.com/problems/surface-area-of-3d-shapes/
+#You are given an n x n grid where you have placed some 1 x 1 x 1 cubes. Each value v = grid[i][j] represents a tower of v cubes placed on top of cell (i, j).
+#After placing these cubes, you have decided to glue any directly adjacent cubes to each other, forming several irregular 3D shapes.
+#Return the total surface area of the resulting shapes.
+#Note: The bottom face of each shape counts toward its surface area.
+# 
+#Example 1:
+#Input: grid = [[1,2],[3,4]]
+#Output: 34
+#Example 2:
+#Input: grid = [[1,1,1],[1,0,1],[1,1,1]]
+#Output: 32
+#Example 3:
+#Input: grid = [[2,2,2],[2,1,2],[2,2,2]]
+#Output: 46
+# 
+#Constraints:
+#	n == grid.length == grid[i].length
+#	1 <= n <= 50
+#	0 <= grid[i][j] <= 50
+class Solution(object):
+    def surfaceArea(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        area = 0
+        for i in range(len(grid)):
+            for j in range(len(grid[i])):
+                if grid[i][j] > 0:
+                    area += 2
+                    for k in range(4):
+                        ni, nj = i + [0, 0, 1, -1][k], j + [1, -1, 0, 0][k]
+                        if 0 <= ni < len(grid) and 0 <= nj < len(grid[i]):
+                            if grid[ni][nj] < grid[i][j]:
+                                area += grid[i][j] - grid[ni][nj]
+                        else:
+                            area += grid[i][j]
+        return area
+        

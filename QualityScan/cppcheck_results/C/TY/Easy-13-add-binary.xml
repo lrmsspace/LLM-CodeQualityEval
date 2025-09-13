@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;carry&gt;0&apos; is always false" verbose="Condition &apos;carry&gt;0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/13-add-binary.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\13-add-binary.c" line="42" column="15" info="Condition &apos;carry&gt;0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\13-add-binary.c" line="29" column="38" info="Assuming that condition &apos;carry&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;a&apos; can be declared as pointer to const" verbose="Parameter &apos;a&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/13-add-binary.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\13-add-binary.c" line="15" column="25" info="Parameter &apos;a&apos; can be declared as pointer to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;b&apos; can be declared as pointer to const" verbose="Parameter &apos;b&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/13-add-binary.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\13-add-binary.c" line="15" column="35" info="Parameter &apos;b&apos; can be declared as pointer to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;addBinary&apos; is never used." verbose="The function &apos;addBinary&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\13-add-binary.c" line="15" column="0"/>
+            <symbol>addBinary</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

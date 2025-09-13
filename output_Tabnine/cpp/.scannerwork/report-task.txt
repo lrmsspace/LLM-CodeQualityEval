@@ -1,0 +1,6 @@
+projectKey=Tabnine_CPP
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Tabnine_CPP
+ceTaskId=16399f43-de33-471e-bc19-c99698ec0696
+ceTaskUrl=http://localhost:9000/api/ce/task?id=16399f43-de33-471e-bc19-c99698ec0696

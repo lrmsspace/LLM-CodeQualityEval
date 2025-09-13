@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="The code contains unhandled character(s) (character code=227). Neither unicode nor extended ascii is supported." verbose="The code contains unhandled character(s) (character code=227). Neither unicode nor extended ascii is supported.">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1841-sliding-window-median.cpp" line="43" column="13"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

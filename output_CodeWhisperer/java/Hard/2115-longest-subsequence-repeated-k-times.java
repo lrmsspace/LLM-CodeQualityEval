@@ -1,0 +1,73 @@
+/**https://leetcode.com/problems/longest-subsequence-repeated-k-times/ */
+//You are given a string s of length n, and an integer k. You are tasked to find the longest subsequence repeated k times in string s.
+//A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+//A subsequence seq is repeated k times in the string s if seq * k is a subsequence of s, where seq * k represents a string constructed by concatenating seq k times.
+//	For example, "bba" is repeated 2 times in the string "bababcba", because the string "bbabba", constructed by concatenating "bba" 2 times, is a subsequence of the string "bababcba".
+//Return the longest subsequence repeated k times in string s. If multiple such subsequences are found, return the lexicographically largest one. If there is no such subsequence, return an empty string.
+// 
+//Example 1:
+//Input: s = "letsleetcode", k = 2
+//Output: "let"
+//Explanation: There are two longest subsequences repeated 2 times: "let" and "ete".
+//"let" is the lexicographically largest one.
+//Example 2:
+//Input: s = "bb", k = 2
+//Output: "b"
+//Explanation: The longest subsequence repeated 2 times is "b".
+//Example 3:
+//Input: s = "ab", k = 2
+//Output: ""
+//Explanation: There is no subsequence repeated 2 times. Empty string is returned.
+// 
+//Constraints:
+//	n == s.length
+//	2 <= n, k <= 2000
+//	2 <= n < k * 8
+//	s consists of lowercase English letters.
+class Solution {
+    public String longestSubsequenceRepeatedK(String s, int k) {
+        int[] count = new int[26];
+        for (char c : s.toCharArray()) {
+            count[c - 'a']++;
+        }
+        String ans = "";
+        List<Character> candidates = new ArrayList<>();
+        for (int i = 0; i < 26; i++) {
+            if (count[i] >= k) {
+                candidates.add((char) (i + 'a'));
+            }
+        }
+        Collections.sort(candidates, (a, b) -> count[b - 'a'] - count[a - 'a']);
+        int[] m = new int[26];
+        StringBuilder sb = new StringBuilder();
+        for (char c : candidates) {
+            for (int i = m[c - 'a']; i < count[c - 'a']; i++) {
+                sb.append(c);
+            }
+            m[c - 'a'] = count[c - 'a'];
+        }
+        String t = sb.toString();
+        for (int i = t.length(); i >= 1; i--) {
+            String sub = t.substring(0, i);
+            int[] countSub = new int[26];
+            for (char c : sub.toCharArray()) {
+                countSub[c - 'a']++;
+            }
+            int times = 0;
+            for (char c : s.toCharArray()) {
+                if (countSub[c - 'a'] > 0) {
+                    times++;
+                    if (times == sub.length()) {
+                        times = 0;
+                        k--;
+                        if (k == 0) {
+                            return sub;
+                        }
+                    }
+                    countSub[c - 'a']--;
+                }
+            }
+        }
+        return "";       
+    }
+}

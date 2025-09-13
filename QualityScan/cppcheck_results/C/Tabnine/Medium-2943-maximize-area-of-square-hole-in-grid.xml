@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;hBars&apos; can be declared as pointer to const" verbose="Parameter &apos;hBars&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/2943-maximize-area-of-square-hole-in-grid.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\2943-maximize-area-of-square-hole-in-grid.c" line="33" column="47" info="Parameter &apos;hBars&apos; can be declared as pointer to const"/>
+            <symbol>hBars</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;vBars&apos; can be declared as pointer to const" verbose="Parameter &apos;vBars&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/2943-maximize-area-of-square-hole-in-grid.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\2943-maximize-area-of-square-hole-in-grid.c" line="33" column="74" info="Parameter &apos;vBars&apos; can be declared as pointer to const"/>
+            <symbol>vBars</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximizeSquareHoleArea&apos; is never used." verbose="The function &apos;maximizeSquareHoleArea&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\2943-maximize-area-of-square-hole-in-grid.c" line="33" column="0"/>
+            <symbol>maximizeSquareHoleArea</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

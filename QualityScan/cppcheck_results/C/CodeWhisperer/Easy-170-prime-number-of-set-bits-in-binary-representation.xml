@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariable" severity="style" msg="Variable &apos;prime&apos; can be declared as const array" verbose="Variable &apos;prime&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/170-prime-number-of-set-bits-in-binary-representation.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\170-prime-number-of-set-bits-in-binary-representation.c" line="33" column="9" info="Variable &apos;prime&apos; can be declared as const array"/>
+            <symbol>prime</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countPrimeSetBits&apos; is never used." verbose="The function &apos;countPrimeSetBits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\170-prime-number-of-set-bits-in-binary-representation.c" line="31" column="0"/>
+            <symbol>countPrimeSetBits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

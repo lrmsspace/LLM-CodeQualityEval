@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="0" column="0"/>
+        </error>
+        <error id="AssignmentAddressToInteger" severity="portability" msg="Assigning a pointer to an integer is not portable." verbose="Assigning a pointer to an integer (int/long/etc) is not portable across different platforms and compilers. For example in 32-bit Windows and linux they are same width, but in 64-bit Windows and linux they are of different width. In worst case you end up assigning 64-bit address to 32-bit integer. The safe way is to store addresses only in pointer types (or typedefs like uintptr_t)." cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="52" column="13"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;d&apos; shadows outer argument" verbose="Local variable &apos;d&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="48" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="42" column="56" info="Shadowed declaration"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;s&apos; shadows outer argument" verbose="Local variable &apos;s&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="242" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="42" column="49" info="Shadowed declaration"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="42" column="22" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: e[i]" verbose="Uninitialized variable: e[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="67" column="18"/>
+            <symbol>e[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: f[i]" verbose="Uninitialized variable: f[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="74" column="18"/>
+            <symbol>f[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: g[i]" verbose="Uninitialized variable: g[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="81" column="18"/>
+            <symbol>g[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: h[i]" verbose="Uninitialized variable: h[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="88" column="18"/>
+            <symbol>h[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: k[i]" verbose="Uninitialized variable: k[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="109" column="18"/>
+            <symbol>k[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: l[i]" verbose="Uninitialized variable: l[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="117" column="22"/>
+            <symbol>l[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: m[i]" verbose="Uninitialized variable: m[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="124" column="18"/>
+            <symbol>m[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: n[i]" verbose="Uninitialized variable: n[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="131" column="18"/>
+            <symbol>n[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: o[i]" verbose="Uninitialized variable: o[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="138" column="18"/>
+            <symbol>o[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: p[i]" verbose="Uninitialized variable: p[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="145" column="18"/>
+            <symbol>p[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: q[i]" verbose="Uninitialized variable: q[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="152" column="18"/>
+            <symbol>q[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: r[i]" verbose="Uninitialized variable: r[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="159" column="18"/>
+            <symbol>r[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s[i]" verbose="Uninitialized variable: s[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="49" column="15"/>
+            <symbol>s[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: t[i]" verbose="Uninitialized variable: t[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="173" column="18"/>
+            <symbol>t[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: u[i]" verbose="Uninitialized variable: u[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="181" column="22"/>
+            <symbol>u[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: v[i]" verbose="Uninitialized variable: v[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="188" column="18"/>
+            <symbol>v[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: w[i]" verbose="Uninitialized variable: w[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="195" column="18"/>
+            <symbol>w[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: x[i]" verbose="Uninitialized variable: x[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="202" column="18"/>
+            <symbol>x[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: y[i]" verbose="Uninitialized variable: y[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="209" column="18"/>
+            <symbol>y[i]</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: z[i]" verbose="Uninitialized variable: z[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="216" column="18"/>
+            <symbol>z[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b[i]&apos; is assigned a value that is never used." verbose="Variable &apos;b[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="49" column="13"/>
+            <symbol>b[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c[i]&apos; is assigned a value that is never used." verbose="Variable &apos;c[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="52" column="13"/>
+            <symbol>c[i]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="39"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="42"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="45"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="48"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="51"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="54"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="43" column="57"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;e&apos; is not assigned a value." verbose="Variable &apos;e&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="61"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;f&apos; is not assigned a value." verbose="Variable &apos;f&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="74"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;g&apos; is not assigned a value." verbose="Variable &apos;g&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="87"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;h&apos; is not assigned a value." verbose="Variable &apos;h&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="100"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;k&apos; is not assigned a value." verbose="Variable &apos;k&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="139"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;l&apos; is not assigned a value." verbose="Variable &apos;l&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="151"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;m&apos; is not assigned a value." verbose="Variable &apos;m&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="164"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;n&apos; is not assigned a value." verbose="Variable &apos;n&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="177"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;o&apos; is not assigned a value." verbose="Variable &apos;o&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="190"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;p&apos; is not assigned a value." verbose="Variable &apos;p&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="203"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;q&apos; is not assigned a value." verbose="Variable &apos;q&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="216"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;r&apos; is not assigned a value." verbose="Variable &apos;r&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="229"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s&apos; is not assigned a value." verbose="Variable &apos;s&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="242"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;t&apos; is not assigned a value." verbose="Variable &apos;t&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="255"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;u&apos; is not assigned a value." verbose="Variable &apos;u&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="268"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;v&apos; is not assigned a value." verbose="Variable &apos;v&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="281"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;w&apos; is not assigned a value." verbose="Variable &apos;w&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="294"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;x&apos; is not assigned a value." verbose="Variable &apos;x&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="307"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;y&apos; is not assigned a value." verbose="Variable &apos;y&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="320"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;z&apos; is not assigned a value." verbose="Variable &apos;z&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1737-movement-of-robots.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="44" column="333"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumDistance&apos; is never used." verbose="The function &apos;sumDistance&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1737-movement-of-robots.c" line="42" column="0"/>
+            <symbol>sumDistance</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

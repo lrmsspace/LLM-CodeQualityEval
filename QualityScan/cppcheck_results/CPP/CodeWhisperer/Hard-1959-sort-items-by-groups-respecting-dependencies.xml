@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;beforeItems&apos; can be declared as reference to const" verbose="Parameter &apos;beforeItems&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1959-sort-items-by-groups-respecting-dependencies.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1959-sort-items-by-groups-respecting-dependencies.cpp" line="26" column="86" info="Parameter &apos;beforeItems&apos; can be declared as reference to const"/>
+            <symbol>beforeItems</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;graph&apos; can be declared as reference to const" verbose="Parameter &apos;graph&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1959-sort-items-by-groups-respecting-dependencies.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1959-sort-items-by-groups-respecting-dependencies.cpp" line="88" column="58" info="Parameter &apos;graph&apos; can be declared as reference to const"/>
+            <symbol>graph</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;graph&apos; can be declared as reference to const" verbose="Parameter &apos;graph&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1959-sort-items-by-groups-respecting-dependencies.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1959-sort-items-by-groups-respecting-dependencies.cpp" line="116" column="69" info="Parameter &apos;graph&apos; can be declared as reference to const"/>
+            <symbol>graph</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1959-sort-items-by-groups-respecting-dependencies.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1959-sort-items-by-groups-respecting-dependencies.cpp" line="79" column="28"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sortItems&apos; is never used." verbose="The function &apos;sortItems&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1959-sort-items-by-groups-respecting-dependencies.cpp" line="26" column="0"/>
+            <symbol>sortItems</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

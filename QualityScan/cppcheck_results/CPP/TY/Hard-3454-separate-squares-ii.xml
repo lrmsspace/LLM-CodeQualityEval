@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;y[j]+l[k]&lt;=x[i]+l[k]&apos; is always true" verbose="Condition &apos;y[j]+l[k]&lt;=x[i]+l[k]&apos; is always true" cwe="571" file0="F:/Benchmark/new/TY/output/cpp/Hard/3454-separate-squares-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3454-separate-squares-ii.cpp" line="42" column="36" info="Condition &apos;y[j]+l[k]&lt;=x[i]+l[k]&apos; is always true"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3454-separate-squares-ii.cpp" line="40" column="29" info="Assuming that condition &apos;x[i]+l[k]&lt;=y[j]+l[k]&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;separateSquares&apos; is never used." verbose="The function &apos;separateSquares&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3454-separate-squares-ii.cpp" line="27" column="0"/>
+            <symbol>separateSquares</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

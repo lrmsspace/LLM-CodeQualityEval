@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;difficulty&apos; can be declared as pointer to const" verbose="Parameter &apos;difficulty&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="30" info="Parameter &apos;difficulty&apos; can be declared as pointer to const"/>
+            <symbol>difficulty</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;profit&apos; can be declared as pointer to const" verbose="Parameter &apos;profit&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="67" info="Parameter &apos;profit&apos; can be declared as pointer to const"/>
+            <symbol>profit</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;jobA&apos; can be declared as pointer to const" verbose="Variable &apos;jobA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="37" column="14" info="Variable &apos;jobA&apos; can be declared as pointer to const"/>
+            <symbol>jobA</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;jobB&apos; can be declared as pointer to const" verbose="Variable &apos;jobB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="38" column="14" info="Variable &apos;jobB&apos; can be declared as pointer to const"/>
+            <symbol>jobB</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfitAssignment&apos; is never used." verbose="The function &apos;maxProfitAssignment&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="0"/>
+            <symbol>maxProfitAssignment</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;words&apos; can be declared as reference to const" verbose="Parameter &apos;words&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="35" column="53" info="Parameter &apos;words&apos; can be declared as reference to const"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;puzzles&apos; can be declared as reference to const" verbose="Parameter &apos;puzzles&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="35" column="76" info="Parameter &apos;puzzles&apos; can be declared as reference to const"/>
+            <symbol>puzzles</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of, std::all_of, std::none_of, or std::accumulate algorithm instead of a raw loop." verbose="Consider using std::any_of, std::all_of, std::none_of, or std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="40" column="22"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of, std::all_of, std::none_of, or std::accumulate algorithm instead of a raw loop." verbose="Consider using std::any_of, std::all_of, std::none_of, or std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="48" column="22"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;count&apos; is assigned a value that is never used." verbose="Variable &apos;count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="51" column="36"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;count&apos; is assigned a value that is never used." verbose="Variable &apos;count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1956-number-of-valid-words-for-each-puzzle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="54" column="26"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findNumOfValidWords&apos; is never used." verbose="The function &apos;findNumOfValidWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1956-number-of-valid-words-for-each-puzzle.cpp" line="35" column="0"/>
+            <symbol>findNumOfValidWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

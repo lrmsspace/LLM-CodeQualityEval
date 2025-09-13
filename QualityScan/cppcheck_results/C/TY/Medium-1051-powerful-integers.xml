@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="0" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;x&apos; shadows outer argument" verbose="Local variable &apos;x&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="101" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="27" column="27" info="Shadowed declaration"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;y&apos; shadows outer argument" verbose="Local variable &apos;y&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="105" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="27" column="34" info="Shadowed declaration"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="71" column="14" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;j&apos; shadows outer variable" verbose="Local variable &apos;j&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="72" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="12" info="Shadowed declaration"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;p&apos; shadows outer variable" verbose="Local variable &apos;p&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="73" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="27" info="Shadowed declaration"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="79" column="14" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;j&apos; shadows outer variable" verbose="Local variable &apos;j&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="80" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="12" info="Shadowed declaration"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;p&apos; shadows outer variable" verbose="Local variable &apos;p&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="81" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="27" info="Shadowed declaration"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="87" column="14" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;a&apos; can be declared as pointer to const" verbose="Variable &apos;a&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="10" info="Variable &apos;a&apos; can be declared as pointer to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;b&apos; can be declared as pointer to const" verbose="Variable &apos;b&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="14" info="Variable &apos;b&apos; can be declared as pointer to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;c&apos; can be declared as pointer to const" verbose="Variable &apos;c&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="18" info="Variable &apos;c&apos; can be declared as pointer to const"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;d&apos; can be declared as pointer to const" verbose="Variable &apos;d&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="22" info="Variable &apos;d&apos; can be declared as pointer to const"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;e&apos; can be declared as pointer to const" verbose="Variable &apos;e&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="26" info="Variable &apos;e&apos; can be declared as pointer to const"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;f&apos; can be declared as pointer to const" verbose="Variable &apos;f&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="30" info="Variable &apos;f&apos; can be declared as pointer to const"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;g&apos; can be declared as pointer to const" verbose="Variable &apos;g&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="34" info="Variable &apos;g&apos; can be declared as pointer to const"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;l&apos; can be declared as pointer to const" verbose="Variable &apos;l&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="54" info="Variable &apos;l&apos; can be declared as pointer to const"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;m&apos; can be declared as pointer to const" verbose="Variable &apos;m&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="58" info="Variable &apos;m&apos; can be declared as pointer to const"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;n&apos; can be declared as pointer to const" verbose="Variable &apos;n&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="62" info="Variable &apos;n&apos; can be declared as pointer to const"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;o&apos; can be declared as pointer to const" verbose="Variable &apos;o&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="66" info="Variable &apos;o&apos; can be declared as pointer to const"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: r" verbose="Uninitialized variable: r" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="66" column="9"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: s" verbose="Uninitialized variable: s" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="69" column="9"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="30" column="7"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="31" column="7"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="32" column="7"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="33" column="7"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="34" column="7"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="35" column="7"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="36" column="7"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="41" column="7"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="42" column="7"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="43" column="7"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="44" column="7"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p[p]&apos; is assigned a value that is never used." verbose="Variable &apos;p[p]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="75" column="22"/>
+            <symbol>p[p]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="27"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="30"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="33"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="36"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="39"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="42"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="45"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="48"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: xx" verbose="Unused variable: xx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="51"/>
+            <symbol>xx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: yy" verbose="Unused variable: yy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="55"/>
+            <symbol>yy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: zz" verbose="Unused variable: zz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="28" column="59"/>
+            <symbol>zz</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;a&apos; is allocated memory that is never used." verbose="Variable &apos;a&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="30" column="22"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;b&apos; is allocated memory that is never used." verbose="Variable &apos;b&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="31" column="22"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;c&apos; is allocated memory that is never used." verbose="Variable &apos;c&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="32" column="22"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;d&apos; is allocated memory that is never used." verbose="Variable &apos;d&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="33" column="22"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;e&apos; is allocated memory that is never used." verbose="Variable &apos;e&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="34" column="22"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;f&apos; is allocated memory that is never used." verbose="Variable &apos;f&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="35" column="22"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;g&apos; is allocated memory that is never used." verbose="Variable &apos;g&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="36" column="22"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;l&apos; is allocated memory that is never used." verbose="Variable &apos;l&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="41" column="22"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;m&apos; is allocated memory that is never used." verbose="Variable &apos;m&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="42" column="22"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;n&apos; is allocated memory that is never used." verbose="Variable &apos;n&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="43" column="22"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;o&apos; is allocated memory that is never used." verbose="Variable &apos;o&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="44" column="22"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;r&apos; is not assigned a value." verbose="Variable &apos;r&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="78"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s&apos; is not assigned a value." verbose="Variable &apos;s&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="82"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="86"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="90"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="93"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="97"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="101"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="105"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1051-powerful-integers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="29" column="109"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;powerfulIntegers&apos; is never used." verbose="The function &apos;powerfulIntegers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1051-powerful-integers.c" line="27" column="0"/>
+            <symbol>powerfulIntegers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

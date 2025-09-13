@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3161-block-placement-queries.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3161-block-placement-queries.c" line="37" column="19"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3161-block-placement-queries.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3161-block-placement-queries.c" line="41" column="19"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sz&apos; is assigned a value that is never used." verbose="Variable &apos;sz&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3161-block-placement-queries.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3161-block-placement-queries.c" line="42" column="20"/>
+            <symbol>sz</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getResults&apos; is never used." verbose="The function &apos;getResults&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3161-block-placement-queries.c" line="30" column="0"/>
+            <symbol>getResults</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

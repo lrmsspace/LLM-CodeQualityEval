@@ -1,0 +1,51 @@
+/**https://leetcode.com/problems/count-palindromic-subsequences/ */
+//Given a string of digits s, return the number of palindromic subsequences of s having length 5. Since the answer may be very large, return it modulo 109 + 7.
+//Note:
+//	A string is palindromic if it reads the same forward and backward.
+//	A subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.
+// 
+//Example 1:
+//Input: s = "103301"
+//Output: 2
+//Explanation: 
+//There are 6 possible subsequences of length 5: "10330","10331","10301","10301","13301","03301". 
+//Two of them (both equal to "10301") are palindromic.
+//Example 2:
+//Input: s = "0000000"
+//Output: 21
+//Explanation: All 21 subsequences are "00000", which is palindromic.
+//Example 3:
+//Input: s = "9999900000"
+//Output: 2
+//Explanation: The only two palindromic subsequences are "99999" and "00000".
+// 
+//Constraints:
+//	1 <= s.length <= 104
+//	s consists of digits.
+class Solution {
+    public int countPalindromes(String s) {
+        int n = s.length(), res = 0, mod = 1000000007;
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                int[] dp = new int[n];
+                char c1 = (char)('0' + i), c2 = (char)('0' + j);
+                for (int k = 2; k < n; k++) {
+                    char c = s.charAt(k);
+                    if (c == c2) {
+                        dp[k] = dp[k - 1];
+                        for (int l = 0; l < k - 1; l++) {
+                            char c3 = s.charAt(l);
+                            if (c3 == c1) {
+                                dp[k] = (dp[k] + (l > 0 ? dp[l - 1] : 1)) % mod;
+                            }
+                        }
+                    } else {
+                        dp[k] = dp[k - 1];
+                    }
+                }
+                res = (res + dp[n - 1]) % mod;
+            }
+        }
+        return res;      
+    }
+}

@@ -1,0 +1,59 @@
+/**https://leetcode.com/problems/rectangle-area-ii/ */
+//You are given a 2D array of axis-aligned rectangles. Each rectangle[i] = [xi1, yi1, xi2, yi2] denotes the ith rectangle where (xi1, yi1) are the coordinates of the bottom-left corner, and (xi2, yi2) are the coordinates of the top-right corner.
+//Calculate the total area covered by all rectangles in the plane. Any area covered by two or more rectangles should only be counted once.
+//Return the total area. Since the answer may be too large, return it modulo 109 + 7.
+// 
+//Example 1:
+//Input: rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]
+//Output: 6
+//Explanation: A total area of 6 is covered by all three rectangles, as illustrated in the picture.
+//From (1,1) to (2,2), the green and red rectangles overlap.
+//From (1,0) to (2,3), all three rectangles overlap.
+//Example 2:
+//Input: rectangles = [[0,0,1000000000,1000000000]]
+//Output: 49
+//Explanation: The answer is 1018 modulo (109 + 7), which is 49.
+// 
+//Constraints:
+//	1 <= rectangles.length <= 200
+//	rectanges[i].length == 4
+//	0 <= xi1, yi1, xi2, yi2 <= 109
+//	xi1 <= xi2
+//	yi1 <= yi2
+class Solution {
+    public int rectangleArea(int[][] rectangles) {
+        int OPEN = 0, CLOSE = 1;
+        int[][] events = new int[rectangles.length * 2][];
+        int t = 0;
+        for (int[] rec: rectangles) {
+            events[t++] = new int[]{rec[1], OPEN, rec[0], rec[2]};
+            events[t++] = new int[]{rec[3], CLOSE, rec[0], rec[2]};
+        }
+        Arrays.sort(events, (a, b) -> Integer.compare(a[0], b[0]));
+        List<int[]> active = new ArrayList<>();
+        int cur_y = events[0][0];
+        long ans = 0;
+        for (int[] event: events) {
+            int y = event[0], typ = event[1], x1 = event[2], x2 = event[3];
+            long query = 0, cur = -1;
+            for (int[] activeInterval: active) {
+                cur = Math.max(cur, activeInterval[0]);
+                query += Math.max(activeInterval[1] - cur, 0);
+                cur = Math.max(cur, activeInterval[1]);
+            }
+            ans += query * (y - cur_y);
+            if (typ == OPEN) active.add(new int[]{x1, x2});
+            else {
+                for (int i = 0; i < active.size(); ++i) {
+                    if (active.get(i)[0] == x1 && active.get(i)[1] == x2) {
+                        active.remove(i);
+                        break;
+                    }
+                }
+            }
+            cur_y = y;
+        }
+        ans %= 1000000007;
+        return (int) ans;       
+    }
+}

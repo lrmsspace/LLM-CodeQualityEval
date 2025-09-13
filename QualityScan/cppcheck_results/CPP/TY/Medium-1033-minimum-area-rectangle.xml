@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;ans == 2147483647&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1033-minimum-area-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="33" column="20"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="24" column="19" info="&apos;ans&apos; is assigned value &apos;2147483647&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x1&apos; is assigned a value that is never used." verbose="Variable &apos;x1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1033-minimum-area-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="28" column="28"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y1&apos; is assigned a value that is never used." verbose="Variable &apos;y1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1033-minimum-area-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="28" column="47"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x2&apos; is assigned a value that is never used." verbose="Variable &apos;x2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1033-minimum-area-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="29" column="28"/>
+            <symbol>x2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1033-minimum-area-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="29" column="47"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minAreaRect&apos; is never used." verbose="The function &apos;minAreaRect&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1033-minimum-area-rectangle.cpp" line="19" column="0"/>
+            <symbol>minAreaRect</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

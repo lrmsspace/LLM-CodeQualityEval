@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreachableCode" severity="style" msg="Statements following &apos;return&apos; will never be executed." verbose="Statements following &apos;return&apos; will never be executed." cwe="561" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/688-clone-graph.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\688-clone-graph.cpp" line="70" column="5"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;cloneGraph&apos; is never used." verbose="The function &apos;cloneGraph&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\688-clone-graph.cpp" line="61" column="0"/>
+            <symbol>cloneGraph</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

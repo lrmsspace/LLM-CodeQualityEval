@@ -1,0 +1,35 @@
+# Given an integer array nums, return the number of subarrays of length 3 such that the sum of the first and third numbers equals exactly half of the second number.
+# Example 1:
+# Input: nums = [1,2,1,4,1]
+# Output: 1
+# Explanation:
+# Only the subarray [1,4,1] contains exactly 3 elements where the sum of the first and third numbers equals half the middle number.
+# Example 2:
+# Input: nums = [1,1,1]
+# Output: 0
+# Explanation:
+# [1,1,1] is the only subarray of length 3. However, its first and third numbers do not add to half the middle number.
+# Constraints:
+# 3 <= nums.length <= 100
+# -100 <= nums[i] <= 100
+
+class Solution(object):
+    def countSubarrays(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        n = len(nums)
+        ans = 0
+        prefix_sum = [0] * (n + 1)
+        
+        for i in range(n):
+            prefix_sum[i + 1] = prefix_sum[i] + nums[i]
+        
+        for i in range(2, n):
+            target = prefix_sum[i] // 2
+            left = binary_search(prefix_sum, target, 0, i - 1)
+            ans += left
+        
+        return ans
+        

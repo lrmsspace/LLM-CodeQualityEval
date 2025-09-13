@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="pointerOutOfBoundsCond" severity="portability" msg="Undefined behaviour, when &apos;index&apos; is -1 the pointer arithmetic &apos;result+index&apos; is out of bounds." verbose="Undefined behaviour, when &apos;index&apos; is -1 the pointer arithmetic &apos;result+index&apos; is out of bounds." cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/86-convert-a-number-to-hexadecimal.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\86-convert-a-number-to-hexadecimal.c" line="33" column="19" info="Pointer arithmetic overflow"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\86-convert-a-number-to-hexadecimal.c" line="28" column="30" info="Assuming that condition &apos;index&gt;=0&apos; is not redundant"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;hex&apos; can be declared as pointer to const" verbose="Variable &apos;hex&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/86-convert-a-number-to-hexadecimal.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\86-convert-a-number-to-hexadecimal.c" line="23" column="11" info="Variable &apos;hex&apos; can be declared as pointer to const"/>
+            <symbol>hex</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;toHex&apos; is never used." verbose="The function &apos;toHex&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\86-convert-a-number-to-hexadecimal.c" line="15" column="0"/>
+            <symbol>toHex</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

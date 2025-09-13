@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;word&apos; can be declared as pointer to const" verbose="Parameter &apos;word&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="26" column="26" info="Parameter &apos;word&apos; can be declared as pointer to const"/>
+            <symbol>word</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="24"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mid" verbose="Unused variable: mid" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="30"/>
+            <symbol>mid</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="35"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag" verbose="Unused variable: flag" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3403-find-the-lexicographically-largest-string-from-the-box-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="28" column="40"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;answerString&apos; is never used." verbose="The function &apos;answerString&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3403-find-the-lexicographically-largest-string-from-the-box-i.c" line="26" column="0"/>
+            <symbol>answerString</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

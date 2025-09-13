@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;dp[1001][2001]&apos; accessed at index dp[*][2001], which is out of bounds." verbose="Array &apos;dp[1001][2001]&apos; accessed at index dp[*][2001], which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.c" line="31" column="38" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.c" line="29" column="27" info="Assuming that condition &apos;j&lt;n&apos; is not redundant"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.c" line="24" column="13" info="Assignment &apos;n=2001&apos;, assigned value is 2001"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfWays&apos; is never used." verbose="The function &apos;numberOfWays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.c" line="22" column="0"/>
+            <symbol>numberOfWays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

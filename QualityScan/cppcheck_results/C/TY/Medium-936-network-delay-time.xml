@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;queue_size&gt;0&apos; is always true" verbose="Condition &apos;queue_size&gt;0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="42" column="23" info="Condition &apos;queue_size&gt;0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="41" column="11" info="queue_size is incremented&apos;, new value is 1"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="35" column="0" info="Assignment &apos;queue_size=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;queue_j&apos; can be declared as pointer to const" verbose="Variable &apos;queue_j&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="25" column="28" info="Variable &apos;queue_j&apos; can be declared as pointer to const"/>
+            <symbol>queue_j</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;queue_t&apos; can be declared as pointer to const" verbose="Variable &apos;queue_t&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="25" column="38" info="Variable &apos;queue_t&apos; can be declared as pointer to const"/>
+            <symbol>queue_t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue_j&apos; is assigned a value that is never used." verbose="Variable &apos;queue_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="33" column="13"/>
+            <symbol>queue_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue_t&apos; is assigned a value that is never used." verbose="Variable &apos;queue_t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="34" column="13"/>
+            <symbol>queue_t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue_j_size&apos; is assigned a value that is never used." verbose="Variable &apos;queue_j_size&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="35" column="46"/>
+            <symbol>queue_j_size</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue_t_size&apos; is assigned a value that is never used." verbose="Variable &apos;queue_t_size&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="35" column="61"/>
+            <symbol>queue_t_size</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min" verbose="Unused variable: min" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="15"/>
+            <symbol>min</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min_i" verbose="Unused variable: min_i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="20"/>
+            <symbol>min_i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min_j" verbose="Unused variable: min_j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="27"/>
+            <symbol>min_j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min_t" verbose="Unused variable: min_t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="34"/>
+            <symbol>min_t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="24" column="41"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;queue_j&apos; is allocated memory that is never used." verbose="Variable &apos;queue_j&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="33" column="28"/>
+            <symbol>queue_j</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;queue_t&apos; is allocated memory that is never used." verbose="Variable &apos;queue_t&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="34" column="28"/>
+            <symbol>queue_t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans" verbose="Unused variable: ans" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/936-network-delay-time.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="27" column="9"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;networkDelayTime&apos; is never used." verbose="The function &apos;networkDelayTime&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\936-network-delay-time.c" line="23" column="0"/>
+            <symbol>networkDelayTime</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

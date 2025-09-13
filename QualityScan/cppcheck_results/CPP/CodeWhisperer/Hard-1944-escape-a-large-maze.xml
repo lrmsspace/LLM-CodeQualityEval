@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;cell&apos; can be declared as reference to const" verbose="Variable &apos;cell&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1944-escape-a-large-maze.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1944-escape-a-large-maze.cpp" line="31" column="24" info="Variable &apos;cell&apos; can be declared as reference to const"/>
+            <symbol>cell</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;end&apos; can be declared as reference to const" verbose="Parameter &apos;end&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1944-escape-a-large-maze.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1944-escape-a-large-maze.cpp" line="55" column="51" info="Parameter &apos;end&apos; can be declared as reference to const"/>
+            <symbol>end</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isEscapePossible&apos; is never used." verbose="The function &apos;isEscapePossible&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1944-escape-a-large-maze.cpp" line="28" column="0"/>
+            <symbol>isEscapePossible</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

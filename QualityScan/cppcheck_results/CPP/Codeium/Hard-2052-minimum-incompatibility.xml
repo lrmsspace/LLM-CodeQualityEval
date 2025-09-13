@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_val-min_val&apos;." verbose="Signed integer overflow for expression &apos;max_val-min_val&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/2052-minimum-incompatibility.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\2052-minimum-incompatibility.cpp" line="42" column="43" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\2052-minimum-incompatibility.cpp" line="36" column="46" info="Assignment &apos;min_val=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\2052-minimum-incompatibility.cpp" line="37" column="31" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\2052-minimum-incompatibility.cpp" line="36" column="27" info="Assignment &apos;max_val=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumIncompatibility&apos; is never used." verbose="The function &apos;minimumIncompatibility&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\2052-minimum-incompatibility.cpp" line="29" column="0"/>
+            <symbol>minimumIncompatibility</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

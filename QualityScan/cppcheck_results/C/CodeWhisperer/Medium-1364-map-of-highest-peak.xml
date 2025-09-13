@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1364-map-of-highest-peak.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1364-map-of-highest-peak.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;isWaterColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;isWaterColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1364-map-of-highest-peak.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1364-map-of-highest-peak.c" line="34" column="56" info="Parameter &apos;isWaterColSize&apos; can be declared as pointer to const"/>
+            <symbol>isWaterColSize</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dr&apos; can be declared as const array" verbose="Variable &apos;dr&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1364-map-of-highest-peak.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1364-map-of-highest-peak.c" line="67" column="9" info="Variable &apos;dr&apos; can be declared as const array"/>
+            <symbol>dr</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dc&apos; can be declared as const array" verbose="Variable &apos;dc&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1364-map-of-highest-peak.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1364-map-of-highest-peak.c" line="68" column="9" info="Variable &apos;dc&apos; can be declared as const array"/>
+            <symbol>dc</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;highestPeak&apos; is never used." verbose="The function &apos;highestPeak&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1364-map-of-highest-peak.c" line="34" column="0"/>
+            <symbol>highestPeak</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1259-least-number-of-unique-integers-after-k-removals.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1259-least-number-of-unique-integers-after-k-removals.cpp" line="34" column="15"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findLeastNumOfUniqueInts&apos; is never used." verbose="The function &apos;findLeastNumOfUniqueInts&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1259-least-number-of-unique-integers-after-k-removals.cpp" line="21" column="0"/>
+            <symbol>findLeastNumOfUniqueInts</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

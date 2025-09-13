@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;j-1&gt;=0&apos; is always true" verbose="Condition &apos;j-1&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1310-number-of-sets-of-k-non-overlapping-line-segments.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1310-number-of-sets-of-k-non-overlapping-line-segments.cpp" line="30" column="45" info="Condition &apos;j-1&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1310-number-of-sets-of-k-non-overlapping-line-segments.cpp" line="29" column="25" info="Assignment &apos;j=1&apos;, assigned value is 1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfSets&apos; is never used." verbose="The function &apos;numberOfSets&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1310-number-of-sets-of-k-non-overlapping-line-segments.cpp" line="24" column="0"/>
+            <symbol>numberOfSets</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

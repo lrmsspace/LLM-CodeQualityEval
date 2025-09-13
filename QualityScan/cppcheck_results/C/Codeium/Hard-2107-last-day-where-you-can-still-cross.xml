@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;r&apos; shadows outer variable" verbose="Local variable &apos;r&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="64" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="59" column="13" info="Shadowed declaration"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;c&apos; shadows outer variable" verbose="Local variable &apos;c&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="64" column="40" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="59" column="34" info="Shadowed declaration"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dr&apos; can be declared as const array" verbose="Variable &apos;dr&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="34" column="9" info="Variable &apos;dr&apos; can be declared as const array"/>
+            <symbol>dr</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dc&apos; can be declared as const array" verbose="Variable &apos;dc&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="34" column="31" info="Variable &apos;dc&apos; can be declared as const array"/>
+            <symbol>dc</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;latestDayToCross&apos; is never used." verbose="The function &apos;latestDayToCross&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="54" column="0"/>
+            <symbol>latestDayToCross</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

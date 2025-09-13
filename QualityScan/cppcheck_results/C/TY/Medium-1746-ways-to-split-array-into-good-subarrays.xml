@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="23" column="37" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;P&apos; is assigned a value that is never used." verbose="Variable &apos;P&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="129"/>
+            <symbol>P</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="45"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="47"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="49"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="51"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="53"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="55"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="57"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="59"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: A" verbose="Unused variable: A" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="97"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: B" verbose="Unused variable: B" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="99"/>
+            <symbol>B</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: C" verbose="Unused variable: C" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="101"/>
+            <symbol>C</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: D" verbose="Unused variable: D" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="103"/>
+            <symbol>D</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: E" verbose="Unused variable: E" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="105"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: F" verbose="Unused variable: F" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="107"/>
+            <symbol>F</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: G" verbose="Unused variable: G" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="109"/>
+            <symbol>G</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: H" verbose="Unused variable: H" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="111"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: I" verbose="Unused variable: I" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="113"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: J" verbose="Unused variable: J" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="115"/>
+            <symbol>J</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: K" verbose="Unused variable: K" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="117"/>
+            <symbol>K</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: L" verbose="Unused variable: L" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="119"/>
+            <symbol>L</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: M" verbose="Unused variable: M" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="121"/>
+            <symbol>M</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: N" verbose="Unused variable: N" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="123"/>
+            <symbol>N</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: O" verbose="Unused variable: O" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1746-ways-to-split-array-into-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="24" column="125"/>
+            <symbol>O</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfGoodSubarraySplits&apos; is never used." verbose="The function &apos;numberOfGoodSubarraySplits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1746-ways-to-split-array-into-good-subarrays.c" line="23" column="0"/>
+            <symbol>numberOfGoodSubarraySplits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

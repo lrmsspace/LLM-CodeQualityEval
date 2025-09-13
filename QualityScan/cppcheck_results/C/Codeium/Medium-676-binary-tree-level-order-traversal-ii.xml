@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&lt;size&apos; is always false" verbose="Condition &apos;i&lt;size&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="55" column="23" info="Condition &apos;i&lt;size&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="52" column="17" info="*returnSize is assigned &apos;size&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="52" column="19" info="Assignment &apos;*returnSize=size&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="38" column="16" info="Assignment &apos;size=0&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="55" column="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&gt;=0&apos; is always false" verbose="Condition &apos;i&gt;=0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="58" column="30" info="Condition &apos;i&gt;=0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="58" column="23" info="Assignment &apos;i=size-1&apos;, assigned value is -1"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="52" column="17" info="*returnSize is assigned &apos;size&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="52" column="19" info="Assignment &apos;*returnSize=size&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="38" column="16" info="Assignment &apos;size=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;node&apos; can be declared as pointer to const" verbose="Variable &apos;node&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="43" column="26" info="Variable &apos;node&apos; can be declared as pointer to const"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;node&apos; can be declared as pointer to const" verbose="Variable &apos;node&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="59" column="26" info="Variable &apos;node&apos; can be declared as pointer to const"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: columnSizes[size]" verbose="Memory is allocated but not initialized: columnSizes[size]" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="44" column="20"/>
+            <symbol>columnSizes[size]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;levelOrderBottom&apos; is never used." verbose="The function &apos;levelOrderBottom&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="30" column="0"/>
+            <symbol>levelOrderBottom</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

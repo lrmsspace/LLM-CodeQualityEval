@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3377-digit-operations-to-make-two-integers-equal.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="0" column="0"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: i" verbose="Uninitialized variable: i" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3377-digit-operations-to-make-two-integers-equal.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="38" column="11"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3377-digit-operations-to-make-two-integers-equal.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="44" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;i&apos; is not assigned a value." verbose="Variable &apos;i&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/new/TY/output/c/Medium/3377-digit-operations-to-make-two-integers-equal.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="34" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;j&apos; is not assigned a value." verbose="Variable &apos;j&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/new/TY/output/c/Medium/3377-digit-operations-to-make-two-integers-equal.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="34" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minOperations&apos; is never used." verbose="The function &apos;minOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3377-digit-operations-to-make-two-integers-equal.c" line="33" column="0"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

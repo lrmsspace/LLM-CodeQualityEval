@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: *sum" verbose="Uninitialized variable: *sum" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1554-count-nodes-equal-to-average-of-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="35" column="5"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="34" column="9" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="46" column="43" info="Calling function &apos;getSubtreeSumAndCount&apos;, 2nd argument &apos;&amp;leftSum&apos; value is &lt;Uninit&gt;"/>
+            <symbol>*sum</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: *count" verbose="Uninitialized variable: *count" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1554-count-nodes-equal-to-average-of-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="36" column="6"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="34" column="9" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="46" column="53" info="Calling function &apos;getSubtreeSumAndCount&apos;, 3rd argument &apos;&amp;leftCount&apos; value is &lt;Uninit&gt;"/>
+            <symbol>*count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;averageOfSubtree&apos; is never used." verbose="The function &apos;averageOfSubtree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1554-count-nodes-equal-to-average-of-subtree.c" line="40" column="0"/>
+            <symbol>averageOfSubtree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

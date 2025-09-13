@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;p[j]==&apos;?&apos;&apos; is always false" verbose="Condition &apos;p[j]==&apos;?&apos;&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1778-wildcard-matching.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1778-wildcard-matching.cpp" line="40" column="66" info="Condition &apos;p[j]==&apos;?&apos;&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1778-wildcard-matching.cpp" line="37" column="26" info="Assuming that condition &apos;p[j]==&apos;*&apos;&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isMatch&apos; is never used." verbose="The function &apos;isMatch&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1778-wildcard-matching.cpp" line="26" column="0"/>
+            <symbol>isMatch</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;text&apos; can be declared as pointer to const" verbose="Parameter &apos;text&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="24" column="33" info="Parameter &apos;text&apos; can be declared as pointer to const"/>
+            <symbol>text</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l1&apos; is assigned a value that is never used." verbose="Variable &apos;l1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="46" column="80"/>
+            <symbol>l1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l2&apos; is assigned a value that is never used." verbose="Variable &apos;l2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="47" column="80"/>
+            <symbol>l2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l3&apos; is assigned a value that is never used." verbose="Variable &apos;l3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="48" column="80"/>
+            <symbol>l3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l4&apos; is assigned a value that is never used." verbose="Variable &apos;l4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="49" column="80"/>
+            <symbol>l4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l5&apos; is assigned a value that is never used." verbose="Variable &apos;l5&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="50" column="80"/>
+            <symbol>l5</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l6&apos; is assigned a value that is never used." verbose="Variable &apos;l6&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="51" column="80"/>
+            <symbol>l6</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l7&apos; is assigned a value that is never used." verbose="Variable &apos;l7&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1952-longest-chunked-palindrome-decomposition.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="52" column="79"/>
+            <symbol>l7</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestDecomposition&apos; is never used." verbose="The function &apos;longestDecomposition&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1952-longest-chunked-palindrome-decomposition.c" line="24" column="0"/>
+            <symbol>longestDecomposition</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidFunctionArgStr" severity="error" msg="Invalid strtok() argument nr 2. A nul-terminated string is required." verbose="Invalid strtok() argument nr 2. A nul-terminated string is required." cwe="628" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/605-split-strings-by-separator.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\605-split-strings-by-separator.c" line="42" column="40"/>
+            <symbol>strtok</symbol>
+        </error>
+        <error id="invalidFunctionArgStr" severity="error" msg="Invalid strtok() argument nr 2. A nul-terminated string is required." verbose="Invalid strtok() argument nr 2. A nul-terminated string is required." cwe="628" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/605-split-strings-by-separator.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\605-split-strings-by-separator.c" line="45" column="34"/>
+            <symbol>strtok</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;token&apos; can be declared as pointer to const" verbose="Variable &apos;token&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/605-split-strings-by-separator.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\605-split-strings-by-separator.c" line="42" column="15" info="Variable &apos;token&apos; can be declared as pointer to const"/>
+            <symbol>token</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;splitWordsBySeparator&apos; is never used." verbose="The function &apos;splitWordsBySeparator&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\605-split-strings-by-separator.c" line="37" column="0"/>
+            <symbol>splitWordsBySeparator</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

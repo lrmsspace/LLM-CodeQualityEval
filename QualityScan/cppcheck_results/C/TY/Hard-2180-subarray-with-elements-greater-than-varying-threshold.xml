@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="23" column="28" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="36" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="37" column="19"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="38" column="19"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="39" column="19"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="40" column="19"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="41" column="19"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="43" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="44" column="19"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="45" column="19"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="52" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="53" column="19"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="54" column="19"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="55" column="19"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="56" column="19"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="57" column="19"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="59" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="60" column="19"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="61" column="19"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="68" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="69" column="19"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="70" column="19"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="71" column="19"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="72" column="19"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="73" column="19"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="75" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="21"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="24"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="27"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2180-subarray-with-elements-greater-than-varying-threshold.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="24" column="30"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;validSubarraySize&apos; is never used." verbose="The function &apos;validSubarraySize&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2180-subarray-with-elements-greater-than-varying-threshold.c" line="23" column="0"/>
+            <symbol>validSubarraySize</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

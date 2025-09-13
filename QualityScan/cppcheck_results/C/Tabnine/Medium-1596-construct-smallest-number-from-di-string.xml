@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;num[i++]=&apos;0&apos;+(++num[i-1]-&apos;1&apos;)&apos; depends on order of evaluation of side effects" verbose="Expression &apos;num[i++]=&apos;0&apos;+(++num[i-1]-&apos;1&apos;)&apos; depends on order of evaluation of side effects" cwe="768" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1596-construct-smallest-number-from-di-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1596-construct-smallest-number-from-di-string.c" line="38" column="26"/>
+        </error>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;num[i++]=&apos;0&apos;+(++num[i-1]-&apos;9&apos;)&apos; depends on order of evaluation of side effects" verbose="Expression &apos;num[i++]=&apos;0&apos;+(++num[i-1]-&apos;9&apos;)&apos; depends on order of evaluation of side effects" cwe="768" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1596-construct-smallest-number-from-di-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1596-construct-smallest-number-from-di-string.c" line="42" column="26"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;pattern&apos; can be declared as pointer to const" verbose="Parameter &apos;pattern&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1596-construct-smallest-number-from-di-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1596-construct-smallest-number-from-di-string.c" line="28" column="28" info="Parameter &apos;pattern&apos; can be declared as pointer to const"/>
+            <symbol>pattern</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestNumber&apos; is never used." verbose="The function &apos;smallestNumber&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1596-construct-smallest-number-from-di-string.c" line="28" column="0"/>
+            <symbol>smallestNumber</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

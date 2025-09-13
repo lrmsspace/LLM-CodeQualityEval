@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: num" verbose="Uninitialized variable: num" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/785-mini-parser.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\785-mini-parser.c" line="78" column="34"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\785-mini-parser.c" line="74" column="19" info="Assuming condition is false"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: num" verbose="Uninitialized variable: num" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/785-mini-parser.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\785-mini-parser.c" line="75" column="15"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/785-mini-parser.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\785-mini-parser.c" line="56" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;deserialize&apos; is never used." verbose="The function &apos;deserialize&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\785-mini-parser.c" line="55" column="0"/>
+            <symbol>deserialize</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

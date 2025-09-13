@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr1&apos; can be declared as pointer to const" verbose="Parameter &apos;arr1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="16" column="24" info="Parameter &apos;arr1&apos; can be declared as pointer to const"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr2&apos; can be declared as pointer to const" verbose="Parameter &apos;arr2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="16" column="49" info="Parameter &apos;arr2&apos; can be declared as pointer to const"/>
+            <symbol>arr2</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max1-min1&apos;." verbose="Signed integer overflow for expression &apos;max1-min1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="29" column="27" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="18" column="16" info="Assignment &apos;min1=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="17" column="16" info="Assignment &apos;max1=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max2-min2&apos;." verbose="Signed integer overflow for expression &apos;max2-min2&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="29" column="40" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="18" column="32" info="Assignment &apos;min2=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="17" column="32" info="Assignment &apos;max2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max3-min3&apos;." verbose="Signed integer overflow for expression &apos;max3-min3&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="29" column="59" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="18" column="48" info="Assignment &apos;min3=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="17" column="48" info="Assignment &apos;max3=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max4-min4&apos;." verbose="Signed integer overflow for expression &apos;max4-min4&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1124-maximum-of-absolute-value-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="29" column="72" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="18" column="64" info="Assignment &apos;min4=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="17" column="64" info="Assignment &apos;max4=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxAbsValExpr&apos; is never used." verbose="The function &apos;maxAbsValExpr&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1124-maximum-of-absolute-value-expression.c" line="16" column="0"/>
+            <symbol>maxAbsValExpr</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

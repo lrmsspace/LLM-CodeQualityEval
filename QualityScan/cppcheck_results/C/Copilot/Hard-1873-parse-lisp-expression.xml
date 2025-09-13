@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="CastAddressToIntegerAtReturn" severity="portability" msg="Returning an address value in a function with integer return type is not portable." verbose="Returning an address value in a function with integer (int/long/etc) return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit address down to 32-bit integer. The safe way is to always return an integer." cwe="758" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1873-parse-lisp-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="44" column="11"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;expression&apos; can be declared as pointer to const" verbose="Parameter &apos;expression&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1873-parse-lisp-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="34" column="20" info="Parameter &apos;expression&apos; can be declared as pointer to const"/>
+            <symbol>expression</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;atom&apos; can be declared as pointer to const" verbose="Variable &apos;atom&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1873-parse-lisp-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="62" column="24" info="Variable &apos;atom&apos; can be declared as pointer to const"/>
+            <symbol>atom</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;evaluate&apos; is never used." verbose="The function &apos;evaluate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="34" column="0"/>
+            <symbol>evaluate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

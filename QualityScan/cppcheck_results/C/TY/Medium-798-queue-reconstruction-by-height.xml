@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: k" verbose="Uninitialized variable: k" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/798-queue-reconstruction-by-height.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\798-queue-reconstruction-by-height.c" line="44" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\798-queue-reconstruction-by-height.c" line="37" column="19" info="Assuming condition is false"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: k" verbose="Uninitialized variable: k" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/798-queue-reconstruction-by-height.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\798-queue-reconstruction-by-height.c" line="40" column="16"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;k&apos; is not assigned a value." verbose="Variable &apos;k&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/798-queue-reconstruction-by-height.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\798-queue-reconstruction-by-height.c" line="31" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reconstructQueue&apos; is never used." verbose="The function &apos;reconstructQueue&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\798-queue-reconstruction-by-height.c" line="30" column="0"/>
+            <symbol>reconstructQueue</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

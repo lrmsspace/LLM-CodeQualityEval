@@ -1,0 +1,46 @@
+/**https://leetcode.com/problems/find-the-original-array-of-prefix-xor/ */
+//You are given an integer array pref of size n. Find and return the array arr of size n that satisfies:
+//	pref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i].
+//Note that ^ denotes the bitwise-xor operation.
+//It can be proven that the answer is unique.
+// 
+//Example 1:
+//Input: pref = [5,2,0,3,1]
+//Output: [5,7,2,3,2]
+//Explanation: From the array [5,7,2,3,2] we have the following:
+//- pref[0] = 5.
+//- pref[1] = 5 ^ 7 = 2.
+//- pref[2] = 5 ^ 7 ^ 2 = 0.
+//- pref[3] = 5 ^ 7 ^ 2 ^ 3 = 3.
+//- pref[4] = 5 ^ 7 ^ 2 ^ 3 ^ 2 = 1.
+//Example 2:
+//Input: pref = [13]
+//Output: [13]
+//Explanation: We have pref[0] = arr[0] = 13.
+// 
+//Constraints:
+//	1 <= pref.length <= 105
+//	0 <= pref[i] <= 106
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* findArray(int* pref, int prefSize, int* returnSize) {
+    int* arr = (int*)malloc(sizeof(int) * prefSize);
+    int arrSize = 0;
+    int* hash = (int*)malloc(sizeof(int) * 1000000);
+    memset(hash, 0, sizeof(int) * 1000000);
+    for (int i = 0; i < prefSize; i++) {
+        if (hash[pref[i]] == 0) {
+            arr[arrSize++] = pref[i];
+            hash[pref[i]]++;
+        } else {
+            hash[pref[i]]--;
+        }
+    }
+    if (arrSize != prefSize) {
+        *returnSize = 0;
+        return NULL;
+    }
+    *returnSize = arrSize;
+    return arr;    
+}

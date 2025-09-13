@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="22" column="22" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="18"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="25"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="30"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="37"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="44"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="51"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="58"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="65"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="72"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s1&apos; is assigned a value that is never used." verbose="Variable &apos;s1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="79"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="87"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="94"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="101"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="108"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="115"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="122"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="23" column="129"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="9"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="16"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="23"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="30"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="37"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="44"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="51"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="58"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i1&apos; is assigned a value that is never used." verbose="Variable &apos;i1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="65"/>
+            <symbol>i1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j1&apos; is assigned a value that is never used." verbose="Variable &apos;j1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="73"/>
+            <symbol>j1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k1&apos; is assigned a value that is never used." verbose="Variable &apos;k1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="81"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l1&apos; is assigned a value that is never used." verbose="Variable &apos;l1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="89"/>
+            <symbol>l1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m1&apos; is assigned a value that is never used." verbose="Variable &apos;m1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="97"/>
+            <symbol>m1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n1&apos; is assigned a value that is never used." verbose="Variable &apos;n1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="105"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o1&apos; is assigned a value that is never used." verbose="Variable &apos;o1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="113"/>
+            <symbol>o1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p1&apos; is assigned a value that is never used." verbose="Variable &apos;p1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="121"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q1&apos; is assigned a value that is never used." verbose="Variable &apos;q1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="129"/>
+            <symbol>q1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r1&apos; is assigned a value that is never used." verbose="Variable &apos;r1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="137"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s2&apos; is assigned a value that is never used." verbose="Variable &apos;s2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="145"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t1&apos; is assigned a value that is never used." verbose="Variable &apos;t1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="153"/>
+            <symbol>t1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u1&apos; is assigned a value that is never used." verbose="Variable &apos;u1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="161"/>
+            <symbol>u1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v1&apos; is assigned a value that is never used." verbose="Variable &apos;v1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="169"/>
+            <symbol>v1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w1&apos; is assigned a value that is never used." verbose="Variable &apos;w1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="177"/>
+            <symbol>w1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x1&apos; is assigned a value that is never used." verbose="Variable &apos;x1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="185"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y1&apos; is assigned a value that is never used." verbose="Variable &apos;y1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="193"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z1&apos; is assigned a value that is never used." verbose="Variable &apos;z1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="24" column="201"/>
+            <symbol>z1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a1&apos; is assigned a value that is never used." verbose="Variable &apos;a1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="9"/>
+            <symbol>a1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b1&apos; is assigned a value that is never used." verbose="Variable &apos;b1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="17"/>
+            <symbol>b1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c1&apos; is assigned a value that is never used." verbose="Variable &apos;c1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="25"/>
+            <symbol>c1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d1&apos; is assigned a value that is never used." verbose="Variable &apos;d1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="33"/>
+            <symbol>d1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e1&apos; is assigned a value that is never used." verbose="Variable &apos;e1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="41"/>
+            <symbol>e1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f1&apos; is assigned a value that is never used." verbose="Variable &apos;f1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="49"/>
+            <symbol>f1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g1&apos; is assigned a value that is never used." verbose="Variable &apos;g1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="57"/>
+            <symbol>g1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h1&apos; is assigned a value that is never used." verbose="Variable &apos;h1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="65"/>
+            <symbol>h1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i2&apos; is assigned a value that is never used." verbose="Variable &apos;i2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="73"/>
+            <symbol>i2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j2&apos; is assigned a value that is never used." verbose="Variable &apos;j2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="81"/>
+            <symbol>j2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k2&apos; is assigned a value that is never used." verbose="Variable &apos;k2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="89"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l2&apos; is assigned a value that is never used." verbose="Variable &apos;l2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="97"/>
+            <symbol>l2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m2&apos; is assigned a value that is never used." verbose="Variable &apos;m2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="105"/>
+            <symbol>m2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n2&apos; is assigned a value that is never used." verbose="Variable &apos;n2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="113"/>
+            <symbol>n2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o2&apos; is assigned a value that is never used." verbose="Variable &apos;o2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="121"/>
+            <symbol>o2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p2&apos; is assigned a value that is never used." verbose="Variable &apos;p2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="129"/>
+            <symbol>p2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q2&apos; is assigned a value that is never used." verbose="Variable &apos;q2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="137"/>
+            <symbol>q2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r2&apos; is assigned a value that is never used." verbose="Variable &apos;r2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="145"/>
+            <symbol>r2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s3&apos; is assigned a value that is never used." verbose="Variable &apos;s3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="153"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t2&apos; is assigned a value that is never used." verbose="Variable &apos;t2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="161"/>
+            <symbol>t2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u2&apos; is assigned a value that is never used." verbose="Variable &apos;u2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="171"/>
+            <symbol>u2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v2&apos; is assigned a value that is never used." verbose="Variable &apos;v2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="179"/>
+            <symbol>v2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w2&apos; is assigned a value that is never used." verbose="Variable &apos;w2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="187"/>
+            <symbol>w2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x2&apos; is assigned a value that is never used." verbose="Variable &apos;x2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="195"/>
+            <symbol>x2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="203"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z2&apos; is assigned a value that is never used." verbose="Variable &apos;z2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1402-jump-game-vii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="25" column="211"/>
+            <symbol>z2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canReach&apos; is never used." verbose="The function &apos;canReach&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1402-jump-game-vii.c" line="22" column="0"/>
+            <symbol>canReach</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

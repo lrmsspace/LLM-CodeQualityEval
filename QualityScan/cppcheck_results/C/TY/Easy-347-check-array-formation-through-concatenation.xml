@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/347-check-array-formation-through-concatenation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\347-check-array-formation-through-concatenation.c" line="25" column="24" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;piecesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;piecesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/347-check-array-formation-through-concatenation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\347-check-array-formation-through-concatenation.c" line="25" column="77" info="Parameter &apos;piecesColSize&apos; can be declared as pointer to const"/>
+            <symbol>piecesColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canFormArray&apos; is never used." verbose="The function &apos;canFormArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\347-check-array-formation-through-concatenation.c" line="25" column="0"/>
+            <symbol>canFormArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

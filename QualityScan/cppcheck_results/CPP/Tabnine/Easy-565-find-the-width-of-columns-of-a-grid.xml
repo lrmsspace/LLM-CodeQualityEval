@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_val-min_val&apos;." verbose="Signed integer overflow for expression &apos;max_val-min_val&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/565-find-the-width-of-columns-of-a-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="35" column="30" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="30" column="27" info="Assignment &apos;min_val=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="31" column="31" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="30" column="46" info="Assignment &apos;max_val=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_val-min_val+1&apos;." verbose="Signed integer overflow for expression &apos;max_val-min_val+1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/565-find-the-width-of-columns-of-a-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="35" column="40" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="30" column="27" info="Assignment &apos;min_val=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="31" column="31" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="30" column="46" info="Assignment &apos;max_val=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findColumnWidth&apos; is never used." verbose="The function &apos;findColumnWidth&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\565-find-the-width-of-columns-of-a-grid.cpp" line="26" column="0"/>
+            <symbol>findColumnWidth</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

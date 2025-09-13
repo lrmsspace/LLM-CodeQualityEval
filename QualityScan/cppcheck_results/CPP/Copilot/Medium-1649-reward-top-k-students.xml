@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexThenCheck" severity="style" msg="Array index &apos;a&apos; is used before limits check." verbose="Defensive programming: The variable &apos;a&apos; is used as an array index before it is checked that is within limits. This can mean that the array might be accessed out of bounds. Reorder conditions such as &apos;(a[i] &amp;&amp; i &lt; 10)&apos; to &apos;(i &lt; 10 &amp;&amp; a[i])&apos;. That way the array will not be accessed if the index is out of limits." cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1649-reward-top-k-students.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="63" column="56"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;student_id&apos; can be declared as reference to const" verbose="Parameter &apos;student_id&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1649-reward-top-k-students.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="35" column="136" info="Parameter &apos;student_id&apos; can be declared as reference to const"/>
+            <symbol>student_id</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;topStudents&apos; is never used." verbose="The function &apos;topStudents&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="35" column="0"/>
+            <symbol>topStudents</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

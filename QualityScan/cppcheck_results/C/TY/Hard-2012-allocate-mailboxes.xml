@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;min&apos; can be reduced." verbose="The scope of the variable &apos;min&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="22" column="21"/>
+            <symbol>min</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sum&apos; can be reduced." verbose="The scope of the variable &apos;sum&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="22" column="26"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;mid_sum&apos; can be reduced." verbose="The scope of the variable &apos;mid_sum&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="22" column="49"/>
+            <symbol>mid_sum</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;mid_right&apos; can be reduced." verbose="The scope of the variable &apos;mid_right&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="22" column="77"/>
+            <symbol>mid_right</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: mid_left" verbose="Uninitialized variable: mid_left" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="42" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="28" column="19" info="Assuming condition is false"/>
+            <symbol>mid_left</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: mid_min" verbose="Uninitialized variable: mid_min" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="37" column="19"/>
+            <symbol>mid_min</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mid&apos; is assigned a value that is never used." verbose="Variable &apos;mid&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="42" column="9"/>
+            <symbol>mid</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mid_left&apos; is assigned a value that is never used." verbose="Variable &apos;mid_left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="48" column="18"/>
+            <symbol>mid_left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mid_right&apos; is assigned a value that is never used." verbose="Variable &apos;mid_right&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2012-allocate-mailboxes.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="49" column="19"/>
+            <symbol>mid_right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDistance&apos; is never used." verbose="The function &apos;minDistance&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2012-allocate-mailboxes.c" line="21" column="0"/>
+            <symbol>minDistance</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

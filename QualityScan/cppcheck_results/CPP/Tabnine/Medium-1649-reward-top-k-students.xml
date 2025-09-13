@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;points&apos; shadows outer variable" verbose="Local variable &apos;points&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1649-reward-top-k-students.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="55" column="31" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="36" column="33" info="Shadowed declaration"/>
+            <symbol>points</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;student_id&apos; can be declared as reference to const" verbose="Parameter &apos;student_id&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1649-reward-top-k-students.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="35" column="136" info="Parameter &apos;student_id&apos; can be declared as reference to const"/>
+            <symbol>student_id</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;topStudents&apos; is never used." verbose="The function &apos;topStudents&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1649-reward-top-k-students.cpp" line="35" column="0"/>
+            <symbol>topStudents</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

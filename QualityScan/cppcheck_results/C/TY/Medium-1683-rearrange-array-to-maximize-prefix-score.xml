@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="20" column="19" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="32" column="13"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b[i]&apos; is assigned a value that is never used." verbose="Variable &apos;b[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="35" column="13"/>
+            <symbol>b[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c[i]&apos; is assigned a value that is never used." verbose="Variable &apos;c[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="38" column="13"/>
+            <symbol>c[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d[i]&apos; is assigned a value that is never used." verbose="Variable &apos;d[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="41" column="13"/>
+            <symbol>d[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e[i]&apos; is assigned a value that is never used." verbose="Variable &apos;e[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="44" column="13"/>
+            <symbol>e[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f[i]&apos; is assigned a value that is never used." verbose="Variable &apos;f[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="47" column="13"/>
+            <symbol>f[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g[i]&apos; is assigned a value that is never used." verbose="Variable &apos;g[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="50" column="13"/>
+            <symbol>g[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h[i]&apos; is assigned a value that is never used." verbose="Variable &apos;h[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="53" column="13"/>
+            <symbol>h[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1683-rearrange-array-to-maximize-prefix-score.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="73" column="79"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxScore&apos; is never used." verbose="The function &apos;maxScore&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1683-rearrange-array-to-maximize-prefix-score.c" line="20" column="0"/>
+            <symbol>maxScore</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

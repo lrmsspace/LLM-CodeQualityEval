@@ -1,0 +1,145 @@
+/**https://leetcode.com/problems/brace-expansion-ii/ */
+//Under the grammar given below, strings can represent a set of lowercase words. Let R(expr) denote the set of words the expression represents.
+//The grammar can best be understood through simple examples:
+//	Single letters represent a singleton set containing that word.
+//	
+//		R("a") = {"a"}
+//		R("w") = {"w"}
+//	
+//	
+//	When we take a comma-delimited list of two or more expressions, we take the union of possibilities.
+//	
+//		R("{a,b,c}") = {"a","b","c"}
+//		R("{{a,b},{b,c}}") = {"a","b","c"} (notice the final set only contains each word at most once)
+//	
+//	
+//	When we concatenate two expressions, we take the set of possible concatenations between two words where the first word comes from the first expression and the second word comes from the second expression.
+//	
+//		R("{a,b}{c,d}") = {"ac","ad","bc","bd"}
+//		R("a{b,c}{d,e}f{g,h}") = {"abdfg", "abdfh", "abefg", "abefh", "acdfg", "acdfh", "acefg", "acefh"}
+//	
+//	
+//Formally, the three rules for our grammar:
+//	For every lowercase letter x, we have R(x) = {x}.
+//	For expressions e1, e2, ... , ek with k >= 2, we have R({e1, e2, ...}) = R(e1) ∪ R(e2) ∪ ...
+//	For expressions e1 and e2, we have R(e1 + e2) = {a + b for (a, b) in R(e1) × R(e2)}, where + denotes concatenation, and × denotes the cartesian product.
+//Given an expression representing a set of words under the given grammar, return the sorted list of words that the expression represents.
+// 
+//Example 1:
+//Input: expression = "{a,b}{c,{d,e}}"
+//Output: ["ac","ad","ae","bc","bd","be"]
+//Example 2:
+//Input: expression = "{{a,z},a{b,c},{ab,z}}"
+//Output: ["a","ab","ac","z"]
+//Explanation: Each distinct word is written only once in the final answer.
+// 
+//Constraints:
+//	1 <= expression.length <= 60
+//	expression[i] consists of '{', '}', ','or lowercase English letters.
+//	The given expression represents a set of words based on the grammar given in the description.
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+        typedef struct Set {
+            char** elements;
+            int size;
+            int capacity;
+        } Set;
+
+        void setInit(Set* set) {
+            set->size = 0;
+            set->capacity = 16;
+            set->elements = (char**)malloc(set->capacity * sizeof(char*));
+        }
+
+        void setAdd(Set* set, const char* str) {
+            for (int i = 0; i < set->size; i++) {
+                if (strcmp(set->elements[i], str) == 0) {
+                    return; // Avoid duplicates
+                }
+            }
+            if (set->size == set->capacity) {
+                set->capacity *= 2;
+                set->elements = (char**)realloc(set->elements, set->capacity * sizeof(char*));
+            }
+            set->elements[set->size++] = strdup(str);
+        }
+
+        void setFree(Set* set) {
+            for (int i = 0; i < set->size; i++) {
+                free(set->elements[i]);
+            }
+            free(set->elements);
+        }
+
+        int compareStrings(const void* a, const void* b) {
+            return strcmp(*(const char**)a, *(const char**)b);
+        }
+
+        Set parseExpression(char* expression, int* index) {
+            Set result;
+            setInit(&result);
+            Set current;
+            setInit(&current);
+            setAdd(&current, "");
+
+            while (expression[*index] != '\0') {
+                if (expression[*index] == '{') {
+                    (*index)++;
+                    Set subResult = parseExpression(expression, index);
+                    Set newCurrent;
+                    setInit(&newCurrent);
+                    for (int i = 0; i < current.size; i++) {
+                        for (int j = 0; j < subResult.size; j++) {
+                            char buffer[128];
+                            snprintf(buffer, sizeof(buffer), "%s%s", current.elements[i], subResult.elements[j]);
+                            setAdd(&newCurrent, buffer);
+                        }
+                    }
+                    setFree(&current);
+                    current = newCurrent;
+                    setFree(&subResult);
+                } else if (expression[*index] == '}') {
+                    (*index)++;
+                    break;
+                } else if (expression[*index] == ',') {
+                    (*index)++;
+                    for (int i = 0; i < current.size; i++) {
+                        setAdd(&result, current.elements[i]);
+                    }
+                    setFree(&current);
+                    setInit(&current);
+                    setAdd(&current, "");
+                } else {
+                    char buffer[2] = {expression[*index], '\0'};
+                    Set newCurrent;
+                    setInit(&newCurrent);
+                    for (int i = 0; i < current.size; i++) {
+                        char combined[128];
+                        snprintf(combined, sizeof(combined), "%s%s", current.elements[i], buffer);
+                        setAdd(&newCurrent, combined);
+                    }
+                    setFree(&current);
+                    current = newCurrent;
+                    (*index)++;
+                }
+            }
+
+            for (int i = 0; i < current.size; i++) {
+                setAdd(&result, current.elements[i]);
+            }
+            setFree(&current);
+
+            return result;
+        }
+
+        char** braceExpansionII(char* expression, int* returnSize) {
+            int index = 0;
+            Set result = parseExpression(expression, &index);
+
+            qsort(result.elements, result.size, sizeof(char*), compareStrings);
+
+            *returnSize = result.size;
+            return result.elements;
+        }
+        

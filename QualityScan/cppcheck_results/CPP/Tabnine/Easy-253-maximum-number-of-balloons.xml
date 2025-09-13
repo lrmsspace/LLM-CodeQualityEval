@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;count[26]&apos; accessed at index 108, which is out of bounds." verbose="Array &apos;count[26]&apos; accessed at index 108, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/253-maximum-number-of-balloons.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="29" column="21" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;count[26]&apos; accessed at index 111, which is out of bounds." verbose="Array &apos;count[26]&apos; accessed at index 111, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/253-maximum-number-of-balloons.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="30" column="21" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;count[26]&apos; accessed at index 98, which is out of bounds." verbose="Array &apos;count[26]&apos; accessed at index 98, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/253-maximum-number-of-balloons.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="31" column="21" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;count[26]&apos; accessed at index 97, which is out of bounds." verbose="Array &apos;count[26]&apos; accessed at index 97, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/253-maximum-number-of-balloons.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="32" column="21" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;count[26]&apos; accessed at index 110, which is out of bounds." verbose="Array &apos;count[26]&apos; accessed at index 110, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Easy/253-maximum-number-of-balloons.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="33" column="21" info="Array index out of bounds"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxNumberOfBalloons&apos; is never used." verbose="The function &apos;maxNumberOfBalloons&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Easy\253-maximum-number-of-balloons.cpp" line="22" column="0"/>
+            <symbol>maxNumberOfBalloons</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

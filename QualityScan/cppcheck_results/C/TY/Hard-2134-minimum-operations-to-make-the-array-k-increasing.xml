@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2134-minimum-operations-to-make-the-array-k-increasing.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2134-minimum-operations-to-make-the-array-k-increasing.c" line="43" column="22" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;dp&apos; can be declared as pointer to const" verbose="Variable &apos;dp&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2134-minimum-operations-to-make-the-array-k-increasing.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2134-minimum-operations-to-make-the-array-k-increasing.c" line="46" column="14" info="Variable &apos;dp&apos; can be declared as pointer to const"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: dp[m]" verbose="Memory is allocated but not initialized: dp[m]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2134-minimum-operations-to-make-the-array-k-increasing.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2134-minimum-operations-to-make-the-array-k-increasing.c" line="52" column="23"/>
+            <symbol>dp[m]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2134-minimum-operations-to-make-the-array-k-increasing.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2134-minimum-operations-to-make-the-array-k-increasing.c" line="44" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kIncreasing&apos; is never used." verbose="The function &apos;kIncreasing&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2134-minimum-operations-to-make-the-array-k-increasing.c" line="43" column="0"/>
+            <symbol>kIncreasing</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

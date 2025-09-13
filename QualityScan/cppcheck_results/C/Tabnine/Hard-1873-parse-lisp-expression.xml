@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidFunctionArg" severity="warning" msg="Either the condition &apos;*token==&apos;let&apos;&apos; is redundant or isdigit() argument nr 1 can have invalid value. The value is 7103860 but the valid values are &apos;0:255&apos;." verbose="Either the condition &apos;*token==&apos;let&apos;&apos; is redundant or isdigit() argument nr 1 can have invalid value. The value is 7103860 but the valid values are &apos;0:255&apos;." cwe="628" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1873-parse-lisp-expression.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="39" column="21" info="Invalid argument"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="63" column="27" info="Assuming that condition &apos;*token==&apos;let&apos;&apos; is not redundant"/>
+            <symbol>isdigit</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;evaluate&apos; is never used." verbose="The function &apos;evaluate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1873-parse-lisp-expression.c" line="34" column="0"/>
+            <symbol>evaluate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

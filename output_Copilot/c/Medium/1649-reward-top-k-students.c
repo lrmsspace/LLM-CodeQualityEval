@@ -1,0 +1,90 @@
+/**https://leetcode.com/problems/reward-top-k-students/ */
+//You are given two string arrays positive_feedback and negative_feedback, containing the words denoting positive and negative feedback, respectively. Note that no word is both positive and negative.
+//Initially every student has 0 points. Each positive word in a feedback report increases the points of a student by 3, whereas each negative word decreases the points by 1.
+//You are given n feedback reports, represented by a 0-indexed string array report and a 0-indexed integer array student_id, where student_id[i] represents the ID of the student who has received the feedback report report[i]. The ID of each student is unique.
+//Given an integer k, return the top k students after ranking them in non-increasing order by their points. In case more than one student has the same points, the one with the lower ID ranks higher.
+// 
+//Example 1:
+//Input: positive_feedback = ["smart","brilliant","studious"], negative_feedback = ["not"], report = ["this student is studious","the student is smart"], student_id = [1,2], k = 2
+//Output: [1,2]
+//Explanation: 
+//Both the students have 1 positive feedback and 3 points but since student 1 has a lower ID he ranks higher.
+//Example 2:
+//Input: positive_feedback = ["smart","brilliant","studious"], negative_feedback = ["not"], report = ["this student is not studious","the student is smart"], student_id = [1,2], k = 2
+//Output: [2,1]
+//Explanation: 
+//- The student with ID 1 has 1 positive feedback and 1 negative feedback, so he has 3-1=2 points. 
+//- The student with ID 2 has 1 positive feedback, so he has 3 points. 
+//Since student 2 has more points, [2,1] is returned.
+// 
+//Constraints:
+//	1 <= positive_feedback.length, negative_feedback.length <= 104
+//	1 <= positive_feedback[i].length, negative_feedback[j].length <= 100
+//	Both positive_feedback[i] and negative_feedback[j] consists of lowercase English letters.
+//	No word is present in both positive_feedback and negative_feedback.
+//	n == report.length == student_id.length
+//	1 <= n <= 104
+//	report[i] consists of lowercase English letters and spaces ' '.
+//	There is a single space between consecutive words of report[i].
+//	1 <= report[i].length <= 100
+//	1 <= student_id[i] <= 109
+//	All the values of student_id[i] are unique.
+//	1 <= k <= n
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+
+ 
+        typedef struct {
+            int id;
+            int points;
+        } Student;
+
+        int compareStudents(const void* a, const void* b) {
+            Student* studentA = (Student*)a;
+            Student* studentB = (Student*)b;
+            if (studentA->points != studentB->points) {
+                return studentB->points - studentA->points; // Descending order of points
+            }
+            return studentA->id - studentB->id; // Ascending order of IDs
+        }
+
+        bool isInList(char* word, char** list, int listSize) {
+            for (int i = 0; i < listSize; i++) {
+                if (strcmp(word, list[i]) == 0) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        int* topStudents(char** positive_feedback, int positive_feedbackSize, char** negative_feedback, int negative_feedbackSize, char** report, int reportSize, int* student_id, int student_idSize, int k, int* returnSize) {
+            Student* students = (Student*)malloc(reportSize * sizeof(Student));
+            for (int i = 0; i < reportSize; i++) {
+                students[i].id = student_id[i];
+                students[i].points = 0;
+
+                char* token = strtok(report[i], " ");
+                while (token != NULL) {
+                    if (isInList(token, positive_feedback, positive_feedbackSize)) {
+                        students[i].points += 3;
+                    } else if (isInList(token, negative_feedback, negative_feedbackSize)) {
+                        students[i].points -= 1;
+                    }
+                    token = strtok(NULL, " ");
+                }
+            }
+
+            qsort(students, reportSize, sizeof(Student), compareStudents);
+
+            int* result = (int*)malloc(k * sizeof(int));
+            for (int i = 0; i < k; i++) {
+                result[i] = students[i].id;
+            }
+
+            free(students);
+            *returnSize = k;
+            return result;
+        }
+
+            

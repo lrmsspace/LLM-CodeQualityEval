@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="0" column="0"/>
+        </error>
+        <error id="bufferAccessOutOfBounds" severity="error" msg="Buffer is accessed out of bounds: result" verbose="Buffer is accessed out of bounds: result" cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="19" column="16" info="Buffer overrun"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="18" column="22" info="Assign result, buffer with size 4"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;ones&apos; can be declared as const array" verbose="Variable &apos;ones&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="25" column="11" info="Variable &apos;ones&apos; can be declared as const array"/>
+            <symbol>ones</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;tens&apos; can be declared as const array" verbose="Variable &apos;tens&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="26" column="11" info="Variable &apos;tens&apos; can be declared as const array"/>
+            <symbol>tens</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;thousands&apos; can be declared as const array" verbose="Variable &apos;thousands&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="27" column="11" info="Variable &apos;thousands&apos; can be declared as const array"/>
+            <symbol>thousands</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: result" verbose="Memory is allocated but not initialized: result" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="70" column="38"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: hundredsStr" verbose="Memory is allocated but not initialized: hundredsStr" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="37" column="24"/>
+            <symbol>hundredsStr</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberToWords&apos; is never used." verbose="The function &apos;numberToWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="16" column="0"/>
+            <symbol>numberToWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

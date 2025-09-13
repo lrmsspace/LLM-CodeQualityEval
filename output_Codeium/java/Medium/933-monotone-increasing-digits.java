@@ -1,0 +1,37 @@
+/**https://leetcode.com/problems/monotone-increasing-digits/ */
+//An integer has monotone increasing digits if and only if each pair of adjacent digits x and y satisfy x <= y.
+//Given an integer n, return the largest number that is less than or equal to n with monotone increasing digits.
+// 
+//Example 1:
+//Input: n = 10
+//Output: 9
+//Example 2:
+//Input: n = 1234
+//Output: 1234
+//Example 3:
+//Input: n = 332
+//Output: 299
+// 
+//Constraints:
+//	0 <= n <= 109
+class Solution {
+    public int monotoneIncreasingDigits(int n) {
+        int res = 0, cur = 1;
+        String s = String.valueOf(n);
+        int[] nums = new int[s.length()];
+        for (int i = 0; i < s.length(); i++) {
+            nums[i] = s.charAt(i) - '0';
+        }
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] > nums[i + 1]) {
+                nums[i]--;
+                for (int j = i + 1; j < nums.length; j++) {
+                    nums[j] = 9;
+                }
+            }
+            res += nums[i] * cur;
+            cur *= 10;
+        }
+        return res;
+    }
+}

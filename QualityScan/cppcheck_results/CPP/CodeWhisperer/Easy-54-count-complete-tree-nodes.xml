@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;left&apos; can be declared as pointer to const" verbose="Variable &apos;left&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Easy/54-count-complete-tree-nodes.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\54-count-complete-tree-nodes.cpp" line="41" column="19" info="Variable &apos;left&apos; can be declared as pointer to const"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;right&apos; can be declared as pointer to const" verbose="Variable &apos;right&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Easy/54-count-complete-tree-nodes.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\54-count-complete-tree-nodes.cpp" line="42" column="19" info="Variable &apos;right&apos; can be declared as pointer to const"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countNodes&apos; is never used." verbose="The function &apos;countNodes&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\54-count-complete-tree-nodes.cpp" line="33" column="0"/>
+            <symbol>countNodes</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;status&apos; can be declared as pointer to const" verbose="Parameter &apos;status&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="21" info="Parameter &apos;status&apos; can be declared as pointer to const"/>
+            <symbol>status</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;candies&apos; can be declared as pointer to const" verbose="Parameter &apos;candies&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="50" info="Parameter &apos;candies&apos; can be declared as pointer to const"/>
+            <symbol>candies</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;keysColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;keysColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="107" info="Parameter &apos;keysColSize&apos; can be declared as pointer to const"/>
+            <symbol>keysColSize</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;containedBoxesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;containedBoxesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="171" info="Parameter &apos;containedBoxesColSize&apos; can be declared as pointer to const"/>
+            <symbol>containedBoxesColSize</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;initialBoxes&apos; can be declared as pointer to const" verbose="Parameter &apos;initialBoxes&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1975-maximum-candies-you-can-get-from-boxes.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="199" info="Parameter &apos;initialBoxes&apos; can be declared as pointer to const"/>
+            <symbol>initialBoxes</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxCandies&apos; is never used." verbose="The function &apos;maxCandies&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1975-maximum-candies-you-can-get-from-boxes.c" line="37" column="0"/>
+            <symbol>maxCandies</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

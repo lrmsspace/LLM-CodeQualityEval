@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;d&lt;-2147483648&apos; is redundant or the array &apos;f[2147483648][2147483648]&apos; is accessed at index f[*][-2147483648], which is out of bounds." verbose="Either the condition &apos;d&lt;-2147483648&apos; is redundant or the array &apos;f[2147483648][2147483648]&apos; is accessed at index f[*][-2147483648], which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1835-arithmetic-slices-ii-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="40" column="14" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="39" column="22" info="diff is assigned &apos;(int)d&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="36" column="19" info="Assuming that condition &apos;d&lt;-2147483648&apos; is not redundant"/>
+        </error>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;d&lt;-2147483648&apos; is redundant or the array &apos;f[2147483648][2147483648]&apos; is accessed at index f[*][-2147483648], which is out of bounds." verbose="Either the condition &apos;d&lt;-2147483648&apos; is redundant or the array &apos;f[2147483648][2147483648]&apos; is accessed at index f[*][-2147483648], which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1835-arithmetic-slices-ii-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="41" column="21" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="39" column="22" info="diff is assigned &apos;(int)d&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="36" column="19" info="Assuming that condition &apos;d&lt;-2147483648&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1835-arithmetic-slices-ii-subsequence.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="29" column="35" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfArithmeticSlices&apos; is never used." verbose="The function &apos;numberOfArithmeticSlices&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1835-arithmetic-slices-ii-subsequence.c" line="29" column="0"/>
+            <symbol>numberOfArithmeticSlices</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

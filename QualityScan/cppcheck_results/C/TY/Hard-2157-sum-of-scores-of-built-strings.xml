@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2157-sum-of-scores-of-built-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2157-sum-of-scores-of-built-strings.c" line="30" column="28" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;dp&apos; can be declared as pointer to const" verbose="Variable &apos;dp&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2157-sum-of-scores-of-built-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2157-sum-of-scores-of-built-strings.c" line="33" column="10" info="Variable &apos;dp&apos; can be declared as pointer to const"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: k" verbose="Uninitialized variable: k" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2157-sum-of-scores-of-built-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2157-sum-of-scores-of-built-strings.c" line="35" column="20"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2157-sum-of-scores-of-built-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2157-sum-of-scores-of-built-strings.c" line="32" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumScores&apos; is never used." verbose="The function &apos;sumScores&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2157-sum-of-scores-of-built-strings.c" line="30" column="0"/>
+            <symbol>sumScores</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

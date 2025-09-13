@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;point&apos; can be declared as reference to const" verbose="Variable &apos;point&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1549-count-number-of-rectangles-containing-each-point.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1549-count-number-of-rectangles-containing-each-point.cpp" line="39" column="20" info="Variable &apos;point&apos; can be declared as reference to const"/>
+            <symbol>point</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;rectangle&apos; can be declared as reference to const" verbose="Variable &apos;rectangle&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1549-count-number-of-rectangles-containing-each-point.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1549-count-number-of-rectangles-containing-each-point.cpp" line="41" column="24" info="Variable &apos;rectangle&apos; can be declared as reference to const"/>
+            <symbol>rectangle</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1549-count-number-of-rectangles-containing-each-point.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1549-count-number-of-rectangles-containing-each-point.cpp" line="43" column="21"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countRectangles&apos; is never used." verbose="The function &apos;countRectangles&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1549-count-number-of-rectangles-containing-each-point.cpp" line="37" column="0"/>
+            <symbol>countRectangles</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

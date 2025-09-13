@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;coordA&apos; can be declared as pointer to const" verbose="Variable &apos;coordA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Hard/3288-length-of-the-longest-increasing-path.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3288-length-of-the-longest-increasing-path.c" line="33" column="14" info="Variable &apos;coordA&apos; can be declared as pointer to const"/>
+            <symbol>coordA</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;coordB&apos; can be declared as pointer to const" verbose="Variable &apos;coordB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Hard/3288-length-of-the-longest-increasing-path.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3288-length-of-the-longest-increasing-path.c" line="34" column="14" info="Variable &apos;coordB&apos; can be declared as pointer to const"/>
+            <symbol>coordB</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxPathLength&apos; is never used." verbose="The function &apos;maxPathLength&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3288-length-of-the-longest-increasing-path.c" line="26" column="0"/>
+            <symbol>maxPathLength</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

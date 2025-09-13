@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="truncLongCastReturn" severity="style" msg="int result is returned as long long value. If the return value is long long to avoid loss of information, then you have loss of information." verbose="int result is returned as long long value. If the return value is long long to avoid loss of information, then there is loss of information. To avoid loss of information you must cast a calculation operand to long, for example &apos;return a*b;&apos; =&gt; &apos;return (long)a*b&apos;." cwe="197" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1680-count-total-number-of-colored-cells.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1680-count-total-number-of-colored-cells.c" line="20" column="5"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;coloredCells&apos; is never used." verbose="The function &apos;coloredCells&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1680-count-total-number-of-colored-cells.c" line="19" column="0"/>
+            <symbol>coloredCells</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

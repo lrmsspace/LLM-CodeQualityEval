@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="0" column="0"/>
+        </error>
+        <error id="memsetValueOutOfRange" severity="warning" msg="The 2nd memset() argument &apos;2147483647&apos; doesn&apos;t fit into an &apos;unsigned char&apos;." verbose="The 2nd memset() argument &apos;2147483647&apos; doesn&apos;t fit into an &apos;unsigned char&apos;. The 2nd parameter is passed as an &apos;int&apos;, but the function fills the block of memory using the &apos;unsigned char&apos; conversion of this value." cwe="686" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="42" column="18"/>
+        </error>
+        <error id="memsetValueOutOfRange" severity="warning" msg="The 2nd memset() argument &apos;2147483647&apos; doesn&apos;t fit into an &apos;unsigned char&apos;." verbose="The 2nd memset() argument &apos;2147483647&apos; doesn&apos;t fit into an &apos;unsigned char&apos;. The 2nd parameter is passed as an &apos;int&apos;, but the function fills the block of memory using the &apos;unsigned char&apos; conversion of this value." cwe="686" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="46" column="19"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;start&apos; can be declared as pointer to const" verbose="Parameter &apos;start&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="39" column="22" info="Parameter &apos;start&apos; can be declared as pointer to const"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;target&apos; can be declared as pointer to const" verbose="Parameter &apos;target&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="39" column="49" info="Parameter &apos;target&apos; can be declared as pointer to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y1&apos; is assigned a value that is never used." verbose="Variable &apos;y1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="48" column="41"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="48" column="91"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="39" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;max_sum&apos; can be reduced." verbose="The scope of the variable &apos;max_sum&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="31" column="34"/>
+            <symbol>max_sum</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;sum&apos; can be reduced." verbose="The scope of the variable &apos;sum&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="31" column="43"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;vals&apos; can be declared as pointer to const" verbose="Parameter &apos;vals&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="30" column="21" info="Parameter &apos;vals&apos; can be declared as pointer to const"/>
+            <symbol>vals</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="31" column="55" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="31" column="59" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;max_sums&apos; can be declared as pointer to const" verbose="Variable &apos;max_sums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="32" column="10" info="Variable &apos;max_sums&apos; can be declared as pointer to const"/>
+            <symbol>max_sums</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;max_sums_i&apos; can be declared as pointer to const" verbose="Variable &apos;max_sums_i&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="32" column="21" info="Variable &apos;max_sums_i&apos; can be declared as pointer to const"/>
+            <symbol>max_sums_i</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;max_sums_j&apos; can be declared as pointer to const" verbose="Variable &apos;max_sums_j&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="32" column="34" info="Variable &apos;max_sums_j&apos; can be declared as pointer to const"/>
+            <symbol>max_sums_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_sums&apos; is assigned a value that is never used." verbose="Variable &apos;max_sums&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="35" column="14"/>
+            <symbol>max_sums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_sums_i&apos; is assigned a value that is never used." verbose="Variable &apos;max_sums_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="36" column="16"/>
+            <symbol>max_sums_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_sums_j&apos; is assigned a value that is never used." verbose="Variable &apos;max_sums_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="37" column="16"/>
+            <symbol>max_sums_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_i&apos; is assigned a value that is never used." verbose="Variable &apos;max_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="40" column="15"/>
+            <symbol>max_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_j&apos; is assigned a value that is never used." verbose="Variable &apos;max_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="41" column="15"/>
+            <symbol>max_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_i&apos; is assigned a value that is never used." verbose="Variable &apos;max_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="54" column="15"/>
+            <symbol>max_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_j&apos; is assigned a value that is never used." verbose="Variable &apos;max_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="55" column="15"/>
+            <symbol>max_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_sum&apos; is assigned a value that is never used." verbose="Variable &apos;max_sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="67" column="17"/>
+            <symbol>max_sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="68" column="13"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="73" column="21"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="77" column="15"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;max_sums&apos; is allocated memory that is never used." verbose="Variable &apos;max_sums&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="35" column="29"/>
+            <symbol>max_sums</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;max_sums_i&apos; is allocated memory that is never used." verbose="Variable &apos;max_sums_i&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="36" column="31"/>
+            <symbol>max_sums_i</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;max_sums_j&apos; is allocated memory that is never used." verbose="Variable &apos;max_sums_j&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1644-maximum-star-sum-of-a-graph.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="37" column="31"/>
+            <symbol>max_sums_j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxStarSum&apos; is never used." verbose="The function &apos;maxStarSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1644-maximum-star-sum-of-a-graph.c" line="30" column="0"/>
+            <symbol>maxStarSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

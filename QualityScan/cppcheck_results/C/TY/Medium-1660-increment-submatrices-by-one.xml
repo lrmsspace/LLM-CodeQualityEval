@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;row1&apos; is assigned a value that is never used." verbose="Variable &apos;row1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1660-increment-submatrices-by-one.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1660-increment-submatrices-by-one.c" line="35" column="18"/>
+            <symbol>row1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;col1&apos; is assigned a value that is never used." verbose="Variable &apos;col1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1660-increment-submatrices-by-one.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1660-increment-submatrices-by-one.c" line="36" column="18"/>
+            <symbol>col1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;row2&apos; is assigned a value that is never used." verbose="Variable &apos;row2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1660-increment-submatrices-by-one.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1660-increment-submatrices-by-one.c" line="37" column="18"/>
+            <symbol>row2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;rangeAddQueries&apos; is never used." verbose="The function &apos;rangeAddQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1660-increment-submatrices-by-one.c" line="29" column="0"/>
+            <symbol>rangeAddQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

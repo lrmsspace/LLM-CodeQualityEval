@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;name&apos; can be declared as pointer to const" verbose="Variable &apos;name&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="32" column="15" info="Variable &apos;name&apos; can be declared as pointer to const"/>
+            <symbol>name</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;time&apos; can be declared as pointer to const" verbose="Variable &apos;time&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="33" column="15" info="Variable &apos;time&apos; can be declared as pointer to const"/>
+            <symbol>time</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;amount&apos; can be declared as pointer to const" verbose="Variable &apos;amount&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="34" column="15" info="Variable &apos;amount&apos; can be declared as pointer to const"/>
+            <symbol>amount</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;city&apos; can be declared as pointer to const" verbose="Variable &apos;city&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="35" column="15" info="Variable &apos;city&apos; can be declared as pointer to const"/>
+            <symbol>city</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;name&apos; is assigned a value that is never used." verbose="Variable &apos;name&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="32" column="20"/>
+            <symbol>name</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;time&apos; is assigned a value that is never used." verbose="Variable &apos;time&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="33" column="20"/>
+            <symbol>time</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;city&apos; is assigned a value that is never used." verbose="Variable &apos;city&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="35" column="20"/>
+            <symbol>city</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;invalidTransactions&apos; is never used." verbose="The function &apos;invalidTransactions&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="28" column="0"/>
+            <symbol>invalidTransactions</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

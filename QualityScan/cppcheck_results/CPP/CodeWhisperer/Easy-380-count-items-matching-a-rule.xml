@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;item&apos; can be declared as reference to const" verbose="Variable &apos;item&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Easy/380-count-items-matching-a-rule.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\380-count-items-matching-a-rule.cpp" line="27" column="20" info="Variable &apos;item&apos; can be declared as reference to const"/>
+            <symbol>item</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Easy/380-count-items-matching-a-rule.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\380-count-items-matching-a-rule.cpp" line="31" column="17"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countMatches&apos; is never used." verbose="The function &apos;countMatches&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\380-count-items-matching-a-rule.cpp" line="25" column="0"/>
+            <symbol>countMatches</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

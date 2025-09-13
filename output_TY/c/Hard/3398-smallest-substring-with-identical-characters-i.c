@@ -1,0 +1,62 @@
+/*
+ You are given a binary string s of length n and an integer numOps.
+ You are allowed to perform the following operation on s at most numOps times:
+ Select any index i (where 0 <= i < n) and flip s[i]. If s[i] == '1', change s[i] to '0' and vice versa.
+ You need to minimize the length of the longest substring of s such that all the characters in the substring are identical.
+ Return the minimum length after the operations.
+ Example 1:
+ Input: s = "000001", numOps = 1
+ Output: 2
+ Explanation: 
+ By changing s[2] to '1', s becomes "001001". The longest substrings with identical characters are s[0..1] and s[3..4].
+ Example 2:
+ Input: s = "0000", numOps = 2
+ Output: 1
+ Explanation: 
+ By changing s[0] and s[2] to '1', s becomes "1010".
+ Example 3:
+ Input: s = "0101", numOps = 0
+ Output: 1
+ Constraints:
+ 1 <= n == s.length <= 1000
+ s consists only of '0' and '1'.
+ 0 <= numOps <= n
+*/
+
+int minLength(char* s, int numOps) {
+    int i, j, n, m, k, l, r, t, ans, cnt, flag;
+    n = strlen(s);
+    if (numOps >= n) return 1;
+    if (numOps == 0) return n;
+    
+    for (i = 0; i < n; i++) {
+        if (s[i] == '1') break;
+    }
+    if (i == n) return 1;
+    
+    for (j = n - 1; j >= 0; j--) {
+        if (s[j] == '0') break;
+    }
+    if (j == -1) return 1;
+    
+    ans = j - i + 1;
+    for (k = i; k <= j; k++) {
+        if (s[k] == '1') {
+            flag = 0;
+            for (l = k - 1; l >= 0; l--) {
+                if (s[l] == '1') flag = 1;
+                else break;
+            }
+            for (r = k + 1; r < n; r++) {
+                if (s[r] == '1') flag = 1;
+                else break;
+            }
+            if (flag == 0) {
+                ans = min(ans, r - l - 1);
+            }
+        }
+    }   
+    return ans;
+
+    
+}

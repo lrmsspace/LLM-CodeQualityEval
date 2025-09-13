@@ -1,0 +1,36 @@
+/**https://leetcode.com/problems/valid-boomerang/ */
+//Given an array points where points[i] = [xi, yi] represents a point on the X-Y plane, return true if these points are a boomerang.
+//A boomerang is a set of three points that are all distinct and not in a straight line.
+// 
+//Example 1:
+//Input: points = [[1,1],[2,3],[3,2]]
+//Output: true
+//Example 2:
+//Input: points = [[1,1],[2,2],[3,3]]
+//Output: false
+// 
+//Constraints:
+//	points.length == 3
+//	points[i].length == 2
+//	0 <= xi, yi <= 100
+/**
+ * @param {number[][]} points
+ * @return {boolean}
+ */
+var isBoomerang = function(points) {
+    let [x1, y1] = points[0];
+    let [x2, y2] = points[1];
+    let [x3, y3] = points[2];
+    
+    // If the points are collinear, they cannot form a boomerang.
+    if ((x2 - x1) * (y3 - y2) === (x3 - x2) * (y2 - y1)) {
+        return false;
+    }
+    
+    // Calculate the slope of the line connecting the first two points.
+    let slope = (y2 - y1) / (x2 - x1);
+    
+    // Check if the slope of the line connecting the second and third points is the same.
+    return (slope === (y3 - y2) / (x3 - x2));
+    
+};

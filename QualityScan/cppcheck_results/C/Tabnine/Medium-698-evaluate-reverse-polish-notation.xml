@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: stack" verbose="Uninitialized variable: stack" cwe="457" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/698-evaluate-reverse-polish-notation.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\698-evaluate-reverse-polish-notation.c" line="54" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\698-evaluate-reverse-polish-notation.c" line="38" column="23" info="Assuming condition is false"/>
+            <symbol>stack</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;evalRPN&apos; is never used." verbose="The function &apos;evalRPN&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\698-evaluate-reverse-polish-notation.c" line="34" column="0"/>
+            <symbol>evalRPN</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

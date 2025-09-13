@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="0" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="23"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="27"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="31"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="35"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="39"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="43"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="47"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="51"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="55"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="59"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="63"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="67"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="71"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="75"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="79"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="83"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="87"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="91"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="95"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="99"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="103"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;A&apos; is assigned a value that is never used." verbose="Variable &apos;A&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="107"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;B&apos; is assigned a value that is never used." verbose="Variable &apos;B&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="111"/>
+            <symbol>B</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;C&apos; is assigned a value that is never used." verbose="Variable &apos;C&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="115"/>
+            <symbol>C</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;D&apos; is assigned a value that is never used." verbose="Variable &apos;D&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="119"/>
+            <symbol>D</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;E&apos; is assigned a value that is never used." verbose="Variable &apos;E&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="123"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;F&apos; is assigned a value that is never used." verbose="Variable &apos;F&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="127"/>
+            <symbol>F</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;G&apos; is assigned a value that is never used." verbose="Variable &apos;G&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="131"/>
+            <symbol>G</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;H&apos; is assigned a value that is never used." verbose="Variable &apos;H&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="135"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;I&apos; is assigned a value that is never used." verbose="Variable &apos;I&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="139"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;J&apos; is assigned a value that is never used." verbose="Variable &apos;J&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="143"/>
+            <symbol>J</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;K&apos; is assigned a value that is never used." verbose="Variable &apos;K&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="147"/>
+            <symbol>K</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;L&apos; is assigned a value that is never used." verbose="Variable &apos;L&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="151"/>
+            <symbol>L</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;M&apos; is assigned a value that is never used." verbose="Variable &apos;M&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="155"/>
+            <symbol>M</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;N&apos; is assigned a value that is never used." verbose="Variable &apos;N&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="159"/>
+            <symbol>N</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;O&apos; is assigned a value that is never used." verbose="Variable &apos;O&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="163"/>
+            <symbol>O</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;P&apos; is assigned a value that is never used." verbose="Variable &apos;P&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="167"/>
+            <symbol>P</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;Q&apos; is assigned a value that is never used." verbose="Variable &apos;Q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="171"/>
+            <symbol>Q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;R&apos; is assigned a value that is never used." verbose="Variable &apos;R&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="175"/>
+            <symbol>R</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;S&apos; is assigned a value that is never used." verbose="Variable &apos;S&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="179"/>
+            <symbol>S</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;T&apos; is assigned a value that is never used." verbose="Variable &apos;T&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="183"/>
+            <symbol>T</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;U&apos; is assigned a value that is never used." verbose="Variable &apos;U&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="187"/>
+            <symbol>U</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;V&apos; is assigned a value that is never used." verbose="Variable &apos;V&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="191"/>
+            <symbol>V</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;W&apos; is assigned a value that is never used." verbose="Variable &apos;W&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="195"/>
+            <symbol>W</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;X&apos; is assigned a value that is never used." verbose="Variable &apos;X&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="199"/>
+            <symbol>X</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;Y&apos; is assigned a value that is never used." verbose="Variable &apos;Y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="203"/>
+            <symbol>Y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;Z&apos; is assigned a value that is never used." verbose="Variable &apos;Z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1806-basic-calculator.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="25" column="207"/>
+            <symbol>Z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;calculate&apos; is never used." verbose="The function &apos;calculate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1806-basic-calculator.c" line="23" column="0"/>
+            <symbol>calculate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

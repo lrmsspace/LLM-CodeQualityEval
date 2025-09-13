@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;candiesCount&apos; can be declared as pointer to const" verbose="Parameter &apos;candiesCount&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c" line="34" column="19" info="Parameter &apos;candiesCount&apos; can be declared as pointer to const"/>
+            <symbol>candiesCount</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;type&apos; is assigned a value that is never used." verbose="Variable &apos;type&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c" line="42" column="18"/>
+            <symbol>type</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cap&apos; is assigned a value that is never used." verbose="Variable &apos;cap&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c" line="44" column="17"/>
+            <symbol>cap</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canEat&apos; is never used." verbose="The function &apos;canEat&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1356-can-you-eat-your-favorite-candy-on-your-favorite-day.c" line="34" column="0"/>
+            <symbol>canEat</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflowCond" severity="warning" msg="Either the condition &apos;numsSize&gt;0&apos; is redundant or there is signed integer overflow for expression &apos;numsSize-1&apos;." verbose="Either the condition &apos;numsSize&gt;0&apos; is redundant or there is signed integer overflow for expression &apos;numsSize-1&apos;." cwe="190" file0="F:/Benchmark/new/Copilot/output/c/Easy/2974-minimum-number-game.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="43" column="43" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="38" column="9" info="numsSize is decremented&apos;, new value is 0"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="33" column="21" info="Assuming that condition &apos;numsSize&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="signConversionCond" severity="warning" msg="Expression &apos;numsSize-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;numsSize-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="F:/Benchmark/new/Copilot/output/c/Easy/2974-minimum-number-game.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="43" column="43" info="Negative value is converted to an unsigned value"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="38" column="9" info="numsSize is decremented&apos;, new value is 0"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="33" column="21" info="Assuming that condition &apos;numsSize&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberGame&apos; is never used." verbose="The function &apos;numberGame&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Easy\2974-minimum-number-game.c" line="25" column="0"/>
+            <symbol>numberGame</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

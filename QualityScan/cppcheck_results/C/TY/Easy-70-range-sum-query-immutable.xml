@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/70-range-sum-query-immutable.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="35" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/70-range-sum-query-immutable.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="39" column="1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/70-range-sum-query-immutable.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="33" column="31" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/70-range-sum-query-immutable.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="37" column="32" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/70-range-sum-query-immutable.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="41" column="29" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numArrayCreate&apos; is never used." verbose="The function &apos;numArrayCreate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="33" column="0"/>
+            <symbol>numArrayCreate</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numArraySumRange&apos; is never used." verbose="The function &apos;numArraySumRange&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="37" column="0"/>
+            <symbol>numArraySumRange</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numArrayFree&apos; is never used." verbose="The function &apos;numArrayFree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\70-range-sum-query-immutable.c" line="41" column="0"/>
+            <symbol>numArrayFree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obstacles&apos; can be declared as pointer to const" verbose="Parameter &apos;obstacles&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="43" column="47" info="Parameter &apos;obstacles&apos; can be declared as pointer to const"/>
+            <symbol>obstacles</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;dp&apos; can be declared as pointer to const" verbose="Variable &apos;dp&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="45" column="10" info="Variable &apos;dp&apos; can be declared as pointer to const"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;stack&apos; can be declared as pointer to const" verbose="Variable &apos;stack&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="46" column="10" info="Variable &apos;stack&apos; can be declared as pointer to const"/>
+            <symbol>stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dp&apos; is assigned a value that is never used." verbose="Variable &apos;dp&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="45" column="13"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;stack&apos; is assigned a value that is never used." verbose="Variable &apos;stack&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="46" column="16"/>
+            <symbol>stack</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;top&apos; is assigned a value that is never used." verbose="Variable &apos;top&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="47" column="13"/>
+            <symbol>top</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_len&apos; is assigned a value that is never used." verbose="Variable &apos;max_len&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="48" column="17"/>
+            <symbol>max_len</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur&apos; is assigned a value that is never used." verbose="Variable &apos;cur&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="50" column="17"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;dp&apos; is allocated memory that is never used." verbose="Variable &apos;dp&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="45" column="28"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;stack&apos; is allocated memory that is never used." verbose="Variable &apos;stack&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2106-find-the-longest-valid-obstacle-course-at-each-position.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="46" column="31"/>
+            <symbol>stack</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestObstacleCourseAtEachPosition&apos; is never used." verbose="The function &apos;longestObstacleCourseAtEachPosition&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2106-find-the-longest-valid-obstacle-course-at-each-position.c" line="43" column="0"/>
+            <symbol>longestObstacleCourseAtEachPosition</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

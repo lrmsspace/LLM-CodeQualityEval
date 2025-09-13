@@ -1,0 +1,46 @@
+/**https://leetcode.com/problems/smallest-string-starting-from-leaf/ */
+//You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters 'a' to 'z'.
+//Return the lexicographically smallest string that starts at a leaf of this tree and ends at the root.
+//As a reminder, any shorter prefix of a string is lexicographically smaller.
+//	For example, "ab" is lexicographically smaller than "aba".
+//A leaf of a node is a node that has no children.
+// 
+//Example 1:
+//Input: root = [0,1,2,3,4,3,4]
+//Output: "dba"
+//Example 2:
+//Input: root = [25,1,3,1,3,0,2]
+//Output: "adz"
+//Example 3:
+//Input: root = [2,2,1,null,1,0,null,0]
+//Output: "abc"
+// 
+//Constraints:
+//	The number of nodes in the tree is in the range [1, 8500].
+//	0 <= Node.val <= 25
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {string}
+ */
+var smallestFromLeaf = function(root) {
+    let res = 'z'.repeat(1000); // Initialize with a string larger than any possible result
+    function dfs(node, path) {
+        if (!node) return;
+        path = String.fromCharCode(node.val + 97) + path; // Convert node value to character and prepend to path
+        if (!node.left && !node.right) { // Leaf node
+            res = res < path ? res : path; // Update result if current path is smaller
+        }
+        dfs(node.left, path);
+        dfs(node.right, path);
+    }
+    dfs(root, '');
+    return res;    
+};

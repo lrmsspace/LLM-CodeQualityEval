@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;name&apos; can be declared as pointer to const" verbose="Variable &apos;name&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="34" column="15" info="Variable &apos;name&apos; can be declared as pointer to const"/>
+            <symbol>name</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;city&apos; can be declared as pointer to const" verbose="Variable &apos;city&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="37" column="15" info="Variable &apos;city&apos; can be declared as pointer to const"/>
+            <symbol>city</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;otherCity&apos; can be declared as pointer to const" verbose="Variable &apos;otherCity&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="45" column="19" info="Variable &apos;otherCity&apos; can be declared as pointer to const"/>
+            <symbol>otherCity</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;otherAmount&apos; is assigned a value that is never used." verbose="Variable &apos;otherAmount&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1138-invalid-transactions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="44" column="29"/>
+            <symbol>otherAmount</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;invalidTransactions&apos; is never used." verbose="The function &apos;invalidTransactions&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1138-invalid-transactions.c" line="28" column="0"/>
+            <symbol>invalidTransactions</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

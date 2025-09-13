@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;x&apos; can be declared as pointer to const" verbose="Parameter &apos;x&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Medium/3572-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\3572-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues.c" line="25" column="32" info="Parameter &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;y&apos; can be declared as pointer to const" verbose="Parameter &apos;y&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Medium/3572-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\3572-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues.c" line="25" column="51" info="Parameter &apos;y&apos; can be declared as pointer to const"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxSumDistinctTriplet&apos; is never used." verbose="The function &apos;maxSumDistinctTriplet&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\3572-maximize-ysum-by-picking-a-triplet-of-distinct-xvalues.c" line="25" column="0"/>
+            <symbol>maxSumDistinctTriplet</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

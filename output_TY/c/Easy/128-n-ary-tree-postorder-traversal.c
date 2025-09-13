@@ -1,0 +1,63 @@
+/**https://leetcode.com/problems/n-ary-tree-postorder-traversal/ */
+//Given the root of an n-ary tree, return the postorder traversal of its nodes' values.
+//Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
+// 
+//Example 1:
+//Input: root = [1,null,3,2,4,null,5,6]
+//Output: [5,6,3,2,4,1]
+//Example 2:
+//Input: root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+//Output: [2,6,14,11,7,3,12,8,4,13,9,10,5,1]
+// 
+//Constraints:
+//	The number of nodes in the tree is in the range [0, 104].
+//	0 <= Node.val <= 104
+//	The height of the n-ary tree is less than or equal to 1000.
+// 
+//Follow up: Recursive solution is trivial, could you do it iteratively?
+/**
+ * Definition for a Node.
+ * struct Node {
+ *     int val;
+ *     int numChildren;
+ *     struct Node** children;
+ * };
+ */
+
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* postorder(struct Node* root, int* returnSize) {
+    *returnSize = 0;
+    
+    if (root == NULL) {
+        return NULL;
+    }
+    
+    int* result = malloc(sizeof(int) * 10000);
+    
+    struct Node** stack = malloc(sizeof(struct Node*) * 10000);
+    int stackSize = 0;
+    
+    struct Node* current = root;
+    
+    while (current != NULL || stackSize > 0) {
+        while (current != NULL) {
+            stack[stackSize++] = current;
+            current= current->children[0];
+        }
+    }
+    
+    while (stackSize > 0) {
+        struct Node* node = stack[--stackSize];
+        result[(*returnSize)++] = node->val;
+        
+        int i;
+        for (i = 1; i < node->numChildren; i++) {
+            stack[stackSize++] = node->children[i];
+        }
+    }
+    
+    free(stack);
+    return result;
+}

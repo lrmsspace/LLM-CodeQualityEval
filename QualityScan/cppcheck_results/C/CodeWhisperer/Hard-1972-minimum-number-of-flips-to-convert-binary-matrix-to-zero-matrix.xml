@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;matColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;matColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="25" column="43" info="Parameter &apos;matColSize&apos; can be declared as pointer to const"/>
+            <symbol>matColSize</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;queue&apos; can be declared as pointer to const" verbose="Variable &apos;queue&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="28" column="10" info="Variable &apos;queue&apos; can be declared as pointer to const"/>
+            <symbol>queue</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue&apos; is assigned a value that is never used." verbose="Variable &apos;queue&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="28" column="16"/>
+            <symbol>queue</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;front&apos; is assigned a value that is never used." verbose="Variable &apos;front&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="30" column="15"/>
+            <symbol>front</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rear&apos; is assigned a value that is never used." verbose="Variable &apos;rear&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="30" column="25"/>
+            <symbol>rear</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;queue&apos; is allocated memory that is never used." verbose="Variable &apos;queue&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="28" column="31"/>
+            <symbol>queue</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minFlips&apos; is never used." verbose="The function &apos;minFlips&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1972-minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.c" line="25" column="0"/>
+            <symbol>minFlips</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

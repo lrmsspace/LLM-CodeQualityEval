@@ -1,0 +1,55 @@
+#https://leetcode.com/problems/cherry-pickup/
+#You are given an n x n grid representing a field of cherries, each cell is one of three possible integers.
+#	0 means the cell is empty, so you can pass through,
+#	1 means the cell contains a cherry that you can pick up and pass through, or
+#	-1 means the cell contains a thorn that blocks your way.
+#Return the maximum number of cherries you can collect by following the rules below:
+#	Starting at the position (0, 0) and reaching (n - 1, n - 1) by moving right or down through valid path cells (cells with value 0 or 1).
+#	After reaching (n - 1, n - 1), returning to (0, 0) by moving left or up through valid path cells.
+#	When passing through a path cell containing a cherry, you pick it up, and the cell becomes an empty cell 0.
+#	If there is no valid path between (0, 0) and (n - 1, n - 1), then no cherries can be collected.
+# 
+#Example 1:
+#Input: grid = [[0,1,-1],[1,0,-1],[1,1,1]]
+#Output: 5
+#Explanation: The player started at (0, 0) and went down, down, right right to reach (2, 2).
+#4 cherries were picked up during this single trip, and the matrix becomes [[0,1,-1],[0,0,-1],[0,0,0]].
+#Then, the player went left, up, up, left to return home, picking up one more cherry.
+#The total number of cherries picked up is 5, and this is the maximum possible.
+#Example 2:
+#Input: grid = [[1,1,-1],[1,-1,1],[-1,1,1]]
+#Output: 0
+# 
+#Constraints:
+#	n == grid.length
+#	n == grid[i].length
+#	1 <= n <= 50
+#	grid[i][j] is -1, 0, or 1.
+#	grid[0][0] != -1
+#	grid[n - 1][n - 1] != -1
+class Solution(object):
+    def cherryPickup(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        n = len(grid)
+        dp = [[[0] * n for _ in range(n)] for _ in range(n)]
+        dp[0][0][0] = grid[0][0]
+        for k in range(1, 2 * n - 1):
+            for i1 in range(max(0, k - n + 1), min(k + 1, n)):
+                for i2 in range(max(0, k - n + 1), min(k + 1, n)):
+                    j1, j2 = k - i1, k - i2
+                    if grid[i1][j1] == -1 or grid[i2][j2] == -1:
+                        dp[i1][i2][k] = -1
+                        continue
+                    if i1 > 0:
+                        dp[i1][i2][k] = max(dp[i1][i2][k], dp[i1 - 1][i2][k - 1])
+                    if i2 > 0:
+                        dp[i1][i2][k] = max(dp[i1][i2][k], dp[i1][i2 - 1][k - 1])
+                    if i1 > 0 and i2 > 0:
+                        dp[i1][i2][k] = max(dp[i1][i2][k], dp[i1 - 1][i2 - 1][k - 1])
+                    if dp[i1][i2][k] >= 0:
+                        dp[i1][i2][k] += grid[i1][j1] + (grid[i2][j2] if i1 != i2 else 0)
+        return max(dp[n - 1][n - 1][2 * n - 2], 0)
+        

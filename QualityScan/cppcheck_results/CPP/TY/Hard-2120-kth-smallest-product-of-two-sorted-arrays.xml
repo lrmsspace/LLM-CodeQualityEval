@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;left&lt;=right&apos; is always true" verbose="Condition &apos;left&lt;=right&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2120-kth-smallest-product-of-two-sorted-arrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2120-kth-smallest-product-of-two-sorted-arrays.cpp" line="41" column="21" info="Condition &apos;left&lt;=right&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2120-kth-smallest-product-of-two-sorted-arrays.cpp" line="40" column="27" info="Assignment &apos;left=-1e15&apos;, assigned value is -1000000000000000"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt&apos; is assigned a value that is never used." verbose="Variable &apos;cnt&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2120-kth-smallest-product-of-two-sorted-arrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2120-kth-smallest-product-of-two-sorted-arrays.cpp" line="43" column="27"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthSmallestProduct&apos; is never used." verbose="The function &apos;kthSmallestProduct&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2120-kth-smallest-product-of-two-sorted-arrays.cpp" line="38" column="0"/>
+            <symbol>kthSmallestProduct</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

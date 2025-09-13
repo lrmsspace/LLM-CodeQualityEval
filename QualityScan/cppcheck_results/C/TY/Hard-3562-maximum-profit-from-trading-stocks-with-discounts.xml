@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;present&apos; can be declared as pointer to const" verbose="Parameter &apos;present&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="55" column="27" info="Parameter &apos;present&apos; can be declared as pointer to const"/>
+            <symbol>present</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;future&apos; can be declared as pointer to const" verbose="Parameter &apos;future&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="55" column="58" info="Parameter &apos;future&apos; can be declared as pointer to const"/>
+            <symbol>future</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="42" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="18"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="21"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="24"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="27"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;q&apos; is allocated memory that is never used." verbose="Variable &apos;q&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="57" column="9"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="46"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="50"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="54"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="58"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="62"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="66"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="70"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: fut" verbose="Unused variable: fut" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="74"/>
+            <symbol>fut</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pre" verbose="Unused variable: pre" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="80"/>
+            <symbol>pre</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: hier" verbose="Unused variable: hier" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="56" column="86"/>
+            <symbol>hier</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfit&apos; is never used." verbose="The function &apos;maxProfit&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.c" line="55" column="0"/>
+            <symbol>maxProfit</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

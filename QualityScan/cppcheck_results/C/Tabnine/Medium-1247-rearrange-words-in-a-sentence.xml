@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="36" column="23"/>
+        </error>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="50" column="23"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;arrangeWords&apos; is never used." verbose="The function &apos;arrangeWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="29" column="0"/>
+            <symbol>arrangeWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

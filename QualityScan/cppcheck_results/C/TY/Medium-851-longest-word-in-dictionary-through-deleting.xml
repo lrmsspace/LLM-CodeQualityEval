@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="0" column="0"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="45" column="25"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="39"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="42"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="45"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="48"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="51"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="54"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="17" column="57"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="19" column="9"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="20" column="9"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="21" column="9"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="22" column="9"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="23" column="9"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="24" column="8"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i3" verbose="Unused variable: i3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="17"/>
+            <symbol>i3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i4" verbose="Unused variable: i4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="21"/>
+            <symbol>i4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i5" verbose="Unused variable: i5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="25"/>
+            <symbol>i5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i6" verbose="Unused variable: i6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="29"/>
+            <symbol>i6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i7" verbose="Unused variable: i7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="33"/>
+            <symbol>i7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i8" verbose="Unused variable: i8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="37"/>
+            <symbol>i8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i9" verbose="Unused variable: i9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="41"/>
+            <symbol>i9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i10" verbose="Unused variable: i10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="25" column="45"/>
+            <symbol>i10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j1" verbose="Unused variable: j1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="9"/>
+            <symbol>j1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j2" verbose="Unused variable: j2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="13"/>
+            <symbol>j2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j3" verbose="Unused variable: j3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="17"/>
+            <symbol>j3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j4" verbose="Unused variable: j4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="21"/>
+            <symbol>j4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j5" verbose="Unused variable: j5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="25"/>
+            <symbol>j5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j6" verbose="Unused variable: j6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="29"/>
+            <symbol>j6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j7" verbose="Unused variable: j7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="33"/>
+            <symbol>j7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j8" verbose="Unused variable: j8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="37"/>
+            <symbol>j8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j9" verbose="Unused variable: j9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="41"/>
+            <symbol>j9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j10" verbose="Unused variable: j10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="26" column="45"/>
+            <symbol>j10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="9"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="13"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="17"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="21"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k5" verbose="Unused variable: k5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="25"/>
+            <symbol>k5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k6" verbose="Unused variable: k6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="29"/>
+            <symbol>k6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k7" verbose="Unused variable: k7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="33"/>
+            <symbol>k7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k8" verbose="Unused variable: k8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="37"/>
+            <symbol>k8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k9" verbose="Unused variable: k9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="41"/>
+            <symbol>k9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k10" verbose="Unused variable: k10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/851-longest-word-in-dictionary-through-deleting.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="27" column="45"/>
+            <symbol>k10</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findLongestWord&apos; is never used." verbose="The function &apos;findLongestWord&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\851-longest-word-in-dictionary-through-deleting.c" line="16" column="0"/>
+            <symbol>findLongestWord</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

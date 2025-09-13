@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="28"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="35"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="42"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="49"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="56"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="63"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="70"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="77"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="84"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="91"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="97"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="104"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="33" column="111"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="34" column="7"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/524-apply-operations-to-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="34" column="14"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;applyOperations&apos; is never used." verbose="The function &apos;applyOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\524-apply-operations-to-an-array.c" line="31" column="0"/>
+            <symbol>applyOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

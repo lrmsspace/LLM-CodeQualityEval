@@ -1,0 +1,6 @@
+projectKey=CodeWhisperer_C
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=CodeWhisperer_C
+ceTaskId=1bdfc836-9328-40df-bcd1-cb326d424618
+ceTaskUrl=http://localhost:9000/api/ce/task?id=1bdfc836-9328-40df-bcd1-cb326d424618

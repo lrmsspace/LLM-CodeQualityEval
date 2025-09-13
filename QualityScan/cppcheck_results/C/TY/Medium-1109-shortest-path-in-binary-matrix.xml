@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="23" column="61" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;visited&apos; can be declared as pointer to const" verbose="Variable &apos;visited&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="27" column="10" info="Variable &apos;visited&apos; can be declared as pointer to const"/>
+            <symbol>visited</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;visited&apos; is assigned a value that is never used." verbose="Variable &apos;visited&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="27" column="18"/>
+            <symbol>visited</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="34" column="15"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="34" column="35"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;step&apos; is assigned a value that is never used." verbose="Variable &apos;step&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="34" column="58"/>
+            <symbol>step</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;visited&apos; is allocated memory that is never used." verbose="Variable &apos;visited&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1109-shortest-path-in-binary-matrix.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="27" column="33"/>
+            <symbol>visited</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;shortestPathBinaryMatrix&apos; is never used." verbose="The function &apos;shortestPathBinaryMatrix&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1109-shortest-path-in-binary-matrix.c" line="23" column="0"/>
+            <symbol>shortestPathBinaryMatrix</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

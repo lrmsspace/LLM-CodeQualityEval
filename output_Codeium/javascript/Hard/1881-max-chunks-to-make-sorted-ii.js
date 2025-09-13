@@ -1,0 +1,39 @@
+/**https://leetcode.com/problems/max-chunks-to-make-sorted-ii/ */
+//You are given an integer array arr.
+//We split arr into some number of chunks (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.
+//Return the largest number of chunks we can make to sort the array.
+// 
+//Example 1:
+//Input: arr = [5,4,3,2,1]
+//Output: 1
+//Explanation:
+//Splitting into two or more chunks will not return the required result.
+//For example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn't sorted.
+//Example 2:
+//Input: arr = [2,1,3,4,4]
+//Output: 4
+//Explanation:
+//We can split into two chunks, such as [2, 1], [3, 4, 4].
+//However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks possible.
+// 
+//Constraints:
+//	1 <= arr.length <= 2000
+//	0 <= arr[i] <= 108
+/**
+ * @param {number[]} arr
+ * @return {number}
+ */
+var maxChunksToSorted = function(arr) {
+    let n = arr.length;
+    let dp = new Array(n).fill(0);
+    let prev = -1;
+    for (let i = 0; i < n; i++) {
+        if (arr[i] > prev) {
+            dp[i] = 1 + (i > 0 ? dp[i - 1] : 0);
+            prev = arr[i];
+        } else {
+            dp[i] = dp[i - 1];
+        }
+    }
+    return dp[n - 1];
+};

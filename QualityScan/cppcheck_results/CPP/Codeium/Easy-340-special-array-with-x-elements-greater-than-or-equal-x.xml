@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;cnt[1001]&apos; accessed at index 1001, which is out of bounds." verbose="Array &apos;cnt[1001]&apos; accessed at index 1001, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/340-special-array-with-x-elements-greater-than-or-equal-x.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\340-special-array-with-x-elements-greater-than-or-equal-x.cpp" line="33" column="26" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\340-special-array-with-x-elements-greater-than-or-equal-x.cpp" line="32" column="22" info="Assignment &apos;x=1000&apos;, assigned value is 1000"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/340-special-array-with-x-elements-greater-than-or-equal-x.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\340-special-array-with-x-elements-greater-than-or-equal-x.cpp" line="29" column="15"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;specialArray&apos; is never used." verbose="The function &apos;specialArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\340-special-array-with-x-elements-greater-than-or-equal-x.cpp" line="28" column="0"/>
+            <symbol>specialArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

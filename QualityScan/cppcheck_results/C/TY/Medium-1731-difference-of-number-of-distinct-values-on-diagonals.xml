@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="internalAstError" severity="error" msg="Syntax Error: AST broken, binary operator &apos;+=&apos; doesn&apos;t have two operands." verbose="Syntax Error: AST broken, binary operator &apos;+=&apos; doesn&apos;t have two operands." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1731-difference-of-number-of-distinct-values-on-diagonals.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1731-difference-of-number-of-distinct-values-on-diagonals.c" line="50" column="33"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

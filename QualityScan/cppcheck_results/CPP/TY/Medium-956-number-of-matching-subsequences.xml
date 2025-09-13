@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;words&apos; shadows outer argument" verbose="Local variable &apos;words&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/956-number-of-matching-subsequences.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\956-number-of-matching-subsequences.cpp" line="28" column="19" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\956-number-of-matching-subsequences.cpp" line="21" column="53" info="Shadowed declaration"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numMatchingSubseq&apos; is never used." verbose="The function &apos;numMatchingSubseq&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\956-number-of-matching-subsequences.cpp" line="21" column="0"/>
+            <symbol>numMatchingSubseq</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

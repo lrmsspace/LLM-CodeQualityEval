@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1235-display-table-of-food-orders-in-a-restaurant.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1235-display-table-of-food-orders-in-a-restaurant.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;tableStr&apos; can be declared as pointer to const" verbose="Variable &apos;tableStr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1235-display-table-of-food-orders-in-a-restaurant.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1235-display-table-of-food-orders-in-a-restaurant.c" line="65" column="19" info="Variable &apos;tableStr&apos; can be declared as pointer to const"/>
+            <symbol>tableStr</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sortedTables" verbose="Uninitialized variable: sortedTables" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1235-display-table-of-food-orders-in-a-restaurant.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1235-display-table-of-food-orders-in-a-restaurant.c" line="103" column="15"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1235-display-table-of-food-orders-in-a-restaurant.c" line="99" column="29" info="Assuming condition is false"/>
+            <symbol>sortedTables</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;displayTable&apos; is never used." verbose="The function &apos;displayTable&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1235-display-table-of-food-orders-in-a-restaurant.c" line="52" column="0"/>
+            <symbol>displayTable</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,49 @@
+/**https://leetcode.com/problems/longest-univalue-path/ */
+//Given the root of a binary tree, return the length of the longest path, where each node in the path has the same value. This path may or may not pass through the root.
+//The length of the path between two nodes is represented by the number of edges between them.
+// 
+//Example 1:
+//Input: root = [5,4,5,1,1,null,5]
+//Output: 2
+//Explanation: The shown image shows that the longest path of the same value (i.e. 5).
+//Example 2:
+//Input: root = [1,4,5,4,4,null,5]
+//Output: 2
+//Explanation: The shown image shows that the longest path of the same value (i.e. 4).
+// 
+//Constraints:
+//	The number of nodes in the tree is in the range [0, 104].
+//	-1000 <= Node.val <= 1000
+//	The depth of the tree will not exceed 1000.
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };   
+ */
+
+int helper(struct TreeNode* root, int* max) {
+    if (!root) return 0;
+    int left = helper(root->left, max);
+    int right = helper(root->right, max);
+    if (root->left && root->val == root->left->val) {
+        left++;
+    } else {
+        left = 0;
+    }
+    if (root->right && root->val == root->right->val) {
+        right++;
+    } else {
+        right = 0;
+    }
+    *max = fmax(*max, left + right);
+    return fmax(left, right);
+    
+}
+int longestUnivaluePath(struct TreeNode* root) {
+    int max = 0;
+    helper(root, &max);
+    return max;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1811-expression-add-operators.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;expression&apos; shadows outer variable" verbose="Local variable &apos;expression&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1811-expression-add-operators.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="58" column="23" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="45" column="19" info="Shadowed declaration"/>
+            <symbol>expression</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;expressionLen&apos; shadows outer variable" verbose="Local variable &apos;expressionLen&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1811-expression-add-operators.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="59" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="46" column="17" info="Shadowed declaration"/>
+            <symbol>expressionLen</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;addOperators&apos; is never used." verbose="The function &apos;addOperators&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1811-expression-add-operators.c" line="25" column="0"/>
+            <symbol>addOperators</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

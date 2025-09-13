@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/157-kth-largest-element-in-a-stream.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="38" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/157-kth-largest-element-in-a-stream.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="42" column="1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/157-kth-largest-element-in-a-stream.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="36" column="42" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/157-kth-largest-element-in-a-stream.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="40" column="31" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/157-kth-largest-element-in-a-stream.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="44" column="33" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthLargestCreate&apos; is never used." verbose="The function &apos;kthLargestCreate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="36" column="0"/>
+            <symbol>kthLargestCreate</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthLargestAdd&apos; is never used." verbose="The function &apos;kthLargestAdd&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="40" column="0"/>
+            <symbol>kthLargestAdd</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthLargestFree&apos; is never used." verbose="The function &apos;kthLargestFree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\157-kth-largest-element-in-a-stream.c" line="44" column="0"/>
+            <symbol>kthLargestFree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;positions&apos; can be declared as pointer to const" verbose="Parameter &apos;positions&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="33" info="Parameter &apos;positions&apos; can be declared as pointer to const"/>
+            <symbol>positions</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;directions&apos; can be declared as pointer to const" verbose="Parameter &apos;directions&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="100" info="Parameter &apos;directions&apos; can be declared as pointer to const"/>
+            <symbol>directions</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;survivedRobots&apos; can be declared as pointer to const" verbose="Variable &apos;survivedRobots&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="34" column="10" info="Variable &apos;survivedRobots&apos; can be declared as pointer to const"/>
+            <symbol>survivedRobots</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;survivedRobots&apos; is assigned a value that is never used." verbose="Variable &apos;survivedRobots&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="34" column="25"/>
+            <symbol>survivedRobots</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;survivedRobots&apos; is allocated memory that is never used." verbose="Variable &apos;survivedRobots&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2253-robot-collisions.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="34" column="40"/>
+            <symbol>survivedRobots</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;survivedRobotsHealths&apos; is never used." verbose="The function &apos;survivedRobotsHealths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2253-robot-collisions.c" line="32" column="0"/>
+            <symbol>survivedRobotsHealths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="22" column="26" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="43" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="42" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="50" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="49" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="57" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="56" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="64" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="63" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="71" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="70" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="78" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="77" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="85" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="84" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="92" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="91" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="99" column="29" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="98" column="23" info="Assuming that condition &apos;j&lt;32&apos; is not redundant"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="error" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour" verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="106" column="29" info="Shift"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: q" verbose="Uninitialized variable: q" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="114" column="17"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: r" verbose="Uninitialized variable: r" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="115" column="17"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: s" verbose="Uninitialized variable: s" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="116" column="17"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: t" verbose="Uninitialized variable: t" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="117" column="17"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: u" verbose="Uninitialized variable: u" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="118" column="17"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: v" verbose="Uninitialized variable: v" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="119" column="17"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: w" verbose="Uninitialized variable: w" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="120" column="17"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: x" verbose="Uninitialized variable: x" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="121" column="17"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: y" verbose="Uninitialized variable: y" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="122" column="17"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: z" verbose="Uninitialized variable: z" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="123" column="17"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="21"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="24"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="27"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="30"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="33"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;q&apos; is not assigned a value." verbose="Variable &apos;q&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="36"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;r&apos; is not assigned a value." verbose="Variable &apos;r&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="39"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s&apos; is not assigned a value." verbose="Variable &apos;s&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="42"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;t&apos; is not assigned a value." verbose="Variable &apos;t&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="45"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;u&apos; is not assigned a value." verbose="Variable &apos;u&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="48"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;v&apos; is not assigned a value." verbose="Variable &apos;v&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="51"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;w&apos; is not assigned a value." verbose="Variable &apos;w&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="54"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;x&apos; is not assigned a value." verbose="Variable &apos;x&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="57"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;y&apos; is not assigned a value." verbose="Variable &apos;y&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="60"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;z&apos; is not assigned a value." verbose="Variable &apos;z&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2021-find-a-value-of-a-mysterious-function-closest-to-target.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="23" column="63"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;closestToTarget&apos; is never used." verbose="The function &apos;closestToTarget&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2021-find-a-value-of-a-mysterious-function-closest-to-target.c" line="22" column="0"/>
+            <symbol>closestToTarget</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,6 @@
+projectKey=Tabnine_JavaScript
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Tabnine_JavaScript
+ceTaskId=299e1475-6a56-4cd7-ac4c-d3e5f9420f2f
+ceTaskUrl=http://localhost:9000/api/ce/task?id=299e1475-6a56-4cd7-ac4c-d3e5f9420f2f

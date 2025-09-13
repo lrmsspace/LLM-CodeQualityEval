@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;p-&gt;next&apos; is assigned an expression that holds the same value." verbose="Variable &apos;p-&gt;next&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/665-reverse-linked-list-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="39" column="6"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="32" column="7" info="q is assigned &apos;p-&gt;next&apos; here."/>
+            <symbol>p-&gt;next</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: t" verbose="Uninitialized variable: t" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/665-reverse-linked-list-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="40" column="15"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="35" column="22" info="Assuming condition is false"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/665-reverse-linked-list-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="34" column="7"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reverseBetween&apos; is never used." verbose="The function &apos;reverseBetween&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\665-reverse-linked-list-ii.c" line="25" column="0"/>
+            <symbol>reverseBetween</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

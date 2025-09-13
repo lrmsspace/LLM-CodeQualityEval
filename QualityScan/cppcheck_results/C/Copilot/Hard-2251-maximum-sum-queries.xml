@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="0" column="0"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="45" column="13"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="51" column="13"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p1&apos; can be declared as pointer to const" verbose="Variable &apos;p1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="43" column="19" info="Variable &apos;p1&apos; can be declared as pointer to const"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p2&apos; can be declared as pointer to const" verbose="Variable &apos;p2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="44" column="19" info="Variable &apos;p2&apos; can be declared as pointer to const"/>
+            <symbol>p2</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q1&apos; can be declared as pointer to const" verbose="Variable &apos;q1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="49" column="18" info="Variable &apos;q1&apos; can be declared as pointer to const"/>
+            <symbol>q1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q2&apos; can be declared as pointer to const" verbose="Variable &apos;q2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2251-maximum-sum-queries.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2251-maximum-sum-queries.c" line="50" column="18" info="Variable &apos;q2&apos; can be declared as pointer to const"/>
+            <symbol>q2</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

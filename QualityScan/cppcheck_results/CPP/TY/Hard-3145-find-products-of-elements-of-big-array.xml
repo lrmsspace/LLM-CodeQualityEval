@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3145-find-products-of-elements-of-big-array.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3145-find-products-of-elements-of-big-array.cpp" line="46" column="67" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findProductsOfElements&apos; is never used." verbose="The function &apos;findProductsOfElements&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3145-find-products-of-elements-of-big-array.cpp" line="46" column="0"/>
+            <symbol>findProductsOfElements</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

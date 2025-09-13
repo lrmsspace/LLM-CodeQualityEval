@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Codeium/output/c/Easy/3318-find-x-sum-of-all-k-long-subarrays-i.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;elemA&apos; can be declared as pointer to const" verbose="Variable &apos;elemA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Easy/3318-find-x-sum-of-all-k-long-subarrays-i.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="36" column="19" info="Variable &apos;elemA&apos; can be declared as pointer to const"/>
+            <symbol>elemA</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;elemB&apos; can be declared as pointer to const" verbose="Variable &apos;elemB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Easy/3318-find-x-sum-of-all-k-long-subarrays-i.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="37" column="19" info="Variable &apos;elemB&apos; can be declared as pointer to const"/>
+            <symbol>elemB</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Easy/3318-find-x-sum-of-all-k-long-subarrays-i.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="44" column="20" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: elements.value, elements.count" verbose="Uninitialized variables: elements.value, elements.count" cwe="457" file0="F:/Benchmark/new/Codeium/output/c/Easy/3318-find-x-sum-of-all-k-long-subarrays-i.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="65" column="15"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="58" column="26" info="Assuming condition is false"/>
+            <symbol>elements</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findXSum&apos; is never used." verbose="The function &apos;findXSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3318-find-x-sum-of-all-k-long-subarrays-i.c" line="44" column="0"/>
+            <symbol>findXSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

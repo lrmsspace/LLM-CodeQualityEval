@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;coordinatesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;coordinatesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/259-check-if-it-is-a-straight-line.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\259-check-if-it-is-a-straight-line.c" line="17" column="69" info="Parameter &apos;coordinatesColSize&apos; can be declared as pointer to const"/>
+            <symbol>coordinatesColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;checkStraightLine&apos; is never used." verbose="The function &apos;checkStraightLine&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\259-check-if-it-is-a-straight-line.c" line="17" column="0"/>
+            <symbol>checkStraightLine</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

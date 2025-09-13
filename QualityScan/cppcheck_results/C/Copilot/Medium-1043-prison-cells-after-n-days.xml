@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;cells&apos; can be declared as pointer to const" verbose="Parameter &apos;cells&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="33" column="28" info="Parameter &apos;cells&apos; can be declared as pointer to const"/>
+            <symbol>cells</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="37" column="14"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="38" column="14"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="39" column="14"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="40" column="14"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="41" column="14"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="42" column="14"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="43" column="13"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;head&apos; is assigned a value that is never used." verbose="Variable &apos;head&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="45" column="14"/>
+            <symbol>head</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;queue[tail]&apos; is assigned a value that is never used." verbose="Variable &apos;queue[tail]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="49" column="21"/>
+            <symbol>queue[tail]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="24"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="27"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="30"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="33"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="36"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="39"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="42"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="45"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="48"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="51"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="54"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1043-prison-cells-after-n-days.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="34" column="57"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;prisonAfterNDays&apos; is never used." verbose="The function &apos;prisonAfterNDays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1043-prison-cells-after-n-days.c" line="33" column="0"/>
+            <symbol>prisonAfterNDays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

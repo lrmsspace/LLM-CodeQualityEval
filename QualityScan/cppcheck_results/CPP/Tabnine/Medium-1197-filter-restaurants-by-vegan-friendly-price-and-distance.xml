@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;restaurants&apos; can be declared as reference to const" verbose="Parameter &apos;restaurants&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1197-filter-restaurants-by-vegan-friendly-price-and-distance.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1197-filter-restaurants-by-vegan-friendly-price-and-distance.cpp" line="34" column="56" info="Parameter &apos;restaurants&apos; can be declared as reference to const"/>
+            <symbol>restaurants</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1197-filter-restaurants-by-vegan-friendly-price-and-distance.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1197-filter-restaurants-by-vegan-friendly-price-and-distance.cpp" line="53" column="20"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;filterRestaurants&apos; is never used." verbose="The function &apos;filterRestaurants&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1197-filter-restaurants-by-vegan-friendly-price-and-distance.cpp" line="34" column="0"/>
+            <symbol>filterRestaurants</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

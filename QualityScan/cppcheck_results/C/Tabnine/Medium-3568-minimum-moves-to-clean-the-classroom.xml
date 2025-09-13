@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="0" column="0"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;&lt;&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="66" column="11"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;x&apos; shadows outer variable" verbose="Local variable &apos;x&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="92" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="69" column="13" info="Shadowed declaration"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;y&apos; shadows outer variable" verbose="Local variable &apos;y&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="93" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="70" column="13" info="Shadowed declaration"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMoves&apos; is never used." verbose="The function &apos;minMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="45" column="0"/>
+            <symbol>minMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

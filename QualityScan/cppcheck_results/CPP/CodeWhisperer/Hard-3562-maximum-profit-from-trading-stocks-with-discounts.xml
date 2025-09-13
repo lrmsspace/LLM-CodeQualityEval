@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;present&apos; can be declared as reference to const" verbose="Parameter &apos;present&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.cpp" line="57" column="39" info="Parameter &apos;present&apos; can be declared as reference to const"/>
+            <symbol>present</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;future&apos; can be declared as reference to const" verbose="Parameter &apos;future&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3562-maximum-profit-from-trading-stocks-with-discounts.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.cpp" line="57" column="61" info="Parameter &apos;future&apos; can be declared as reference to const"/>
+            <symbol>future</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfit&apos; is never used." verbose="The function &apos;maxProfit&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3562-maximum-profit-from-trading-stocks-with-discounts.cpp" line="57" column="0"/>
+            <symbol>maxProfit</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

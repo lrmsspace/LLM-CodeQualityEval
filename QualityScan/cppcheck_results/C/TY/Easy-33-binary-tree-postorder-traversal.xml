@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="error" msg="Array &apos;stack[10000]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;stack[10000]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/33-binary-tree-postorder-traversal.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\33-binary-tree-postorder-traversal.c" line="44" column="21" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\33-binary-tree-postorder-traversal.c" line="36" column="16" info="Assignment &apos;top=-1&apos;, assigned value is -1"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: stack" verbose="Uninitialized variable: stack" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/33-binary-tree-postorder-traversal.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\33-binary-tree-postorder-traversal.c" line="44" column="16"/>
+            <symbol>stack</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;postorderTraversal&apos; is never used." verbose="The function &apos;postorderTraversal&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\33-binary-tree-postorder-traversal.c" line="30" column="0"/>
+            <symbol>postorderTraversal</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

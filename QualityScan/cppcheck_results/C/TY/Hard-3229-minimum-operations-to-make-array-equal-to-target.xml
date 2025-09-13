@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="0" column="0"/>
+        </error>
+        <error id="pointerOutOfBounds" severity="portability" msg="Undefined behaviour, pointer arithmetic &apos;cnt+200000&apos; is out of bounds." verbose="Undefined behaviour, pointer arithmetic &apos;cnt+200000&apos; is out of bounds." cwe="758" file0="F:/Benchmark/new/TY/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="29" column="62" info="Pointer arithmetic overflow"/>
+        </error>
+        <error id="truncLongCastReturn" severity="style" msg="int result is returned as long long value. If the return value is long long to avoid loss of information, then you have loss of information." verbose="int result is returned as long long value. If the return value is long long to avoid loss of information, then there is loss of information. To avoid loss of information you must cast a calculation operand to long, for example &apos;return a*b;&apos; =&gt; &apos;return (long)a*b&apos;." cwe="197" file0="F:/Benchmark/new/TY/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="48" column="5"/>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="28" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="28" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumOperations&apos; is never used." verbose="The function &apos;minimumOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="27" column="0"/>
+            <symbol>minimumOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

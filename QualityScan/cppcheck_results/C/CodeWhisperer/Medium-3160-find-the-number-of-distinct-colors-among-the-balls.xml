@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: color[ball]" verbose="Memory is allocated but not initialized: color[ball]" cwe="457" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3160-find-the-number-of-distinct-colors-among-the-balls.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3160-find-the-number-of-distinct-colors-among-the-balls.c" line="43" column="18"/>
+            <symbol>color[ball]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: count[newColor]" verbose="Memory is allocated but not initialized: count[newColor]" cwe="457" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3160-find-the-number-of-distinct-colors-among-the-balls.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3160-find-the-number-of-distinct-colors-among-the-balls.c" line="50" column="14"/>
+            <symbol>count[newColor]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;queryResults&apos; is never used." verbose="The function &apos;queryResults&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3160-find-the-number-of-distinct-colors-among-the-balls.c" line="34" column="0"/>
+            <symbol>queryResults</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

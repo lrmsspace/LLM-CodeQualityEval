@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1378-evaluate-the-bracket-pairs-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1378-evaluate-the-bracket-pairs-of-a-string.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;key&apos; can be declared as pointer to const" verbose="Variable &apos;key&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1378-evaluate-the-bracket-pairs-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1378-evaluate-the-bracket-pairs-of-a-string.c" line="43" column="11" info="Variable &apos;key&apos; can be declared as pointer to const"/>
+            <symbol>key</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;value&apos; can be declared as pointer to const" verbose="Variable &apos;value&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1378-evaluate-the-bracket-pairs-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1378-evaluate-the-bracket-pairs-of-a-string.c" line="44" column="11" info="Variable &apos;value&apos; can be declared as pointer to const"/>
+            <symbol>value</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;evaluate&apos; is never used." verbose="The function &apos;evaluate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1378-evaluate-the-bracket-pairs-of-a-string.c" line="39" column="0"/>
+            <symbol>evaluate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

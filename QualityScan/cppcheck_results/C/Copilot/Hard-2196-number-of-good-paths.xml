@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;vals&apos; can be declared as pointer to const" verbose="Parameter &apos;vals&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2196-number-of-good-paths.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2196-number-of-good-paths.c" line="36" column="28" info="Parameter &apos;vals&apos; can be declared as pointer to const"/>
+            <symbol>vals</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mod&apos; is assigned a value that is never used." verbose="Variable &apos;mod&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2196-number-of-good-paths.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2196-number-of-good-paths.c" line="37" column="13"/>
+            <symbol>mod</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mst&apos; is allocated memory that is never used." verbose="Variable &apos;mst&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2196-number-of-good-paths.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2196-number-of-good-paths.c" line="59" column="29"/>
+            <symbol>mst</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstIdx&apos; is allocated memory that is never used." verbose="Variable &apos;mstIdx&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2196-number-of-good-paths.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2196-number-of-good-paths.c" line="60" column="32"/>
+            <symbol>mstIdx</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfGoodPaths&apos; is never used." verbose="The function &apos;numberOfGoodPaths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2196-number-of-good-paths.c" line="36" column="0"/>
+            <symbol>numberOfGoodPaths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

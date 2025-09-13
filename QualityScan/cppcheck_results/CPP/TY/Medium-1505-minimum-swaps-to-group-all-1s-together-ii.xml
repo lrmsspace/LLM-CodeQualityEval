@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;j&apos; and &apos;i&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1505-minimum-swaps-to-group-all-1s-together-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1505-minimum-swaps-to-group-all-1s-together-ii.cpp" line="53" column="18"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1505-minimum-swaps-to-group-all-1s-together-ii.cpp" line="45" column="17" info="&apos;i&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1505-minimum-swaps-to-group-all-1s-together-ii.cpp" line="46" column="17" info="&apos;j&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minSwaps&apos; is never used." verbose="The function &apos;minSwaps&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1505-minimum-swaps-to-group-all-1s-together-ii.cpp" line="34" column="0"/>
+            <symbol>minSwaps</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

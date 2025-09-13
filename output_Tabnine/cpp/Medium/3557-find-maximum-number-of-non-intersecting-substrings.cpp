@@ -1,0 +1,34 @@
+/*
+ You are given a string word.
+ Return the maximum number of non-intersecting substrings of word that are at least four characters long and start and end with the same letter.
+ Example 1:
+ Input: word = "abcdeafdef"
+ Output: 2
+ Explanation:
+ The two substrings are "abcdea" and "fdef".
+ Example 2:
+ Input: word = "bcdaaaab"
+ Output: 1
+ Explanation:
+ The only substring is "aaaa". Note that we cannot also choose "bcdaaaab" since it intersects with the other substring.
+ Constraints:
+ 1 <= word.length <= 2 * 105
+ word consists only of lowercase English letters.
+*/
+
+class Solution {
+public:
+    int maxSubstrings(string word) {
+        int n = word.length();
+        int ans = 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = i + 3; j <= n; ++j) {
+                if (word[i] == word[j - 1] && isNonIntersecting(word, i, j)) {
+                    ans = max(ans, j - i);
+                }
+            }
+        }
+        return ans; 
+        
+    }
+};

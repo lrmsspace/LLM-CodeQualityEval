@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;secondHalf&apos; is redundant or there is possible null pointer dereference: secondHalf." verbose="Either the condition &apos;secondHalf&apos; is redundant or there is possible null pointer dereference: secondHalf." cwe="476" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1503-maximum-twin-sum-of-a-linked-list.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="63" column="46" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="57" column="16" info="Assuming that condition &apos;secondHalf&apos; is not redundant"/>
+            <symbol>secondHalf</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;pairSum&apos; is never used." verbose="The function &apos;pairSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="43" column="0"/>
+            <symbol>pairSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

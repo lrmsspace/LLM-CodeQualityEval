@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;p&apos; is always false" verbose="Condition &apos;p&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="59" column="12" info="Condition &apos;p&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="47" column="12" info="Assuming that condition &apos;p&apos; is not redundant"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;p&apos; is assigned an expression that holds the same value." verbose="Variable &apos;p&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="58" column="5"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="46" column="7" info="p is assigned &apos;root&apos; here."/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p3&apos; can be declared as pointer to const" verbose="Variable &apos;p3&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="45" column="22" info="Variable &apos;p3&apos; can be declared as pointer to const"/>
+            <symbol>p3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p3&apos; is assigned a value that is never used." verbose="Variable &apos;p3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="45" column="22"/>
+            <symbol>p3</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;recoverTree&apos; is never used." verbose="The function &apos;recoverTree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="26" column="0"/>
+            <symbol>recoverTree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

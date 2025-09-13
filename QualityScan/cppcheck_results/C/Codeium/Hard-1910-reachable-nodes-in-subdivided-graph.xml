@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;&lt;&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1910-reachable-nodes-in-subdivided-graph.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1910-reachable-nodes-in-subdivided-graph.c" line="31" column="11"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reachableNodes&apos; is never used." verbose="The function &apos;reachableNodes&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1910-reachable-nodes-in-subdivided-graph.c" line="29" column="0"/>
+            <symbol>reachableNodes</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,43 @@
+#https://leetcode.com/problems/repeated-string-match/
+#Given two strings a and b, return the minimum number of times you should repeat string a so that string b is a substring of it. If it is impossible for b​​​​​​ to be a substring of a after repeating it, return -1.
+#Notice: string "abc" repeated 0 times is "", repeated 1 time is "abc" and repeated 2 times is "abcabc".
+# 
+#Example 1:
+#Input: a = "abcd", b = "cdabcdab"
+#Output: 3
+#Explanation: We return 3 because by repeating a three times "abcdabcdabcd", b is a substring of it.
+#Example 2:
+#Input: a = "a", b = "aa"
+#Output: 2
+# 
+#Constraints:
+#	1 <= a.length, b.length <= 104
+#	a and b consist of lowercase English letters.
+class Solution(object):
+    def repeatedStringMatch(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: int
+        """
+        if len(a) == 0:
+            return -1
+        if len(b) == 0:
+            return 0
+        if len(a) > len(b):
+            if b in a:
+                return 1
+            else:
+                return -1
+        count = 1
+        temp = a
+        while len(temp) < len(b):
+            temp += a
+            count += 1
+        if b in temp:
+            return count
+        temp += a
+        count += 1
+        if b in temp:
+            return count
+        return -1        

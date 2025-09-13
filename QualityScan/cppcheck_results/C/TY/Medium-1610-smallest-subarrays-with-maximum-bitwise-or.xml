@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;cur_or&apos; can be reduced." verbose="The scope of the variable &apos;cur_or&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="39" column="13"/>
+            <symbol>cur_or</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="34" column="29" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;max_or&apos; can be declared as pointer to const" verbose="Variable &apos;max_or&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="37" column="10" info="Variable &apos;max_or&apos; can be declared as pointer to const"/>
+            <symbol>max_or</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: max_or[i+1]" verbose="Memory is allocated but not initialized: max_or[i+1]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="41" column="29"/>
+            <symbol>max_or[i+1]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur_or&apos; is assigned a value that is never used." verbose="Variable &apos;cur_or&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="39" column="20"/>
+            <symbol>cur_or</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur_or&apos; is assigned a value that is never used." verbose="Variable &apos;cur_or&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1610-smallest-subarrays-with-maximum-bitwise-or.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="41" column="20"/>
+            <symbol>cur_or</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestSubarrays&apos; is never used." verbose="The function &apos;smallestSubarrays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1610-smallest-subarrays-with-maximum-bitwise-or.c" line="34" column="0"/>
+            <symbol>smallestSubarrays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

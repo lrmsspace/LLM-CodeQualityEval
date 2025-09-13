@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;nums&apos; can be declared as reference to const" verbose="Parameter &apos;nums&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/503-make-array-zero-by-subtracting-equal-amounts.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\503-make-array-zero-by-subtracting-equal-amounts.cpp" line="24" column="40" info="Parameter &apos;nums&apos; can be declared as reference to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/503-make-array-zero-by-subtracting-equal-amounts.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\503-make-array-zero-by-subtracting-equal-amounts.cpp" line="28" column="19"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumOperations&apos; is never used." verbose="The function &apos;minimumOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\503-make-array-zero-by-subtracting-equal-amounts.cpp" line="24" column="0"/>
+            <symbol>minimumOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

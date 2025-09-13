@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;fruits&apos; can be declared as pointer to const" verbose="Parameter &apos;fruits&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="30" column="30" info="Parameter &apos;fruits&apos; can be declared as pointer to const"/>
+            <symbol>fruits</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;baskets&apos; can be declared as pointer to const" verbose="Parameter &apos;baskets&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="30" column="59" info="Parameter &apos;baskets&apos; can be declared as pointer to const"/>
+            <symbol>baskets</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: count" verbose="Uninitialized variable: count" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="54" column="12"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="43" column="19" info="Assuming condition is false"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxCount&apos; is assigned a value that is never used." verbose="Variable &apos;maxCount&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="37" column="14"/>
+            <symbol>maxCount</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxCount1&apos; is assigned a value that is never used." verbose="Variable &apos;maxCount1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="38" column="15"/>
+            <symbol>maxCount1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxCount2&apos; is assigned a value that is never used." verbose="Variable &apos;maxCount2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="39" column="15"/>
+            <symbol>maxCount2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxCount3&apos; is assigned a value that is never used." verbose="Variable &apos;maxCount3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="40" column="15"/>
+            <symbol>maxCount3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxCount4&apos; is assigned a value that is never used." verbose="Variable &apos;maxCount4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="41" column="15"/>
+            <symbol>maxCount4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3479-fruits-into-baskets-iii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="32" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numOfUnplacedFruits&apos; is never used." verbose="The function &apos;numOfUnplacedFruits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3479-fruits-into-baskets-iii.c" line="30" column="0"/>
+            <symbol>numOfUnplacedFruits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

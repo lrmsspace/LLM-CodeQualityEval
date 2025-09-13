@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1519-removing-minimum-number-of-magic-beans.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1519-removing-minimum-number-of-magic-beans.c" line="35" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min" verbose="Unused variable: min" cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1519-removing-minimum-number-of-magic-beans.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1519-removing-minimum-number-of-magic-beans.c" line="35" column="15"/>
+            <symbol>min</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: max" verbose="Unused variable: max" cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1519-removing-minimum-number-of-magic-beans.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1519-removing-minimum-number-of-magic-beans.c" line="35" column="20"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: count" verbose="Unused variable: count" cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1519-removing-minimum-number-of-magic-beans.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1519-removing-minimum-number-of-magic-beans.c" line="35" column="25"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumRemoval&apos; is never used." verbose="The function &apos;minimumRemoval&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1519-removing-minimum-number-of-magic-beans.c" line="34" column="0"/>
+            <symbol>minimumRemoval</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

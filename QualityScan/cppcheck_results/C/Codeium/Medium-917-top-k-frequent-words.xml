@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;node1&apos; can be declared as pointer to const" verbose="Variable &apos;node1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/917-top-k-frequent-words.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\917-top-k-frequent-words.c" line="26" column="22" info="Variable &apos;node1&apos; can be declared as pointer to const"/>
+            <symbol>node1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;node2&apos; can be declared as pointer to const" verbose="Variable &apos;node2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/917-top-k-frequent-words.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\917-top-k-frequent-words.c" line="27" column="22" info="Variable &apos;node2&apos; can be declared as pointer to const"/>
+            <symbol>node2</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: nodes.count, nodes.hh" verbose="Uninitialized variables: nodes.count, nodes.hh" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/917-top-k-frequent-words.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\917-top-k-frequent-words.c" line="57" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\917-top-k-frequent-words.c" line="54" column="40" info="Assuming condition is false"/>
+            <symbol>nodes</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;topKFrequent&apos; is never used." verbose="The function &apos;topKFrequent&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\917-top-k-frequent-words.c" line="33" column="0"/>
+            <symbol>topKFrequent</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

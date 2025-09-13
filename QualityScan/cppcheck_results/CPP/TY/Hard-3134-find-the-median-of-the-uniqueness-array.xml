@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3134-find-the-median-of-the-uniqueness-array.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3134-find-the-median-of-the-uniqueness-array.cpp" line="35" column="15"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;medianOfUniquenessArray&apos; is never used." verbose="The function &apos;medianOfUniquenessArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3134-find-the-median-of-the-uniqueness-array.cpp" line="28" column="0"/>
+            <symbol>medianOfUniquenessArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

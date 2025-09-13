@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="0" column="0"/>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: freq[words[i][j]-&apos;a&apos;]" verbose="Memory is allocated but not initialized: freq[words[i][j]-&apos;a&apos;]" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="41" column="17"/>
+            <symbol>freq[words[i][j]-'a']</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="18"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="21"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="24"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="27"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="30"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="33" column="33"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cols" verbose="Unused variable: cols" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3435-frequencies-of-shortest-supersequences.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="36" column="10"/>
+            <symbol>cols</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;supersequences&apos; is never used." verbose="The function &apos;supersequences&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3435-frequencies-of-shortest-supersequences.c" line="32" column="0"/>
+            <symbol>supersequences</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

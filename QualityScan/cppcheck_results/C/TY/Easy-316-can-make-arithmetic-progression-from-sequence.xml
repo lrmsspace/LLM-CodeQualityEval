@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/316-can-make-arithmetic-progression-from-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="0" column="0"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max-min&apos;." verbose="Signed integer overflow for expression &apos;max-min&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/316-can-make-arithmetic-progression-from-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="23" column="18" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="15" info="Assignment &apos;min=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="30" info="Assignment &apos;max=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max-min&apos;." verbose="Signed integer overflow for expression &apos;max-min&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/316-can-make-arithmetic-progression-from-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="31" column="29" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="15" info="Assignment &apos;min=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="30" info="Assignment &apos;max=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="signConversion" severity="warning" msg="Expression &apos;max-min&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;max-min&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/316-can-make-arithmetic-progression-from-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="25" column="48" info="Negative value is converted to an unsigned value"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="15" info="Assignment &apos;min=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="30" info="Assignment &apos;max=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="signConversion" severity="warning" msg="Expression &apos;max-min&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;max-min&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/316-can-make-arithmetic-progression-from-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="26" column="40" info="Negative value is converted to an unsigned value"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="15" info="Assignment &apos;min=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="19" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="18" column="30" info="Assignment &apos;max=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canMakeArithmeticProgression&apos; is never used." verbose="The function &apos;canMakeArithmeticProgression&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\316-can-make-arithmetic-progression-from-sequence.c" line="17" column="0"/>
+            <symbol>canMakeArithmeticProgression</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

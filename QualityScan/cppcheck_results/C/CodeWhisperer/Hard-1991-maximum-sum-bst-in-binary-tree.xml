@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="error" msg="Array &apos;stack[10000]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;stack[10000]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1991-maximum-sum-bst-in-binary-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1991-maximum-sum-bst-in-binary-tree.c" line="42" column="21" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1991-maximum-sum-bst-in-binary-tree.c" line="35" column="21" info="Assignment &apos;stackSize=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxSumBST&apos; is never used." verbose="The function &apos;maxSumBST&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1991-maximum-sum-bst-in-binary-tree.c" line="32" column="0"/>
+            <symbol>maxSumBST</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,6 @@
+projectKey=CodeWhisperer_CPP
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=CodeWhisperer_CPP
+ceTaskId=cfa4ec37-e392-4446-8d0c-6f553ba3abd1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=cfa4ec37-e392-4446-8d0c-6f553ba3abd1

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="29" column="28" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;cost&apos; can be declared as pointer to const" verbose="Parameter &apos;cost&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="29" column="53" info="Parameter &apos;cost&apos; can be declared as pointer to const"/>
+            <symbol>cost</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: cost1" verbose="Uninitialized variable: cost1" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="45" column="11"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="41" column="19" info="Assuming condition is false"/>
+            <symbol>cost1</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: cost2" verbose="Uninitialized variable: cost2" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="45" column="19"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="41" column="19" info="Assuming condition is false"/>
+            <symbol>cost2</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: cost1" verbose="Uninitialized variable: cost1" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="42" column="9"/>
+            <symbol>cost1</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: cost2" verbose="Uninitialized variable: cost2" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="43" column="9"/>
+            <symbol>cost2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="15"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="21"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="24"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mid" verbose="Unused variable: mid" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="27"/>
+            <symbol>mid</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: sum" verbose="Unused variable: sum" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="32"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="37"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3500-minimum-cost-to-divide-array-into-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="30" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3500-minimum-cost-to-divide-array-into-subarrays.c" line="29" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="0" column="0"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: b" verbose="Uninitialized variable: b" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="46" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="35" column="19" info="Assuming condition is false"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: t" verbose="Uninitialized variable: t" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="181" column="47"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="137" column="19" info="Assuming condition is false"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: v" verbose="Uninitialized variable: v" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="181" column="53"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="148" column="19" info="Assuming condition is false"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: z" verbose="Uninitialized variable: z" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="181" column="63"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="170" column="19" info="Assuming condition is false"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: r" verbose="Uninitialized variable: r" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="133" column="13"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s" verbose="Uninitialized variable: s" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="143" column="13"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: t" verbose="Uninitialized variable: t" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="144" column="13"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: u" verbose="Uninitialized variable: u" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="154" column="13"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: v" verbose="Uninitialized variable: v" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="155" column="13"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: w" verbose="Uninitialized variable: w" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="165" column="13"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: x" verbose="Uninitialized variable: x" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="166" column="13"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: y" verbose="Uninitialized variable: y" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="176" column="13"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: z" verbose="Uninitialized variable: z" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="177" column="13"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: a" verbose="Uninitialized variable: a" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="41" column="13"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: b" verbose="Uninitialized variable: b" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="42" column="13"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: c" verbose="Uninitialized variable: c" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="55" column="13"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: d" verbose="Uninitialized variable: d" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="56" column="13"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: e" verbose="Uninitialized variable: e" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="66" column="13"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: f" verbose="Uninitialized variable: f" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="67" column="13"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: g" verbose="Uninitialized variable: g" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="77" column="13"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: h" verbose="Uninitialized variable: h" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="78" column="13"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: k" verbose="Uninitialized variable: k" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="99" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: l" verbose="Uninitialized variable: l" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="100" column="13"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: m" verbose="Uninitialized variable: m" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="110" column="13"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: n" verbose="Uninitialized variable: n" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="111" column="13"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: o" verbose="Uninitialized variable: o" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="121" column="13"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: p" verbose="Uninitialized variable: p" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="122" column="13"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: q" verbose="Uninitialized variable: q" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="132" column="13"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="89" column="14"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="27"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="30"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="33"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="36"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="39"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="42"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="45"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="48"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="51"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="54"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="57"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="60"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="63"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="66"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="69"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="72"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="75"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="78"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="81"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="102"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;r&apos; is not assigned a value." verbose="Variable &apos;r&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="111"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;t&apos; is not assigned a value." verbose="Variable &apos;t&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="117"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;v&apos; is not assigned a value." verbose="Variable &apos;v&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="123"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;x&apos; is not assigned a value." verbose="Variable &apos;x&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="129"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;z&apos; is not assigned a value." verbose="Variable &apos;z&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="135"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;f&apos; is not assigned a value." verbose="Variable &apos;f&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="153"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;h&apos; is not assigned a value." verbose="Variable &apos;h&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="159"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;l&apos; is not assigned a value." verbose="Variable &apos;l&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="171"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;n&apos; is not assigned a value." verbose="Variable &apos;n&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="177"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;p&apos; is not assigned a value." verbose="Variable &apos;p&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1501-number-of-laser-beams-in-a-bank.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="34" column="183"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfBeams&apos; is never used." verbose="The function &apos;numberOfBeams&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1501-number-of-laser-beams-in-a-bank.c" line="33" column="0"/>
+            <symbol>numberOfBeams</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

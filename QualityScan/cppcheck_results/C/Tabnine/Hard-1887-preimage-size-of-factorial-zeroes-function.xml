@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="floatConversionOverflow" severity="error" msg="Undefined behaviour: float (1e+10) to integer conversion overflow." verbose="Undefined behaviour: float (1e+10) to integer conversion overflow." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1887-preimage-size-of-factorial-zeroes-function.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1887-preimage-size-of-factorial-zeroes-function.c" line="21" column="25" info="float to integer conversion"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;preimageSizeFZF&apos; is never used." verbose="The function &apos;preimageSizeFZF&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1887-preimage-size-of-factorial-zeroes-function.c" line="20" column="0"/>
+            <symbol>preimageSizeFZF</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

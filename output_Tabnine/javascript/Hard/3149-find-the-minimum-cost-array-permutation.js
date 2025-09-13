@@ -1,0 +1,57 @@
+/*
+ You are given an array nums which is a permutation of [0, 1, 2, ..., n - 1]. The score of any permutation of [0, 1, 2, ..., n - 1] named perm is defined as:
+ score(perm) = |perm[0] - nums[perm[1]]| + |perm[1] - nums[perm[2]]| + ... + |perm[n - 1] - nums[perm[0]]|
+ Return the permutation perm which has the minimum possible score. If multiple permutations exist with this score, return the one that is lexicographically smallest among them.
+ Example 1:
+ Input: nums = [1,0,2]
+ Output: [0,1,2]
+ Explanation:
+ The lexicographically smallest permutation with minimum cost is [0,1,2]. The cost of this permutation is |0 - 0| + |1 - 2| + |2 - 1| = 2.
+ Example 2:
+ Input: nums = [0,2,1]
+ Output: [0,2,1]
+ Explanation:
+ The lexicographically smallest permutation with minimum cost is [0,2,1]. The cost of this permutation is |0 - 1| + |2 - 2| + |1 - 0| = 2.
+ Constraints:
+ 2 <= n == nums.length <= 14
+ nums is a permutation of [0, 1, 2, ..., n - 1].
+*/
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var findPermutation = function(nums) {
+    const n = nums.length;
+    const res = new Array(n).fill(0);
+    res[0] = 1;
+    
+    for (let i = 1; i < n; i++) {
+        if (nums[i] > nums[i - 1]) {
+            res[i] = res[i - 1] + 1;
+        } else {
+            res[i] = 1;
+        }
+    }
+    
+    let start = n;
+    for (let i = n - 1; i >= 0; i--) {
+        if (nums[i] < nums[i - 1]) {
+            start = i;
+            break;
+        }
+        res[i] = res[i - 1];
+        if (i === 0) {
+            start = 1;
+        }
+        res[i] += start;    
+        start--;
+        res[i] = Math.min(res[i], n - i);
+
+        if (start === 0) {
+            break;
+        }
+    }
+    return res; 
+    
+};

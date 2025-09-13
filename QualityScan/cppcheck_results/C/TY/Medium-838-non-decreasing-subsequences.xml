@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="memleak" severity="error" msg="Memory leak: a" verbose="Memory leak: a" cwe="401" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="33" column="5"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: b" verbose="Memory leak: b" cwe="401" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="33" column="5"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: c" verbose="Memory leak: c" cwe="401" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="33" column="5"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: i" verbose="Memory leak: i" cwe="401" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="33" column="5"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="19" column="29" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;returnSize&apos; can be declared as pointer to const" verbose="Parameter &apos;returnSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="19" column="54" info="Parameter &apos;returnSize&apos; can be declared as pointer to const"/>
+            <symbol>returnSize</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;a&apos; can be declared as pointer to const" verbose="Variable &apos;a&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="21" column="10" info="Variable &apos;a&apos; can be declared as pointer to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;b&apos; can be declared as pointer to const" verbose="Variable &apos;b&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="22" column="10" info="Variable &apos;b&apos; can be declared as pointer to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;c&apos; can be declared as pointer to const" verbose="Variable &apos;c&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="23" column="10" info="Variable &apos;c&apos; can be declared as pointer to const"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;d&apos; can be declared as pointer to const" verbose="Variable &apos;d&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="24" column="9" info="Variable &apos;d&apos; can be declared as pointer to const"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;e&apos; can be declared as pointer to const" verbose="Variable &apos;e&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="25" column="10" info="Variable &apos;e&apos; can be declared as pointer to const"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;f&apos; can be declared as pointer to const" verbose="Variable &apos;f&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="26" column="10" info="Variable &apos;f&apos; can be declared as pointer to const"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;g&apos; can be declared as pointer to const" verbose="Variable &apos;g&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="27" column="10" info="Variable &apos;g&apos; can be declared as pointer to const"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;h&apos; can be declared as pointer to const" verbose="Variable &apos;h&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="28" column="10" info="Variable &apos;h&apos; can be declared as pointer to const"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;i&apos; can be declared as pointer to const" verbose="Variable &apos;i&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="29" column="10" info="Variable &apos;i&apos; can be declared as pointer to const"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;j&apos; can be declared as pointer to const" verbose="Variable &apos;j&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="30" column="10" info="Variable &apos;j&apos; can be declared as pointer to const"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;k&apos; can be declared as pointer to const" verbose="Variable &apos;k&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="31" column="10" info="Variable &apos;k&apos; can be declared as pointer to const"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;l&apos; can be declared as pointer to const" verbose="Variable &apos;l&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="32" column="10" info="Variable &apos;l&apos; can be declared as pointer to const"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="21" column="12"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="22" column="12"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="23" column="12"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="24" column="11"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="25" column="12"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="26" column="12"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="27" column="12"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="28" column="12"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="29" column="12"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="30" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="31" column="12"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="32" column="12"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="20" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;a&apos; is allocated memory that is never used." verbose="Variable &apos;a&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="21" column="27"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;b&apos; is allocated memory that is never used." verbose="Variable &apos;b&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="22" column="27"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;c&apos; is allocated memory that is never used." verbose="Variable &apos;c&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="23" column="27"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;i&apos; is allocated memory that is never used." verbose="Variable &apos;i&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="29" column="27"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findSubsequences&apos; is never used." verbose="The function &apos;findSubsequences&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="19" column="0"/>
+            <symbol>findSubsequences</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

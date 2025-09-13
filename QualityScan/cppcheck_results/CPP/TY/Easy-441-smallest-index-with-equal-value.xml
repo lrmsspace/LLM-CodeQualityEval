@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestEqual&apos; is never used." verbose="The function &apos;smallestEqual&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\441-smallest-index-with-equal-value.cpp" line="32" column="0"/>
+            <symbol>smallestEqual</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

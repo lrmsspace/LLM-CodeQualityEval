@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/957-valid-tic-tac-toe-state.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\957-valid-tic-tac-toe-state.cpp" line="53" column="86"/>
+        </error>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/957-valid-tic-tac-toe-state.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\957-valid-tic-tac-toe-state.cpp" line="56" column="86"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/957-valid-tic-tac-toe-state.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\957-valid-tic-tac-toe-state.cpp" line="60" column="0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;validTicTacToe&apos; is never used." verbose="The function &apos;validTicTacToe&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\957-valid-tic-tac-toe-state.cpp" line="30" column="0"/>
+            <symbol>validTicTacToe</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

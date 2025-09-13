@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;word&apos; can be declared as pointer to const" verbose="Parameter &apos;word&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="25" column="38" info="Parameter &apos;word&apos; can be declared as pointer to const"/>
+            <symbol>word</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="10"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="14"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="22"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="26"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="30"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="34"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="38"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="42"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="46"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="50"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="54"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="58"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="62"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="66"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="70"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1390-longest-substring-of-all-vowels-in-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="27" column="74"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestBeautifulSubstring&apos; is never used." verbose="The function &apos;longestBeautifulSubstring&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1390-longest-substring-of-all-vowels-in-order.c" line="25" column="0"/>
+            <symbol>longestBeautifulSubstring</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

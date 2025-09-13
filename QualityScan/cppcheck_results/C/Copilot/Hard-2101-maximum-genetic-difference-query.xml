@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2101-maximum-genetic-difference-query.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;val&apos; shadows outer variable" verbose="Local variable &apos;val&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2101-maximum-genetic-difference-query.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="111" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="55" column="10" info="Shadowed declaration"/>
+            <symbol>val</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;parents&apos; can be declared as pointer to const" verbose="Parameter &apos;parents&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2101-maximum-genetic-difference-query.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="31" column="32" info="Parameter &apos;parents&apos; can be declared as pointer to const"/>
+            <symbol>parents</symbol>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;ans&apos; used instead of size of its data." verbose="Size of pointer &apos;ans&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*ans)&apos;." cwe="467" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2101-maximum-genetic-difference-query.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="57" column="12"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;visited&apos; used instead of size of its data." verbose="Size of pointer &apos;visited&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*visited)&apos;." cwe="467" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2101-maximum-genetic-difference-query.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="83" column="12"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxGeneticDifference&apos; is never used." verbose="The function &apos;maxGeneticDifference&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2101-maximum-genetic-difference-query.c" line="31" column="0"/>
+            <symbol>maxGeneticDifference</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

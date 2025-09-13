@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;(seats&amp;0b0000_1111)==0&apos; is always true" verbose="Condition &apos;(seats&amp;0b0000_1111)==0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1220-cinema-seat-allocation.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1220-cinema-seat-allocation.cpp" line="35" column="76" info="Condition &apos;(seats&amp;0b0000_1111)==0&apos; is always true"/>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;seat&apos; can be declared as reference to const" verbose="Variable &apos;seat&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1220-cinema-seat-allocation.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1220-cinema-seat-allocation.cpp" line="29" column="20" info="Variable &apos;seat&apos; can be declared as reference to const"/>
+            <symbol>seat</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxNumberOfFamilies&apos; is never used." verbose="The function &apos;maxNumberOfFamilies&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1220-cinema-seat-allocation.cpp" line="26" column="0"/>
+            <symbol>maxNumberOfFamilies</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3161-block-placement-queries.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="29" column="50" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;mid*mid&apos;." verbose="Signed integer overflow for expression &apos;mid*mid&apos;." cwe="190" file0="F:/Benchmark/new/TY/output/cpp/Hard/3161-block-placement-queries.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="40" column="29" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="39" column="29" info="mid is assigned &apos;l+(r-l)/2&apos; here."/>
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="37" column="32" info="Assignment &apos;r=1e5&apos;, assigned value is 100000"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sz&apos; is assigned a value that is never used." verbose="Variable &apos;sz&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3161-block-placement-queries.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="36" column="24"/>
+            <symbol>sz</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x1&apos; is assigned a value that is never used." verbose="Variable &apos;x1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3161-block-placement-queries.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="46" column="24"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getResults&apos; is never used." verbose="The function &apos;getResults&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3161-block-placement-queries.cpp" line="29" column="0"/>
+            <symbol>getResults</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

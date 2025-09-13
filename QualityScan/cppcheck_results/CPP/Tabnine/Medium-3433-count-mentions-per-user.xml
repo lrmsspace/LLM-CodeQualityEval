@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/new/Tabnine/output/cpp/Medium/3433-count-mentions-per-user.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3433-count-mentions-per-user.cpp" line="61" column="40"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countMentions&apos; is never used." verbose="The function &apos;countMentions&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3433-count-mentions-per-user.cpp" line="51" column="0"/>
+            <symbol>countMentions</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

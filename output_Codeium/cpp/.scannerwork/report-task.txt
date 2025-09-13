@@ -1,0 +1,6 @@
+projectKey=Codeium_CPP
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=Codeium_CPP
+ceTaskId=d1f40280-c45c-4c65-9668-f9d890a185f9
+ceTaskUrl=http://localhost:9000/api/ce/task?id=d1f40280-c45c-4c65-9668-f9d890a185f9

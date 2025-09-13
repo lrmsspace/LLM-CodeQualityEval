@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3495-minimum-operations-to-make-array-elements-zero.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3495-minimum-operations-to-make-array-elements-zero.cpp" line="51" column="27"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3495-minimum-operations-to-make-array-elements-zero.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3495-minimum-operations-to-make-array-elements-zero.cpp" line="53" column="21"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3495-minimum-operations-to-make-array-elements-zero.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3495-minimum-operations-to-make-array-elements-zero.cpp" line="56" column="21"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minOperations&apos; is never used." verbose="The function &apos;minOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3495-minimum-operations-to-make-array-elements-zero.cpp" line="42" column="0"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

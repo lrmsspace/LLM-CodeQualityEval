@@ -1,0 +1,46 @@
+#https://leetcode.com/problems/painting-a-grid-with-three-different-colors/
+#You are given two integers m and n. Consider an m x n grid where each cell is initially white. You can paint each cell red, green, or blue. All cells must be painted.
+#Return the number of ways to color the grid with no two adjacent cells having the same color. Since the answer can be very large, return it modulo 109 + 7.
+# 
+#Example 1:
+#Input: m = 1, n = 1
+#Output: 3
+#Explanation: The three possible colorings are shown in the image above.
+#Example 2:
+#Input: m = 1, n = 2
+#Output: 6
+#Explanation: The six possible colorings are shown in the image above.
+#Example 3:
+#Input: m = 5, n = 5
+#Output: 580986
+# 
+#Constraints:
+#	1 <= m <= 5
+#	1 <= n <= 1000
+class Solution(object):
+    def colorTheGrid(self, m, n):
+        """
+        :type m: int
+        :type n: int
+        :rtype: int
+        """
+        MOD = 10 ** 9 + 7
+        grid = [[0] * m for _ in range(n)]
+        dp = [[[0, 0, 0] for _ in range(m)] for _ in range(n)]
+        dp[0][0][0] = dp[0][0][1] = dp[0][0][2] = 1
+        for i in range(1, n):
+            for j in range(m):
+                for k in range(3):
+                    for l in range(3):
+                        if k != l:
+                            dp[i][j][l] += dp[i - 1][j - 1][k]
+                            dp[i][j][l] %= MOD
+                if j > 0:
+                    dp[i][j][grid[i - 1][j - 1]] -= dp[i - 1][j][grid[i - 1][j - 1]]
+                    dp[i][j][grid[i - 1][j - 1]] %= MOD
+        ans = 0
+        for i in range(3):
+            ans += dp[n - 1][m - 1][i]
+            ans %= MOD
+        return ans
+    

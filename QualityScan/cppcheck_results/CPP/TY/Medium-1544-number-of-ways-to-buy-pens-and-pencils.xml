@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_pencil&apos; is assigned a value that is never used." verbose="Variable &apos;max_pencil&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1544-number-of-ways-to-buy-pens-and-pencils.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1544-number-of-ways-to-buy-pens-and-pencils.cpp" line="25" column="24"/>
+            <symbol>max_pencil</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;waysToBuyPensPencils&apos; is never used." verbose="The function &apos;waysToBuyPensPencils&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1544-number-of-ways-to-buy-pens-and-pencils.cpp" line="22" column="0"/>
+            <symbol>waysToBuyPensPencils</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

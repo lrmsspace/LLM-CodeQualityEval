@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;res&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;res&apos; that will be invalid when returning." cwe="562" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/493-greatest-english-letter-in-upper-and-lower-case.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\493-greatest-english-letter-in-upper-and-lower-case.c" line="37" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\493-greatest-english-letter-in-upper-and-lower-case.c" line="30" column="10" info="Variable created here."/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\493-greatest-english-letter-in-upper-and-lower-case.c" line="37" column="12" info="Array decayed to pointer here."/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;greatestLetter&apos; is never used." verbose="The function &apos;greatestLetter&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\493-greatest-english-letter-in-upper-and-lower-case.c" line="25" column="0"/>
+            <symbol>greatestLetter</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

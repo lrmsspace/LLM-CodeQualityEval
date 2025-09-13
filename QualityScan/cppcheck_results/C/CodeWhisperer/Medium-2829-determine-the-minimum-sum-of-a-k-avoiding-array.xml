@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i!=k-i&apos; is always true" verbose="Condition &apos;i!=k-i&apos; is always true" cwe="571" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/2829-determine-the-minimum-sum-of-a-k-avoiding-array.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\2829-determine-the-minimum-sum-of-a-k-avoiding-array.c" line="27" column="19" info="Condition &apos;i!=k-i&apos; is always true"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\2829-determine-the-minimum-sum-of-a-k-avoiding-array.c" line="26" column="15" info="Assuming that condition &apos;i&lt;k-i&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumSum&apos; is never used." verbose="The function &apos;minimumSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\2829-determine-the-minimum-sum-of-a-k-avoiding-array.c" line="19" column="0"/>
+            <symbol>minimumSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

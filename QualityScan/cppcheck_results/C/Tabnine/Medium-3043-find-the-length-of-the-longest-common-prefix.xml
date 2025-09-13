@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr1&apos; can be declared as pointer to const" verbose="Parameter &apos;arr1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3043-find-the-length-of-the-longest-common-prefix.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3043-find-the-length-of-the-longest-common-prefix.c" line="25" column="30" info="Parameter &apos;arr1&apos; can be declared as pointer to const"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr2&apos; can be declared as pointer to const" verbose="Parameter &apos;arr2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3043-find-the-length-of-the-longest-common-prefix.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3043-find-the-length-of-the-longest-common-prefix.c" line="25" column="55" info="Parameter &apos;arr2&apos; can be declared as pointer to const"/>
+            <symbol>arr2</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: i" verbose="Uninitialized variable: i" cwe="457" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3043-find-the-length-of-the-longest-common-prefix.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3043-find-the-length-of-the-longest-common-prefix.c" line="27" column="12"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3043-find-the-length-of-the-longest-common-prefix.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3043-find-the-length-of-the-longest-common-prefix.c" line="26" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestCommonPrefix&apos; is never used." verbose="The function &apos;longestCommonPrefix&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3043-find-the-length-of-the-longest-common-prefix.c" line="25" column="0"/>
+            <symbol>longestCommonPrefix</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

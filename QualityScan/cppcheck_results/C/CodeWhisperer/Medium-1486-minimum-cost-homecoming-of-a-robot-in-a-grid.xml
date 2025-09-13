@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;startPos&apos; can be declared as pointer to const" verbose="Parameter &apos;startPos&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c" line="32" column="18" info="Parameter &apos;startPos&apos; can be declared as pointer to const"/>
+            <symbol>startPos</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;homePos&apos; can be declared as pointer to const" verbose="Parameter &apos;homePos&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c" line="32" column="51" info="Parameter &apos;homePos&apos; can be declared as pointer to const"/>
+            <symbol>homePos</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;rowCosts&apos; can be declared as pointer to const" verbose="Parameter &apos;rowCosts&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c" line="32" column="82" info="Parameter &apos;rowCosts&apos; can be declared as pointer to const"/>
+            <symbol>rowCosts</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;colCosts&apos; can be declared as pointer to const" verbose="Parameter &apos;colCosts&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c" line="32" column="115" info="Parameter &apos;colCosts&apos; can be declared as pointer to const"/>
+            <symbol>colCosts</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minCost&apos; is never used." verbose="The function &apos;minCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1486-minimum-cost-homecoming-of-a-robot-in-a-grid.c" line="32" column="0"/>
+            <symbol>minCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

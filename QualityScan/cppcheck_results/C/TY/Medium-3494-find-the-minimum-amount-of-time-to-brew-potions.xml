@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;skill&apos; can be declared as pointer to const" verbose="Parameter &apos;skill&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3494-find-the-minimum-amount-of-time-to-brew-potions.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3494-find-the-minimum-amount-of-time-to-brew-potions.c" line="58" column="24" info="Parameter &apos;skill&apos; can be declared as pointer to const"/>
+            <symbol>skill</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;mana&apos; can be declared as pointer to const" verbose="Parameter &apos;mana&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3494-find-the-minimum-amount-of-time-to-brew-potions.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3494-find-the-minimum-amount-of-time-to-brew-potions.c" line="58" column="51" info="Parameter &apos;mana&apos; can be declared as pointer to const"/>
+            <symbol>mana</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3494-find-the-minimum-amount-of-time-to-brew-potions.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3494-find-the-minimum-amount-of-time-to-brew-potions.c" line="59" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: max_index" verbose="Unused variable: max_index" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3494-find-the-minimum-amount-of-time-to-brew-potions.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3494-find-the-minimum-amount-of-time-to-brew-potions.c" line="59" column="38"/>
+            <symbol>max_index</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minTime&apos; is never used." verbose="The function &apos;minTime&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3494-find-the-minimum-amount-of-time-to-brew-potions.c" line="58" column="0"/>
+            <symbol>minTime</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/2983-palindrome-rearrangement-queries.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="58" column="38" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ai&apos; is assigned a value that is never used." verbose="Variable &apos;ai&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2983-palindrome-rearrangement-queries.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="68" column="16"/>
+            <symbol>ai</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bi&apos; is assigned a value that is never used." verbose="Variable &apos;bi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2983-palindrome-rearrangement-queries.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="68" column="36"/>
+            <symbol>bi</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ci&apos; is assigned a value that is never used." verbose="Variable &apos;ci&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2983-palindrome-rearrangement-queries.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="69" column="16"/>
+            <symbol>ci</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;di&apos; is assigned a value that is never used." verbose="Variable &apos;di&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2983-palindrome-rearrangement-queries.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="69" column="36"/>
+            <symbol>di</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canMakePalindromeQueries&apos; is never used." verbose="The function &apos;canMakePalindromeQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2983-palindrome-rearrangement-queries.c" line="58" column="0"/>
+            <symbol>canMakePalindromeQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

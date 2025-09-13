@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;op == &apos;+&apos;&apos; is always true because &apos;op&apos; and &apos;&apos;+&apos;&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/734-basic-calculator-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\734-basic-calculator-ii.cpp" line="34" column="22"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\734-basic-calculator-ii.cpp" line="28" column="19" info="&apos;op&apos; is assigned value &apos;&apos;+&apos;&apos; here."/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;calculate&apos; is never used." verbose="The function &apos;calculate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\734-basic-calculator-ii.cpp" line="25" column="0"/>
+            <symbol>calculate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

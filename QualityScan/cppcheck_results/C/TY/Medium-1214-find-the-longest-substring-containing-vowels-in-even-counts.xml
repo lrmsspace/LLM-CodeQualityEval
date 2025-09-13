@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;a==x&apos; is always false" verbose="Condition &apos;a==x&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="51" column="81" info="Condition &apos;a==x&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="48" column="74" info="Assuming that condition &apos;x&lt;a&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;e==y&apos; is always false" verbose="Condition &apos;e==y&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="51" column="87" info="Condition &apos;e==y&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="49" column="78" info="Assuming that condition &apos;y&lt;e&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i==z&apos; is always false" verbose="Condition &apos;i==z&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="51" column="93" info="Condition &apos;i==z&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="50" column="82" info="Assuming that condition &apos;z&lt;i&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression &apos;a==x&apos; found multiple times in chain of &apos;&amp;&amp;&apos; operators." verbose="Finding the same expression more than once in a condition is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="51" column="108"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1214-find-the-longest-substring-containing-vowels-in-even-counts.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="20" column="36" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findTheLongestSubstring&apos; is never used." verbose="The function &apos;findTheLongestSubstring&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1214-find-the-longest-substring-containing-vowels-in-even-counts.c" line="20" column="0"/>
+            <symbol>findTheLongestSubstring</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

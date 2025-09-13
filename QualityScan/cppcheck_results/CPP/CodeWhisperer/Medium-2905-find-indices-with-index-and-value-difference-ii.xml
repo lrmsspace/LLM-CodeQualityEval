@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findIndices&apos; is never used." verbose="The function &apos;findIndices&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\2905-find-indices-with-index-and-value-difference-ii.cpp" line="36" column="0"/>
+            <symbol>findIndices</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;nums&apos; can be declared as reference to const" verbose="Parameter &apos;nums&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/803-maximum-xor-of-two-numbers-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="17" column="37" info="Parameter &apos;nums&apos; can be declared as reference to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/803-maximum-xor-of-two-numbers-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="27" column="75"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="portability" msg="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" verbose="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/803-maximum-xor-of-two-numbers-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="20" column="24" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="19" column="22" info="Assignment &apos;i=31&apos;, assigned value is 31"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="portability" msg="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" verbose="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/803-maximum-xor-of-two-numbers-in-an-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="25" column="40" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="22" column="28" info="Assuming container is not empty"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="19" column="22" info="Assignment &apos;i=31&apos;, assigned value is 31"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findMaximumXOR&apos; is never used." verbose="The function &apos;findMaximumXOR&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\803-maximum-xor-of-two-numbers-in-an-array.cpp" line="17" column="0"/>
+            <symbol>findMaximumXOR</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

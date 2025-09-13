@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;start&apos; can be declared as pointer to const" verbose="Parameter &apos;start&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1581-move-pieces-to-obtain-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1581-move-pieces-to-obtain-a-string.c" line="29" column="22" info="Parameter &apos;start&apos; can be declared as pointer to const"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;target&apos; can be declared as pointer to const" verbose="Parameter &apos;target&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1581-move-pieces-to-obtain-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1581-move-pieces-to-obtain-a-string.c" line="29" column="35" info="Parameter &apos;target&apos; can be declared as pointer to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canChange&apos; is never used." verbose="The function &apos;canChange&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1581-move-pieces-to-obtain-a-string.c" line="29" column="0"/>
+            <symbol>canChange</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

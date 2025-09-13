@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Unmatched &apos;}&apos;. Configuration: &apos;&apos;." verbose="Unmatched &apos;}&apos;. Configuration: &apos;&apos;." file0="F:/Benchmark/new/Tabnine/output/c/Medium/3044-most-frequent-prime.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3044-most-frequent-prime.c" line="87" column="1"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="27" column="33" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="22"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask2" verbose="Unused variable: mask2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="31"/>
+            <symbol>mask2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask3" verbose="Unused variable: mask3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="38"/>
+            <symbol>mask3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask4" verbose="Unused variable: mask4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="45"/>
+            <symbol>mask4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask5" verbose="Unused variable: mask5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="52"/>
+            <symbol>mask5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask6" verbose="Unused variable: mask6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="59"/>
+            <symbol>mask6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask7" verbose="Unused variable: mask7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="66"/>
+            <symbol>mask7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask8" verbose="Unused variable: mask8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="73"/>
+            <symbol>mask8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask9" verbose="Unused variable: mask9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="80"/>
+            <symbol>mask9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask10" verbose="Unused variable: mask10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="87"/>
+            <symbol>mask10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask11" verbose="Unused variable: mask11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="95"/>
+            <symbol>mask11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask12" verbose="Unused variable: mask12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="103"/>
+            <symbol>mask12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask13" verbose="Unused variable: mask13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="111"/>
+            <symbol>mask13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask14" verbose="Unused variable: mask14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="119"/>
+            <symbol>mask14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask15" verbose="Unused variable: mask15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="127"/>
+            <symbol>mask15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask16" verbose="Unused variable: mask16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="135"/>
+            <symbol>mask16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask17" verbose="Unused variable: mask17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="143"/>
+            <symbol>mask17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask18" verbose="Unused variable: mask18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="151"/>
+            <symbol>mask18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask19" verbose="Unused variable: mask19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="159"/>
+            <symbol>mask19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask20" verbose="Unused variable: mask20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="167"/>
+            <symbol>mask20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask21" verbose="Unused variable: mask21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="175"/>
+            <symbol>mask21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask22" verbose="Unused variable: mask22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="183"/>
+            <symbol>mask22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask23" verbose="Unused variable: mask23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="191"/>
+            <symbol>mask23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask24" verbose="Unused variable: mask24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="199"/>
+            <symbol>mask24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask25" verbose="Unused variable: mask25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="207"/>
+            <symbol>mask25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask26" verbose="Unused variable: mask26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="215"/>
+            <symbol>mask26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask27" verbose="Unused variable: mask27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="223"/>
+            <symbol>mask27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask28" verbose="Unused variable: mask28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="231"/>
+            <symbol>mask28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask29" verbose="Unused variable: mask29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="239"/>
+            <symbol>mask29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask30" verbose="Unused variable: mask30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="247"/>
+            <symbol>mask30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask31" verbose="Unused variable: mask31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="255"/>
+            <symbol>mask31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask32" verbose="Unused variable: mask32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="262"/>
+            <symbol>mask32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask33" verbose="Unused variable: mask33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="270"/>
+            <symbol>mask33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask34" verbose="Unused variable: mask34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="278"/>
+            <symbol>mask34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask35" verbose="Unused variable: mask35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="286"/>
+            <symbol>mask35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask36" verbose="Unused variable: mask36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="294"/>
+            <symbol>mask36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask37" verbose="Unused variable: mask37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="302"/>
+            <symbol>mask37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask38" verbose="Unused variable: mask38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="310"/>
+            <symbol>mask38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask39" verbose="Unused variable: mask39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="318"/>
+            <symbol>mask39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask40" verbose="Unused variable: mask40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="326"/>
+            <symbol>mask40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask41" verbose="Unused variable: mask41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="334"/>
+            <symbol>mask41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask42" verbose="Unused variable: mask42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="342"/>
+            <symbol>mask42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask43" verbose="Unused variable: mask43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="350"/>
+            <symbol>mask43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask44" verbose="Unused variable: mask44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="358"/>
+            <symbol>mask44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask45" verbose="Unused variable: mask45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="366"/>
+            <symbol>mask45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask46" verbose="Unused variable: mask46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="374"/>
+            <symbol>mask46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask47" verbose="Unused variable: mask47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="382"/>
+            <symbol>mask47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask48" verbose="Unused variable: mask48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="390"/>
+            <symbol>mask48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask49" verbose="Unused variable: mask49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="398"/>
+            <symbol>mask49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask50" verbose="Unused variable: mask50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="406"/>
+            <symbol>mask50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask51" verbose="Unused variable: mask51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="414"/>
+            <symbol>mask51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask52" verbose="Unused variable: mask52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="422"/>
+            <symbol>mask52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask53" verbose="Unused variable: mask53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="430"/>
+            <symbol>mask53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask54" verbose="Unused variable: mask54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="438"/>
+            <symbol>mask54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask55" verbose="Unused variable: mask55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="446"/>
+            <symbol>mask55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask56" verbose="Unused variable: mask56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="454"/>
+            <symbol>mask56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask57" verbose="Unused variable: mask57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="462"/>
+            <symbol>mask57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask58" verbose="Unused variable: mask58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="470"/>
+            <symbol>mask58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask59" verbose="Unused variable: mask59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="478"/>
+            <symbol>mask59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask60" verbose="Unused variable: mask60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="486"/>
+            <symbol>mask60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask61" verbose="Unused variable: mask61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="494"/>
+            <symbol>mask61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask62" verbose="Unused variable: mask62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="502"/>
+            <symbol>mask62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mask63" verbose="Unused variable: mask63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2052-minimum-incompatibility.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="28" column="510"/>
+            <symbol>mask63</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumIncompatibility&apos; is never used." verbose="The function &apos;minimumIncompatibility&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2052-minimum-incompatibility.c" line="27" column="0"/>
+            <symbol>minimumIncompatibility</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;val&apos; is assigned a value that is never used." verbose="Variable &apos;val&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3489-zero-array-transformation-iv.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3489-zero-array-transformation-iv.cpp" line="69" column="21"/>
+            <symbol>val</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;count&apos; is assigned a value that is never used." verbose="Variable &apos;count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3489-zero-array-transformation-iv.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3489-zero-array-transformation-iv.cpp" line="71" column="23"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minZeroArray&apos; is never used." verbose="The function &apos;minZeroArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3489-zero-array-transformation-iv.cpp" line="53" column="0"/>
+            <symbol>minZeroArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

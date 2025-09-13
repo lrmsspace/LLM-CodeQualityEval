@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;p1&apos; can be declared as pointer to const" verbose="Parameter &apos;p1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/878-valid-square.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\878-valid-square.c" line="19" column="23" info="Parameter &apos;p1&apos; can be declared as pointer to const"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;p2&apos; can be declared as pointer to const" verbose="Parameter &apos;p2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/878-valid-square.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\878-valid-square.c" line="19" column="44" info="Parameter &apos;p2&apos; can be declared as pointer to const"/>
+            <symbol>p2</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;p3&apos; can be declared as pointer to const" verbose="Parameter &apos;p3&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/878-valid-square.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\878-valid-square.c" line="19" column="65" info="Parameter &apos;p3&apos; can be declared as pointer to const"/>
+            <symbol>p3</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;p4&apos; can be declared as pointer to const" verbose="Parameter &apos;p4&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/878-valid-square.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\878-valid-square.c" line="19" column="86" info="Parameter &apos;p4&apos; can be declared as pointer to const"/>
+            <symbol>p4</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;validSquare&apos; is never used." verbose="The function &apos;validSquare&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\878-valid-square.c" line="19" column="0"/>
+            <symbol>validSquare</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

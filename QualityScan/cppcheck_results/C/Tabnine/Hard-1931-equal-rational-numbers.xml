@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantCondition" severity="style" msg="Redundant condition: The condition &apos;*s != &apos;\0&apos;&apos; is redundant since &apos;*s == &apos;0&apos;&apos; is sufficient." verbose="Redundant condition: The condition &apos;*s != &apos;\0&apos;&apos; is redundant since &apos;*s == &apos;0&apos;&apos; is sufficient." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1931-equal-rational-numbers.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1931-equal-rational-numbers.c" line="47" column="22"/>
+        </error>
+        <error id="redundantCondition" severity="style" msg="Redundant condition: The condition &apos;*t != &apos;\0&apos;&apos; is redundant since &apos;*t == &apos;0&apos;&apos; is sufficient." verbose="Redundant condition: The condition &apos;*t != &apos;\0&apos;&apos; is redundant since &apos;*t == &apos;0&apos;&apos; is sufficient." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1931-equal-rational-numbers.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1931-equal-rational-numbers.c" line="48" column="22"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isRationalEqual&apos; is never used." verbose="The function &apos;isRationalEqual&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1931-equal-rational-numbers.c" line="41" column="0"/>
+            <symbol>isRationalEqual</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minWidth&apos; is assigned a value that is never used." verbose="Variable &apos;minWidth&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1268-count-submatrices-with-all-ones.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1268-count-submatrices-with-all-ones.cpp" line="45" column="30"/>
+            <symbol>minWidth</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numSubmat&apos; is never used." verbose="The function &apos;numSubmat&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1268-count-submatrices-with-all-ones.cpp" line="32" column="0"/>
+            <symbol>numSubmat</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

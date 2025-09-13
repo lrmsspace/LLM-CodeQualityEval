@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="autovarInvalidDeallocation" severity="error" msg="Deallocation of a pointer pointing to a string literal (&quot;a&quot;) results in undefined behaviour." verbose="The deallocation of a pointer pointing to a string literal (&quot;a&quot;) results in undefined behaviour. You should only free memory that has been allocated dynamically." cwe="590" file0="F:/Benchmark/new/CodeWhisperer/output/c/Easy/3304-find-the-k-th-character-in-string-game-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="36" column="14" info="Deallocating memory that was not dynamically allocated"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="25" column="18" info="Assignment &apos;word=&quot;a&quot;&apos;, assigned value is &quot;a&quot;"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthCharacter&apos; is never used." verbose="The function &apos;kthCharacter&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="24" column="0"/>
+            <symbol>kthCharacter</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

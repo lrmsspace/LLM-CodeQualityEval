@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/2861-maximum-number-of-alloys.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="61" column="29" info="Division by zero"/>
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="55" column="31" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="54" column="30" info="Assignment &apos;total_cost=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;composition&apos; can be declared as reference to const" verbose="Parameter &apos;composition&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/2861-maximum-number-of-alloys.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="50" column="74" info="Parameter &apos;composition&apos; can be declared as reference to const"/>
+            <symbol>composition</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;stock&apos; can be declared as reference to const" verbose="Parameter &apos;stock&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/2861-maximum-number-of-alloys.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="50" column="100" info="Parameter &apos;stock&apos; can be declared as reference to const"/>
+            <symbol>stock</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;cost&apos; can be declared as reference to const" verbose="Parameter &apos;cost&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/2861-maximum-number-of-alloys.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="50" column="120" info="Parameter &apos;cost&apos; can be declared as reference to const"/>
+            <symbol>cost</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxNumberOfAlloys&apos; is never used." verbose="The function &apos;maxNumberOfAlloys&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\2861-maximum-number-of-alloys.cpp" line="50" column="0"/>
+            <symbol>maxNumberOfAlloys</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

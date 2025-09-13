@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/2084-closest-room.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="62" column="18" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="45" column="13" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;a&apos; can be declared as reference to const" verbose="Parameter &apos;a&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/2084-closest-room.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="40" column="59" info="Parameter &apos;a&apos; can be declared as reference to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;b&apos; can be declared as reference to const" verbose="Parameter &apos;b&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/2084-closest-room.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="40" column="75" info="Parameter &apos;b&apos; can be declared as reference to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/2084-closest-room.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="63" column="17"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;closestRoom&apos; is never used." verbose="The function &apos;closestRoom&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\2084-closest-room.cpp" line="33" column="0"/>
+            <symbol>closestRoom</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

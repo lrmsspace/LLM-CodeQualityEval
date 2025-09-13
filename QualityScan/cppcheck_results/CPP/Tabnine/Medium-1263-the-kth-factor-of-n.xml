@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &apos;count==k&apos;, second condition is always false" verbose="Identical condition &apos;count==k&apos;, second condition is always false" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1263-the-kth-factor-of-n.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1263-the-kth-factor-of-n.cpp" line="31" column="27" info="Testing identical condition &apos;count==k&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1263-the-kth-factor-of-n.cpp" line="30" column="27" info="If condition &apos;count==k&apos; is true, the function will return/exit"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthFactor&apos; is never used." verbose="The function &apos;kthFactor&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1263-the-kth-factor-of-n.cpp" line="25" column="0"/>
+            <symbol>kthFactor</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

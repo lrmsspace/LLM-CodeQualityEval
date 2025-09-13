@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;board&apos; can be declared as pointer to const" verbose="Parameter &apos;board&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="42" column="24" info="Parameter &apos;board&apos; can be declared as pointer to const"/>
+            <symbol>board</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;hand&apos; can be declared as pointer to const" verbose="Parameter &apos;hand&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="42" column="38" info="Parameter &apos;hand&apos; can be declared as pointer to const"/>
+            <symbol>hand</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: tmp" verbose="Uninitialized variable: tmp" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="66" column="19"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="47" column="19" info="Assuming condition is false"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="21"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="24"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: step" verbose="Unused variable: step" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="29"/>
+            <symbol>step</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: minStep" verbose="Unused variable: minStep" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1843-zuma-game.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="45" column="35"/>
+            <symbol>minStep</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findMinStep&apos; is never used." verbose="The function &apos;findMinStep&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1843-zuma-game.c" line="42" column="0"/>
+            <symbol>findMinStep</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

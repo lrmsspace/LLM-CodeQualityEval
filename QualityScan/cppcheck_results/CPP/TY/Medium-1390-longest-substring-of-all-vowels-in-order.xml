@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="0" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="33" column="23"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="39" column="23"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="45" column="23"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="51" column="23"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="57" column="21"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;vowels&apos; is assigned a value that is never used." verbose="Variable &apos;vowels&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1390-longest-substring-of-all-vowels-in-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="59" column="20"/>
+            <symbol>vowels</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestBeautifulSubstring&apos; is never used." verbose="The function &apos;longestBeautifulSubstring&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1390-longest-substring-of-all-vowels-in-order.cpp" line="27" column="0"/>
+            <symbol>longestBeautifulSubstring</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

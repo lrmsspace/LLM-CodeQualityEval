@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/cpp/Hard/3203-find-minimum-diameter-after-merging-two-trees.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3203-find-minimum-diameter-after-merging-two-trees.cpp" line="0" column="0"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;UnionFind&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;UnionFind&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="F:/Benchmark/new/Tabnine/output/cpp/Hard/3203-find-minimum-diameter-after-merging-two-trees.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3203-find-minimum-diameter-after-merging-two-trees.cpp" line="30" column="5"/>
+            <symbol>UnionFind</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumDiameterAfterMerge&apos; is never used." verbose="The function &apos;minimumDiameterAfterMerge&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Hard\3203-find-minimum-diameter-after-merging-two-trees.cpp" line="61" column="0"/>
+            <symbol>minimumDiameterAfterMerge</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

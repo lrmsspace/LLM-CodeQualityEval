@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;kth&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;kth&apos;. The initialized value is overwritten before it is read." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1347-swapping-nodes-in-a-linked-list.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1347-swapping-nodes-in-a-linked-list.c" line="28" column="9" info="kth is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1347-swapping-nodes-in-a-linked-list.c" line="24" column="50" info="kth is initialized"/>
+            <symbol>kth</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;swapNodes&apos; is never used." verbose="The function &apos;swapNodes&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1347-swapping-nodes-in-a-linked-list.c" line="23" column="0"/>
+            <symbol>swapNodes</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

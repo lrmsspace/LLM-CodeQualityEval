@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;nums&apos; can be declared as reference to const" verbose="Parameter &apos;nums&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3534-path-existence-queries-in-a-graph-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3534-path-existence-queries-in-a-graph-ii.cpp" line="64" column="58" info="Parameter &apos;nums&apos; can be declared as reference to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3534-path-existence-queries-in-a-graph-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3534-path-existence-queries-in-a-graph-ii.cpp" line="64" column="98" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3534-path-existence-queries-in-a-graph-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3534-path-existence-queries-in-a-graph-ii.cpp" line="68" column="29"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Hard/3534-path-existence-queries-in-a-graph-ii.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3534-path-existence-queries-in-a-graph-ii.cpp" line="73" column="23"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;pathExistenceQueries&apos; is never used." verbose="The function &apos;pathExistenceQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3534-path-existence-queries-in-a-graph-ii.cpp" line="64" column="0"/>
+            <symbol>pathExistenceQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

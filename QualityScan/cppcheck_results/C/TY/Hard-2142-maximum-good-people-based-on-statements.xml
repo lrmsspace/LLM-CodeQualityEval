@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;statementsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;statementsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="60" column="60" info="Parameter &apos;statementsColSize&apos; can be declared as pointer to const"/>
+            <symbol>statementsColSize</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: a[i]" verbose="Uninitialized variable: a[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="66" column="18"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="66" column="22"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[j]&apos; is assigned a value that is never used." verbose="Variable &apos;a[j]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="67" column="22"/>
+            <symbol>a[j]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="70" column="21"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="77" column="22"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[j]&apos; is assigned a value that is never used." verbose="Variable &apos;a[j]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="78" column="22"/>
+            <symbol>a[j]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="85" column="22"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a[i]&apos; is assigned a value that is never used." verbose="Variable &apos;a[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="92" column="22"/>
+            <symbol>a[i]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="61" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;a&apos; is not assigned a value." verbose="Variable &apos;a&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="9"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="16"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="23"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="30"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="37"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="44"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="51"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="58"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i1" verbose="Unused variable: i1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="65"/>
+            <symbol>i1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j1" verbose="Unused variable: j1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="69"/>
+            <symbol>j1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="73"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l1" verbose="Unused variable: l1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="77"/>
+            <symbol>l1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m1" verbose="Unused variable: m1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="81"/>
+            <symbol>m1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n1" verbose="Unused variable: n1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="85"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o1" verbose="Unused variable: o1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="89"/>
+            <symbol>o1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p1" verbose="Unused variable: p1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="93"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q1" verbose="Unused variable: q1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="97"/>
+            <symbol>q1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r1" verbose="Unused variable: r1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="101"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s1" verbose="Unused variable: s1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="105"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t1" verbose="Unused variable: t1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="109"/>
+            <symbol>t1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u1" verbose="Unused variable: u1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="113"/>
+            <symbol>u1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v1" verbose="Unused variable: v1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="117"/>
+            <symbol>v1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w1" verbose="Unused variable: w1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="121"/>
+            <symbol>w1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x1" verbose="Unused variable: x1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="125"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y1" verbose="Unused variable: y1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="129"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z1" verbose="Unused variable: z1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2142-maximum-good-people-based-on-statements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="62" column="133"/>
+            <symbol>z1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumGood&apos; is never used." verbose="The function &apos;maximumGood&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2142-maximum-good-people-based-on-statements.c" line="60" column="0"/>
+            <symbol>maximumGood</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

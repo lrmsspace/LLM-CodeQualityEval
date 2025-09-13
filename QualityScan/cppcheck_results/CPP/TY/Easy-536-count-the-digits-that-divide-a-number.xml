@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="zerodivcond" severity="warning" msg="Either the condition &apos;temp&apos; is redundant or there is division by zero at line 28." verbose="Either the condition &apos;temp&apos; is redundant or there is division by zero at line 28." cwe="369" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/536-count-the-digits-that-divide-a-number.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\536-count-the-digits-that-divide-a-number.cpp" line="28" column="20" info="Division by zero"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\536-count-the-digits-that-divide-a-number.cpp" line="27" column="23" info="digit is assigned &apos;temp%10&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\536-count-the-digits-that-divide-a-number.cpp" line="31" column="13" info="Compound assignment &apos;/=&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\536-count-the-digits-that-divide-a-number.cpp" line="26" column="15" info="Assuming that condition &apos;temp&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countDigits&apos; is never used." verbose="The function &apos;countDigits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\536-count-the-digits-that-divide-a-number.cpp" line="23" column="0"/>
+            <symbol>countDigits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

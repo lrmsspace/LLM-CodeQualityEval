@@ -1,0 +1,59 @@
+/*
+ You are given two integers, n and k, along with two 2D integer arrays, stayScore and travelScore.
+ A tourist is visiting a country with n cities, where each city is directly connected to every other city. The tourist's journey consists of exactly k 0-indexed days, and they can choose any city as their starting point.
+ Each day, the tourist has two choices:
+ Stay in the current city: If the tourist stays in their current city curr during day i, they will earn stayScore[i][curr] points.
+ Move to another city: If the tourist moves from their current city curr to city dest, they will earn travelScore[curr][dest] points.
+ Return the maximum possible points the tourist can earn.
+ Example 1:
+ Input: n = 2, k = 1, stayScore = [[2,3]], travelScore = [[0,2],[1,0]]
+ Output: 3
+ Explanation:
+ The tourist earns the maximum number of points by starting in city 1 and staying in that city.
+ Example 2:
+ Input: n = 3, k = 2, stayScore = [[3,4,2],[2,1,2]], travelScore = [[0,2,1],[2,0,4],[3,2,0]]
+ Output: 8
+ Explanation:
+ The tourist earns the maximum number of points by starting in city 1, staying in that city on day 0, and traveling to city 2 on day 1.
+ Constraints:
+ 1 <= n <= 200
+ 1 <= k <= 200
+ n == travelScore.length == travelScore[i].length == stayScore[i].length
+ k == stayScore.length
+ 1 <= stayScore[i][j] <= 100
+ 0 <= travelScore[i][j] <= 100
+ travelScore[i][i] == 0
+*/
+
+class Solution {
+public:
+    int maxScore(int n, int k, vector<vector<int>>& stayScore, vector<vector<int>>& travelScore) {
+
+        // Initialize a 2D dp array to store the maximum points
+        vector<vector<int>> dp(k + 1, vector<int>(n, 0));
+        
+        // Fill the dp array with the initial values
+        for (int i = 0; i < n; i++) {
+            dp[0][i] = stayScore[0][i];
+        }
+        // Iterate through each day
+        for (int day = 1; day <= k; day++) {
+            // Iterate through each city
+            for (int city = 0; city < n; city++) {
+                // Calculate the maximum points by staying in the current city or moving to another city
+                int maxPoints = stayScore[day - 1][city];
+                for (int dest = 0; dest < n; dest++) {
+                    if (dest!= city) {
+                        maxPoints = max(maxPoints, stayScore[day - 1][city] + travelScore[city][dest]);
+                    }
+                }
+                // Update the maximum points for the current day and city
+                dp[day][city] = maxPoints;
+            }
+        }
+        
+        // Return the maximum points for the last day
+        return *max_element(dp[k].begin(), dp[k].end());
+        
+    }
+};

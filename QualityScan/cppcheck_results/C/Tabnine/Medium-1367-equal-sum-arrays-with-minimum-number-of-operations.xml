@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;diff&lt;0&apos; is always false" verbose="Condition &apos;diff&lt;0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1367-equal-sum-arrays-with-minimum-number-of-operations.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="40" column="14" info="Condition &apos;diff&lt;0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="39" column="21" info="Assignment &apos;diff=sum1-sum2&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="35" column="13" info="Assuming that condition &apos;sum1!=sum2&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums1&apos; can be declared as pointer to const" verbose="Parameter &apos;nums1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1367-equal-sum-arrays-with-minimum-number-of-operations.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="28" column="24" info="Parameter &apos;nums1&apos; can be declared as pointer to const"/>
+            <symbol>nums1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums2&apos; can be declared as pointer to const" verbose="Parameter &apos;nums2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/1367-equal-sum-arrays-with-minimum-number-of-operations.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="28" column="51" info="Parameter &apos;nums2&apos; can be declared as pointer to const"/>
+            <symbol>nums2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minOperations&apos; is never used." verbose="The function &apos;minOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\1367-equal-sum-arrays-with-minimum-number-of-operations.c" line="28" column="0"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

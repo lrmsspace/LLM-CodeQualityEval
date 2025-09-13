@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: k1" verbose="Uninitialized variable: k1" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="44" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="32" column="19" info="Assuming condition is false"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k32&apos; is assigned a value that is never used." verbose="Variable &apos;k32&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="197"/>
+            <symbol>k32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="30"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="33"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="36"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="39"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="42"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="49"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="53"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="57"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k5" verbose="Unused variable: k5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="61"/>
+            <symbol>k5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k6" verbose="Unused variable: k6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="65"/>
+            <symbol>k6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k7" verbose="Unused variable: k7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="69"/>
+            <symbol>k7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k8" verbose="Unused variable: k8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="73"/>
+            <symbol>k8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k9" verbose="Unused variable: k9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="77"/>
+            <symbol>k9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k10" verbose="Unused variable: k10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="81"/>
+            <symbol>k10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k11" verbose="Unused variable: k11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="86"/>
+            <symbol>k11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k12" verbose="Unused variable: k12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="91"/>
+            <symbol>k12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k13" verbose="Unused variable: k13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="96"/>
+            <symbol>k13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k14" verbose="Unused variable: k14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="101"/>
+            <symbol>k14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k15" verbose="Unused variable: k15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="106"/>
+            <symbol>k15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k16" verbose="Unused variable: k16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="111"/>
+            <symbol>k16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k17" verbose="Unused variable: k17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="116"/>
+            <symbol>k17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k18" verbose="Unused variable: k18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="121"/>
+            <symbol>k18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k19" verbose="Unused variable: k19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="126"/>
+            <symbol>k19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k20" verbose="Unused variable: k20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="131"/>
+            <symbol>k20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k21" verbose="Unused variable: k21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="136"/>
+            <symbol>k21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k22" verbose="Unused variable: k22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="141"/>
+            <symbol>k22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k23" verbose="Unused variable: k23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="146"/>
+            <symbol>k23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k24" verbose="Unused variable: k24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="151"/>
+            <symbol>k24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k25" verbose="Unused variable: k25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="156"/>
+            <symbol>k25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k26" verbose="Unused variable: k26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="161"/>
+            <symbol>k26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k27" verbose="Unused variable: k27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="166"/>
+            <symbol>k27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k28" verbose="Unused variable: k28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="171"/>
+            <symbol>k28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k29" verbose="Unused variable: k29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="176"/>
+            <symbol>k29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k30" verbose="Unused variable: k30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="181"/>
+            <symbol>k30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k31" verbose="Unused variable: k31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2184-number-of-excellent-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="28" column="186"/>
+            <symbol>k31</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countExcellentPairs&apos; is never used." verbose="The function &apos;countExcellentPairs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2184-number-of-excellent-pairs.c" line="27" column="0"/>
+            <symbol>countExcellentPairs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

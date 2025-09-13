@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;word&apos; shadows outer variable" verbose="Local variable &apos;word&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Easy/178-most-common-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\178-most-common-word.cpp" line="45" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\178-most-common-word.cpp" line="29" column="16" info="Shadowed declaration"/>
+            <symbol>word</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mostCommonWord&apos; is never used." verbose="The function &apos;mostCommonWord&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Easy\178-most-common-word.cpp" line="26" column="0"/>
+            <symbol>mostCommonWord</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

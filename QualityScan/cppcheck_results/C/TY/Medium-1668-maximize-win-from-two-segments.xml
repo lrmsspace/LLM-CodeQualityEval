@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;prizePositions&apos; can be declared as pointer to const" verbose="Parameter &apos;prizePositions&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="28" column="22" info="Parameter &apos;prizePositions&apos; can be declared as pointer to const"/>
+            <symbol>prizePositions</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max&apos; is assigned a value that is never used." verbose="Variable &apos;max&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="30" column="9"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_i&apos; is assigned a value that is never used." verbose="Variable &apos;max_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="31" column="11"/>
+            <symbol>max_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_j&apos; is assigned a value that is never used." verbose="Variable &apos;max_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="32" column="11"/>
+            <symbol>max_j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_i&apos; is assigned a value that is never used." verbose="Variable &apos;max_i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="41" column="27"/>
+            <symbol>max_i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_j&apos; is assigned a value that is never used." verbose="Variable &apos;max_j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1668-maximize-win-from-two-segments.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="42" column="27"/>
+            <symbol>max_j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximizeWin&apos; is never used." verbose="The function &apos;maximizeWin&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1668-maximize-win-from-two-segments.c" line="28" column="0"/>
+            <symbol>maximizeWin</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

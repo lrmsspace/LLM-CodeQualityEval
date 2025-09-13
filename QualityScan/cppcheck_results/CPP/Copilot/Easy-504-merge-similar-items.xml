@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;item&apos; can be declared as reference to const" verbose="Variable &apos;item&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Easy/504-merge-similar-items.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Easy\504-merge-similar-items.cpp" line="43" column="20" info="Variable &apos;item&apos; can be declared as reference to const"/>
+            <symbol>item</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;item&apos; can be declared as reference to const" verbose="Variable &apos;item&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Easy/504-merge-similar-items.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Easy\504-merge-similar-items.cpp" line="46" column="20" info="Variable &apos;item&apos; can be declared as reference to const"/>
+            <symbol>item</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Easy/504-merge-similar-items.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Easy\504-merge-similar-items.cpp" line="51" column="17"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mergeSimilarItems&apos; is never used." verbose="The function &apos;mergeSimilarItems&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Easy\504-merge-similar-items.cpp" line="41" column="0"/>
+            <symbol>mergeSimilarItems</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

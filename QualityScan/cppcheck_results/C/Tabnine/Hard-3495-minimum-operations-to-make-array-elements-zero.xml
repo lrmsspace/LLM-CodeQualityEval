@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;minOperations&apos; shadows outer function" verbose="Local variable &apos;minOperations&apos; shadows outer function" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3495-minimum-operations-to-make-array-elements-zero.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3495-minimum-operations-to-make-array-elements-zero.c" line="45" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3495-minimum-operations-to-make-array-elements-zero.c" line="40" column="11" info="Shadowed declaration"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minOperations&apos; is never used." verbose="The function &apos;minOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3495-minimum-operations-to-make-array-elements-zero.c" line="40" column="0"/>
+            <symbol>minOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

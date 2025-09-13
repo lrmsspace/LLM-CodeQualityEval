@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;words&apos; can be declared as reference to const" verbose="Parameter &apos;words&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Easy/452-find-first-palindromic-string-in-the-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\452-find-first-palindromic-string-in-the-array.cpp" line="25" column="44" info="Parameter &apos;words&apos; can be declared as reference to const"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;firstPalindrome&apos; is never used." verbose="The function &apos;firstPalindrome&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Easy\452-find-first-palindromic-string-in-the-array.cpp" line="25" column="0"/>
+            <symbol>firstPalindrome</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowFunction" severity="style" msg="Local variable &apos;maxContainers&apos; shadows outer function" verbose="Local variable &apos;maxContainers&apos; shadows outer function" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Easy/3492-maximum-containers-on-a-ship.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3492-maximum-containers-on-a-ship.c" line="30" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3492-maximum-containers-on-a-ship.c" line="21" column="5" info="Shadowed declaration"/>
+            <symbol>maxContainers</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxContainers&apos; is never used." verbose="The function &apos;maxContainers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3492-maximum-containers-on-a-ship.c" line="21" column="0"/>
+            <symbol>maxContainers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

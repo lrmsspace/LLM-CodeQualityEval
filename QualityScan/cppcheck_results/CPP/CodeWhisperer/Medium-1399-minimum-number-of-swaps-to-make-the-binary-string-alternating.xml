@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;cnt0&apos; shadows outer variable" verbose="Local variable &apos;cnt0&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp" line="45" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp" line="26" column="13" info="Shadowed declaration"/>
+            <symbol>cnt0</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;cnt1&apos; shadows outer variable" verbose="Local variable &apos;cnt1&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp" line="45" column="27" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp" line="26" column="23" info="Shadowed declaration"/>
+            <symbol>cnt1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minSwaps&apos; is never used." verbose="The function &apos;minSwaps&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1399-minimum-number-of-swaps-to-make-the-binary-string-alternating.cpp" line="24" column="0"/>
+            <symbol>minSwaps</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

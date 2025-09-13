@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;x==min_x&apos; is always true" verbose="Condition &apos;x==min_x&apos; is always true" cwe="571" file0="F:/Benchmark/new/Copilot/output/c/Hard/3102-minimize-manhattan-distances.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="47" column="31" info="Condition &apos;x==min_x&apos; is always true"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="46" column="19" info="Assuming that condition &apos;x==min_x&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;y==min_y&apos; is always true" verbose="Condition &apos;y==min_y&apos; is always true" cwe="571" file0="F:/Benchmark/new/Copilot/output/c/Hard/3102-minimize-manhattan-distances.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="55" column="31" info="Condition &apos;y==min_y&apos; is always true"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="54" column="19" info="Assuming that condition &apos;y==min_y&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;pointsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;pointsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Hard/3102-minimize-manhattan-distances.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="26" column="56" info="Parameter &apos;pointsColSize&apos; can be declared as pointer to const"/>
+            <symbol>pointsColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumDistance&apos; is never used." verbose="The function &apos;minimumDistance&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3102-minimize-manhattan-distances.c" line="26" column="0"/>
+            <symbol>minimumDistance</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;t&apos; can be reduced." verbose="The scope of the variable &apos;t&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/Copilot/output/cpp/Medium/3577-count-the-number-of-computer-unlocking-permutations.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="71" column="27"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;q&apos; can be reduced." verbose="The scope of the variable &apos;q&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/Copilot/output/cpp/Medium/3577-count-the-number-of-computer-unlocking-permutations.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="71" column="30"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="F:/Benchmark/new/Copilot/output/cpp/Medium/3577-count-the-number-of-computer-unlocking-permutations.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="75" column="19" info="Division by zero"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="77" column="19" info="Assignment &apos;m=a%m&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="78" column="17" info="Assignment &apos;a=t&apos;, assigned value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="76" column="17" info="Assignment &apos;t=m&apos;, assigned value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="65" column="48" info="Calling function &apos;modInverse&apos;, 2nd argument &apos;MOD&apos; value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="37" column="29" info="Assignment &apos;MOD=1e9+7&apos;, assigned value is 1000000007"/>
+        </error>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="F:/Benchmark/new/Copilot/output/cpp/Medium/3577-count-the-number-of-computer-unlocking-permutations.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="77" column="19" info="Division by zero"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="77" column="19" info="Assignment &apos;m=a%m&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="78" column="17" info="Assignment &apos;a=t&apos;, assigned value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="76" column="17" info="Assignment &apos;t=m&apos;, assigned value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="65" column="48" info="Calling function &apos;modInverse&apos;, 2nd argument &apos;MOD&apos; value is 1000000007"/>
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="37" column="29" info="Assignment &apos;MOD=1e9+7&apos;, assigned value is 1000000007"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countPermutations&apos; is never used." verbose="The function &apos;countPermutations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Medium\3577-count-the-number-of-computer-unlocking-permutations.cpp" line="35" column="0"/>
+            <symbol>countPermutations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

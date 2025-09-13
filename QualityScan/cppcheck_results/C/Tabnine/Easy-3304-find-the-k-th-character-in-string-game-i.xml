@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;k&gt;0&apos; is redundant or the array &apos;word[2]&apos; is accessed at index -1, which is out of bounds." verbose="Either the condition &apos;k&gt;0&apos; is redundant or the array &apos;word[2]&apos; is accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/new/Tabnine/output/c/Easy/3304-find-the-k-th-character-in-string-game-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="40" column="16" info="Negative array index"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="27" column="14" info="Assuming that condition &apos;k&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthCharacter&apos; is never used." verbose="The function &apos;kthCharacter&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3304-find-the-k-th-character-in-string-game-i.c" line="24" column="0"/>
+            <symbol>kthCharacter</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

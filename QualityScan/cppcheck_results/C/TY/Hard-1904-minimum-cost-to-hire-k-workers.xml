@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;q&apos; can be reduced." verbose="The scope of the variable &apos;q&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="21"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="32" column="19"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="18"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="27"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="30"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="34"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="38"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="42"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k5" verbose="Unused variable: k5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="46"/>
+            <symbol>k5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k6" verbose="Unused variable: k6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="50"/>
+            <symbol>k6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k7" verbose="Unused variable: k7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="54"/>
+            <symbol>k7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k8" verbose="Unused variable: k8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="58"/>
+            <symbol>k8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k9" verbose="Unused variable: k9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="62"/>
+            <symbol>k9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k10" verbose="Unused variable: k10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="22" column="66"/>
+            <symbol>k10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="12"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r1" verbose="Unused variable: r1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="15"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r2" verbose="Unused variable: r2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="19"/>
+            <symbol>r2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r3" verbose="Unused variable: r3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="23"/>
+            <symbol>r3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r4" verbose="Unused variable: r4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="27"/>
+            <symbol>r4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r5" verbose="Unused variable: r5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="31"/>
+            <symbol>r5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r6" verbose="Unused variable: r6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="35"/>
+            <symbol>r6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r7" verbose="Unused variable: r7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="39"/>
+            <symbol>r7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r8" verbose="Unused variable: r8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="43"/>
+            <symbol>r8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r9" verbose="Unused variable: r9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="47"/>
+            <symbol>r9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r10" verbose="Unused variable: r10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1904-minimum-cost-to-hire-k-workers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="23" column="51"/>
+            <symbol>r10</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mincostToHireWorkers&apos; is never used." verbose="The function &apos;mincostToHireWorkers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1904-minimum-cost-to-hire-k-workers.c" line="21" column="0"/>
+            <symbol>mincostToHireWorkers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3218-minimum-cost-for-cutting-cake-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;horizontalCut&apos; can be declared as pointer to const" verbose="Parameter &apos;horizontalCut&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3218-minimum-cost-for-cutting-cake-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="37" column="36" info="Parameter &apos;horizontalCut&apos; can be declared as pointer to const"/>
+            <symbol>horizontalCut</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;verticalCut&apos; can be declared as pointer to const" verbose="Parameter &apos;verticalCut&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3218-minimum-cost-for-cutting-cake-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="37" column="79" info="Parameter &apos;verticalCut&apos; can be declared as pointer to const"/>
+            <symbol>verticalCut</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min" verbose="Unused variable: min" cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3218-minimum-cost-for-cutting-cake-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="38" column="18"/>
+            <symbol>min</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3218-minimum-cost-for-cutting-cake-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="38" column="35"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3218-minimum-cost-for-cutting-cake-i.c" line="37" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

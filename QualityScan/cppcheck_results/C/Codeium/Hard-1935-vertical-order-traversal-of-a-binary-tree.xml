@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;n1&apos; can be declared as pointer to const" verbose="Variable &apos;n1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1935-vertical-order-traversal-of-a-binary-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1935-vertical-order-traversal-of-a-binary-tree.c" line="58" column="15" info="Variable &apos;n1&apos; can be declared as pointer to const"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;n2&apos; can be declared as pointer to const" verbose="Variable &apos;n2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1935-vertical-order-traversal-of-a-binary-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1935-vertical-order-traversal-of-a-binary-tree.c" line="59" column="15" info="Variable &apos;n2&apos; can be declared as pointer to const"/>
+            <symbol>n2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;verticalTraversal&apos; is never used." verbose="The function &apos;verticalTraversal&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1935-vertical-order-traversal-of-a-binary-tree.c" line="79" column="0"/>
+            <symbol>verticalTraversal</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

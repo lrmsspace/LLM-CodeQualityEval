@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3333-find-the-original-typed-string-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3333-find-the-original-typed-string-ii.cpp" line="0" column="0"/>
+        </error>
+        <error id="unreachableCode" severity="style" msg="Statements following &apos;return&apos; will never be executed." verbose="Statements following &apos;return&apos; will never be executed." cwe="561" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3333-find-the-original-typed-string-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3333-find-the-original-typed-string-ii.cpp" line="57" column="1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;possibleStringCount&apos; is never used." verbose="The function &apos;possibleStringCount&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3333-find-the-original-typed-string-ii.cpp" line="27" column="0"/>
+            <symbol>possibleStringCount</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

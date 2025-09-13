@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;xDepth == yDepth&apos; is always true because &apos;xDepth&apos; and &apos;yDepth&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="49" column="23"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="39" column="23" info="&apos;yDepth&apos; is assigned value &apos;-1&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="38" column="23" info="&apos;xDepth&apos; is assigned value &apos;-1&apos; here."/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;xNode&apos; can be declared as pointer to const" verbose="Variable &apos;xNode&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="36" column="19" info="Variable &apos;xNode&apos; can be declared as pointer to const"/>
+            <symbol>xNode</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;yNode&apos; can be declared as pointer to const" verbose="Variable &apos;yNode&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="37" column="19" info="Variable &apos;yNode&apos; can be declared as pointer to const"/>
+            <symbol>yNode</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;node&apos; can be declared as pointer to const" verbose="Variable &apos;node&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="46" column="27" info="Variable &apos;node&apos; can be declared as pointer to const"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;depth&apos; is assigned a value that is never used." verbose="Variable &apos;depth&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="40" column="19"/>
+            <symbol>depth</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;node&apos; is assigned a value that is never used." verbose="Variable &apos;node&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/215-cousins-in-binary-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="46" column="32"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isCousins&apos; is never used." verbose="The function &apos;isCousins&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\215-cousins-in-binary-tree.cpp" line="35" column="0"/>
+            <symbol>isCousins</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

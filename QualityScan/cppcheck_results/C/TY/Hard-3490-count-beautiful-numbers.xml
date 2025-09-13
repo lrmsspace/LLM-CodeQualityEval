@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="F:/Benchmark/new/TY/output/c/Hard/3490-count-beautiful-numbers.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3490-count-beautiful-numbers.c" line="27" column="15" info="Division by zero"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3490-count-beautiful-numbers.c" line="23" column="16" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3490-count-beautiful-numbers.c" line="22" column="19" info="Assignment &apos;sum=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;beautifulNumbers&apos; is never used." verbose="The function &apos;beautifulNumbers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3490-count-beautiful-numbers.c" line="18" column="0"/>
+            <symbol>beautifulNumbers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

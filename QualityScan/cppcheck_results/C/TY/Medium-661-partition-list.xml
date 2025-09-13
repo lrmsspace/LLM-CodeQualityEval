@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;q&apos; is assigned an expression that holds the same value." verbose="Variable &apos;q&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/661-partition-list.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\661-partition-list.c" line="33" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\661-partition-list.c" line="27" column="18" info="Assuming that condition &apos;p!=q&apos; is not redundant"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;partition&apos; is never used." verbose="The function &apos;partition&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\661-partition-list.c" line="23" column="0"/>
+            <symbol>partition</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

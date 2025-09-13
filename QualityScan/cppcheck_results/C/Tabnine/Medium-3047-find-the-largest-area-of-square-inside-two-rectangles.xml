@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Medium/3047-find-the-largest-area-of-square-inside-two-rectangles.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3047-find-the-largest-area-of-square-inside-two-rectangles.c" line="0" column="0"/>
+        </error>
+        <error id="truncLongCastReturn" severity="style" msg="int result is returned as long long value. If the return value is long long to avoid loss of information, then you have loss of information." verbose="int result is returned as long long value. If the return value is long long to avoid loss of information, then there is loss of information. To avoid loss of information you must cast a calculation operand to long, for example &apos;return a*b;&apos; =&gt; &apos;return (long)a*b&apos;." cwe="197" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3047-find-the-largest-area-of-square-inside-two-rectangles.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3047-find-the-largest-area-of-square-inside-two-rectangles.c" line="57" column="5"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;largestSquareArea&apos; is never used." verbose="The function &apos;largestSquareArea&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3047-find-the-largest-area-of-square-inside-two-rectangles.c" line="34" column="0"/>
+            <symbol>largestSquareArea</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

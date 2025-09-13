@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;i&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;i&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="20" column="10" info="i is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="22" info="i is assigned"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="17" column="26" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="10"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="12"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="14"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="16"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="18"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="20"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="24"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="26"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="28"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="30"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="32"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="34"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="36"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="38"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="40"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="44"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="46"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="50"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="52"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="54"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="19" column="56"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s1" verbose="Unused variable: s1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="29"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="64"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l1" verbose="Unused variable: l1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="67"/>
+            <symbol>l1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m1" verbose="Unused variable: m1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="70"/>
+            <symbol>m1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n1" verbose="Unused variable: n1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="73"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o1" verbose="Unused variable: o1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="76"/>
+            <symbol>o1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p1" verbose="Unused variable: p1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="79"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q1" verbose="Unused variable: q1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="82"/>
+            <symbol>q1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r1" verbose="Unused variable: r1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="85"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s2" verbose="Unused variable: s2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="88"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t1" verbose="Unused variable: t1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="91"/>
+            <symbol>t1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u1" verbose="Unused variable: u1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="94"/>
+            <symbol>u1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v1" verbose="Unused variable: v1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="97"/>
+            <symbol>v1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w1" verbose="Unused variable: w1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="100"/>
+            <symbol>w1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x1" verbose="Unused variable: x1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="103"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y1" verbose="Unused variable: y1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="106"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z1" verbose="Unused variable: z1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/387-second-largest-digit-in-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="18" column="109"/>
+            <symbol>z1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;secondHighest&apos; is never used." verbose="The function &apos;secondHighest&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\387-second-largest-digit-in-a-string.c" line="17" column="0"/>
+            <symbol>secondHighest</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

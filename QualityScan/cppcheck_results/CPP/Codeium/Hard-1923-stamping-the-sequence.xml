@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateConditionalAssign" severity="style" msg="The statement &apos;if (target[i+j]!=&apos;?&apos;) target[i+j]=&apos;?&apos;&apos; is logically equivalent to &apos;target[i+j]=&apos;?&apos;&apos;." verbose="The statement &apos;if (target[i+j]!=&apos;?&apos;) target[i+j]=&apos;?&apos;&apos; is logically equivalent to &apos;target[i+j]=&apos;?&apos;&apos;." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1923-stamping-the-sequence.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1923-stamping-the-sequence.cpp" line="41" column="39" info="Condition &apos;target[i+j]!=&apos;?&apos;&apos; is redundant"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1923-stamping-the-sequence.cpp" line="42" column="39" info="Assignment &apos;target[i+j]=&apos;?&apos;&apos;"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::any_of algorithm instead of a raw loop." verbose="Consider using std::any_of algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1923-stamping-the-sequence.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1923-stamping-the-sequence.cpp" line="48" column="27"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;movesToStamp&apos; is never used." verbose="The function &apos;movesToStamp&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1923-stamping-the-sequence.cpp" line="34" column="0"/>
+            <symbol>movesToStamp</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Hard/3213-construct-string-with-minimum-cost.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;wordLength&apos; shadows outer variable" verbose="Local variable &apos;wordLength&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3213-construct-string-with-minimum-cost.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="64" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="35" column="9" info="Shadowed declaration"/>
+            <symbol>wordLength</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;costs&apos; can be declared as pointer to const" verbose="Parameter &apos;costs&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3213-construct-string-with-minimum-cost.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="31" column="65" info="Parameter &apos;costs&apos; can be declared as pointer to const"/>
+            <symbol>costs</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minCost&apos; is assigned a value that is never used." verbose="Variable &apos;minCost&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3213-construct-string-with-minimum-cost.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="33" column="17"/>
+            <symbol>minCost</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;wordLength&apos; is assigned a value that is never used." verbose="Variable &apos;wordLength&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3213-construct-string-with-minimum-cost.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="35" column="20"/>
+            <symbol>wordLength</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3213-construct-string-with-minimum-cost.c" line="31" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

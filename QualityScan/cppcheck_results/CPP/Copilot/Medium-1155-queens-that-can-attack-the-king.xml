@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1155-queens-that-can-attack-the-king.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1155-queens-that-can-attack-the-king.cpp" line="0" column="0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queens&apos; can be declared as reference to const" verbose="Parameter &apos;queens&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1155-queens-that-can-attack-the-king.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1155-queens-that-can-attack-the-king.cpp" line="22" column="66" info="Parameter &apos;queens&apos; can be declared as reference to const"/>
+            <symbol>queens</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;king&apos; can be declared as reference to const" verbose="Parameter &apos;king&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1155-queens-that-can-attack-the-king.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1155-queens-that-can-attack-the-king.cpp" line="22" column="87" info="Parameter &apos;king&apos; can be declared as reference to const"/>
+            <symbol>king</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;queensAttacktheKing&apos; is never used." verbose="The function &apos;queensAttacktheKing&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1155-queens-that-can-attack-the-king.cpp" line="22" column="0"/>
+            <symbol>queensAttacktheKing</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

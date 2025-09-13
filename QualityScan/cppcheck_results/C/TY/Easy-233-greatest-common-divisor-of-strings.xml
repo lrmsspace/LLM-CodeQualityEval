@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;str1&apos; can be declared as pointer to const" verbose="Parameter &apos;str1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/233-greatest-common-divisor-of-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\233-greatest-common-divisor-of-strings.c" line="18" column="28" info="Parameter &apos;str1&apos; can be declared as pointer to const"/>
+            <symbol>str1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;str2&apos; can be declared as pointer to const" verbose="Parameter &apos;str2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/233-greatest-common-divisor-of-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\233-greatest-common-divisor-of-strings.c" line="18" column="41" info="Parameter &apos;str2&apos; can be declared as pointer to const"/>
+            <symbol>str2</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/233-greatest-common-divisor-of-strings.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\233-greatest-common-divisor-of-strings.c" line="33" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\233-greatest-common-divisor-of-strings.c" line="24" column="19" info="Assuming condition is false"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;gcdOfStrings&apos; is never used." verbose="The function &apos;gcdOfStrings&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\233-greatest-common-divisor-of-strings.c" line="18" column="0"/>
+            <symbol>gcdOfStrings</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

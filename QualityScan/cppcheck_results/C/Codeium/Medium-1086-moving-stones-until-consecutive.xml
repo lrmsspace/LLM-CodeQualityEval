@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1086-moving-stones-until-consecutive.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="37" column="5"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minMove&apos; is assigned a value that is never used." verbose="Variable &apos;minMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1086-moving-stones-until-consecutive.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="29" column="17"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxMove&apos; is assigned a value that is never used." verbose="Variable &apos;maxMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1086-moving-stones-until-consecutive.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="30" column="17"/>
+            <symbol>maxMove</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minMove&apos; is assigned a value that is never used." verbose="Variable &apos;minMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1086-moving-stones-until-consecutive.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="34" column="17"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minMove&apos; is assigned a value that is never used." verbose="Variable &apos;minMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1086-moving-stones-until-consecutive.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="36" column="17"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numMovesStones&apos; is never used." verbose="The function &apos;numMovesStones&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1086-moving-stones-until-consecutive.c" line="28" column="0"/>
+            <symbol>numMovesStones</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

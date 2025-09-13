@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;right&gt;=0&apos; is always true" verbose="Condition &apos;right&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/new/TY/output/c/Medium/3443-maximum-manhattan-distance-after-k-changes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="62" column="32" info="Condition &apos;right&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="60" column="23" info="Assignment &apos;right=k-(len-1)&apos;, assigned value is symbolic=left"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="59" column="18" info="left is assigned &apos;k-(len-1)&apos; here."/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="62" column="18" info="Assuming that condition &apos;left&gt;=0&apos; is not redundant"/>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;left&apos; and &apos;right&apos;." verbose="Finding variables &apos;left&apos; and &apos;right&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3443-maximum-manhattan-distance-after-k-changes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="59" column="13"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="60" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Same expression on both sides of &apos;&amp;&amp;&apos; because &apos;left&gt;=0&apos; and &apos;right&gt;=0&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3443-maximum-manhattan-distance-after-k-changes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="62" column="23"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="60" column="23" info="&apos;right&apos; is assigned value &apos;k-(len-1)&apos; here."/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="59" column="22" info="&apos;left&apos; is assigned value &apos;k-(len-1)&apos; here."/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3443-maximum-manhattan-distance-after-k-changes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="48" column="23" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxDistance&apos; is never used." verbose="The function &apos;maxDistance&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3443-maximum-manhattan-distance-after-k-changes.c" line="48" column="0"/>
+            <symbol>maxDistance</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

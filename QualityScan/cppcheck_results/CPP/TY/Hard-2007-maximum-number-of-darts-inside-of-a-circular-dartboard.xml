@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x2&apos; is assigned a value that is never used." verbose="Variable &apos;x2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="28" column="20"/>
+            <symbol>x2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="29" column="20"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x3&apos; is assigned a value that is never used." verbose="Variable &apos;x3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="30" column="20"/>
+            <symbol>x3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y3&apos; is assigned a value that is never used." verbose="Variable &apos;y3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="31" column="20"/>
+            <symbol>y3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x4&apos; is assigned a value that is never used." verbose="Variable &apos;x4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="32" column="20"/>
+            <symbol>x4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y4&apos; is assigned a value that is never used." verbose="Variable &apos;y4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="33" column="20"/>
+            <symbol>y4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x5&apos; is assigned a value that is never used." verbose="Variable &apos;x5&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="34" column="20"/>
+            <symbol>x5</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y5&apos; is assigned a value that is never used." verbose="Variable &apos;y5&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="35" column="20"/>
+            <symbol>y5</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x6&apos; is assigned a value that is never used." verbose="Variable &apos;x6&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="36" column="20"/>
+            <symbol>x6</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y6&apos; is assigned a value that is never used." verbose="Variable &apos;y6&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="37" column="20"/>
+            <symbol>y6</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numPoints&apos; is never used." verbose="The function &apos;numPoints&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2007-maximum-number-of-darts-inside-of-a-circular-dartboard.cpp" line="23" column="0"/>
+            <symbol>numPoints</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="0" column="0"/>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;popularity&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;popularity&apos; nulled but not freed upon failure" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="62" column="13"/>
+            <symbol>popularity</symbol>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;creator&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;creator&apos; nulled but not freed upon failure" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="63" column="13"/>
+            <symbol>creator</symbol>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;id&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;id&apos; nulled but not freed upon failure" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="64" column="13"/>
+            <symbol>id</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: creator" verbose="Uninitialized variable: creator" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="76" column="24"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="43" column="19" info="Assuming condition is false"/>
+            <symbol>creator</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: id" verbose="Uninitialized variable: id" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="77" column="24"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="43" column="19" info="Assuming condition is false"/>
+            <symbol>id</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1628-most-popular-video-creator.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="38" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mostPopularCreator&apos; is never used." verbose="The function &apos;mostPopularCreator&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1628-most-popular-video-creator.c" line="37" column="0"/>
+            <symbol>mostPopularCreator</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/415-maximum-number-of-words-you-can-type.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\415-maximum-number-of-words-you-can-type.c" line="31" column="60"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;text&apos; can be declared as pointer to const" verbose="Parameter &apos;text&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/415-maximum-number-of-words-you-can-type.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\415-maximum-number-of-words-you-can-type.c" line="24" column="27" info="Parameter &apos;text&apos; can be declared as pointer to const"/>
+            <symbol>text</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;brokenLetters&apos; can be declared as pointer to const" verbose="Parameter &apos;brokenLetters&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/415-maximum-number-of-words-you-can-type.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\415-maximum-number-of-words-you-can-type.c" line="24" column="39" info="Parameter &apos;brokenLetters&apos; can be declared as pointer to const"/>
+            <symbol>brokenLetters</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;brokenLettersLen&apos; is assigned a value that is never used." verbose="Variable &apos;brokenLettersLen&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/415-maximum-number-of-words-you-can-type.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\415-maximum-number-of-words-you-can-type.c" line="26" column="26"/>
+            <symbol>brokenLettersLen</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canBeTypedWords&apos; is never used." verbose="The function &apos;canBeTypedWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\415-maximum-number-of-words-you-can-type.c" line="24" column="0"/>
+            <symbol>canBeTypedWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

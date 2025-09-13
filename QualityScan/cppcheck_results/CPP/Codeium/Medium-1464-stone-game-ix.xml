@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;cnt[2]&apos; accessed at index 2, which is out of bounds." verbose="Array &apos;cnt[2]&apos; accessed at index 2, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/1464-stone-game-ix.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1464-stone-game-ix.cpp" line="37" column="44" info="Array index out of bounds"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;stones&apos; can be declared as reference to const" verbose="Parameter &apos;stones&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/1464-stone-game-ix.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1464-stone-game-ix.cpp" line="34" column="35" info="Parameter &apos;stones&apos; can be declared as reference to const"/>
+            <symbol>stones</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;stoneGameIX&apos; is never used." verbose="The function &apos;stoneGameIX&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\1464-stone-game-ix.cpp" line="34" column="0"/>
+            <symbol>stoneGameIX</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

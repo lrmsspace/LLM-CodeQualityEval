@@ -1,0 +1,34 @@
+/**https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/ */
+//Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.
+//if no such substring exists, return 0.
+// 
+//Example 1:
+//Input: s = "aaabb", k = 3
+//Output: 3
+//Explanation: The longest substring is "aaa", as 'a' is repeated 3 times.
+//Example 2:
+//Input: s = "ababbc", k = 2
+//Output: 5
+//Explanation: The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated 3 times.
+// 
+//Constraints:
+//	1 <= s.length <= 104
+//	s consists of only lowercase English letters.
+//	1 <= k <= 105
+class Solution {
+public:
+    int longestSubstring(string s, int k) {
+        int ans = 0;
+        for(int i = 1; i <= 26; i++){
+            int count[26] = {0};
+            int start = 0, end = 0;
+            int cnt = 0, len = 0;
+            while(end < s.size()){
+                int index = s[end] - 'a';
+                if(count[index] == 0) cnt++;
+                count[index]++;
+            }
+        }
+        return ans;
+    }
+};

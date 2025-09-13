@@ -1,0 +1,33 @@
+# You are given a string word.
+# Return the maximum number of non-intersecting substrings of word that are at least four characters long and start and end with the same letter.
+# Example 1:
+# Input: word = "abcdeafdef"
+# Output: 2
+# Explanation:
+# The two substrings are "abcdea" and "fdef".
+# Example 2:
+# Input: word = "bcdaaaab"
+# Output: 1
+# Explanation:
+# The only substring is "aaaa". Note that we cannot also choose "bcdaaaab" since it intersects with the other substring.
+# Constraints:
+# 1 <= word.length <= 2 * 105
+# word consists only of lowercase English letters.
+
+class Solution(object):
+    def maxSubstrings(self, word):
+        """
+        :type word: str
+        :rtype: int
+        """
+
+        n = len(word)
+        dp = [0] * n
+        last_seen = {}
+        for i in range(n):
+            if word[i] in last_seen:
+                dp[i] = dp[last_seen[word[i]]] + 1
+            else:
+                dp[i] = 1
+            last_seen[word[i]] = i
+        return max(dp)

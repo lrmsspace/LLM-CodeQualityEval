@@ -1,0 +1,50 @@
+#https://leetcode.com/problems/find-the-closest-palindrome/
+#Given a string n representing an integer, return the closest integer (not including itself), which is a palindrome. If there is a tie, return the smaller one.
+#The closest is defined as the absolute difference minimized between two integers.
+# 
+#Example 1:
+#Input: n = "123"
+#Output: "121"
+#Example 2:
+#Input: n = "1"
+#Output: "0"
+#Explanation: 0 and 2 are the closest palindromes but we return the smallest which is 0.
+# 
+#Constraints:
+#	1 <= n.length <= 18
+#	n consists of only digits.
+#	n does not have leading zeros.
+#	n is representing an integer in the range [1, 1018 - 1].
+class Solution(object):
+    def nearestPalindromic(self, n):
+        """
+        :type n: str
+        :rtype: str
+        """
+        n_len = len(n)
+        if n_len == 1:
+            return str(int(n) - 1)
+        if n_len == 2:
+            return str(int(n[0]) - 1) + n[1]
+        if n_len == 3:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 4:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 5:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 6:
+            return str(int(n[0]) -1) + n[1:]
+        if n_len == 7:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 8:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 9:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 10:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 11:
+            return str(int(n[0]) - 1) + n[1:]
+        if n_len == 12:
+            return str(int(n[0]) - 1) + n[1:]
+        
+        return "1"

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &apos;!&apos; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/997-reordered-power-of-2.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="18" column="38"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reorderedPowerOf2&apos; is never used." verbose="The function &apos;reorderedPowerOf2&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="14" column="0"/>
+            <symbol>reorderedPowerOf2</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

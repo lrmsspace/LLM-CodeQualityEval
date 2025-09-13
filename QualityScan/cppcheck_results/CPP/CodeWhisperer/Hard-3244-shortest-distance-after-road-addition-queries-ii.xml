@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;q&apos; shadows outer variable" verbose="Local variable &apos;q&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3244-shortest-distance-after-road-addition-queries-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3244-shortest-distance-after-road-addition-queries-ii.cpp" line="58" column="19" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3244-shortest-distance-after-road-addition-queries-ii.cpp" line="40" column="20" info="Shadowed declaration"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;q&apos; can be declared as reference to const" verbose="Variable &apos;q&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3244-shortest-distance-after-road-addition-queries-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3244-shortest-distance-after-road-addition-queries-ii.cpp" line="58" column="19" info="Variable &apos;q&apos; can be declared as reference to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;nxt&apos; can be declared as reference to const" verbose="Variable &apos;nxt&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3244-shortest-distance-after-road-addition-queries-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3244-shortest-distance-after-road-addition-queries-ii.cpp" line="65" column="27" info="Variable &apos;nxt&apos; can be declared as reference to const"/>
+            <symbol>nxt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;shortestDistanceAfterQueries&apos; is never used." verbose="The function &apos;shortestDistanceAfterQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3244-shortest-distance-after-road-addition-queries-ii.cpp" line="32" column="0"/>
+            <symbol>shortestDistanceAfterQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

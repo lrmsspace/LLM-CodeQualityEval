@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="16" column="23" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="45"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="47"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="49"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="51"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="53"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="55"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="57"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="59"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: aa" verbose="Unused variable: aa" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="95"/>
+            <symbol>aa</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: bb" verbose="Unused variable: bb" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="98"/>
+            <symbol>bb</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cc" verbose="Unused variable: cc" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="101"/>
+            <symbol>cc</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dd" verbose="Unused variable: dd" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="104"/>
+            <symbol>dd</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ee" verbose="Unused variable: ee" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="107"/>
+            <symbol>ee</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ff" verbose="Unused variable: ff" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="110"/>
+            <symbol>ff</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: gg" verbose="Unused variable: gg" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="113"/>
+            <symbol>gg</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: hh" verbose="Unused variable: hh" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="116"/>
+            <symbol>hh</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ii" verbose="Unused variable: ii" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="119"/>
+            <symbol>ii</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jj" verbose="Unused variable: jj" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="122"/>
+            <symbol>jj</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kk" verbose="Unused variable: kk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="125"/>
+            <symbol>kk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ll" verbose="Unused variable: ll" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="128"/>
+            <symbol>ll</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mm" verbose="Unused variable: mm" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="131"/>
+            <symbol>mm</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: nn" verbose="Unused variable: nn" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="134"/>
+            <symbol>nn</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: oo" verbose="Unused variable: oo" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="17" column="137"/>
+            <symbol>oo</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pp" verbose="Unused variable: pp" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="5"/>
+            <symbol>pp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: qq" verbose="Unused variable: qq" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="8"/>
+            <symbol>qq</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: rr" verbose="Unused variable: rr" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="11"/>
+            <symbol>rr</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ss" verbose="Unused variable: ss" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="14"/>
+            <symbol>ss</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: tt" verbose="Unused variable: tt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="17"/>
+            <symbol>tt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: uu" verbose="Unused variable: uu" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="20"/>
+            <symbol>uu</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: vv" verbose="Unused variable: vv" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="23"/>
+            <symbol>vv</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ww" verbose="Unused variable: ww" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="26"/>
+            <symbol>ww</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: xx" verbose="Unused variable: xx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="29"/>
+            <symbol>xx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: yy" verbose="Unused variable: yy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="32"/>
+            <symbol>yy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: zz" verbose="Unused variable: zz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="35"/>
+            <symbol>zz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: aaa" verbose="Unused variable: aaa" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="38"/>
+            <symbol>aaa</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: bbb" verbose="Unused variable: bbb" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="42"/>
+            <symbol>bbb</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ccc" verbose="Unused variable: ccc" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="46"/>
+            <symbol>ccc</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ddd" verbose="Unused variable: ddd" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="50"/>
+            <symbol>ddd</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: eee" verbose="Unused variable: eee" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="54"/>
+            <symbol>eee</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: fff" verbose="Unused variable: fff" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="58"/>
+            <symbol>fff</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ggg" verbose="Unused variable: ggg" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="62"/>
+            <symbol>ggg</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: hhh" verbose="Unused variable: hhh" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="66"/>
+            <symbol>hhh</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: iii" verbose="Unused variable: iii" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="70"/>
+            <symbol>iii</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jjj" verbose="Unused variable: jjj" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="74"/>
+            <symbol>jjj</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkk" verbose="Unused variable: kkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="78"/>
+            <symbol>kkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: lll" verbose="Unused variable: lll" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="82"/>
+            <symbol>lll</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mmm" verbose="Unused variable: mmm" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="86"/>
+            <symbol>mmm</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: nnn" verbose="Unused variable: nnn" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="90"/>
+            <symbol>nnn</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ooo" verbose="Unused variable: ooo" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="94"/>
+            <symbol>ooo</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ppp" verbose="Unused variable: ppp" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="98"/>
+            <symbol>ppp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: qqq" verbose="Unused variable: qqq" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="102"/>
+            <symbol>qqq</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: rrr" verbose="Unused variable: rrr" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="106"/>
+            <symbol>rrr</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: sss" verbose="Unused variable: sss" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="110"/>
+            <symbol>sss</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ttt" verbose="Unused variable: ttt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="114"/>
+            <symbol>ttt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: uuu" verbose="Unused variable: uuu" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="118"/>
+            <symbol>uuu</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: vvv" verbose="Unused variable: vvv" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="122"/>
+            <symbol>vvv</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: www" verbose="Unused variable: www" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="126"/>
+            <symbol>www</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: xxx" verbose="Unused variable: xxx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="130"/>
+            <symbol>xxx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: yyy" verbose="Unused variable: yyy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="134"/>
+            <symbol>yyy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: zzz" verbose="Unused variable: zzz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1964-maximum-equal-frequency.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="18" column="138"/>
+            <symbol>zzz</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxEqualFreq&apos; is never used." verbose="The function &apos;maxEqualFreq&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1964-maximum-equal-frequency.c" line="16" column="0"/>
+            <symbol>maxEqualFreq</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

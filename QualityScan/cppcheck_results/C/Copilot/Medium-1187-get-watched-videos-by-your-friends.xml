@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;va&apos; can be declared as pointer to const" verbose="Variable &apos;va&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="41" column="25" info="Variable &apos;va&apos; can be declared as pointer to const"/>
+            <symbol>va</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;vb&apos; can be declared as pointer to const" verbose="Variable &apos;vb&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="42" column="25" info="Variable &apos;vb&apos; can be declared as pointer to const"/>
+            <symbol>vb</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;watchedVideosColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;watchedVideosColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="49" column="90" info="Parameter &apos;watchedVideosColSize&apos; can be declared as pointer to const"/>
+            <symbol>watchedVideosColSize</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;friendsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;friendsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="49" column="149" info="Parameter &apos;friendsColSize&apos; can be declared as pointer to const"/>
+            <symbol>friendsColSize</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: videoCounts.video, videoCounts.count" verbose="Uninitialized variables: videoCounts.video, videoCounts.count" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1187-get-watched-videos-by-your-friends.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="101" column="19"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="96" column="31" info="Assuming condition is false"/>
+            <symbol>videoCounts</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;watchedVideosByFriends&apos; is never used." verbose="The function &apos;watchedVideosByFriends&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1187-get-watched-videos-by-your-friends.c" line="49" column="0"/>
+            <symbol>watchedVideosByFriends</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

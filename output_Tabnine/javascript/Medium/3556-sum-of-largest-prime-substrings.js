@@ -1,0 +1,58 @@
+/*
+ Given a string s, find the sum of the 3 largest unique prime numbers that can be formed using any of its substrings.
+ Return the sum of the three largest unique prime numbers that can be formed. If fewer than three exist, return the sum of all available primes. If no prime numbers can be formed, return 0.
+ Note: Each prime number should be counted only once, even if it appears in multiple substrings. Additionally, when converting a substring to an integer, any leading zeros are ignored.
+ Example 1:
+ Input: s = "12234"
+ Output: 1469
+ Explanation:
+ The unique prime numbers formed from the substrings of "12234" are 2, 3, 23, 223, and 1223.
+ The 3 largest primes are 1223, 223, and 23. Their sum is 1469.
+ Example 2:
+ Input: s = "111"
+ Output: 11
+ Explanation:
+ The unique prime number formed from the substrings of "111" is 11.
+ Since there is only one prime number, the sum is 11.
+ Constraints:
+ 1 <= s.length <= 10
+ s consists of only digits.
+*/
+
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var sumOfLargestPrimes = function(s) {
+    // Helper function to check if a number is prime
+    function isPrime(num) {
+        if (num <= 1) return false;
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) return false;
+        }
+        return true;
+    }
+    
+    // Helper function to convert a substring to an integer, ignoring leading zeros
+    function convertToNumber(substring) {
+        return parseInt(substring.replace(/^0+/, ''));
+    }
+    
+    // Convert the string to an array of substrings
+    const substrings = [];
+    for (let i = 0; i < s.length; i++) {
+        for (let j = i + 1; j <= s.length; j++) {
+            substrings.push(s.slice(i, j));
+        }
+    }
+    
+    // Filter out non-prime numbers and convert them to integers
+    const primes = substrings.filter(substring => isPrime(convertToNumber(substring)));
+    
+    // Sort the primes in descending order
+    primes.sort((a, b) => b - a);
+    
+    // Return the sum of the three largest unique prime numbers
+    return primes.slice(0, 3).reduce((sum, prime) => sum + prime, 0);
+    
+};

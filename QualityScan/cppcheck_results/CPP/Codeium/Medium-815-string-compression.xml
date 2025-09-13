@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="selfAssignment" severity="style" msg="Redundant assignment of &apos;chars[index]&apos; to itself." verbose="Redundant assignment of &apos;chars[index]&apos; to itself." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Medium/815-string-compression.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\815-string-compression.cpp" line="36" column="26"/>
+            <symbol>chars[index]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;compress&apos; is never used." verbose="The function &apos;compress&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Medium\815-string-compression.cpp" line="28" column="0"/>
+            <symbol>compress</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

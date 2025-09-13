@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidFunctionArgStr" severity="error" msg="Invalid strchr() argument nr 1. A nul-terminated string is required." verbose="Invalid strchr() argument nr 1. A nul-terminated string is required." cwe="628" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/75-reverse-vowels-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\75-reverse-vowels-of-a-string.c" line="21" column="39"/>
+            <symbol>strchr</symbol>
+        </error>
+        <error id="invalidFunctionArgStr" severity="error" msg="Invalid strchr() argument nr 1. A nul-terminated string is required." verbose="Invalid strchr() argument nr 1. A nul-terminated string is required." cwe="628" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/75-reverse-vowels-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\75-reverse-vowels-of-a-string.c" line="22" column="39"/>
+            <symbol>strchr</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;vowels&apos; can be declared as const array" verbose="Variable &apos;vowels&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/75-reverse-vowels-of-a-string.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\75-reverse-vowels-of-a-string.c" line="19" column="10" info="Variable &apos;vowels&apos; can be declared as const array"/>
+            <symbol>vowels</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reverseVowels&apos; is never used." verbose="The function &apos;reverseVowels&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\75-reverse-vowels-of-a-string.c" line="17" column="0"/>
+            <symbol>reverseVowels</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

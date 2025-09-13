@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;indexMap[i]&apos; is assigned a value that is never used." verbose="Variable &apos;indexMap[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/133-minimum-index-sum-of-two-lists.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\133-minimum-index-sum-of-two-lists.c" line="39" column="21"/>
+            <symbol>indexMap[i]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findRestaurant&apos; is never used." verbose="The function &apos;findRestaurant&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\133-minimum-index-sum-of-two-lists.c" line="34" column="0"/>
+            <symbol>findRestaurant</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

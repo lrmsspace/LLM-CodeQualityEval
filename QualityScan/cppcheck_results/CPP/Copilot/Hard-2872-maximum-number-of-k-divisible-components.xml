@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;edges&apos; can be declared as reference to const" verbose="Parameter &apos;edges&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/cpp/Hard/2872-maximum-number-of-k-divisible-components.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Hard\2872-maximum-number-of-k-divisible-components.cpp" line="35" column="61" info="Parameter &apos;edges&apos; can be declared as reference to const"/>
+            <symbol>edges</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;values&apos; can be declared as reference to const" verbose="Parameter &apos;values&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/cpp/Hard/2872-maximum-number-of-k-divisible-components.cpp">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Hard\2872-maximum-number-of-k-divisible-components.cpp" line="35" column="81" info="Parameter &apos;values&apos; can be declared as reference to const"/>
+            <symbol>values</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxKDivisibleComponents&apos; is never used." verbose="The function &apos;maxKDivisibleComponents&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\cpp\Hard\2872-maximum-number-of-k-divisible-components.cpp" line="35" column="0"/>
+            <symbol>maxKDivisibleComponents</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

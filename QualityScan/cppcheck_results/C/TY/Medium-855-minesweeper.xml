@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;count == 0&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="49" column="15"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="45" column="17" info="&apos;count&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;click&apos; can be declared as pointer to const" verbose="Parameter &apos;click&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="37" column="73" info="Parameter &apos;click&apos; can be declared as pointer to const"/>
+            <symbol>click</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="43" column="9" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="44" column="9" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;nx&apos; is assigned a value that is never used." verbose="Variable &apos;nx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="47" column="16"/>
+            <symbol>nx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ny&apos; is assigned a value that is never used." verbose="Variable &apos;ny&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="47" column="32"/>
+            <symbol>ny</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

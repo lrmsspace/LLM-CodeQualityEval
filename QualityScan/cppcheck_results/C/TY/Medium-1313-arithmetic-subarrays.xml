@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arr&apos; can be reduced." verbose="The scope of the variable &apos;arr&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="10"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;arr1&apos; can be reduced." verbose="The scope of the variable &apos;arr1&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="15"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="34" column="37" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;l&apos; can be declared as pointer to const" verbose="Parameter &apos;l&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="34" column="62" info="Parameter &apos;l&apos; can be declared as pointer to const"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;r&apos; can be declared as pointer to const" verbose="Parameter &apos;r&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="34" column="81" info="Parameter &apos;r&apos; can be declared as pointer to const"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;arr1&apos; can be declared as pointer to const" verbose="Variable &apos;arr1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="15" info="Variable &apos;arr1&apos; can be declared as pointer to const"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;arr1&apos; is assigned a value that is never used." verbose="Variable &apos;arr1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="44" column="13"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="15"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="17"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="19"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="21"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r1" verbose="Unused variable: r1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="23"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r2" verbose="Unused variable: r2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="26"/>
+            <symbol>r2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r3" verbose="Unused variable: r3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="29"/>
+            <symbol>r3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r4" verbose="Unused variable: r4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="32"/>
+            <symbol>r4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r5" verbose="Unused variable: r5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="35"/>
+            <symbol>r5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r6" verbose="Unused variable: r6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="38"/>
+            <symbol>r6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r7" verbose="Unused variable: r7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="41"/>
+            <symbol>r7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r8" verbose="Unused variable: r8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="44"/>
+            <symbol>r8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r9" verbose="Unused variable: r9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="47"/>
+            <symbol>r9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r10" verbose="Unused variable: r10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="50"/>
+            <symbol>r10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r11" verbose="Unused variable: r11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="54"/>
+            <symbol>r11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r12" verbose="Unused variable: r12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="58"/>
+            <symbol>r12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r13" verbose="Unused variable: r13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="62"/>
+            <symbol>r13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r14" verbose="Unused variable: r14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="66"/>
+            <symbol>r14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r15" verbose="Unused variable: r15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="70"/>
+            <symbol>r15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r16" verbose="Unused variable: r16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="74"/>
+            <symbol>r16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r17" verbose="Unused variable: r17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="78"/>
+            <symbol>r17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r18" verbose="Unused variable: r18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="82"/>
+            <symbol>r18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r19" verbose="Unused variable: r19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="86"/>
+            <symbol>r19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r20" verbose="Unused variable: r20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="90"/>
+            <symbol>r20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r21" verbose="Unused variable: r21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="94"/>
+            <symbol>r21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r22" verbose="Unused variable: r22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="98"/>
+            <symbol>r22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r23" verbose="Unused variable: r23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="102"/>
+            <symbol>r23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r24" verbose="Unused variable: r24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="106"/>
+            <symbol>r24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r25" verbose="Unused variable: r25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="110"/>
+            <symbol>r25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r26" verbose="Unused variable: r26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="114"/>
+            <symbol>r26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r27" verbose="Unused variable: r27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="118"/>
+            <symbol>r27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r28" verbose="Unused variable: r28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="122"/>
+            <symbol>r28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r29" verbose="Unused variable: r29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="126"/>
+            <symbol>r29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r30" verbose="Unused variable: r30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="130"/>
+            <symbol>r30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r31" verbose="Unused variable: r31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="134"/>
+            <symbol>r31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r32" verbose="Unused variable: r32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="138"/>
+            <symbol>r32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r33" verbose="Unused variable: r33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="142"/>
+            <symbol>r33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r34" verbose="Unused variable: r34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="146"/>
+            <symbol>r34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r35" verbose="Unused variable: r35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="150"/>
+            <symbol>r35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r36" verbose="Unused variable: r36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="157"/>
+            <symbol>r36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r37" verbose="Unused variable: r37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="161"/>
+            <symbol>r37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r38" verbose="Unused variable: r38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="165"/>
+            <symbol>r38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r39" verbose="Unused variable: r39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="169"/>
+            <symbol>r39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r40" verbose="Unused variable: r40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="173"/>
+            <symbol>r40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r41" verbose="Unused variable: r41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="177"/>
+            <symbol>r41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r42" verbose="Unused variable: r42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="181"/>
+            <symbol>r42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r43" verbose="Unused variable: r43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="185"/>
+            <symbol>r43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r44" verbose="Unused variable: r44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="189"/>
+            <symbol>r44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r45" verbose="Unused variable: r45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="193"/>
+            <symbol>r45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r46" verbose="Unused variable: r46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="197"/>
+            <symbol>r46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r47" verbose="Unused variable: r47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="201"/>
+            <symbol>r47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r48" verbose="Unused variable: r48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="205"/>
+            <symbol>r48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r49" verbose="Unused variable: r49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="209"/>
+            <symbol>r49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r50" verbose="Unused variable: r50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="213"/>
+            <symbol>r50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r51" verbose="Unused variable: r51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="217"/>
+            <symbol>r51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r52" verbose="Unused variable: r52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="221"/>
+            <symbol>r52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r53" verbose="Unused variable: r53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="225"/>
+            <symbol>r53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r54" verbose="Unused variable: r54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="229"/>
+            <symbol>r54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r55" verbose="Unused variable: r55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="233"/>
+            <symbol>r55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r56" verbose="Unused variable: r56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="237"/>
+            <symbol>r56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r57" verbose="Unused variable: r57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="241"/>
+            <symbol>r57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r58" verbose="Unused variable: r58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="245"/>
+            <symbol>r58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r59" verbose="Unused variable: r59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="249"/>
+            <symbol>r59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r60" verbose="Unused variable: r60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="253"/>
+            <symbol>r60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r61" verbose="Unused variable: r61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="257"/>
+            <symbol>r61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r62" verbose="Unused variable: r62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="261"/>
+            <symbol>r62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r63" verbose="Unused variable: r63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="265"/>
+            <symbol>r63</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r64" verbose="Unused variable: r64" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="269"/>
+            <symbol>r64</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r65" verbose="Unused variable: r65" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="273"/>
+            <symbol>r65</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r66" verbose="Unused variable: r66" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="277"/>
+            <symbol>r66</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r67" verbose="Unused variable: r67" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="281"/>
+            <symbol>r67</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r68" verbose="Unused variable: r68" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="285"/>
+            <symbol>r68</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r69" verbose="Unused variable: r69" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="289"/>
+            <symbol>r69</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r70" verbose="Unused variable: r70" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="293"/>
+            <symbol>r70</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r71" verbose="Unused variable: r71" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="297"/>
+            <symbol>r71</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r72" verbose="Unused variable: r72" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="301"/>
+            <symbol>r72</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r73" verbose="Unused variable: r73" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="305"/>
+            <symbol>r73</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r74" verbose="Unused variable: r74" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="309"/>
+            <symbol>r74</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r75" verbose="Unused variable: r75" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="313"/>
+            <symbol>r75</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r76" verbose="Unused variable: r76" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="321"/>
+            <symbol>r76</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r77" verbose="Unused variable: r77" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="325"/>
+            <symbol>r77</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r78" verbose="Unused variable: r78" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="329"/>
+            <symbol>r78</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r79" verbose="Unused variable: r79" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="333"/>
+            <symbol>r79</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r80" verbose="Unused variable: r80" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="337"/>
+            <symbol>r80</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r81" verbose="Unused variable: r81" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="341"/>
+            <symbol>r81</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r82" verbose="Unused variable: r82" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="345"/>
+            <symbol>r82</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r83" verbose="Unused variable: r83" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="349"/>
+            <symbol>r83</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r84" verbose="Unused variable: r84" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="353"/>
+            <symbol>r84</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r85" verbose="Unused variable: r85" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="357"/>
+            <symbol>r85</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r86" verbose="Unused variable: r86" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="361"/>
+            <symbol>r86</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r87" verbose="Unused variable: r87" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="365"/>
+            <symbol>r87</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r88" verbose="Unused variable: r88" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="369"/>
+            <symbol>r88</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r89" verbose="Unused variable: r89" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="373"/>
+            <symbol>r89</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r90" verbose="Unused variable: r90" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="377"/>
+            <symbol>r90</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r91" verbose="Unused variable: r91" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="381"/>
+            <symbol>r91</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r92" verbose="Unused variable: r92" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="385"/>
+            <symbol>r92</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r93" verbose="Unused variable: r93" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="389"/>
+            <symbol>r93</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r94" verbose="Unused variable: r94" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="393"/>
+            <symbol>r94</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r95" verbose="Unused variable: r95" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="397"/>
+            <symbol>r95</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r96" verbose="Unused variable: r96" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="401"/>
+            <symbol>r96</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r97" verbose="Unused variable: r97" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="405"/>
+            <symbol>r97</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r98" verbose="Unused variable: r98" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="409"/>
+            <symbol>r98</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r99" verbose="Unused variable: r99" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="413"/>
+            <symbol>r99</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r100" verbose="Unused variable: r100" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="35" column="417"/>
+            <symbol>r100</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;arr1&apos; is allocated memory that is never used." verbose="Variable &apos;arr1&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="44" column="14"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr2" verbose="Unused variable: arr2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="21"/>
+            <symbol>arr2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr3" verbose="Unused variable: arr3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="27"/>
+            <symbol>arr3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr4" verbose="Unused variable: arr4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="33"/>
+            <symbol>arr4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr5" verbose="Unused variable: arr5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="39"/>
+            <symbol>arr5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr6" verbose="Unused variable: arr6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="45"/>
+            <symbol>arr6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr7" verbose="Unused variable: arr7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="51"/>
+            <symbol>arr7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr8" verbose="Unused variable: arr8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="57"/>
+            <symbol>arr8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr9" verbose="Unused variable: arr9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="63"/>
+            <symbol>arr9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr10" verbose="Unused variable: arr10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="69"/>
+            <symbol>arr10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr11" verbose="Unused variable: arr11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="76"/>
+            <symbol>arr11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr12" verbose="Unused variable: arr12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="83"/>
+            <symbol>arr12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr13" verbose="Unused variable: arr13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="90"/>
+            <symbol>arr13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr14" verbose="Unused variable: arr14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="97"/>
+            <symbol>arr14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr15" verbose="Unused variable: arr15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="104"/>
+            <symbol>arr15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr16" verbose="Unused variable: arr16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="111"/>
+            <symbol>arr16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr17" verbose="Unused variable: arr17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="118"/>
+            <symbol>arr17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr18" verbose="Unused variable: arr18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="125"/>
+            <symbol>arr18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr19" verbose="Unused variable: arr19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="132"/>
+            <symbol>arr19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr20" verbose="Unused variable: arr20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="139"/>
+            <symbol>arr20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr21" verbose="Unused variable: arr21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="146"/>
+            <symbol>arr21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr22" verbose="Unused variable: arr22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="153"/>
+            <symbol>arr22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr23" verbose="Unused variable: arr23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="160"/>
+            <symbol>arr23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr24" verbose="Unused variable: arr24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="167"/>
+            <symbol>arr24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr25" verbose="Unused variable: arr25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="174"/>
+            <symbol>arr25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr26" verbose="Unused variable: arr26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="181"/>
+            <symbol>arr26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr27" verbose="Unused variable: arr27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="188"/>
+            <symbol>arr27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr28" verbose="Unused variable: arr28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="195"/>
+            <symbol>arr28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr29" verbose="Unused variable: arr29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="202"/>
+            <symbol>arr29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr30" verbose="Unused variable: arr30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="210"/>
+            <symbol>arr30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr31" verbose="Unused variable: arr31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="217"/>
+            <symbol>arr31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr32" verbose="Unused variable: arr32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="224"/>
+            <symbol>arr32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr33" verbose="Unused variable: arr33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="231"/>
+            <symbol>arr33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr34" verbose="Unused variable: arr34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="238"/>
+            <symbol>arr34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr35" verbose="Unused variable: arr35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="245"/>
+            <symbol>arr35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr36" verbose="Unused variable: arr36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="252"/>
+            <symbol>arr36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr37" verbose="Unused variable: arr37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="259"/>
+            <symbol>arr37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr38" verbose="Unused variable: arr38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="266"/>
+            <symbol>arr38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr39" verbose="Unused variable: arr39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="273"/>
+            <symbol>arr39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr40" verbose="Unused variable: arr40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="280"/>
+            <symbol>arr40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr41" verbose="Unused variable: arr41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="287"/>
+            <symbol>arr41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr42" verbose="Unused variable: arr42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="294"/>
+            <symbol>arr42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr43" verbose="Unused variable: arr43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="301"/>
+            <symbol>arr43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr44" verbose="Unused variable: arr44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="308"/>
+            <symbol>arr44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr45" verbose="Unused variable: arr45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="315"/>
+            <symbol>arr45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr46" verbose="Unused variable: arr46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="322"/>
+            <symbol>arr46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr47" verbose="Unused variable: arr47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="329"/>
+            <symbol>arr47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr48" verbose="Unused variable: arr48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="336"/>
+            <symbol>arr48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr49" verbose="Unused variable: arr49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="343"/>
+            <symbol>arr49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr50" verbose="Unused variable: arr50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="350"/>
+            <symbol>arr50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr51" verbose="Unused variable: arr51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="357"/>
+            <symbol>arr51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr52" verbose="Unused variable: arr52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="364"/>
+            <symbol>arr52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr53" verbose="Unused variable: arr53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="371"/>
+            <symbol>arr53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr54" verbose="Unused variable: arr54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="378"/>
+            <symbol>arr54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr55" verbose="Unused variable: arr55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="385"/>
+            <symbol>arr55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr56" verbose="Unused variable: arr56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="392"/>
+            <symbol>arr56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr57" verbose="Unused variable: arr57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="399"/>
+            <symbol>arr57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr58" verbose="Unused variable: arr58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="406"/>
+            <symbol>arr58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr59" verbose="Unused variable: arr59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="413"/>
+            <symbol>arr59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr60" verbose="Unused variable: arr60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="422"/>
+            <symbol>arr60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr61" verbose="Unused variable: arr61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="429"/>
+            <symbol>arr61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr62" verbose="Unused variable: arr62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="436"/>
+            <symbol>arr62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr63" verbose="Unused variable: arr63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="443"/>
+            <symbol>arr63</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr64" verbose="Unused variable: arr64" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="450"/>
+            <symbol>arr64</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr65" verbose="Unused variable: arr65" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="457"/>
+            <symbol>arr65</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr66" verbose="Unused variable: arr66" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="464"/>
+            <symbol>arr66</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr67" verbose="Unused variable: arr67" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="471"/>
+            <symbol>arr67</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr68" verbose="Unused variable: arr68" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="478"/>
+            <symbol>arr68</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr69" verbose="Unused variable: arr69" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="485"/>
+            <symbol>arr69</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr70" verbose="Unused variable: arr70" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="492"/>
+            <symbol>arr70</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr71" verbose="Unused variable: arr71" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="499"/>
+            <symbol>arr71</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr72" verbose="Unused variable: arr72" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="506"/>
+            <symbol>arr72</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr73" verbose="Unused variable: arr73" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="513"/>
+            <symbol>arr73</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr74" verbose="Unused variable: arr74" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="520"/>
+            <symbol>arr74</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr75" verbose="Unused variable: arr75" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="527"/>
+            <symbol>arr75</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr76" verbose="Unused variable: arr76" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="534"/>
+            <symbol>arr76</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr77" verbose="Unused variable: arr77" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="541"/>
+            <symbol>arr77</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr78" verbose="Unused variable: arr78" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="548"/>
+            <symbol>arr78</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr79" verbose="Unused variable: arr79" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="555"/>
+            <symbol>arr79</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr80" verbose="Unused variable: arr80" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="562"/>
+            <symbol>arr80</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr81" verbose="Unused variable: arr81" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="569"/>
+            <symbol>arr81</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr82" verbose="Unused variable: arr82" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="576"/>
+            <symbol>arr82</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr83" verbose="Unused variable: arr83" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="583"/>
+            <symbol>arr83</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr84" verbose="Unused variable: arr84" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="590"/>
+            <symbol>arr84</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr85" verbose="Unused variable: arr85" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="597"/>
+            <symbol>arr85</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr86" verbose="Unused variable: arr86" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="604"/>
+            <symbol>arr86</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr87" verbose="Unused variable: arr87" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="611"/>
+            <symbol>arr87</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr88" verbose="Unused variable: arr88" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="618"/>
+            <symbol>arr88</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr89" verbose="Unused variable: arr89" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="625"/>
+            <symbol>arr89</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr90" verbose="Unused variable: arr90" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="634"/>
+            <symbol>arr90</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr91" verbose="Unused variable: arr91" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="641"/>
+            <symbol>arr91</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr92" verbose="Unused variable: arr92" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="648"/>
+            <symbol>arr92</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr93" verbose="Unused variable: arr93" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="655"/>
+            <symbol>arr93</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr94" verbose="Unused variable: arr94" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="662"/>
+            <symbol>arr94</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr95" verbose="Unused variable: arr95" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="669"/>
+            <symbol>arr95</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr96" verbose="Unused variable: arr96" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="676"/>
+            <symbol>arr96</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr97" verbose="Unused variable: arr97" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="683"/>
+            <symbol>arr97</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr98" verbose="Unused variable: arr98" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="690"/>
+            <symbol>arr98</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr99" verbose="Unused variable: arr99" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="697"/>
+            <symbol>arr99</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: arr100" verbose="Unused variable: arr100" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="36" column="704"/>
+            <symbol>arr100</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans1" verbose="Unused variable: ans1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="16"/>
+            <symbol>ans1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans2" verbose="Unused variable: ans2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="22"/>
+            <symbol>ans2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans3" verbose="Unused variable: ans3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="28"/>
+            <symbol>ans3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans4" verbose="Unused variable: ans4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="34"/>
+            <symbol>ans4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans5" verbose="Unused variable: ans5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="40"/>
+            <symbol>ans5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans6" verbose="Unused variable: ans6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="46"/>
+            <symbol>ans6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans7" verbose="Unused variable: ans7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="52"/>
+            <symbol>ans7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans8" verbose="Unused variable: ans8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="58"/>
+            <symbol>ans8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans9" verbose="Unused variable: ans9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="64"/>
+            <symbol>ans9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans10" verbose="Unused variable: ans10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="70"/>
+            <symbol>ans10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans11" verbose="Unused variable: ans11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="77"/>
+            <symbol>ans11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans12" verbose="Unused variable: ans12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="84"/>
+            <symbol>ans12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans13" verbose="Unused variable: ans13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="91"/>
+            <symbol>ans13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans14" verbose="Unused variable: ans14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="98"/>
+            <symbol>ans14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans15" verbose="Unused variable: ans15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="105"/>
+            <symbol>ans15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans16" verbose="Unused variable: ans16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="112"/>
+            <symbol>ans16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans17" verbose="Unused variable: ans17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="119"/>
+            <symbol>ans17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans18" verbose="Unused variable: ans18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="126"/>
+            <symbol>ans18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans19" verbose="Unused variable: ans19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="133"/>
+            <symbol>ans19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans20" verbose="Unused variable: ans20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="140"/>
+            <symbol>ans20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans21" verbose="Unused variable: ans21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="147"/>
+            <symbol>ans21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans22" verbose="Unused variable: ans22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="154"/>
+            <symbol>ans22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans23" verbose="Unused variable: ans23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="161"/>
+            <symbol>ans23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans24" verbose="Unused variable: ans24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="168"/>
+            <symbol>ans24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans25" verbose="Unused variable: ans25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="175"/>
+            <symbol>ans25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans26" verbose="Unused variable: ans26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="182"/>
+            <symbol>ans26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans27" verbose="Unused variable: ans27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="189"/>
+            <symbol>ans27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans28" verbose="Unused variable: ans28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="196"/>
+            <symbol>ans28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans29" verbose="Unused variable: ans29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="203"/>
+            <symbol>ans29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans30" verbose="Unused variable: ans30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="214"/>
+            <symbol>ans30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans31" verbose="Unused variable: ans31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="221"/>
+            <symbol>ans31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans32" verbose="Unused variable: ans32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="228"/>
+            <symbol>ans32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans33" verbose="Unused variable: ans33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="235"/>
+            <symbol>ans33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans34" verbose="Unused variable: ans34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="242"/>
+            <symbol>ans34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans35" verbose="Unused variable: ans35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="249"/>
+            <symbol>ans35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans36" verbose="Unused variable: ans36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="256"/>
+            <symbol>ans36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans37" verbose="Unused variable: ans37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="263"/>
+            <symbol>ans37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans38" verbose="Unused variable: ans38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="270"/>
+            <symbol>ans38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans39" verbose="Unused variable: ans39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="277"/>
+            <symbol>ans39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans40" verbose="Unused variable: ans40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="284"/>
+            <symbol>ans40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans41" verbose="Unused variable: ans41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="291"/>
+            <symbol>ans41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans42" verbose="Unused variable: ans42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="298"/>
+            <symbol>ans42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans43" verbose="Unused variable: ans43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="305"/>
+            <symbol>ans43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans44" verbose="Unused variable: ans44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="312"/>
+            <symbol>ans44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans45" verbose="Unused variable: ans45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="319"/>
+            <symbol>ans45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans46" verbose="Unused variable: ans46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="326"/>
+            <symbol>ans46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans47" verbose="Unused variable: ans47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="333"/>
+            <symbol>ans47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans48" verbose="Unused variable: ans48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="340"/>
+            <symbol>ans48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans49" verbose="Unused variable: ans49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="347"/>
+            <symbol>ans49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans50" verbose="Unused variable: ans50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="354"/>
+            <symbol>ans50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans51" verbose="Unused variable: ans51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="361"/>
+            <symbol>ans51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans52" verbose="Unused variable: ans52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="368"/>
+            <symbol>ans52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans53" verbose="Unused variable: ans53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="375"/>
+            <symbol>ans53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans54" verbose="Unused variable: ans54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="382"/>
+            <symbol>ans54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans55" verbose="Unused variable: ans55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="389"/>
+            <symbol>ans55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans56" verbose="Unused variable: ans56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="396"/>
+            <symbol>ans56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans57" verbose="Unused variable: ans57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="403"/>
+            <symbol>ans57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans58" verbose="Unused variable: ans58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="410"/>
+            <symbol>ans58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans59" verbose="Unused variable: ans59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="417"/>
+            <symbol>ans59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans60" verbose="Unused variable: ans60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="426"/>
+            <symbol>ans60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans61" verbose="Unused variable: ans61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="433"/>
+            <symbol>ans61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans62" verbose="Unused variable: ans62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="440"/>
+            <symbol>ans62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans63" verbose="Unused variable: ans63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="447"/>
+            <symbol>ans63</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans64" verbose="Unused variable: ans64" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="454"/>
+            <symbol>ans64</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans65" verbose="Unused variable: ans65" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="461"/>
+            <symbol>ans65</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans66" verbose="Unused variable: ans66" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="468"/>
+            <symbol>ans66</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans67" verbose="Unused variable: ans67" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="475"/>
+            <symbol>ans67</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans68" verbose="Unused variable: ans68" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="482"/>
+            <symbol>ans68</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans69" verbose="Unused variable: ans69" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="489"/>
+            <symbol>ans69</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans70" verbose="Unused variable: ans70" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="496"/>
+            <symbol>ans70</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans71" verbose="Unused variable: ans71" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="503"/>
+            <symbol>ans71</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans72" verbose="Unused variable: ans72" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="510"/>
+            <symbol>ans72</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans73" verbose="Unused variable: ans73" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="517"/>
+            <symbol>ans73</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans74" verbose="Unused variable: ans74" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="524"/>
+            <symbol>ans74</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans75" verbose="Unused variable: ans75" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="531"/>
+            <symbol>ans75</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans76" verbose="Unused variable: ans76" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="538"/>
+            <symbol>ans76</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans77" verbose="Unused variable: ans77" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="545"/>
+            <symbol>ans77</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans78" verbose="Unused variable: ans78" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="552"/>
+            <symbol>ans78</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans79" verbose="Unused variable: ans79" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="559"/>
+            <symbol>ans79</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans80" verbose="Unused variable: ans80" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="566"/>
+            <symbol>ans80</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans81" verbose="Unused variable: ans81" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="573"/>
+            <symbol>ans81</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans82" verbose="Unused variable: ans82" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="580"/>
+            <symbol>ans82</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans83" verbose="Unused variable: ans83" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="587"/>
+            <symbol>ans83</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans84" verbose="Unused variable: ans84" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="594"/>
+            <symbol>ans84</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans85" verbose="Unused variable: ans85" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="601"/>
+            <symbol>ans85</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans86" verbose="Unused variable: ans86" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="608"/>
+            <symbol>ans86</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans87" verbose="Unused variable: ans87" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="615"/>
+            <symbol>ans87</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans88" verbose="Unused variable: ans88" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="622"/>
+            <symbol>ans88</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans89" verbose="Unused variable: ans89" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="629"/>
+            <symbol>ans89</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans90" verbose="Unused variable: ans90" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="638"/>
+            <symbol>ans90</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans91" verbose="Unused variable: ans91" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="645"/>
+            <symbol>ans91</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans92" verbose="Unused variable: ans92" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="652"/>
+            <symbol>ans92</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans93" verbose="Unused variable: ans93" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="659"/>
+            <symbol>ans93</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans94" verbose="Unused variable: ans94" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="666"/>
+            <symbol>ans94</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans95" verbose="Unused variable: ans95" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="673"/>
+            <symbol>ans95</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans96" verbose="Unused variable: ans96" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="680"/>
+            <symbol>ans96</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans97" verbose="Unused variable: ans97" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="687"/>
+            <symbol>ans97</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans98" verbose="Unused variable: ans98" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="694"/>
+            <symbol>ans98</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans99" verbose="Unused variable: ans99" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="701"/>
+            <symbol>ans99</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ans100" verbose="Unused variable: ans100" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1313-arithmetic-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="37" column="708"/>
+            <symbol>ans100</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;checkArithmeticSubarrays&apos; is never used." verbose="The function &apos;checkArithmeticSubarrays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1313-arithmetic-subarrays.c" line="34" column="0"/>
+            <symbol>checkArithmeticSubarrays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

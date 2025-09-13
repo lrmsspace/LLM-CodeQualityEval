@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;emails&apos; shadows outer variable" verbose="Local variable &apos;emails&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/927-accounts-merge.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\927-accounts-merge.cpp" line="51" column="32" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\927-accounts-merge.cpp" line="28" column="39" info="Shadowed declaration"/>
+            <symbol>emails</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;p&apos; can be declared as reference to const" verbose="Variable &apos;p&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/927-accounts-merge.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\927-accounts-merge.cpp" line="47" column="20" info="Variable &apos;p&apos; can be declared as reference to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::copy algorithm instead of a raw loop." verbose="Consider using std::copy algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/927-accounts-merge.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\927-accounts-merge.cpp" line="54" column="28"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;accountsMerge&apos; is never used." verbose="The function &apos;accountsMerge&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\927-accounts-merge.cpp" line="26" column="0"/>
+            <symbol>accountsMerge</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

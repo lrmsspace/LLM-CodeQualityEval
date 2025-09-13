@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;reservedSeats[j][1]&lt;=7&apos; is always true" verbose="Condition &apos;reservedSeats[j][1]&lt;=7&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="32" column="73" info="Condition &apos;reservedSeats[j][1]&lt;=7&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="30" column="69" info="Assuming that condition &apos;reservedSeats[j][1]&lt;=5&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;reservedSeats[j][1]&lt;=10&apos; is always true" verbose="Condition &apos;reservedSeats[j][1]&lt;=10&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="45" column="73" info="Condition &apos;reservedSeats[j][1]&lt;=10&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="43" column="69" info="Assuming that condition &apos;reservedSeats[j][1]&lt;=9&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;reservedSeats[j][1]&lt;=13&apos; is always true" verbose="Condition &apos;reservedSeats[j][1]&lt;=13&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="88" column="74" info="Condition &apos;reservedSeats[j][1]&lt;=13&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="86" column="69" info="Assuming that condition &apos;reservedSeats[j][1]&lt;=12&apos; is not redundant"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;n&apos; shadows outer argument" verbose="Local variable &apos;n&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="25" column="194" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="24" column="29" info="Shadowed declaration"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;reservedSeatsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;reservedSeatsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="24" column="81" info="Parameter &apos;reservedSeatsColSize&apos; can be declared as pointer to const"/>
+            <symbol>reservedSeatsColSize</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n23" verbose="Uninitialized variable: n23" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="132"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="95" column="19" info="Assuming condition is false"/>
+            <symbol>n23</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n24" verbose="Uninitialized variable: n24" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="138"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="95" column="19" info="Assuming condition is false"/>
+            <symbol>n24</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n25" verbose="Uninitialized variable: n25" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="144"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="95" column="19" info="Assuming condition is false"/>
+            <symbol>n25</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n26" verbose="Uninitialized variable: n26" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="150"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="95" column="19" info="Assuming condition is false"/>
+            <symbol>n26</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n27" verbose="Uninitialized variable: n27" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="156"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="105" column="19" info="Assuming condition is false"/>
+            <symbol>n27</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n28" verbose="Uninitialized variable: n28" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="162"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="105" column="19" info="Assuming condition is false"/>
+            <symbol>n28</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n29" verbose="Uninitialized variable: n29" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="168"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="105" column="19" info="Assuming condition is false"/>
+            <symbol>n29</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n30" verbose="Uninitialized variable: n30" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="174"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="105" column="19" info="Assuming condition is false"/>
+            <symbol>n30</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n31" verbose="Uninitialized variable: n31" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="180"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="115" column="19" info="Assuming condition is false"/>
+            <symbol>n31</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n32" verbose="Uninitialized variable: n32" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="186"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="115" column="19" info="Assuming condition is false"/>
+            <symbol>n32</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n33" verbose="Uninitialized variable: n33" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="192"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="115" column="19" info="Assuming condition is false"/>
+            <symbol>n33</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n34" verbose="Uninitialized variable: n34" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="198"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="115" column="19" info="Assuming condition is false"/>
+            <symbol>n34</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n35" verbose="Uninitialized variable: n35" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="203"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="125" column="19" info="Assuming condition is false"/>
+            <symbol>n35</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: n36" verbose="Uninitialized variable: n36" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="135" column="209"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="125" column="19" info="Assuming condition is false"/>
+            <symbol>n36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="25" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="25" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1220-cinema-seat-allocation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="25" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxNumberOfFamilies&apos; is never used." verbose="The function &apos;maxNumberOfFamilies&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1220-cinema-seat-allocation.c" line="24" column="0"/>
+            <symbol>maxNumberOfFamilies</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

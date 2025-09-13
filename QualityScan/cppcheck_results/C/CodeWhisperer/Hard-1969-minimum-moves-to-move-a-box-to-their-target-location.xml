@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariable" severity="style" msg="Variable &apos;dr&apos; can be declared as const array" verbose="Variable &apos;dr&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="80" column="13" info="Variable &apos;dr&apos; can be declared as const array"/>
+            <symbol>dr</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dc&apos; can be declared as const array" verbose="Variable &apos;dc&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="81" column="13" info="Variable &apos;dc&apos; can be declared as const array"/>
+            <symbol>dc</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: boxRow" verbose="Uninitialized variable: boxRow" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="69" column="24"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>boxRow</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: boxCol" verbose="Uninitialized variable: boxCol" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="69" column="32"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>boxCol</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: playerRow" verbose="Uninitialized variable: playerRow" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="69" column="40"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>playerRow</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: playerCol" verbose="Uninitialized variable: playerCol" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="69" column="51"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>playerCol</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: targetRow" verbose="Uninitialized variable: targetRow" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="87" column="35"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>targetRow</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: targetCol" verbose="Uninitialized variable: targetCol" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="87" column="66"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="50" column="27" info="Assuming condition is false"/>
+            <symbol>targetCol</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="46" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

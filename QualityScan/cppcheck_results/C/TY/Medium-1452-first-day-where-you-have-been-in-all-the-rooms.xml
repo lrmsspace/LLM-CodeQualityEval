@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nextVisit&apos; can be declared as pointer to const" verbose="Parameter &apos;nextVisit&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1452-first-day-where-you-have-been-in-all-the-rooms.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1452-first-day-where-you-have-been-in-all-the-rooms.c" line="35" column="33" info="Parameter &apos;nextVisit&apos; can be declared as pointer to const"/>
+            <symbol>nextVisit</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dp[i]&apos; is assigned a value that is never used." verbose="Variable &apos;dp[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1452-first-day-where-you-have-been-in-all-the-rooms.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1452-first-day-where-you-have-been-in-all-the-rooms.c" line="40" column="15"/>
+            <symbol>dp[i]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;firstDayBeenInAllRooms&apos; is never used." verbose="The function &apos;firstDayBeenInAllRooms&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1452-first-day-where-you-have-been-in-all-the-rooms.c" line="35" column="0"/>
+            <symbol>firstDayBeenInAllRooms</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;termA&apos; can be declared as pointer to const" verbose="Variable &apos;termA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1882-basic-calculator-iv.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="62" column="19" info="Variable &apos;termA&apos; can be declared as pointer to const"/>
+            <symbol>termA</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;termB&apos; can be declared as pointer to const" verbose="Variable &apos;termB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1882-basic-calculator-iv.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="63" column="19" info="Variable &apos;termB&apos; can be declared as pointer to const"/>
+            <symbol>termB</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;var&apos; can be declared as pointer to const" verbose="Parameter &apos;var&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1882-basic-calculator-iv.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="77" column="36" info="Parameter &apos;var&apos; can be declared as pointer to const"/>
+            <symbol>var</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;compareTerms&apos; is never used." verbose="The function &apos;compareTerms&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="61" column="0"/>
+            <symbol>compareTerms</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;evaluateVariable&apos; is never used." verbose="The function &apos;evaluateVariable&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="77" column="0"/>
+            <symbol>evaluateVariable</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;basicCalculatorIV&apos; is never used." verbose="The function &apos;basicCalculatorIV&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1882-basic-calculator-iv.c" line="87" column="0"/>
+            <symbol>basicCalculatorIV</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

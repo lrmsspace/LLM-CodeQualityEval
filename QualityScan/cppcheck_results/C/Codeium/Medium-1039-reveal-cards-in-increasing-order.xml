@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="autovarInvalidDeallocation" severity="error" msg="Deallocation of an auto-variable results in undefined behaviour." verbose="The deallocation of an auto-variable results in undefined behaviour. You should only free memory that has been allocated dynamically." cwe="590" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="55" column="10" info="Deallocating memory that was not dynamically allocated"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;index[i]&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;index[i]&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="52" column="18" info="index[i] is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="51" column="18" info="index[i] is assigned"/>
+            <symbol>index[i]</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;deck&apos; can be declared as pointer to const" verbose="Parameter &apos;deck&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="36" column="34" info="Parameter &apos;deck&apos; can be declared as pointer to const"/>
+            <symbol>deck</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;deckRevealedIncreasing&apos; is never used." verbose="The function &apos;deckRevealedIncreasing&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="36" column="0"/>
+            <symbol>deckRevealedIncreasing</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

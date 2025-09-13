@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="0" column="0"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: si" verbose="Uninitialized variable: si" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>si</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sj" verbose="Uninitialized variable: sj" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="21"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>sj</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: ti" verbose="Uninitialized variable: ti" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="76" column="26"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>ti</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: tj" verbose="Uninitialized variable: tj" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="76" column="37"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>tj</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="48" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

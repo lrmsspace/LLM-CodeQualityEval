@@ -1,0 +1,59 @@
+#https://leetcode.com/problems/largest-multiple-of-three/
+#Given an array of digits digits, return the largest multiple of three that can be formed by concatenating some of the given digits in any order. If there is no answer return an empty string.
+#Since the answer may not fit in an integer data type, return the answer as a string. Note that the returning answer must not contain unnecessary leading zeros.
+# 
+#Example 1:
+#Input: digits = [8,1,9]
+#Output: "981"
+#Example 2:
+#Input: digits = [8,6,7,1,0]
+#Output: "8760"
+#Example 3:
+#Input: digits = [1]
+#Output: ""
+# 
+#Constraints:
+#	1 <= digits.length <= 104
+#	0 <= digits[i] <= 9
+class Solution(object):
+    def largestMultipleOfThree(self, digits):
+        """
+        :type digits: List[int]
+        :rtype: str
+        """
+        digits.sort(reverse=True)
+        total = sum(digits)
+        mod = total % 3
+        if mod == 0:
+            return ''.join(map(str, digits))
+        elif mod == 1:
+            for i in range(len(digits)-1, -1, -1):
+                if digits[i] % 3 == 1:
+                    digits.pop(i)
+                    break
+            else:
+                count = 0
+                for i in range(len(digits)-1, -1, -1):
+                    if digits[i] % 3 == 2:
+                        digits.pop(i)
+                        count += 1
+                        if count == 2:
+                            break
+                else:
+                    return ''
+        else:
+            for i in range(len(digits)-1, -1, -1):
+                if digits[i] % 3 == 2:
+                    digits.pop(i)
+                    break
+            else:
+                count = 0
+                for i in range(len(digits)-1, -1, -1):
+                    if digits[i] % 3 == 1:
+                        digits.pop(i)
+                        count += 1
+                        if count == 2:
+                            break
+                else:
+                    return ''
+        return ''.join(map(str, digits)) if digits else ''        

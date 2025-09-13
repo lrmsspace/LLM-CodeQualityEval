@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/790-decode-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\790-decode-string.c" line="0" column="0"/>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;start&apos; and &apos;end&apos;." verbose="Finding variables &apos;start&apos; and &apos;end&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/790-decode-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\790-decode-string.c" line="32" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\790-decode-string.c" line="33" column="17"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;temp&apos; can be declared as pointer to const" verbose="Variable &apos;temp&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/790-decode-string.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\790-decode-string.c" line="43" column="19" info="Variable &apos;temp&apos; can be declared as pointer to const"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;decodeString&apos; is never used." verbose="The function &apos;decodeString&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\790-decode-string.c" line="22" column="0"/>
+            <symbol>decodeString</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

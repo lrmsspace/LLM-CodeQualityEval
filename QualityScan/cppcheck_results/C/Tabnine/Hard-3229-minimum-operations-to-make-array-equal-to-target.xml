@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;nums[left++]=target[left++]&apos; depends on order of evaluation of side effects" verbose="Expression &apos;nums[left++]=target[left++]&apos; depends on order of evaluation of side effects" cwe="768" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="40" column="26"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;target&apos; can be declared as pointer to const" verbose="Parameter &apos;target&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3229-minimum-operations-to-make-array-equal-to-target.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="27" column="59" info="Parameter &apos;target&apos; can be declared as pointer to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumOperations&apos; is never used." verbose="The function &apos;minimumOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3229-minimum-operations-to-make-array-equal-to-target.c" line="27" column="0"/>
+            <symbol>minimumOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

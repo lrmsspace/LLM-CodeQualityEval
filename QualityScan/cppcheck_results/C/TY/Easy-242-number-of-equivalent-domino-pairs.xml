@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;dominoesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;dominoesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="16" column="64" info="Parameter &apos;dominoesColSize&apos; can be declared as pointer to const"/>
+            <symbol>dominoesColSize</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: j1 " verbose="Uninitialized variable: j1 " cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="60"/>
+            <symbol>j1 </symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="17" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="17"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="19"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="21"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="23"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j1" verbose="Unused variable: j1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="25"/>
+            <symbol>j1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j2" verbose="Unused variable: j2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="28"/>
+            <symbol>j2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j3" verbose="Unused variable: j3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="31"/>
+            <symbol>j3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j4" verbose="Unused variable: j4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="34"/>
+            <symbol>j4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j5" verbose="Unused variable: j5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="37"/>
+            <symbol>j5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j6" verbose="Unused variable: j6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="40"/>
+            <symbol>j6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j7" verbose="Unused variable: j7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="43"/>
+            <symbol>j7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j8" verbose="Unused variable: j8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="46"/>
+            <symbol>j8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j9" verbose="Unused variable: j9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="49"/>
+            <symbol>j9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j10" verbose="Unused variable: j10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="52"/>
+            <symbol>j10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j11" verbose="Unused variable: j11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/242-number-of-equivalent-domino-pairs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="18" column="56"/>
+            <symbol>j11</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numEquivDominoPairs&apos; is never used." verbose="The function &apos;numEquivDominoPairs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\242-number-of-equivalent-domino-pairs.c" line="16" column="0"/>
+            <symbol>numEquivDominoPairs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;score&apos; can be declared as pointer to const" verbose="Parameter &apos;score&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="34" column="86" info="Parameter &apos;score&apos; can be declared as pointer to const"/>
+            <symbol>score</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_score&apos; is assigned a value that is never used." verbose="Variable &apos;max_score&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="36" column="23"/>
+            <symbol>max_score</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_score&apos; is assigned a value that is never used." verbose="Variable &apos;word_score&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="39" column="24"/>
+            <symbol>word_score</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="40" column="30"/>
+            <symbol>word_letters</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters_left&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters_left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="41" column="35"/>
+            <symbol>word_letters_left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters_left_count&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters_left_count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="42" column="37"/>
+            <symbol>word_letters_left_count</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_score&apos; is assigned a value that is never used." verbose="Variable &apos;word_score&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="45" column="24"/>
+            <symbol>word_score</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_score&apos; is assigned a value that is never used." verbose="Variable &apos;word_score&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="50" column="24"/>
+            <symbol>word_score</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="51" column="30"/>
+            <symbol>word_letters</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters_left&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters_left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="52" column="35"/>
+            <symbol>word_letters_left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_letters_left_count&apos; is assigned a value that is never used." verbose="Variable &apos;word_letters_left_count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="53" column="37"/>
+            <symbol>word_letters_left_count</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;word_score&apos; is assigned a value that is never used." verbose="Variable &apos;word_score&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="56" column="24"/>
+            <symbol>word_score</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="63"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="66"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="69"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="72"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="75"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="78"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="81"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="84"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ii" verbose="Unused variable: ii" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="87"/>
+            <symbol>ii</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jj" verbose="Unused variable: jj" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="91"/>
+            <symbol>jj</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kk" verbose="Unused variable: kk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="95"/>
+            <symbol>kk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ll" verbose="Unused variable: ll" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="99"/>
+            <symbol>ll</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mm" verbose="Unused variable: mm" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="103"/>
+            <symbol>mm</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: nn" verbose="Unused variable: nn" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="107"/>
+            <symbol>nn</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: oo" verbose="Unused variable: oo" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="111"/>
+            <symbol>oo</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pp" verbose="Unused variable: pp" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="115"/>
+            <symbol>pp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: qq" verbose="Unused variable: qq" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="119"/>
+            <symbol>qq</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: rr" verbose="Unused variable: rr" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="123"/>
+            <symbol>rr</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ss" verbose="Unused variable: ss" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="127"/>
+            <symbol>ss</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: tt" verbose="Unused variable: tt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="131"/>
+            <symbol>tt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: uu" verbose="Unused variable: uu" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="135"/>
+            <symbol>uu</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: vv" verbose="Unused variable: vv" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="139"/>
+            <symbol>vv</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ww" verbose="Unused variable: ww" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="143"/>
+            <symbol>ww</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: xx" verbose="Unused variable: xx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="147"/>
+            <symbol>xx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: yy" verbose="Unused variable: yy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="151"/>
+            <symbol>yy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: zz" verbose="Unused variable: zz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1968-maximum-score-words-formed-by-letters.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="35" column="155"/>
+            <symbol>zz</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxScoreWords&apos; is never used." verbose="The function &apos;maxScoreWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1968-maximum-score-words-formed-by-letters.c" line="34" column="0"/>
+            <symbol>maxScoreWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

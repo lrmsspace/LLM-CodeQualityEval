@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/178-most-common-word.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="0" column="0"/>
+        </error>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/178-most-common-word.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="35" column="27"/>
+        </error>
+        <error id="negativeIndex" severity="error" msg="Array &apos;words[1000]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;words[1000]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/178-most-common-word.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="75" column="17" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="67" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="66" column="34" info="Assignment &apos;mostFrequentWordIndex=-1&apos;, assigned value is -1"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;j&lt;bannedSize&apos; is always false" verbose="Condition &apos;j&lt;bannedSize&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/178-most-common-word.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="52" column="31" info="Condition &apos;j&lt;bannedSize&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="51" column="46" info="Assuming that condition &apos;bannedSize==0&apos; is not redundant"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="52" column="26" info="Assignment &apos;j=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: words" verbose="Uninitialized variable: words" cwe="457" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/178-most-common-word.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="75" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="43" column="12" info="Assuming condition is false"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mostCommonWord&apos; is never used." verbose="The function &apos;mostCommonWord&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\178-most-common-word.c" line="24" column="0"/>
+            <symbol>mostCommonWord</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

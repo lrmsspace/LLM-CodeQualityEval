@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;changed&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;changed&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3510-minimum-pair-removal-to-sort-array-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3510-minimum-pair-removal-to-sort-array-ii.cpp" line="60" column="17" info="changed is overwritten"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3510-minimum-pair-removal-to-sort-array-ii.cpp" line="34" column="17" info="changed is assigned"/>
+            <symbol>changed</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumPairRemoval&apos; is never used." verbose="The function &apos;minimumPairRemoval&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3510-minimum-pair-removal-to-sort-array-ii.cpp" line="26" column="0"/>
+            <symbol>minimumPairRemoval</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

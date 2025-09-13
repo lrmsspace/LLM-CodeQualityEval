@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;col_left&gt;0&apos; is always false" verbose="Condition &apos;col_left&gt;0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="47" column="40" info="Condition &apos;col_left&gt;0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="33" column="40" info="Assuming that condition &apos;col_left&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;destination&apos; can be declared as reference to const" verbose="Parameter &apos;destination&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="28" column="41" info="Parameter &apos;destination&apos; can be declared as reference to const"/>
+            <symbol>destination</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;row_choose_num&apos; is assigned a value that is never used." verbose="Variable &apos;row_choose_num&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="36" column="32"/>
+            <symbol>row_choose_num</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;col_choose_num&apos; is assigned a value that is never used." verbose="Variable &apos;col_choose_num&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="37" column="32"/>
+            <symbol>col_choose_num</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;row_choose_num&apos; is assigned a value that is never used." verbose="Variable &apos;row_choose_num&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="39" column="32"/>
+            <symbol>row_choose_num</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;col_choose_num&apos; is assigned a value that is never used." verbose="Variable &apos;col_choose_num&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2045-kth-smallest-instructions.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="43" column="32"/>
+            <symbol>col_choose_num</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;kthSmallestPath&apos; is never used." verbose="The function &apos;kthSmallestPath&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2045-kth-smallest-instructions.cpp" line="28" column="0"/>
+            <symbol>kthSmallestPath</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

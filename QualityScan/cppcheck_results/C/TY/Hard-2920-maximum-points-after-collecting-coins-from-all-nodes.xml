@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;coins&apos; can be declared as pointer to const" verbose="Parameter &apos;coins&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="31" column="71" info="Parameter &apos;coins&apos; can be declared as pointer to const"/>
+            <symbol>coins</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;visited&apos; can be declared as pointer to const" verbose="Variable &apos;visited&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="32" column="64" info="Variable &apos;visited&apos; can be declared as pointer to const"/>
+            <symbol>visited</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="43" column="18" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;dis&apos; can be declared as pointer to const" verbose="Variable &apos;dis&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="43" column="47" info="Variable &apos;dis&apos; can be declared as pointer to const"/>
+            <symbol>dis</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="32" column="49"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="43" column="20"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dis&apos; is assigned a value that is never used." verbose="Variable &apos;dis&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="43" column="51"/>
+            <symbol>dis</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="32" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;q&apos; is allocated memory that is never used." verbose="Variable &apos;q&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/2920-maximum-points-after-collecting-coins-from-all-nodes.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="43" column="22"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumPoints&apos; is never used." verbose="The function &apos;maximumPoints&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\2920-maximum-points-after-collecting-coins-from-all-nodes.c" line="31" column="0"/>
+            <symbol>maximumPoints</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

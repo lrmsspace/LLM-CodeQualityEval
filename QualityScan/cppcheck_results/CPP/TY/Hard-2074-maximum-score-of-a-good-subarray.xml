@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;left-1&gt;=0&apos; is always true" verbose="Condition &apos;left-1&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2074-maximum-score-of-a-good-subarray.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2074-maximum-score-of-a-good-subarray.cpp" line="28" column="36" info="Condition &apos;left-1&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2074-maximum-score-of-a-good-subarray.cpp" line="27" column="21" info="Assuming that condition &apos;left&gt;0&apos; is not redundant"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;res&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;res&apos;. The initialized value is overwritten before it is read." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2074-maximum-score-of-a-good-subarray.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2074-maximum-score-of-a-good-subarray.cpp" line="40" column="13" info="res is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2074-maximum-score-of-a-good-subarray.cpp" line="25" column="17" info="res is initialized"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumScore&apos; is never used." verbose="The function &apos;maximumScore&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2074-maximum-score-of-a-good-subarray.cpp" line="21" column="0"/>
+            <symbol>maximumScore</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;ans&apos; shadows outer variable" verbose="Local variable &apos;ans&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2116-the-score-of-students-solving-math-expression.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2116-the-score-of-students-solving-math-expression.cpp" line="44" column="19" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2116-the-score-of-students-solving-math-expression.cpp" line="43" column="13" info="Shadowed declaration"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::transform algorithm instead of a raw loop." verbose="Consider using std::transform algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2116-the-score-of-students-solving-math-expression.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2116-the-score-of-students-solving-math-expression.cpp" line="46" column="21"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;scoreOfStudents&apos; is never used." verbose="The function &apos;scoreOfStudents&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2116-the-score-of-students-solving-math-expression.cpp" line="42" column="0"/>
+            <symbol>scoreOfStudents</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,58 @@
+/**https://leetcode.com/problems/maximize-win-from-two-segments/ */
+//There are some prizes on the X-axis. You are given an integer array prizePositions that is sorted in non-decreasing order, where prizePositions[i] is the position of the ith prize. There could be different prizes at the same position on the line. You are also given an integer k.
+//You are allowed to select two segments with integer endpoints. The length of each segment must be k. You will collect all prizes whose position falls within at least one of the two selected segments (including the endpoints of the segments). The two selected segments may intersect.
+//	For example if k = 2, you can choose segments [1, 3] and [2, 4], and you will win any prize i that satisfies 1 <= prizePositions[i] <= 3 or 2 <= prizePositions[i] <= 4.
+//Return the maximum number of prizes you can win if you choose the two segments optimally.
+// 
+//Example 1:
+//Input: prizePositions = [1,1,2,2,3,3,5], k = 2
+//Output: 7
+//Explanation: In this example, you can win all 7 prizes by selecting two segments [1, 3] and [3, 5].
+//Example 2:
+//Input: prizePositions = [1,2,3,4], k = 0
+//Output: 2
+//Explanation: For this example, one choice for the segments is [3, 3] and [4, 4], and you will be able to get 2 prizes. 
+// 
+//Constraints:
+//	1 <= prizePositions.length <= 105
+//	1 <= prizePositions[i] <= 109
+//	0 <= k <= 109 
+//	prizePositions is sorted in non-decreasing order.
+// 
+//.spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0; 
+//}
+//.spoiler {overflow:hidden;}
+//.spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
+//.spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
+//.spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
+int maximizeWin(int* prizePositions, int prizePositionsSize, int k) {
+    int n = prizePositionsSize;
+    int* left = (int*)calloc(n, sizeof(int));
+    int* right = (int*)calloc(n, sizeof(int));
+    
+    // Initialize left[i] to the first position to the left of prizePositions[i] that is a multiple of k
+    for (int i = 0; i < n; ++i) {
+        left[i] = i;
+        while (left[i] > 0 && prizePositions[left[i] - 1] % k!= 0) {
+            left[i] = left[left[i] - 1];
+        }
+    }
+    
+    // Initialize right[i] to the first position to the right of prizePositions[i] that is a multiple of k
+    for (int i = n - 1; i >= 0; --i) {
+        right[i] = i;
+        while (right[i] < n - 1 && prizePositions[right[i] + 1] % k!= 0) {
+            right[i] = right[right[i] + 1];
+        }
+    }
+    
+    int maxWin = 0;
+    for (int i = 0; i < n; ++i) {
+        maxWin = max(maxWin, right[i] - left[i] + 1);
+    }
+    
+    free(left);
+    free(right);
+    return maxWin;
+    
+}

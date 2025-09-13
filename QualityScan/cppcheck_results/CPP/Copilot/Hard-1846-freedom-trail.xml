@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;i&apos; can be declared as reference to const" verbose="Variable &apos;i&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1846-freedom-trail.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1846-freedom-trail.cpp" line="34" column="20" info="Variable &apos;i&apos; can be declared as reference to const"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;j&apos; can be declared as reference to const" verbose="Variable &apos;j&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1846-freedom-trail.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1846-freedom-trail.cpp" line="38" column="24" info="Variable &apos;j&apos; can be declared as reference to const"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;k&apos; can be declared as reference to const" verbose="Variable &apos;k&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Hard/1846-freedom-trail.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1846-freedom-trail.cpp" line="39" column="28" info="Variable &apos;k&apos; can be declared as reference to const"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findRotateSteps&apos; is never used." verbose="The function &apos;findRotateSteps&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Hard\1846-freedom-trail.cpp" line="27" column="0"/>
+            <symbol>findRotateSteps</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

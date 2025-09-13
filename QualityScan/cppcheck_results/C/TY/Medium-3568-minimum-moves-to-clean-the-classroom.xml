@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="0" column="0"/>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: flag" verbose="Uninitialized variable: flag" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="81" column="9"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="48" column="19" info="Assuming condition is false"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt&apos; is assigned a value that is never used." verbose="Variable &apos;cnt&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="99" column="21"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;flag&apos; is assigned a value that is never used." verbose="Variable &apos;flag&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3568-minimum-moves-to-clean-the-classroom.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="100" column="22"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMoves&apos; is never used." verbose="The function &apos;minMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3568-minimum-moves-to-clean-the-classroom.c" line="45" column="0"/>
+            <symbol>minMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="0" column="0"/>
+        </error>
+        <error id="duplicateConditionalAssign" severity="style" msg="Assignment &apos;left[i]=-1&apos; is redundant with condition &apos;left[i]==-1&apos;." verbose="Assignment &apos;left[i]=-1&apos; is redundant with condition &apos;left[i]==-1&apos;." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="39" column="39" info="Assignment &apos;left[i]=-1&apos; is redundant"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="39" column="24" info="Condition &apos;left[i]==-1&apos;"/>
+        </error>
+        <error id="duplicateConditionalAssign" severity="style" msg="Assignment &apos;right[i]=n&apos; is redundant with condition &apos;right[i]==n&apos;." verbose="Assignment &apos;right[i]=n&apos; is redundant with condition &apos;right[i]==n&apos;." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="43" column="40" info="Assignment &apos;right[i]=n&apos; is redundant"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="43" column="25" info="Condition &apos;right[i]==n&apos;"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;right[i]&apos; is assigned an expression that holds the same value." verbose="Variable &apos;right[i]&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="43" column="36"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="43" column="25" info="Assuming that condition &apos;right[i]==n&apos; is not redundant"/>
+            <symbol>right[i]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur_left&apos; is assigned a value that is never used." verbose="Variable &apos;cur_left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="32" column="26"/>
+            <symbol>cur_left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cur_right&apos; is assigned a value that is never used." verbose="Variable &apos;cur_right&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1786-maximal-rectangle.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="32" column="42"/>
+            <symbol>cur_right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximalRectangle&apos; is never used." verbose="The function &apos;maximalRectangle&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1786-maximal-rectangle.cpp" line="22" column="0"/>
+            <symbol>maximalRectangle</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

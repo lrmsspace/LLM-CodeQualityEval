@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i-j*j&gt;=0&apos; is always true" verbose="Condition &apos;i-j*j&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/747-perfect-squares.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\747-perfect-squares.c" line="21" column="35" info="Condition &apos;i-j*j&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\747-perfect-squares.c" line="21" column="22" info="Assignment &apos;j=1&apos;, assigned value is 1"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\747-perfect-squares.c" line="19" column="18" info="Assignment &apos;i=1&apos;, assigned value is 1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numSquares&apos; is never used." verbose="The function &apos;numSquares&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\747-perfect-squares.c" line="16" column="0"/>
+            <symbol>numSquares</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

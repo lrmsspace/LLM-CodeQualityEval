@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ret&apos; can be declared as pointer to const" verbose="Variable &apos;ret&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="52" column="10" info="Variable &apos;ret&apos; can be declared as pointer to const"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;query&apos; can be declared as pointer to const" verbose="Variable &apos;query&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="55" column="14" info="Variable &apos;query&apos; can be declared as pointer to const"/>
+            <symbol>query</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ret&apos; is assigned a value that is never used." verbose="Variable &apos;ret&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="52" column="14"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node&apos; is assigned a value that is never used." verbose="Variable &apos;query_node&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="57" column="24"/>
+            <symbol>query_node</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_weight&apos; is assigned a value that is never used." verbose="Variable &apos;query_weight&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="59" column="30"/>
+            <symbol>query_weight</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_parent&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_parent&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="60" column="35"/>
+            <symbol>query_node_parent</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_depth&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_depth&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="61" column="34"/>
+            <symbol>query_node_depth</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_max_depth&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_max_depth&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="62" column="38"/>
+            <symbol>query_node_max_depth</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_max_depth_node&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_max_depth_node&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="63" column="43"/>
+            <symbol>query_node_max_depth_node</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_max_depth_node_parent&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_max_depth_node_parent&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="64" column="50"/>
+            <symbol>query_node_max_depth_node_parent</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;query_node_max_depth_node_depth&apos; is assigned a value that is never used." verbose="Variable &apos;query_node_max_depth_node_depth&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="65" column="49"/>
+            <symbol>query_node_max_depth_node_depth</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;ret&apos; is allocated memory that is never used." verbose="Variable &apos;ret&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3515-shortest-path-in-a-weighted-tree.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="52" column="29"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;treeQueries&apos; is never used." verbose="The function &apos;treeQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3515-shortest-path-in-a-weighted-tree.c" line="51" column="0"/>
+            <symbol>treeQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

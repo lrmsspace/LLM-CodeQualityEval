@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="invalidFunctionArg" severity="warning" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/887-sum-of-square-numbers.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\887-sum-of-square-numbers.c" line="17" column="27" info="Invalid argument"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\887-sum-of-square-numbers.c" line="16" column="16" info="b2 is assigned &apos;c-a*a&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\887-sum-of-square-numbers.c" line="15" column="18" info="Assignment &apos;a=0&apos;, assigned value is 0"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;judgeSquareSum&apos; is never used." verbose="The function &apos;judgeSquareSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\887-sum-of-square-numbers.c" line="14" column="0"/>
+            <symbol>judgeSquareSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;dummy-&gt;right&apos; is assigned an expression that holds the same value." verbose="Variable &apos;dummy-&gt;right&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1219-balance-a-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1219-balance-a-binary-search-tree.c" line="46" column="10"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1219-balance-a-binary-search-tree.c" line="42" column="28" info="root1 is assigned &apos;dummy-&gt;right&apos; here."/>
+            <symbol>dummy-&gt;right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;balanceBST&apos; is never used." verbose="The function &apos;balanceBST&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1219-balance-a-binary-search-tree.c" line="24" column="0"/>
+            <symbol>balanceBST</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

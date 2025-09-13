@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;edges&apos; can be declared as reference to const" verbose="Parameter &apos;edges&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1898-sum-of-distances-in-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1898-sum-of-distances-in-tree.cpp" line="29" column="66" info="Parameter &apos;edges&apos; can be declared as reference to const"/>
+            <symbol>edges</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;adj&apos; can be declared as reference to const" verbose="Parameter &apos;adj&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1898-sum-of-distances-in-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1898-sum-of-distances-in-tree.cpp" line="44" column="35" info="Parameter &apos;adj&apos; can be declared as reference to const"/>
+            <symbol>adj</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;count&apos; can be declared as reference to const" verbose="Parameter &apos;count&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1898-sum-of-distances-in-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1898-sum-of-distances-in-tree.cpp" line="44" column="75" info="Parameter &apos;count&apos; can be declared as reference to const"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;res&apos; can be declared as reference to const" verbose="Parameter &apos;res&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1898-sum-of-distances-in-tree.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1898-sum-of-distances-in-tree.cpp" line="44" column="95" info="Parameter &apos;res&apos; can be declared as reference to const"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumOfDistancesInTree&apos; is never used." verbose="The function &apos;sumOfDistancesInTree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1898-sum-of-distances-in-tree.cpp" line="29" column="0"/>
+            <symbol>sumOfDistancesInTree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

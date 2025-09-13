@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h_sub&apos; is assigned a value that is never used." verbose="Variable &apos;h_sub&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2143-find-substring-with-given-hash-value.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2143-find-substring-with-given-hash-value.c" line="35" column="15"/>
+            <symbol>h_sub</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;subStrHash&apos; is never used." verbose="The function &apos;subStrHash&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2143-find-substring-with-given-hash-value.c" line="28" column="0"/>
+            <symbol>subStrHash</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

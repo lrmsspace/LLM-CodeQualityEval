@@ -1,0 +1,82 @@
+# You are given an array of positive integers nums, and a positive integer k.
+# You are allowed to perform an operation once on nums, where in each operation you can remove any non-overlapping prefix and suffix from nums such that nums remains non-empty.
+# You need to find the x-value of nums, which is the number of ways to perform this operation so that the product of the remaining elements leaves a remainder of x when divided by k.
+# Return an array result of size k where result[x] is the x-value of nums for 0 <= x <= k - 1.
+# A prefix of an array is a subarray that starts from the beginning of the array and extends to any point within it.
+# A suffix of an array is a subarray that starts at any point within the array and extends to the end of the array.
+# Note that the prefix and suffix to be chosen for the operation can be empty.
+# Example 1:
+# Input: nums = [1,2,3,4,5], k = 3
+# Output: [9,2,4]
+# Explanation:
+# For x = 0, the possible operations include all possible ways to remove non-overlapping prefix/suffix that do not remove nums[2] == 3.
+# For x = 1, the possible operations are:
+# Remove the empty prefix and the suffix [2, 3, 4, 5]. nums becomes [1].
+# Remove the prefix [1, 2, 3] and the suffix [5]. nums becomes [4].
+# For x = 2, the possible operations are:
+# Remove the empty prefix and the suffix [3, 4, 5]. nums becomes [1, 2].
+# Remove the prefix [1] and the suffix [3, 4, 5]. nums becomes [2].
+# Remove the prefix [1, 2, 3] and the empty suffix. nums becomes [4, 5].
+# Remove the prefix [1, 2, 3, 4] and the empty suffix. nums becomes [5].
+# Example 2:
+# Input: nums = [1,2,4,8,16,32], k = 4
+# Output: [18,1,2,0]
+# Explanation:
+# For x = 0, the only operations that do not result in x = 0 are:
+# Remove the empty prefix and the suffix [4, 8, 16, 32]. nums becomes [1, 2].
+# Remove the empty prefix and the suffix [2, 4, 8, 16, 32]. nums becomes [1].
+# Remove the prefix [1] and the suffix [4, 8, 16, 32]. nums becomes [2].
+# For x = 1, the only possible operation is:
+# Remove the empty prefix and the suffix [2, 4, 8, 16, 32]. nums becomes [1].
+# For x = 2, the possible operations are:
+# Remove the empty prefix and the suffix [4, 8, 16, 32]. nums becomes [1, 2].
+# Remove the prefix [1] and the suffix [4, 8, 16, 32]. nums becomes [2].
+# For x = 3, there is no possible way to perform the operation.
+# Example 3:
+# Input: nums = [1,1,2,1,1], k = 2
+# Output: [9,6]
+# Constraints:
+# 1 <= nums[i] <= 109
+# 1 <= nums.length <= 105
+# 1 <= k <= 5
+
+import bisect
+class Solution(object):
+    def resultArray(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        # Initialize the result array with the first element of nums
+        result = [nums[0]]
+        # Initialize the sorted list with the first element of nums
+        sorted_list = [nums[0]]
+
+        # Iterate through the remaining elements of nums
+        for i in range(1, len(nums)):
+            # Calculate the x-value for the current element
+            x = nums[i] % k
+
+            # Find the index of the first element in sorted_list that is greater than or equal to x
+            index = bisect.bisect_left(sorted_list, x)
+
+            # If the index is equal to the length of sorted_list, append x to sorted_list
+            if index == len(sorted_list):
+                sorted_list.append(x)
+            # Otherwise, insert x at the found index in sorted_list
+            else:
+                sorted_list.insert(index, x)
+
+            # Calculate the index of x in the sorted_list
+            index = bisect.bisect_left(sorted_list, x)
+
+            # If the index is even, append the current element to the result array
+            if index % 2 == 0:
+                result.append(nums[i])
+            # Otherwise, insert the current element at the beginning of the result array
+            else:
+                result.insert(0, nums[i])
+
+        # Return the result array
+        return result        

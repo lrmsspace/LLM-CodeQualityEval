@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1649-reward-top-k-students.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="0" column="0"/>
+        </error>
+        <error id="negativeIndex" severity="error" msg="Array &apos;points[2147483648]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;points[2147483648]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1649-reward-top-k-students.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="72" column="15" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="65" column="27" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="63" column="30" info="Assignment &apos;maxPointIndex=-1&apos;, assigned value is -1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;student_id&apos; can be declared as pointer to const" verbose="Parameter &apos;student_id&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1649-reward-top-k-students.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="36" column="160" info="Parameter &apos;student_id&apos; can be declared as pointer to const"/>
+            <symbol>student_id</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1649-reward-top-k-students.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="40" column="15" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;topStudents&apos; is never used." verbose="The function &apos;topStudents&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1649-reward-top-k-students.c" line="36" column="0"/>
+            <symbol>topStudents</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

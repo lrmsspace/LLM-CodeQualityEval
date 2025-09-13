@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/378-longest-nice-substring.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="22" column="34" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="shiftTooManyBits" severity="warning" msg="Shifting 32-bit value by 58 bits is undefined behaviour. See condition at line 30." verbose="Shifting 32-bit value by 58 bits is undefined behaviour. See condition at line 30." cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/378-longest-nice-substring.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="33" column="32" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="30" column="41" info="Assuming that condition &apos;s[k]&lt;=&apos;z&apos;&apos; is not redundant"/>
+        </error>
+        <error id="integerOverflowCond" severity="warning" msg="Either the condition &apos;s[k]&lt;=&apos;z&apos;&apos; is redundant or there is signed integer overflow for expression &apos;1&lt;&lt;(s[k]-&apos;A&apos;)&apos;." verbose="Either the condition &apos;s[k]&lt;=&apos;z&apos;&apos; is redundant or there is signed integer overflow for expression &apos;1&lt;&lt;(s[k]-&apos;A&apos;)&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/378-longest-nice-substring.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="33" column="32" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="30" column="41" info="Assuming that condition &apos;s[k]&lt;=&apos;z&apos;&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestNiceSubstring&apos; is never used." verbose="The function &apos;longestNiceSubstring&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\378-longest-nice-substring.c" line="22" column="0"/>
+            <symbol>longestNiceSubstring</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

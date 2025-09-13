@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Medium/3081-replace-question-marks-in-string-to-minimize-its-value.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3081-replace-question-marks-in-string-to-minimize-its-value.c" line="0" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;minCost&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;minCost&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3081-replace-question-marks-in-string-to-minimize-its-value.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3081-replace-question-marks-in-string-to-minimize-its-value.c" line="58" column="17" info="minCost is overwritten"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3081-replace-question-marks-in-string-to-minimize-its-value.c" line="45" column="25" info="minCost is assigned"/>
+            <symbol>minCost</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimizeStringValue&apos; is never used." verbose="The function &apos;minimizeStringValue&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3081-replace-question-marks-in-string-to-minimize-its-value.c" line="31" column="0"/>
+            <symbol>minimizeStringValue</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

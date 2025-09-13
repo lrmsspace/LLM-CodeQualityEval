@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;x2-x1&apos;." verbose="Signed integer overflow for expression &apos;x2-x1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="35" column="24" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="14" info="Assignment &apos;x1=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="27" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="42" info="Assignment &apos;x2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;(x2-x1)*(y2-y1)&apos;." verbose="Signed integer overflow for expression &apos;(x2-x1)*(y2-y1)&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="35" column="30" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="14" info="Assignment &apos;x1=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="27" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="42" info="Assignment &apos;x2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;y2-y1&apos;." verbose="Signed integer overflow for expression &apos;y2-y1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="35" column="36" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="28" info="Assignment &apos;y1=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="27" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="25" column="56" info="Assignment &apos;y2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isRectangleCover&apos; is never used." verbose="The function &apos;isRectangleCover&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="23" column="0"/>
+            <symbol>isRectangleCover</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

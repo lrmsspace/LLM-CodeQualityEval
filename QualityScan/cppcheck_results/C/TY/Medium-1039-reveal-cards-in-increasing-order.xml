@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="0" column="0"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="88" column="13"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="91" column="5"/>
+        </error>
+        <error id="AssignmentAddressToInteger" severity="portability" msg="Assigning a pointer to an integer is not portable." verbose="Assigning a pointer to an integer (int/long/etc) is not portable across different platforms and compilers. For example in 32-bit Windows and linux they are same width, but in 64-bit Windows and linux they are of different width. In worst case you end up assigning 64-bit address to 32-bit integer. The safe way is to store addresses only in pointer types (or typedefs like uintptr_t)." cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="66" column="14"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;i&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;i&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="65" column="12" info="i is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="47" column="7" info="i is assigned"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;a&apos; can be declared as pointer to const" verbose="Variable &apos;a&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="10" info="Variable &apos;a&apos; can be declared as pointer to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;b&apos; can be declared as pointer to const" verbose="Variable &apos;b&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="14" info="Variable &apos;b&apos; can be declared as pointer to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;c&apos; can be declared as pointer to const" verbose="Variable &apos;c&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="18" info="Variable &apos;c&apos; can be declared as pointer to const"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;d&apos; can be declared as pointer to const" verbose="Variable &apos;d&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="22" info="Variable &apos;d&apos; can be declared as pointer to const"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;e&apos; can be declared as pointer to const" verbose="Variable &apos;e&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="26" info="Variable &apos;e&apos; can be declared as pointer to const"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;f&apos; can be declared as pointer to const" verbose="Variable &apos;f&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="30" info="Variable &apos;f&apos; can be declared as pointer to const"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;g&apos; can be declared as pointer to const" verbose="Variable &apos;g&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="34" info="Variable &apos;g&apos; can be declared as pointer to const"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;h&apos; can be declared as pointer to const" verbose="Variable &apos;h&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="38" info="Variable &apos;h&apos; can be declared as pointer to const"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;j&apos; can be declared as pointer to const" verbose="Variable &apos;j&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="46" info="Variable &apos;j&apos; can be declared as pointer to const"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;k&apos; can be declared as pointer to const" verbose="Variable &apos;k&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="50" info="Variable &apos;k&apos; can be declared as pointer to const"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;l&apos; can be declared as pointer to const" verbose="Variable &apos;l&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="54" info="Variable &apos;l&apos; can be declared as pointer to const"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;m&apos; can be declared as pointer to const" verbose="Variable &apos;m&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="58" info="Variable &apos;m&apos; can be declared as pointer to const"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;n&apos; can be declared as pointer to const" verbose="Variable &apos;n&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="62" info="Variable &apos;n&apos; can be declared as pointer to const"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="70" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="74" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;r&apos; can be declared as pointer to const" verbose="Variable &apos;r&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="78" info="Variable &apos;r&apos; can be declared as pointer to const"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;s&apos; can be declared as pointer to const" verbose="Variable &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="82" info="Variable &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;v&apos; can be declared as pointer to const" verbose="Variable &apos;v&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="38" column="94" info="Variable &apos;v&apos; can be declared as pointer to const"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="39" column="7"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="40" column="7"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="41" column="7"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="42" column="7"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="43" column="7"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="44" column="7"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="45" column="7"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="46" column="7"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="48" column="7"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="49" column="7"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="50" column="7"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="51" column="7"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="52" column="7"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="54" column="7"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="55" column="7"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="56" column="7"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="57" column="7"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="60" column="7"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="37" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;a&apos; is allocated memory that is never used." verbose="Variable &apos;a&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="39" column="23"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;b&apos; is allocated memory that is never used." verbose="Variable &apos;b&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="40" column="23"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;c&apos; is allocated memory that is never used." verbose="Variable &apos;c&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="41" column="23"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;d&apos; is allocated memory that is never used." verbose="Variable &apos;d&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="42" column="23"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;e&apos; is allocated memory that is never used." verbose="Variable &apos;e&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="43" column="23"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;f&apos; is allocated memory that is never used." verbose="Variable &apos;f&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="44" column="23"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;g&apos; is allocated memory that is never used." verbose="Variable &apos;g&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="45" column="23"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;h&apos; is allocated memory that is never used." verbose="Variable &apos;h&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="46" column="23"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;j&apos; is allocated memory that is never used." verbose="Variable &apos;j&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="48" column="23"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;k&apos; is allocated memory that is never used." verbose="Variable &apos;k&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="49" column="23"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;l&apos; is allocated memory that is never used." verbose="Variable &apos;l&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="50" column="23"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;m&apos; is allocated memory that is never used." verbose="Variable &apos;m&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="51" column="23"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;n&apos; is allocated memory that is never used." verbose="Variable &apos;n&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="52" column="23"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;p&apos; is allocated memory that is never used." verbose="Variable &apos;p&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="54" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;q&apos; is allocated memory that is never used." verbose="Variable &apos;q&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="55" column="23"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;r&apos; is allocated memory that is never used." verbose="Variable &apos;r&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="56" column="23"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;s&apos; is allocated memory that is never used." verbose="Variable &apos;s&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="57" column="23"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;v&apos; is allocated memory that is never used." verbose="Variable &apos;v&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1039-reveal-cards-in-increasing-order.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="60" column="23"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;deckRevealedIncreasing&apos; is never used." verbose="The function &apos;deckRevealedIncreasing&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1039-reveal-cards-in-increasing-order.c" line="36" column="0"/>
+            <symbol>deckRevealedIncreasing</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

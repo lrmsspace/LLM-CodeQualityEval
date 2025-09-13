@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;nums[right]&gt;=nums[right-1]&apos; is always true" verbose="Condition &apos;nums[right]&gt;=nums[right-1]&apos; is always true" cwe="571" file0="F:/Benchmark/new/Tabnine/output/cpp/Easy/3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Easy\3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp" line="36" column="80" info="Condition &apos;nums[right]&gt;=nums[right-1]&apos; is always true"/>
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Easy\3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp" line="36" column="46" info="Assuming that condition &apos;nums[right]&lt;=nums[right-1]&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestMonotonicSubarray&apos; is never used." verbose="The function &apos;longestMonotonicSubarray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Easy\3105-longest-strictly-increasing-or-strictly-decreasing-subarray.cpp" line="31" column="0"/>
+            <symbol>longestMonotonicSubarray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

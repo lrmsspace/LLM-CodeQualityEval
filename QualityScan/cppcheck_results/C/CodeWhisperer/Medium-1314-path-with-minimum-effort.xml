@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 4, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 4, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="41" column="15" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 5, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 5, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="42" column="15" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 6, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 6, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="43" column="15" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 7, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 7, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="44" column="15" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 6, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 6, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="49" column="36" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="48" column="27" info="Assuming that condition &apos;k&lt;4&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;directions[4]&apos; accessed at index 7, which is out of bounds." verbose="Array &apos;directions[4]&apos; accessed at index 7, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="50" column="36" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="48" column="27" info="Assuming that condition &apos;k&lt;4&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;heightsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;heightsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1314-path-with-minimum-effort.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="25" column="60" info="Parameter &apos;heightsColSize&apos; can be declared as pointer to const"/>
+            <symbol>heightsColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumEffortPath&apos; is never used." verbose="The function &apos;minimumEffortPath&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1314-path-with-minimum-effort.c" line="25" column="0"/>
+            <symbol>minimumEffortPath</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="0" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p13&apos; can be declared as pointer to const" verbose="Variable &apos;p13&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="37" column="10" info="Variable &apos;p13&apos; can be declared as pointer to const"/>
+            <symbol>p13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p4" verbose="Unused variable: p4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="34" column="10"/>
+            <symbol>p4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p5" verbose="Unused variable: p5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="34" column="16"/>
+            <symbol>p5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p6" verbose="Unused variable: p6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="34" column="22"/>
+            <symbol>p6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p7" verbose="Unused variable: p7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="35" column="10"/>
+            <symbol>p7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p8" verbose="Unused variable: p8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="35" column="16"/>
+            <symbol>p8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p9" verbose="Unused variable: p9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="35" column="22"/>
+            <symbol>p9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p10" verbose="Unused variable: p10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="36" column="10"/>
+            <symbol>p10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p11" verbose="Unused variable: p11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="36" column="17"/>
+            <symbol>p11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p12" verbose="Unused variable: p12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="36" column="24"/>
+            <symbol>p12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p14" verbose="Unused variable: p14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="37" column="16"/>
+            <symbol>p14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p15" verbose="Unused variable: p15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1511-rearrange-array-elements-by-sign.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="37" column="23"/>
+            <symbol>p15</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;rearrangeArray&apos; is never used." verbose="The function &apos;rearrangeArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1511-rearrange-array-elements-by-sign.c" line="31" column="0"/>
+            <symbol>rearrangeArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/new/TY/output/c/Hard/3425-longest-special-path.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3425-longest-special-path.c" line="52" column="5"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestSpecialPath&apos; is never used." verbose="The function &apos;longestSpecialPath&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3425-longest-special-path.c" line="31" column="0"/>
+            <symbol>longestSpecialPath</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: k" verbose="Uninitialized variable: k" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1160-find-positive-integer-solution-for-a-given-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1160-find-positive-integer-solution-for-a-given-equation.c" line="61" column="9"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans2&apos; is assigned a value that is never used." verbose="Variable &apos;ans2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1160-find-positive-integer-solution-for-a-given-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1160-find-positive-integer-solution-for-a-given-equation.c" line="56" column="13"/>
+            <symbol>ans2</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;k&apos; is not assigned a value." verbose="Variable &apos;k&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1160-find-positive-integer-solution-for-a-given-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1160-find-positive-integer-solution-for-a-given-equation.c" line="57" column="12"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1160-find-positive-integer-solution-for-a-given-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1160-find-positive-integer-solution-for-a-given-equation.c" line="57" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findSolution&apos; is never used." verbose="The function &apos;findSolution&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1160-find-positive-integer-solution-for-a-given-equation.c" line="54" column="0"/>
+            <symbol>findSolution</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

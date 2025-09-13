@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;first==NULL&apos; is redundant or there is possible null pointer dereference: first." verbose="Either the condition &apos;first==NULL&apos; is redundant or there is possible null pointer dereference: first." cwe="476" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="73" column="20" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="72" column="20" info="Assuming that condition &apos;first==NULL&apos; is not redundant"/>
+            <symbol>first</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;first==NULL&apos; is redundant or there is possible null pointer dereference: first." verbose="Either the condition &apos;first==NULL&apos; is redundant or there is possible null pointer dereference: first." cwe="476" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="74" column="9" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="72" column="20" info="Assuming that condition &apos;first==NULL&apos; is not redundant"/>
+            <symbol>first</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;second!=NULL&apos; is redundant or there is possible null pointer dereference: second." verbose="Either the condition &apos;second!=NULL&apos; is redundant or there is possible null pointer dereference: second." cwe="476" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="80" column="22" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="72" column="38" info="Assuming that condition &apos;second!=NULL&apos; is not redundant"/>
+            <symbol>second</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;second!=NULL&apos; is redundant or there is possible null pointer dereference: second." verbose="Either the condition &apos;second!=NULL&apos; is redundant or there is possible null pointer dereference: second." cwe="476" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="81" column="9" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="72" column="38" info="Assuming that condition &apos;second!=NULL&apos; is not redundant"/>
+            <symbol>second</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;temp&apos; shadows outer variable" verbose="Local variable &apos;temp&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="63" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="30" column="22" info="Shadowed declaration"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;temp&apos; shadows outer variable" verbose="Local variable &apos;temp&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="68" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="30" column="22" info="Shadowed declaration"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;temp&apos; shadows outer variable" verbose="Local variable &apos;temp&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="73" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="30" column="22" info="Shadowed declaration"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;temp&apos; shadows outer variable" verbose="Local variable &apos;temp&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="79" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="30" column="22" info="Shadowed declaration"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;recoverTree&apos; is never used." verbose="The function &apos;recoverTree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="26" column="0"/>
+            <symbol>recoverTree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

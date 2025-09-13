@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;s[k++]=s[k+1]&apos; depends on order of evaluation of side effects" verbose="Expression &apos;s[k++]=s[k+1]&apos; depends on order of evaluation of side effects" cwe="768" file0="F:/Benchmark/new/Tabnine/output/c/Easy/3174-clear-digits.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3174-clear-digits.c" line="31" column="33"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;clearDigits&apos; is never used." verbose="The function &apos;clearDigits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3174-clear-digits.c" line="24" column="0"/>
+            <symbol>clearDigits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

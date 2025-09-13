@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;fruits&apos; can be declared as reference to const" verbose="Parameter &apos;fruits&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/cpp/Medium/3479-fruits-into-baskets-iii.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3479-fruits-into-baskets-iii.cpp" line="32" column="42" info="Parameter &apos;fruits&apos; can be declared as reference to const"/>
+            <symbol>fruits</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;baskets&apos; can be declared as reference to const" verbose="Parameter &apos;baskets&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/cpp/Medium/3479-fruits-into-baskets-iii.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3479-fruits-into-baskets-iii.cpp" line="32" column="63" info="Parameter &apos;baskets&apos; can be declared as reference to const"/>
+            <symbol>baskets</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numOfUnplacedFruits&apos; is never used." verbose="The function &apos;numOfUnplacedFruits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3479-fruits-into-baskets-iii.cpp" line="32" column="0"/>
+            <symbol>numOfUnplacedFruits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

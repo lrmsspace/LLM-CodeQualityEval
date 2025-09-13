@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;queue[0]&apos; is always true" verbose="Condition &apos;queue[0]&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="40" column="17" info="Condition &apos;queue[0]&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;level&apos; is assigned a value that is never used." verbose="Variable &apos;level&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="37" column="15"/>
+            <symbol>level</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;size&apos; is assigned a value that is never used." verbose="Variable &apos;size&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/676-binary-tree-level-order-traversal-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="41" column="18"/>
+            <symbol>size</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;levelOrderBottom&apos; is never used." verbose="The function &apos;levelOrderBottom&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\676-binary-tree-level-order-traversal-ii.c" line="30" column="0"/>
+            <symbol>levelOrderBottom</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

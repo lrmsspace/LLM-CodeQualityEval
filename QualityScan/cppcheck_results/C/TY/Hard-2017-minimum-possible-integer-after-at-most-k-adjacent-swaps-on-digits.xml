@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="15"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kk" verbose="Unused variable: kk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="18"/>
+            <symbol>kk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkk" verbose="Unused variable: kkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="22"/>
+            <symbol>kkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkk" verbose="Unused variable: kkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="27"/>
+            <symbol>kkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkk" verbose="Unused variable: kkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="33"/>
+            <symbol>kkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkk" verbose="Unused variable: kkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="40"/>
+            <symbol>kkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkk" verbose="Unused variable: kkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="48"/>
+            <symbol>kkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkk" verbose="Unused variable: kkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="57"/>
+            <symbol>kkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkk" verbose="Unused variable: kkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="67"/>
+            <symbol>kkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkk" verbose="Unused variable: kkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="78"/>
+            <symbol>kkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="90"/>
+            <symbol>kkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="103"/>
+            <symbol>kkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="117"/>
+            <symbol>kkkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="132"/>
+            <symbol>kkkkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="148"/>
+            <symbol>kkkkkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="165"/>
+            <symbol>kkkkkkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kkkkkkkkkkkkkkkkk" verbose="Unused variable: kkkkkkkkkkkkkkkkk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="24" column="183"/>
+            <symbol>kkkkkkkkkkkkkkkkk</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minInteger&apos; is never used." verbose="The function &apos;minInteger&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2017-minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits.c" line="22" column="0"/>
+            <symbol>minInteger</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

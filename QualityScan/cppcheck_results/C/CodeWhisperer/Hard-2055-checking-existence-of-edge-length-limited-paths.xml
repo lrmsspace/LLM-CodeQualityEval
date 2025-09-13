@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2055-checking-existence-of-edge-length-limited-paths.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="35" column="9"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2055-checking-existence-of-edge-length-limited-paths.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="39" column="9"/>
+        </error>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2055-checking-existence-of-edge-length-limited-paths.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="55" column="9"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;answer&apos; can be declared as pointer to const" verbose="Variable &apos;answer&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2055-checking-existence-of-edge-length-limited-paths.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="31" column="11" info="Variable &apos;answer&apos; can be declared as pointer to const"/>
+            <symbol>answer</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;answer&apos; is allocated memory that is never used." verbose="Variable &apos;answer&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2055-checking-existence-of-edge-length-limited-paths.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="31" column="34"/>
+            <symbol>answer</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;distanceLimitedPathsExist&apos; is never used." verbose="The function &apos;distanceLimitedPathsExist&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2055-checking-existence-of-edge-length-limited-paths.c" line="30" column="0"/>
+            <symbol>distanceLimitedPathsExist</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

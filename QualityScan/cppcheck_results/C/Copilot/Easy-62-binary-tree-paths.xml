@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;leftSize&apos; and &apos;rightSize&apos;." verbose="Finding variables &apos;leftSize&apos; and &apos;rightSize&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Easy/62-binary-tree-paths.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="33" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="34" column="9"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;binaryTreePaths&apos; is never used." verbose="The function &apos;binaryTreePaths&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\62-binary-tree-paths.c" line="26" column="0"/>
+            <symbol>binaryTreePaths</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

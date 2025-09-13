@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3348-smallest-divisible-digit-product-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3348-smallest-divisible-digit-product-ii.cpp" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;p&gt;t&apos; is always true" verbose="Condition &apos;p&gt;t&apos; is always true" cwe="571" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3348-smallest-divisible-digit-product-ii.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3348-smallest-divisible-digit-product-ii.cpp" line="51" column="22" info="Condition &apos;p&gt;t&apos; is always true"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3348-smallest-divisible-digit-product-ii.cpp" line="46" column="22" info="Assuming that condition &apos;p==t&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestNumber&apos; is never used." verbose="The function &apos;smallestNumber&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3348-smallest-divisible-digit-product-ii.cpp" line="29" column="0"/>
+            <symbol>smallestNumber</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

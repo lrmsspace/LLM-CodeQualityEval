@@ -1,0 +1,55 @@
+/**https://leetcode.com/problems/diagonal-traverse/ */
+//Given an m x n matrix mat, return an array of all the elements of the array in a diagonal order.
+// 
+//Example 1:
+//Input: mat = [[1,2,3],[4,5,6],[7,8,9]]
+//Output: [1,2,4,7,5,3,6,8,9]
+//Example 2:
+//Input: mat = [[1,2],[3,4]]
+//Output: [1,2,3,4]
+// 
+//Constraints:
+//	m == mat.length
+//	n == mat[i].length
+//	1 <= m, n <= 104
+//	1 <= m * n <= 104
+//	-105 <= mat[i][j] <= 105
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* findDiagonalOrder(int** mat, int matSize, int* matColSize, int* returnSize) {
+    int m = matSize, n = *matColSize;
+    int* result = (int*)malloc(m * n * sizeof(int));
+    int index = 0;
+    
+    // Traverse the matrix in a spiral pattern
+    for (int layer = 0; layer < (m + n - 1) / 2; layer++) {
+        // Traverse from left to right
+        for (int i = layer; i < n - layer; i++) {
+            result[index++] = mat[layer][i];
+        }
+        
+        // Traverse from top to bottom
+        for (int i = layer + 1; i < m - layer; i++) {
+            result[index++] = mat[i][n - layer - 1];
+        }
+        
+        // Traverse from right to left
+        if (layer < m - layer - 1) {
+            for (int i = n - layer - 2; i >= layer; i--) {
+                result[index++] = mat[m - layer - 1][i];
+            }
+        }
+        
+        // Traverse from bottom to top
+        if (layer < n - layer - 1) {
+            for (int i = m - layer - 2; i > layer; i--) {
+                result[index++] = mat[i][layer];
+            }
+        }
+    }
+    
+    *returnSize = index;
+    return result;
+    
+}

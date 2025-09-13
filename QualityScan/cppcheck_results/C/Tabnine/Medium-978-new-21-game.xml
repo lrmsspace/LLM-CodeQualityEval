@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="warning" msg="Either the condition &apos;i-k&gt;=0&apos; is redundant or the array &apos;dp[2147483648]&apos; is accessed at index -1, which is out of bounds." verbose="Either the condition &apos;i-k&gt;=0&apos; is redundant or the array &apos;dp[2147483648]&apos; is accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/978-new-21-game.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\978-new-21-game.c" line="33" column="32" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\978-new-21-game.c" line="33" column="17" info="Assuming that condition &apos;i-k&gt;=0&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;new21Game&apos; is never used." verbose="The function &apos;new21Game&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\978-new-21-game.c" line="24" column="0"/>
+            <symbol>new21Game</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;diff&gt;0&apos; is always true" verbose="Condition &apos;diff&gt;0&apos; is always true" cwe="571" file0="F:/Benchmark/new/Codeium/output/c/Medium/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="47" column="29" info="Condition &apos;diff&gt;0&apos; is always true"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="46" column="34" info="Assignment &apos;diff=targetSum-sum1&apos;, assigned value is greater than 0"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="45" column="35" info="Assuming that condition &apos;sum1&lt;targetSum&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;diff&gt;0&apos; is always true" verbose="Condition &apos;diff&gt;0&apos; is always true" cwe="571" file0="F:/Benchmark/new/Codeium/output/c/Medium/2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="54" column="29" info="Condition &apos;diff&gt;0&apos; is always true"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="53" column="34" info="Assignment &apos;diff=targetSum-sum2&apos;, assigned value is greater than 0"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="52" column="35" info="Assuming that condition &apos;sum2&lt;targetSum&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minSum&apos; is never used." verbose="The function &apos;minSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\2918-minimum-equal-sum-of-two-arrays-after-replacing-zeros.c" line="21" column="0"/>
+            <symbol>minSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

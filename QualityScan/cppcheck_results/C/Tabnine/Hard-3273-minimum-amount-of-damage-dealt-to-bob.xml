@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;damage&apos; can be declared as pointer to const" verbose="Parameter &apos;damage&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3273-minimum-amount-of-damage-dealt-to-bob.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3273-minimum-amount-of-damage-dealt-to-bob.c" line="31" column="37" info="Parameter &apos;damage&apos; can be declared as pointer to const"/>
+            <symbol>damage</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;health&apos; can be declared as pointer to const" verbose="Parameter &apos;health&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3273-minimum-amount-of-damage-dealt-to-bob.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3273-minimum-amount-of-damage-dealt-to-bob.c" line="31" column="66" info="Parameter &apos;health&apos; can be declared as pointer to const"/>
+            <symbol>health</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDamage&apos; is never used." verbose="The function &apos;minDamage&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3273-minimum-amount-of-damage-dealt-to-bob.c" line="31" column="0"/>
+            <symbol>minDamage</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

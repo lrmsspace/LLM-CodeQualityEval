@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="52" column="28" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="52" column="32" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;r&apos; can be declared as pointer to const" verbose="Variable &apos;r&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="52" column="36" info="Variable &apos;r&apos; can be declared as pointer to const"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;s&apos; can be declared as pointer to const" verbose="Variable &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="52" column="40" info="Variable &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="63" column="11"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="64" column="11"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="65" column="11"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="74" column="11"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="76" column="11"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3525-find-x-value-of-array-ii.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="52" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;resultArray&apos; is never used." verbose="The function &apos;resultArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3525-find-x-value-of-array-ii.c" line="51" column="0"/>
+            <symbol>resultArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

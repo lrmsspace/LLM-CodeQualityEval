@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;flag&apos; can be reduced." verbose="The scope of the variable &apos;flag&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Easy/2900-longest-unequal-adjacent-groups-subsequence-i.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Easy\2900-longest-unequal-adjacent-groups-subsequence-i.cpp" line="34" column="26"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;flag&apos; is assigned a value that is never used." verbose="Variable &apos;flag&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Easy/2900-longest-unequal-adjacent-groups-subsequence-i.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Easy\2900-longest-unequal-adjacent-groups-subsequence-i.cpp" line="34" column="31"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;flag&apos; is assigned a value that is never used." verbose="Variable &apos;flag&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Easy/2900-longest-unequal-adjacent-groups-subsequence-i.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Easy\2900-longest-unequal-adjacent-groups-subsequence-i.cpp" line="37" column="34"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getLongestSubsequence&apos; is never used." verbose="The function &apos;getLongestSubsequence&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Easy\2900-longest-unequal-adjacent-groups-subsequence-i.cpp" line="25" column="0"/>
+            <symbol>getLongestSubsequence</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

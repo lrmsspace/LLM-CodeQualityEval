@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;rungs&apos; can be declared as pointer to const" verbose="Parameter &apos;rungs&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="31" column="19" info="Parameter &apos;rungs&apos; can be declared as pointer to const"/>
+            <symbol>rungs</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="32" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="9"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="12"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="15"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="18"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="21"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="24"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="27"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="30"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="36"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="39"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="42"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="45"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="48"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="51"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="54"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="57"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="60"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="63"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="66"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="69"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="72"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="75"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="78"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="81"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="33" column="84"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: A" verbose="Unused variable: A" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="9"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: B" verbose="Unused variable: B" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="12"/>
+            <symbol>B</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: C" verbose="Unused variable: C" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="15"/>
+            <symbol>C</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: D" verbose="Unused variable: D" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="18"/>
+            <symbol>D</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: E" verbose="Unused variable: E" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="21"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: F" verbose="Unused variable: F" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="24"/>
+            <symbol>F</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: G" verbose="Unused variable: G" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="27"/>
+            <symbol>G</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: H" verbose="Unused variable: H" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="30"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: I" verbose="Unused variable: I" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="33"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: J" verbose="Unused variable: J" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="36"/>
+            <symbol>J</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: K" verbose="Unused variable: K" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="39"/>
+            <symbol>K</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: L" verbose="Unused variable: L" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="42"/>
+            <symbol>L</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: M" verbose="Unused variable: M" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="45"/>
+            <symbol>M</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: N" verbose="Unused variable: N" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="48"/>
+            <symbol>N</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: O" verbose="Unused variable: O" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="51"/>
+            <symbol>O</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: P" verbose="Unused variable: P" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="54"/>
+            <symbol>P</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Q" verbose="Unused variable: Q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="57"/>
+            <symbol>Q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: R" verbose="Unused variable: R" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="60"/>
+            <symbol>R</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: S" verbose="Unused variable: S" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="63"/>
+            <symbol>S</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: T" verbose="Unused variable: T" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="66"/>
+            <symbol>T</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: U" verbose="Unused variable: U" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="69"/>
+            <symbol>U</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: V" verbose="Unused variable: V" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="72"/>
+            <symbol>V</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: W" verbose="Unused variable: W" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="75"/>
+            <symbol>W</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: X" verbose="Unused variable: X" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="78"/>
+            <symbol>X</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Y" verbose="Unused variable: Y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="81"/>
+            <symbol>Y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Z" verbose="Unused variable: Z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="34" column="84"/>
+            <symbol>Z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: aa" verbose="Unused variable: aa" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="9"/>
+            <symbol>aa</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: bb" verbose="Unused variable: bb" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="13"/>
+            <symbol>bb</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cc" verbose="Unused variable: cc" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="17"/>
+            <symbol>cc</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dd" verbose="Unused variable: dd" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="21"/>
+            <symbol>dd</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ee" verbose="Unused variable: ee" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="25"/>
+            <symbol>ee</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ff" verbose="Unused variable: ff" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="29"/>
+            <symbol>ff</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: gg" verbose="Unused variable: gg" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="33"/>
+            <symbol>gg</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: hh" verbose="Unused variable: hh" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="37"/>
+            <symbol>hh</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ii" verbose="Unused variable: ii" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="41"/>
+            <symbol>ii</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jj" verbose="Unused variable: jj" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="45"/>
+            <symbol>jj</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kk" verbose="Unused variable: kk" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="49"/>
+            <symbol>kk</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ll" verbose="Unused variable: ll" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="53"/>
+            <symbol>ll</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mm" verbose="Unused variable: mm" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="57"/>
+            <symbol>mm</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: nn" verbose="Unused variable: nn" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="61"/>
+            <symbol>nn</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: oo" verbose="Unused variable: oo" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="65"/>
+            <symbol>oo</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: pp" verbose="Unused variable: pp" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="69"/>
+            <symbol>pp</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: qq" verbose="Unused variable: qq" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="73"/>
+            <symbol>qq</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: rr" verbose="Unused variable: rr" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="77"/>
+            <symbol>rr</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ss" verbose="Unused variable: ss" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="81"/>
+            <symbol>ss</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: tt" verbose="Unused variable: tt" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="85"/>
+            <symbol>tt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: uu" verbose="Unused variable: uu" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="89"/>
+            <symbol>uu</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: vv" verbose="Unused variable: vv" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="93"/>
+            <symbol>vv</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ww" verbose="Unused variable: ww" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="97"/>
+            <symbol>ww</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: xx" verbose="Unused variable: xx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="101"/>
+            <symbol>xx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: yy" verbose="Unused variable: yy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="105"/>
+            <symbol>yy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: zz" verbose="Unused variable: zz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="35" column="109"/>
+            <symbol>zz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: AA" verbose="Unused variable: AA" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="9"/>
+            <symbol>AA</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: BB" verbose="Unused variable: BB" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="13"/>
+            <symbol>BB</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: CC" verbose="Unused variable: CC" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="17"/>
+            <symbol>CC</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: DD" verbose="Unused variable: DD" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="21"/>
+            <symbol>DD</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: EE" verbose="Unused variable: EE" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="25"/>
+            <symbol>EE</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: FF" verbose="Unused variable: FF" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="29"/>
+            <symbol>FF</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: GG" verbose="Unused variable: GG" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="33"/>
+            <symbol>GG</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: HH" verbose="Unused variable: HH" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="37"/>
+            <symbol>HH</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: II" verbose="Unused variable: II" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="41"/>
+            <symbol>II</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: JJ" verbose="Unused variable: JJ" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="45"/>
+            <symbol>JJ</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: KK" verbose="Unused variable: KK" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="49"/>
+            <symbol>KK</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: LL" verbose="Unused variable: LL" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="53"/>
+            <symbol>LL</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: MM" verbose="Unused variable: MM" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="57"/>
+            <symbol>MM</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: NN" verbose="Unused variable: NN" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="61"/>
+            <symbol>NN</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: OO" verbose="Unused variable: OO" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="65"/>
+            <symbol>OO</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: PP" verbose="Unused variable: PP" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="69"/>
+            <symbol>PP</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: QQ" verbose="Unused variable: QQ" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="73"/>
+            <symbol>QQ</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: RR" verbose="Unused variable: RR" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="77"/>
+            <symbol>RR</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: SS" verbose="Unused variable: SS" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="81"/>
+            <symbol>SS</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: TT" verbose="Unused variable: TT" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="85"/>
+            <symbol>TT</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: UU" verbose="Unused variable: UU" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="89"/>
+            <symbol>UU</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: VV" verbose="Unused variable: VV" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="93"/>
+            <symbol>VV</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: WW" verbose="Unused variable: WW" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="97"/>
+            <symbol>WW</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: XX" verbose="Unused variable: XX" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="101"/>
+            <symbol>XX</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: YY" verbose="Unused variable: YY" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="105"/>
+            <symbol>YY</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ZZ" verbose="Unused variable: ZZ" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1429-add-minimum-number-of-rungs.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="36" column="109"/>
+            <symbol>ZZ</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;addRungs&apos; is never used." verbose="The function &apos;addRungs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1429-add-minimum-number-of-rungs.c" line="31" column="0"/>
+            <symbol>addRungs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

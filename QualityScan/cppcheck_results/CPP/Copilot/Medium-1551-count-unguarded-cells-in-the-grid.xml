@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;wall&apos; can be declared as reference to const" verbose="Variable &apos;wall&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1551-count-unguarded-cells-in-the-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1551-count-unguarded-cells-in-the-grid.cpp" line="31" column="20" info="Variable &apos;wall&apos; can be declared as reference to const"/>
+            <symbol>wall</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;guard&apos; can be declared as reference to const" verbose="Variable &apos;guard&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1551-count-unguarded-cells-in-the-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1551-count-unguarded-cells-in-the-grid.cpp" line="34" column="20" info="Variable &apos;guard&apos; can be declared as reference to const"/>
+            <symbol>guard</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;direction&apos; can be declared as reference to const" verbose="Variable &apos;direction&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/cpp/Medium/1551-count-unguarded-cells-in-the-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1551-count-unguarded-cells-in-the-grid.cpp" line="35" column="24" info="Variable &apos;direction&apos; can be declared as reference to const"/>
+            <symbol>direction</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countUnguarded&apos; is never used." verbose="The function &apos;countUnguarded&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\cpp\Medium\1551-count-unguarded-cells-in-the-grid.cpp" line="28" column="0"/>
+            <symbol>countUnguarded</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

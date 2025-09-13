@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;s[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowelCount[5]&apos; is accessed at index 20, which is out of bounds." verbose="Either the condition &apos;s[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowelCount[5]&apos; is accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/new/Tabnine/output/c/Easy/3541-find-most-frequent-vowel-and-consonant.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="35" column="23" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="33" column="19" info="index is assigned &apos;s[i]-&apos;a&apos;&apos; here."/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="34" column="78" info="Assuming that condition &apos;s[i]==&apos;u&apos;&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;s[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowelCount[5]&apos; is accessed at index 20, which is out of bounds." verbose="Either the condition &apos;s[i]==&apos;u&apos;&apos; is redundant or the array &apos;vowelCount[5]&apos; is accessed at index 20, which is out of bounds." cwe="788" file0="F:/Benchmark/new/Tabnine/output/c/Easy/3541-find-most-frequent-vowel-and-consonant.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="36" column="27" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="33" column="19" info="index is assigned &apos;s[i]-&apos;a&apos;&apos; here."/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="34" column="78" info="Assuming that condition &apos;s[i]==&apos;u&apos;&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxFreqSum&apos; is never used." verbose="The function &apos;maxFreqSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Easy\3541-find-most-frequent-vowel-and-consonant.c" line="28" column="0"/>
+            <symbol>maxFreqSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

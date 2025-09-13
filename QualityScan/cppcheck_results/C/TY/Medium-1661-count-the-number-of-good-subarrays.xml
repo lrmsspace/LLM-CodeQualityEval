@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1661-count-the-number-of-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1661-count-the-number-of-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="22" column="26" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: freq_index_count_count_count_count_count_count_count" verbose="Uninitialized variable: freq_index_count_count_count_count_count_count_count" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1661-count-the-number-of-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="86" column="17"/>
+            <symbol>freq_index_count_count_count_count_count_count_count</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: count" verbose="Unused variable: count" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1661-count-the-number-of-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="23" column="13"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;freq_index_count_count_count_count_count_count_count&apos; is not assigned a value." verbose="Variable &apos;freq_index_count_count_count_count_count_count_count&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1661-count-the-number-of-good-subarrays.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="23" column="248"/>
+            <symbol>freq_index_count_count_count_count_count_count_count</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countGood&apos; is never used." verbose="The function &apos;countGood&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1661-count-the-number-of-good-subarrays.c" line="22" column="0"/>
+            <symbol>countGood</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

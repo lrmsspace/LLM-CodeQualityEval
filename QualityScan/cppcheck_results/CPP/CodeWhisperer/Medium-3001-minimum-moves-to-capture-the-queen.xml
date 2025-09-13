@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!(abs(c-a)==abs(f-b)&amp;&amp;abs(d-b)&lt;abs(d-b)+abs(e-b)-2&amp;&amp;abs(d-b)&gt;abs(f-b))&apos; is always true" verbose="Condition &apos;!(abs(c-a)==abs(f-b)&amp;&amp;abs(d-b)&lt;abs(d-b)+abs(e-b)-2&amp;&amp;abs(d-b)&gt;abs(f-b))&apos; is always true" cwe="571" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3001-minimum-moves-to-capture-the-queen.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="117" info="Condition &apos;!(abs(c-a)==abs(f-b)&amp;&amp;abs(d-b)&lt;abs(d-b)+abs(e-b)-2&amp;&amp;abs(d-b)&gt;abs(f-b))&apos; is always true"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="25" info="Assuming that condition &apos;abs(c-a)==abs(d-b)&apos; is not redundant"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="127" info="Assuming that condition &apos;abs(c-a)==abs(f-b)&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;abs(d-b)&gt;abs(f-b)&apos; is always false" verbose="Condition &apos;abs(d-b)&gt;abs(f-b)&apos; is always false" cwe="570" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3001-minimum-moves-to-capture-the-queen.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="181" info="Condition &apos;abs(d-b)&gt;abs(f-b)&apos; is always false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="25" info="Assuming that condition &apos;abs(c-a)==abs(d-b)&apos; is not redundant"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="36" column="127" info="Assuming that condition &apos;abs(c-a)==abs(f-b)&apos; is not redundant"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMovesToCaptureTheQueen&apos; is never used." verbose="The function &apos;minMovesToCaptureTheQueen&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3001-minimum-moves-to-capture-the-queen.cpp" line="31" column="0"/>
+            <symbol>minMovesToCaptureTheQueen</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

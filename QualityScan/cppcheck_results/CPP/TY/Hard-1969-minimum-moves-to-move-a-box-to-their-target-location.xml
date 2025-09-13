@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;tx&apos; can be reduced." verbose="The scope of the variable &apos;tx&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="21"/>
+            <symbol>tx</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;ty&apos; can be reduced." verbose="The scope of the variable &apos;ty&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="25"/>
+            <symbol>ty</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sx&apos; shadows outer variable" verbose="Local variable &apos;sx&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="13" info="Shadowed declaration"/>
+            <symbol>sx</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;sy&apos; shadows outer variable" verbose="Local variable &apos;sy&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="30" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="17" info="Shadowed declaration"/>
+            <symbol>sy</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;bx&apos; shadows outer variable" verbose="Local variable &apos;bx&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="43" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="29" info="Shadowed declaration"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;by&apos; shadows outer variable" verbose="Local variable &apos;by&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="67" column="56" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="50" column="33" info="Shadowed declaration"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sx" verbose="Uninitialized variable: sx" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="63" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>sx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sy" verbose="Uninitialized variable: sy" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="63" column="21"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>sy</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: bx" verbose="Uninitialized variable: bx" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="63" column="25"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: by" verbose="Uninitialized variable: by" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="63" column="29"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.cpp" line="48" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

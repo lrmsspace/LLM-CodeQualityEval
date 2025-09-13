@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;arr&apos; can be declared as pointer to const" verbose="Parameter &apos;arr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1255-the-k-strongest-values-in-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1255-the-k-strongest-values-in-an-array.c" line="35" column="24" info="Parameter &apos;arr&apos; can be declared as pointer to const"/>
+            <symbol>arr</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: res" verbose="Uninitialized variable: res" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1255-the-k-strongest-values-in-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1255-the-k-strongest-values-in-an-array.c" line="44" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1255-the-k-strongest-values-in-an-array.c" line="38" column="23" info="Assuming condition is false"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getStrongest&apos; is never used." verbose="The function &apos;getStrongest&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1255-the-k-strongest-values-in-an-array.c" line="35" column="0"/>
+            <symbol>getStrongest</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;start&apos; can be declared as pointer to const" verbose="Parameter &apos;start&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="31" column="22" info="Parameter &apos;start&apos; can be declared as pointer to const"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;target&apos; can be declared as pointer to const" verbose="Parameter &apos;target&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="31" column="49" info="Parameter &apos;target&apos; can be declared as pointer to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;startNode&apos; is assigned a value that is never used." verbose="Variable &apos;startNode&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="51" column="19"/>
+            <symbol>startNode</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;endNode&apos; is assigned a value that is never used." verbose="Variable &apos;endNode&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="52" column="17"/>
+            <symbol>endNode</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;startX&apos; is assigned a value that is never used." verbose="Variable &apos;startX&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="53" column="16"/>
+            <symbol>startX</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;startY&apos; is assigned a value that is never used." verbose="Variable &apos;startY&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="54" column="16"/>
+            <symbol>startY</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;targetX&apos; is assigned a value that is never used." verbose="Variable &apos;targetX&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="55" column="17"/>
+            <symbol>targetX</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;targetY&apos; is assigned a value that is never used." verbose="Variable &apos;targetY&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="56" column="17"/>
+            <symbol>targetY</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x1&apos; is assigned a value that is never used." verbose="Variable &apos;x1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="58" column="16"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y1&apos; is assigned a value that is never used." verbose="Variable &apos;y1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="59" column="16"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="61" column="16"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;costi&apos; is assigned a value that is never used." verbose="Variable &apos;costi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="62" column="19"/>
+            <symbol>costi</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x1&apos; is assigned a value that is never used." verbose="Variable &apos;x1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="67" column="16"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y1&apos; is assigned a value that is never used." verbose="Variable &apos;y1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="68" column="16"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x2&apos; is assigned a value that is never used." verbose="Variable &apos;x2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="69" column="16"/>
+            <symbol>x2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y2&apos; is assigned a value that is never used." verbose="Variable &apos;y2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="70" column="16"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;costi&apos; is assigned a value that is never used." verbose="Variable &apos;costi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="71" column="19"/>
+            <symbol>costi</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;node1&apos; is assigned a value that is never used." verbose="Variable &apos;node1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1716-minimum-cost-of-a-path-with-special-roads.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="73" column="19"/>
+            <symbol>node1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumCost&apos; is never used." verbose="The function &apos;minimumCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1716-minimum-cost-of-a-path-with-special-roads.c" line="31" column="0"/>
+            <symbol>minimumCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

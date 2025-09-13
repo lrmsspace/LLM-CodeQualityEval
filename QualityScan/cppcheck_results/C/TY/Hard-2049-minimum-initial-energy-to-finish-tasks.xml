@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;tasksColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;tasksColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="43" column="52" info="Parameter &apos;tasksColSize&apos; can be declared as pointer to const"/>
+            <symbol>tasksColSize</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;a&apos; can be declared as pointer to const" verbose="Variable &apos;a&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="10" info="Variable &apos;a&apos; can be declared as pointer to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;b&apos; can be declared as pointer to const" verbose="Variable &apos;b&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="14" info="Variable &apos;b&apos; can be declared as pointer to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;c&apos; can be declared as pointer to const" verbose="Variable &apos;c&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="18" info="Variable &apos;c&apos; can be declared as pointer to const"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;d&apos; can be declared as pointer to const" verbose="Variable &apos;d&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="22" info="Variable &apos;d&apos; can be declared as pointer to const"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;e&apos; can be declared as pointer to const" verbose="Variable &apos;e&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="26" info="Variable &apos;e&apos; can be declared as pointer to const"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;f&apos; can be declared as pointer to const" verbose="Variable &apos;f&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="30" info="Variable &apos;f&apos; can be declared as pointer to const"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;g&apos; can be declared as pointer to const" verbose="Variable &apos;g&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="34" info="Variable &apos;g&apos; can be declared as pointer to const"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;h&apos; can be declared as pointer to const" verbose="Variable &apos;h&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="38" info="Variable &apos;h&apos; can be declared as pointer to const"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;i&apos; can be declared as pointer to const" verbose="Variable &apos;i&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="42" info="Variable &apos;i&apos; can be declared as pointer to const"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;j&apos; can be declared as pointer to const" verbose="Variable &apos;j&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="46" info="Variable &apos;j&apos; can be declared as pointer to const"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;k&apos; can be declared as pointer to const" verbose="Variable &apos;k&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="50" info="Variable &apos;k&apos; can be declared as pointer to const"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;l&apos; can be declared as pointer to const" verbose="Variable &apos;l&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="54" info="Variable &apos;l&apos; can be declared as pointer to const"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;m&apos; can be declared as pointer to const" verbose="Variable &apos;m&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="58" info="Variable &apos;m&apos; can be declared as pointer to const"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;n&apos; can be declared as pointer to const" verbose="Variable &apos;n&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="62" info="Variable &apos;n&apos; can be declared as pointer to const"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;o&apos; can be declared as pointer to const" verbose="Variable &apos;o&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="66" info="Variable &apos;o&apos; can be declared as pointer to const"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;p&apos; can be declared as pointer to const" verbose="Variable &apos;p&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="70" info="Variable &apos;p&apos; can be declared as pointer to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;q&apos; can be declared as pointer to const" verbose="Variable &apos;q&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="74" info="Variable &apos;q&apos; can be declared as pointer to const"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;r&apos; can be declared as pointer to const" verbose="Variable &apos;r&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="78" info="Variable &apos;r&apos; can be declared as pointer to const"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;s&apos; can be declared as pointer to const" verbose="Variable &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="82" info="Variable &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;t&apos; can be declared as pointer to const" verbose="Variable &apos;t&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="86" info="Variable &apos;t&apos; can be declared as pointer to const"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;u&apos; can be declared as pointer to const" verbose="Variable &apos;u&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="90" info="Variable &apos;u&apos; can be declared as pointer to const"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;v&apos; can be declared as pointer to const" verbose="Variable &apos;v&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="94" info="Variable &apos;v&apos; can be declared as pointer to const"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;w&apos; can be declared as pointer to const" verbose="Variable &apos;w&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="98" info="Variable &apos;w&apos; can be declared as pointer to const"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;x&apos; can be declared as pointer to const" verbose="Variable &apos;x&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="102" info="Variable &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;y&apos; can be declared as pointer to const" verbose="Variable &apos;y&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="106" info="Variable &apos;y&apos; can be declared as pointer to const"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;z&apos; can be declared as pointer to const" verbose="Variable &apos;z&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="45" column="110" info="Variable &apos;z&apos; can be declared as pointer to const"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="46" column="7"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="47" column="7"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="48" column="7"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="49" column="7"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="50" column="7"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="51" column="7"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="52" column="7"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="53" column="7"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;i&apos; is assigned a value that is never used." verbose="Variable &apos;i&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="54" column="7"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="55" column="7"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="56" column="7"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="57" column="7"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="58" column="7"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="59" column="7"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="60" column="7"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="61" column="7"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="62" column="7"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="63" column="7"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="64" column="7"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="65" column="7"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="66" column="7"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;v&apos; is assigned a value that is never used." verbose="Variable &apos;v&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="67" column="7"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;w&apos; is assigned a value that is never used." verbose="Variable &apos;w&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="68" column="7"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="69" column="7"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="70" column="7"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;z&apos; is assigned a value that is never used." verbose="Variable &apos;z&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="71" column="7"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2049-minimum-initial-energy-to-finish-tasks.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="44" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumEffort&apos; is never used." verbose="The function &apos;minimumEffort&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2049-minimum-initial-energy-to-finish-tasks.c" line="43" column="0"/>
+            <symbol>minimumEffort</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

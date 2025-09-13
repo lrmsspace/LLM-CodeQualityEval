@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;UnionFind&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;UnionFind&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/2042-graph-connectivity-with-threshold.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\2042-graph-connectivity-with-threshold.cpp" line="75" column="13"/>
+            <symbol>UnionFind</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/2042-graph-connectivity-with-threshold.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\2042-graph-connectivity-with-threshold.cpp" line="44" column="78" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;areConnected&apos; is never used." verbose="The function &apos;areConnected&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\2042-graph-connectivity-with-threshold.cpp" line="44" column="0"/>
+            <symbol>areConnected</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

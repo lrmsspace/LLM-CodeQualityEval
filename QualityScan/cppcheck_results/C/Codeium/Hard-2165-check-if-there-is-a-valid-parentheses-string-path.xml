@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2165-check-if-there-is-a-valid-parentheses-string-path.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2165-check-if-there-is-a-valid-parentheses-string-path.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2165-check-if-there-is-a-valid-parentheses-string-path.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2165-check-if-there-is-a-valid-parentheses-string-path.c" line="30" column="51" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;hasValidPath&apos; is never used." verbose="The function &apos;hasValidPath&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2165-check-if-there-is-a-valid-parentheses-string-path.c" line="30" column="0"/>
+            <symbol>hasValidPath</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

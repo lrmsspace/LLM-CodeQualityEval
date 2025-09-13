@@ -1,0 +1,47 @@
+/**https://leetcode.com/problems/palindrome-linked-list/ */
+//Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+// 
+//Example 1:
+//Input: head = [1,2,2,1]
+//Output: true
+//Example 2:
+//Input: head = [1,2]
+//Output: false
+// 
+//Constraints:
+//	The number of nodes in the list is in the range [1, 105].
+//	0 <= Node.val <= 9
+// 
+//Follow up: Could you do it in O(n) time and O(1) space?
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     struct ListNode *next;
+ * };
+ */
+bool isPalindrome(struct ListNode* head) {
+    struct ListNode* slow = head;
+    struct ListNode* fast = head;
+    struct ListNode* prev = NULL;
+    struct ListNode* next;
+    struct ListNode* temp;
+    while (fast && fast->next) {
+        fast = fast->next->next;
+        next = slow->next;
+        slow->next = prev;
+        prev = slow;
+        slow = next;
+    }
+    if (fast) {
+        slow = slow->next;
+    }
+    while (prev) {
+        if (prev->val != slow->val) {
+            return false;
+        }
+        prev = prev->next;
+        slow = slow->next;
+    }
+    return true;    
+}

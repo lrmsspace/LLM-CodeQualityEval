@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/968-ambiguous-coordinates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/968-ambiguous-coordinates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="26" column="35" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;t3&apos; can be declared as pointer to const" verbose="Variable &apos;t3&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/968-ambiguous-coordinates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="29" column="21" info="Variable &apos;t3&apos; can be declared as pointer to const"/>
+            <symbol>t3</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: t3" verbose="Uninitialized variable: t3" cwe="457" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/968-ambiguous-coordinates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="54" column="56"/>
+            <symbol>t3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t4" verbose="Unused variable: t4" cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/968-ambiguous-coordinates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="29" column="26"/>
+            <symbol>t4</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;ambiguousCoordinates&apos; is never used." verbose="The function &apos;ambiguousCoordinates&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\968-ambiguous-coordinates.c" line="26" column="0"/>
+            <symbol>ambiguousCoordinates</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="zerodiv" severity="error" msg="Division by zero." verbose="Division by zero." cwe="369" file0="F:/Benchmark/new/Codeium/output/c/Easy/3099-harshad-number.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3099-harshad-number.c" line="26" column="11" info="Division by zero"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3099-harshad-number.c" line="20" column="17" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3099-harshad-number.c" line="17" column="15" info="Assignment &apos;sum=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sumOfTheDigitsOfHarshadNumber&apos; is never used." verbose="The function &apos;sumOfTheDigitsOfHarshadNumber&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Easy\3099-harshad-number.c" line="16" column="0"/>
+            <symbol>sumOfTheDigitsOfHarshadNumber</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

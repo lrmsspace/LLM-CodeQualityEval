@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="0" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;flag&apos; is assigned a value that is never used." verbose="Variable &apos;flag&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="40" column="13"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="28" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len" verbose="Unused variable: len" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="9"/>
+            <symbol>len</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len1" verbose="Unused variable: len1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="13"/>
+            <symbol>len1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len2" verbose="Unused variable: len2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="18"/>
+            <symbol>len2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len3" verbose="Unused variable: len3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="23"/>
+            <symbol>len3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len4" verbose="Unused variable: len4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="28"/>
+            <symbol>len4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len5" verbose="Unused variable: len5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="33"/>
+            <symbol>len5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len6" verbose="Unused variable: len6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="38"/>
+            <symbol>len6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len7" verbose="Unused variable: len7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="43"/>
+            <symbol>len7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len8" verbose="Unused variable: len8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="48"/>
+            <symbol>len8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len9" verbose="Unused variable: len9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="53"/>
+            <symbol>len9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: len10" verbose="Unused variable: len10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="29" column="58"/>
+            <symbol>len10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag1" verbose="Unused variable: flag1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="14"/>
+            <symbol>flag1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag2" verbose="Unused variable: flag2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="20"/>
+            <symbol>flag2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag3" verbose="Unused variable: flag3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="26"/>
+            <symbol>flag3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag4" verbose="Unused variable: flag4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="32"/>
+            <symbol>flag4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag5" verbose="Unused variable: flag5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="38"/>
+            <symbol>flag5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag6" verbose="Unused variable: flag6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="44"/>
+            <symbol>flag6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag7" verbose="Unused variable: flag7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="50"/>
+            <symbol>flag7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag8" verbose="Unused variable: flag8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="56"/>
+            <symbol>flag8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag9" verbose="Unused variable: flag9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="62"/>
+            <symbol>flag9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: flag10" verbose="Unused variable: flag10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="30" column="68"/>
+            <symbol>flag10</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;alertNames&apos; is never used." verbose="The function &apos;alertNames&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1304-alert-using-same-key-card-three-or-more-times-in-a-one-hour-period.c" line="27" column="0"/>
+            <symbol>alertNames</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

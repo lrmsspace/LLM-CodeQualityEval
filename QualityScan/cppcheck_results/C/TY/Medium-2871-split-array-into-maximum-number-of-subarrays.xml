@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="28" column="23" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="29" column="37"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="29" column="41"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="29" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="29" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/2871-split-array-into-maximum-number-of-subarrays.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="29" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxSubarrays&apos; is never used." verbose="The function &apos;maxSubarrays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\2871-split-array-into-maximum-number-of-subarrays.c" line="28" column="0"/>
+            <symbol>maxSubarrays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/982-split-array-into-fibonacci-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="0" column="0"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition &apos;ptr==res+2&apos;, second condition is always false" verbose="Identical condition &apos;ptr==res+2&apos;, second condition is always false" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/982-split-array-into-fibonacci-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="69" column="17" info="Testing identical condition &apos;ptr==res+2&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="66" column="17" info="If condition &apos;ptr==res+2&apos; is true, the function will return/exit"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;a&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;a&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/982-split-array-into-fibonacci-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="79" column="11" info="a is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="72" column="15" info="a is assigned"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;a&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;a&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/982-split-array-into-fibonacci-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="90" column="11" info="a is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="83" column="15" info="a is assigned"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;num&apos; can be declared as pointer to const" verbose="Parameter &apos;num&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/982-split-array-into-fibonacci-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="29" column="31" info="Parameter &apos;num&apos; can be declared as pointer to const"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;splitIntoFibonacci&apos; is never used." verbose="The function &apos;splitIntoFibonacci&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\982-split-array-into-fibonacci-sequence.c" line="29" column="0"/>
+            <symbol>splitIntoFibonacci</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

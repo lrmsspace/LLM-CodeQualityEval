@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3044-most-frequent-prime.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;matColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;matColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3044-most-frequent-prime.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="45" column="52" info="Parameter &apos;matColSize&apos; can be declared as pointer to const"/>
+            <symbol>matColSize</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: maxPrime" verbose="Uninitialized variable: maxPrime" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3044-most-frequent-prime.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="72" column="12"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="49" column="19" info="Assuming condition is false"/>
+            <symbol>maxPrime</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: maxCnt" verbose="Uninitialized variable: maxCnt" cwe="457" file0="F:/Benchmark/new/TY/output/c/Medium/3044-most-frequent-prime.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="60" column="27"/>
+            <symbol>maxCnt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mostFrequentPrime&apos; is never used." verbose="The function &apos;mostFrequentPrime&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3044-most-frequent-prime.c" line="45" column="0"/>
+            <symbol>mostFrequentPrime</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

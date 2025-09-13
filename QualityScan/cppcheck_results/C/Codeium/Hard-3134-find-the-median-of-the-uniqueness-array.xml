@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Hard/3134-find-the-median-of-the-uniqueness-array.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Hard\3134-find-the-median-of-the-uniqueness-array.c" line="26" column="34" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameter" severity="style" msg="Parameter &apos;set&apos; can be declared as const array" verbose="Parameter &apos;set&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/Codeium/output/c/Hard/3134-find-the-median-of-the-uniqueness-array.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Hard\3134-find-the-median-of-the-uniqueness-array.c" line="40" column="18" info="Parameter &apos;set&apos; can be declared as const array"/>
+            <symbol>set</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: uniquenessArr" verbose="Uninitialized variable: uniquenessArr" cwe="457" file0="F:/Benchmark/new/Codeium/output/c/Hard/3134-find-the-median-of-the-uniqueness-array.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Hard\3134-find-the-median-of-the-uniqueness-array.c" line="36" column="11"/>
+            <location file="F:\Benchmark\new\Codeium\output\c\Hard\3134-find-the-median-of-the-uniqueness-array.c" line="29" column="23" info="Assuming condition is false"/>
+            <symbol>uniquenessArr</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;medianOfUniquenessArray&apos; is never used." verbose="The function &apos;medianOfUniquenessArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Hard\3134-find-the-median-of-the-uniqueness-array.c" line="26" column="0"/>
+            <symbol>medianOfUniquenessArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

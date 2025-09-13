@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If max is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If max is a macro then please configure it." file0="F:/Benchmark/new/TY/output/c/Hard/3256-maximum-value-sum-by-placing-three-rooks-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3256-maximum-value-sum-by-placing-three-rooks-i.c" line="66" column="31"/>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: There was critical errors (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

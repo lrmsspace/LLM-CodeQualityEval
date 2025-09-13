@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="15"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="18"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="21"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="24"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k5" verbose="Unused variable: k5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="27"/>
+            <symbol>k5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k6" verbose="Unused variable: k6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="30"/>
+            <symbol>k6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k7" verbose="Unused variable: k7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="33"/>
+            <symbol>k7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k8" verbose="Unused variable: k8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="36"/>
+            <symbol>k8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k9" verbose="Unused variable: k9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="39"/>
+            <symbol>k9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k10" verbose="Unused variable: k10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1781-permutation-sequence.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="26" column="42"/>
+            <symbol>k10</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getPermutation&apos; is never used." verbose="The function &apos;getPermutation&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1781-permutation-sequence.c" line="25" column="0"/>
+            <symbol>getPermutation</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

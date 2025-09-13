@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="42" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="50" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="54" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="58" column="1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="44" column="27" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="48" column="25" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="52" column="25" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="56" column="28" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/55-implement-stack-using-queues.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="60" column="27" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackCreate&apos; is never used." verbose="The function &apos;myStackCreate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="40" column="0"/>
+            <symbol>myStackCreate</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackPush&apos; is never used." verbose="The function &apos;myStackPush&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="44" column="0"/>
+            <symbol>myStackPush</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackPop&apos; is never used." verbose="The function &apos;myStackPop&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="48" column="0"/>
+            <symbol>myStackPop</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackTop&apos; is never used." verbose="The function &apos;myStackTop&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="52" column="0"/>
+            <symbol>myStackTop</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackEmpty&apos; is never used." verbose="The function &apos;myStackEmpty&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="56" column="0"/>
+            <symbol>myStackEmpty</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myStackFree&apos; is never used." verbose="The function &apos;myStackFree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\55-implement-stack-using-queues.c" line="60" column="0"/>
+            <symbol>myStackFree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

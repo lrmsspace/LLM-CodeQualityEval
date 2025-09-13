@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;target&apos; can be declared as reference to const" verbose="Parameter &apos;target&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/TY/output/cpp/Hard/3444-minimum-increments-for-target-multiples-in-an-array.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3444-minimum-increments-for-target-multiples-in-an-array.cpp" line="31" column="59" info="Parameter &apos;target&apos; can be declared as reference to const"/>
+            <symbol>target</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumIncrements&apos; is never used." verbose="The function &apos;minimumIncrements&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Hard\3444-minimum-increments-for-target-multiples-in-an-array.cpp" line="31" column="0"/>
+            <symbol>minimumIncrements</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

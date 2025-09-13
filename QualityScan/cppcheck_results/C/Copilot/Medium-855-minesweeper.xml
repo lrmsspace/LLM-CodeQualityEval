@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="0" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;click&apos; shadows outer argument" verbose="Local variable &apos;click&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="76" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="37" column="73" info="Shadowed declaration"/>
+            <symbol>click</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;click&apos; can be declared as pointer to const" verbose="Parameter &apos;click&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="37" column="73" info="Parameter &apos;click&apos; can be declared as pointer to const"/>
+            <symbol>click</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="49" column="9" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/855-minesweeper.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="50" column="9" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;updateBoard&apos; is never used." verbose="The function &apos;updateBoard&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\855-minesweeper.c" line="37" column="0"/>
+            <symbol>updateBoard</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

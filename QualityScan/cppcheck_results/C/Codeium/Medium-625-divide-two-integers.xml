@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="clarifyCalculation" severity="style" msg="Clarify calculation precedence for &apos;^&apos; and &apos;?&apos;." verbose="Suspicious calculation. Please use parentheses to clarify the code. The code &apos;&apos;a^b?c:d&apos;&apos; should be written as either &apos;&apos;(a^b)?c:d&apos;&apos; or &apos;&apos;a^(b?c:d)&apos;&apos;." cwe="783" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/625-divide-two-integers.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\625-divide-two-integers.c" line="23" column="47"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;divide&apos; is never used." verbose="The function &apos;divide&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\625-divide-two-integers.c" line="19" column="0"/>
+            <symbol>divide</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

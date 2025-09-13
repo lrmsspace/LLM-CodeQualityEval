@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1082-maximum-difference-between-node-and-ancestor.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="0" column="0"/>
+        </error>
+        <error id="negativeIndex" severity="error" msg="Array &apos;stack[5000]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;stack[5000]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1082-maximum-difference-between-node-and-ancestor.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="50" column="21" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="37" column="16" info="Assignment &apos;top=-1&apos;, assigned value is -1"/>
+        </error>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;minVal&apos; and &apos;maxVal&apos;." verbose="Finding variables &apos;minVal&apos; and &apos;maxVal&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1082-maximum-difference-between-node-and-ancestor.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="34" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="35" column="9"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxAncestorDiff&apos; is never used." verbose="The function &apos;maxAncestorDiff&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1082-maximum-difference-between-node-and-ancestor.c" line="29" column="0"/>
+            <symbol>maxAncestorDiff</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

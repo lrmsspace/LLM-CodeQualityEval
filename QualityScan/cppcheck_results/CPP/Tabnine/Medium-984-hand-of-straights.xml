@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;count&apos; shadows outer variable" verbose="Local variable &apos;count&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/984-hand-of-straights.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\984-hand-of-straights.cpp" line="30" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\984-hand-of-straights.cpp" line="23" column="23" info="Shadowed declaration"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;hand&apos; can be declared as reference to const" verbose="Parameter &apos;hand&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/984-hand-of-straights.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\984-hand-of-straights.cpp" line="22" column="39" info="Parameter &apos;hand&apos; can be declared as reference to const"/>
+            <symbol>hand</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isNStraightHand&apos; is never used." verbose="The function &apos;isNStraightHand&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\984-hand-of-straights.cpp" line="22" column="0"/>
+            <symbol>isNStraightHand</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

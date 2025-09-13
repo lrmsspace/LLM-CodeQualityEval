@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;left&apos; can be declared as reference to const" verbose="Parameter &apos;left&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp" line="35" column="43" info="Parameter &apos;left&apos; can be declared as reference to const"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;right&apos; can be declared as reference to const" verbose="Parameter &apos;right&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp" line="35" column="62" info="Parameter &apos;right&apos; can be declared as reference to const"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp" line="38" column="21"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp" line="41" column="22"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getLastMoment&apos; is never used." verbose="The function &apos;getLastMoment&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1267-last-moment-before-all-ants-fall-out-of-a-plank.cpp" line="35" column="0"/>
+            <symbol>getLastMoment</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

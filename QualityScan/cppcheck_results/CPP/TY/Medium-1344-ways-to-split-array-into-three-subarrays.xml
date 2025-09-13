@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateAssignExpression" severity="style" msg="Same expression used in consecutive assignments of &apos;l&apos; and &apos;r&apos;." verbose="Finding variables &apos;l&apos; and &apos;r&apos; that are assigned the same expression is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1344-ways-to-split-array-into-three-subarrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="41" column="17"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="41" column="28"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mod&apos; is assigned a value that is never used." verbose="Variable &apos;mod&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1344-ways-to-split-array-into-three-subarrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="36" column="17"/>
+            <symbol>mod</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mid&apos; is assigned a value that is never used." verbose="Variable &apos;mid&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1344-ways-to-split-array-into-three-subarrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="40" column="21"/>
+            <symbol>mid</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1344-ways-to-split-array-into-three-subarrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="41" column="19"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1344-ways-to-split-array-into-three-subarrays.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="41" column="30"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;waysToSplit&apos; is never used." verbose="The function &apos;waysToSplit&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1344-ways-to-split-array-into-three-subarrays.cpp" line="28" column="0"/>
+            <symbol>waysToSplit</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

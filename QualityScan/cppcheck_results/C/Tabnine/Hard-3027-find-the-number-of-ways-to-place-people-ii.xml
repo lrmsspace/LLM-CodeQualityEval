@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;xDiff&apos; can be reduced." verbose="The scope of the variable &apos;xDiff&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="39" column="9"/>
+            <symbol>xDiff</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;yDiff&apos; can be reduced." verbose="The scope of the variable &apos;yDiff&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="39" column="16"/>
+            <symbol>yDiff</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;xMax-xMin&apos;." verbose="Signed integer overflow for expression &apos;xMax-xMin&apos;." cwe="190" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="47" column="23" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="16" info="Assignment &apos;xMin=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="32" info="Assignment &apos;xMax=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;xMax-xMin+1&apos;." verbose="Signed integer overflow for expression &apos;xMax-xMin+1&apos;." cwe="190" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="47" column="30" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="16" info="Assignment &apos;xMin=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="32" info="Assignment &apos;xMax=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;yMax-yMin&apos;." verbose="Signed integer overflow for expression &apos;yMax-yMin&apos;." cwe="190" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="48" column="23" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="48" info="Assignment &apos;yMin=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="64" info="Assignment &apos;yMax=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;yMax-yMin+1&apos;." verbose="Signed integer overflow for expression &apos;yMax-yMin+1&apos;." cwe="190" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="48" column="30" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="48" info="Assignment &apos;yMin=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="64" info="Assignment &apos;yMax=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="signConversion" severity="warning" msg="Expression &apos;xRange&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;xRange&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3027-find-the-number-of-ways-to-place-people-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="49" column="30" info="Negative value is converted to an unsigned value"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="47" column="16" info="xRange is assigned &apos;xMax-xMin+1&apos; here."/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="41" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="40" column="16" info="Assignment &apos;xMin=2147483647&apos;, assigned value is 2147483647"/>
+            <symbol>xRange</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfPairs&apos; is never used." verbose="The function &apos;numberOfPairs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3027-find-the-number-of-ways-to-place-people-ii.c" line="35" column="0"/>
+            <symbol>numberOfPairs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

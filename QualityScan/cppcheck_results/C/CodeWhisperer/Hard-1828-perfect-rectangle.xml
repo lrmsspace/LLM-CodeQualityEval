@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="0" column="0"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;corners&apos; can be declared as const array" verbose="Variable &apos;corners&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="26" column="9" info="Variable &apos;corners&apos; can be declared as const array"/>
+            <symbol>corners</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;right-left&apos;." verbose="Signed integer overflow for expression &apos;right-left&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="40" column="24" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="16" info="Assignment &apos;left=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="28" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="33" info="Assignment &apos;right=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;(right-left)*(top-bottom)&apos;." verbose="Signed integer overflow for expression &apos;(right-left)*(top-bottom)&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="40" column="32" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="16" info="Assignment &apos;left=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="28" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="33" info="Assignment &apos;right=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;top-bottom&apos;." verbose="Signed integer overflow for expression &apos;top-bottom&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/1828-perfect-rectangle.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="40" column="39" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="66" info="Assignment &apos;bottom=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="28" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="24" column="48" info="Assignment &apos;top=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;isRectangleCover&apos; is never used." verbose="The function &apos;isRectangleCover&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\1828-perfect-rectangle.c" line="23" column="0"/>
+            <symbol>isRectangleCover</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

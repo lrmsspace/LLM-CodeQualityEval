@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;r&apos; can be declared as reference to const" verbose="Variable &apos;r&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1453-number-of-pairs-of-interchangeable-rectangles.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1453-number-of-pairs-of-interchangeable-rectangles.cpp" line="30" column="20" info="Variable &apos;r&apos; can be declared as reference to const"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;p&apos; can be declared as reference to const" verbose="Variable &apos;p&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1453-number-of-pairs-of-interchangeable-rectangles.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1453-number-of-pairs-of-interchangeable-rectangles.cpp" line="34" column="20" info="Variable &apos;p&apos; can be declared as reference to const"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1453-number-of-pairs-of-interchangeable-rectangles.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1453-number-of-pairs-of-interchangeable-rectangles.cpp" line="35" column="17"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;interchangeableRectangles&apos; is never used." verbose="The function &apos;interchangeableRectangles&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1453-number-of-pairs-of-interchangeable-rectangles.cpp" line="28" column="0"/>
+            <symbol>interchangeableRectangles</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

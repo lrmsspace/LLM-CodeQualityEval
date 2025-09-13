@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;maxMoveX&apos; is assigned an expression that holds the same value." verbose="Variable &apos;maxMoveX&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="62" column="25"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="54" column="49" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="52" column="24" info="nx is assigned &apos;kx+dx[i]&apos; here."/>
+            <symbol>maxMoveX</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="45" column="13" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="46" column="13" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxMoves&apos; is never used." verbose="The function &apos;maxMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.cpp" line="38" column="0"/>
+            <symbol>maxMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

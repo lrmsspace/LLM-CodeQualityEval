@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;a&apos; can be declared as reference to const" verbose="Parameter &apos;a&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1451-the-number-of-weak-characters-in-the-game.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1451-the-number-of-weak-characters-in-the-game.cpp" line="26" column="68" info="Parameter &apos;a&apos; can be declared as reference to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;b&apos; can be declared as reference to const" verbose="Parameter &apos;b&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1451-the-number-of-weak-characters-in-the-game.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1451-the-number-of-weak-characters-in-the-game.cpp" line="26" column="84" info="Parameter &apos;b&apos; can be declared as reference to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;prop&apos; can be declared as reference to const" verbose="Variable &apos;prop&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Medium/1451-the-number-of-weak-characters-in-the-game.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1451-the-number-of-weak-characters-in-the-game.cpp" line="33" column="20" info="Variable &apos;prop&apos; can be declared as reference to const"/>
+            <symbol>prop</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfWeakCharacters&apos; is never used." verbose="The function &apos;numberOfWeakCharacters&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Medium\1451-the-number-of-weak-characters-in-the-game.cpp" line="25" column="0"/>
+            <symbol>numberOfWeakCharacters</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

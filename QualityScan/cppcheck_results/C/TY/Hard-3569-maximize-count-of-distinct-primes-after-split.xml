@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="0" column="0"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;r&apos; shadows outer variable" verbose="Local variable &apos;r&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="49" column="32" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="57" info="Shadowed declaration"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="34" column="24" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="18"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="37"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="41"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="45"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="49"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="53"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="57"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="61"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="65"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="69"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="73"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="77"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="81"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="85"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3569-maximize-count-of-distinct-primes-after-split.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="35" column="89"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumCount&apos; is never used." verbose="The function &apos;maximumCount&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3569-maximize-count-of-distinct-primes-after-split.c" line="34" column="0"/>
+            <symbol>maximumCount</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

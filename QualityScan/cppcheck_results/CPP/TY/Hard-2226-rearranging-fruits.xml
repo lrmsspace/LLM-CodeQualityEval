@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;basket1&apos; can be declared as reference to const" verbose="Parameter &apos;basket1&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2226-rearranging-fruits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2226-rearranging-fruits.cpp" line="23" column="36" info="Parameter &apos;basket1&apos; can be declared as reference to const"/>
+            <symbol>basket1</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;basket2&apos; can be declared as reference to const" verbose="Parameter &apos;basket2&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2226-rearranging-fruits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2226-rearranging-fruits.cpp" line="23" column="58" info="Parameter &apos;basket2&apos; can be declared as reference to const"/>
+            <symbol>basket2</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::count_if algorithm instead of a raw loop." verbose="Consider using std::count_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2226-rearranging-fruits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2226-rearranging-fruits.cpp" line="40" column="17"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minCost&apos; is never used." verbose="The function &apos;minCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2226-rearranging-fruits.cpp" line="23" column="0"/>
+            <symbol>minCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

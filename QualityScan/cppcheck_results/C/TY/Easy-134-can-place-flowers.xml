@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i==0&apos; is always true" verbose="Condition &apos;i==0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/134-can-place-flowers.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\134-can-place-flowers.c" line="24" column="19" info="Condition &apos;i==0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\134-can-place-flowers.c" line="18" column="13" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canPlaceFlowers&apos; is never used." verbose="The function &apos;canPlaceFlowers&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\134-can-place-flowers.c" line="17" column="0"/>
+            <symbol>canPlaceFlowers</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

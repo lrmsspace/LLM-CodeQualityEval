@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;left&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;left&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1948-find-in-mountain-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1948-find-in-mountain-array.cpp" line="64" column="14" info="left is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1948-find-in-mountain-array.cpp" line="60" column="22" info="left is assigned"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;right&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;right&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1948-find-in-mountain-array.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1948-find-in-mountain-array.cpp" line="64" column="32" info="right is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1948-find-in-mountain-array.cpp" line="62" column="23" info="right is assigned"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findInMountainArray&apos; is never used." verbose="The function &apos;findInMountainArray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1948-find-in-mountain-array.cpp" line="42" column="0"/>
+            <symbol>findInMountainArray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

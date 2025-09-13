@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariable" severity="style" msg="Variable &apos;mouse&apos; can be declared as const array" verbose="Variable &apos;mouse&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2061-cat-and-mouse-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2061-cat-and-mouse-ii.c" line="42" column="25" info="Variable &apos;mouse&apos; can be declared as const array"/>
+            <symbol>mouse</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;food&apos; can be declared as const array" verbose="Variable &apos;food&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2061-cat-and-mouse-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2061-cat-and-mouse-ii.c" line="42" column="43" info="Variable &apos;food&apos; can be declared as const array"/>
+            <symbol>food</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canMouseWin&apos; is never used." verbose="The function &apos;canMouseWin&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2061-cat-and-mouse-ii.c" line="40" column="0"/>
+            <symbol>canMouseWin</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

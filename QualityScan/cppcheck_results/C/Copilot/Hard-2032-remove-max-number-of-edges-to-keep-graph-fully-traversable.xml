@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mst&apos; is allocated memory that is never used." verbose="Variable &apos;mst&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="52" column="29"/>
+            <symbol>mst</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstIdx&apos; is allocated memory that is never used." verbose="Variable &apos;mstIdx&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="53" column="32"/>
+            <symbol>mstIdx</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstType&apos; is allocated memory that is never used." verbose="Variable &apos;mstType&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="54" column="33"/>
+            <symbol>mstType</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstSize&apos; is allocated memory that is never used." verbose="Variable &apos;mstSize&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="55" column="33"/>
+            <symbol>mstSize</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstRank&apos; is allocated memory that is never used." verbose="Variable &apos;mstRank&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="56" column="33"/>
+            <symbol>mstRank</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstParent&apos; is allocated memory that is never used." verbose="Variable &apos;mstParent&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="57" column="35"/>
+            <symbol>mstParent</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;mstFind&apos; is allocated memory that is never used." verbose="Variable &apos;mstFind&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="58" column="33"/>
+            <symbol>mstFind</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxNumEdgesToRemove&apos; is never used." verbose="The function &apos;maxNumEdgesToRemove&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2032-remove-max-number-of-edges-to-keep-graph-fully-traversable.c" line="30" column="0"/>
+            <symbol>maxNumEdgesToRemove</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

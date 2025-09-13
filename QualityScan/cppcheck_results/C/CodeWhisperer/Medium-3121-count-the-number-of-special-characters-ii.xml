@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3121-count-the-number-of-special-characters-ii.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3121-count-the-number-of-special-characters-ii.c" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;word[i]&lt;=&apos;z&apos;&apos; is redundant or the array &apos;upper[26]&apos; is accessed at index 58, which is out of bounds." verbose="Either the condition &apos;word[i]&lt;=&apos;z&apos;&apos; is redundant or the array &apos;upper[26]&apos; is accessed at index 58, which is out of bounds." cwe="788" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3121-count-the-number-of-special-characters-ii.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3121-count-the-number-of-special-characters-ii.c" line="36" column="21" info="Array index out of bounds"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3121-count-the-number-of-special-characters-ii.c" line="30" column="38" info="Assuming that condition &apos;word[i]&lt;=&apos;z&apos;&apos; is not redundant"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;word&apos; can be declared as pointer to const" verbose="Parameter &apos;word&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3121-count-the-number-of-special-characters-ii.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3121-count-the-number-of-special-characters-ii.c" line="24" column="32" info="Parameter &apos;word&apos; can be declared as pointer to const"/>
+            <symbol>word</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfSpecialChars&apos; is never used." verbose="The function &apos;numberOfSpecialChars&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3121-count-the-number-of-special-characters-ii.c" line="24" column="0"/>
+            <symbol>numberOfSpecialChars</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

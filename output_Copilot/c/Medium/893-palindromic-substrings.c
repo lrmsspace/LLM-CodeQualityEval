@@ -1,0 +1,30 @@
+/**https://leetcode.com/problems/palindromic-substrings/ */
+//Given a string s, return the number of palindromic substrings in it.
+//A string is a palindrome when it reads the same backward as forward.
+//A substring is a contiguous sequence of characters within the string.
+// 
+//Example 1:
+//Input: s = "abc"
+//Output: 3
+//Explanation: Three palindromic strings: "a", "b", "c".
+//Example 2:
+//Input: s = "aaa"
+//Output: 6
+//Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+// 
+//Constraints:
+//	1 <= s.length <= 1000
+//	s consists of lowercase English letters.
+int countSubstrings(char* s) {
+    int n = strlen(s);
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; i - j >= 0 && i + j < n && s[i - j] == s[i + j]; j++) {
+            count++; //substring s[i-j, i+j] is palindromic
+        }
+        for (int j = 0; i - j >= 0 && i + j + 1 < n && s[i - j] == s[i + j + 1]; j++) {
+            count++; //substring s[i-j, i+j+1] is palindromic
+        }
+    }
+    return count;    
+}

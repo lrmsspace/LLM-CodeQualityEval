@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dx1&apos; is assigned a value that is never used." verbose="Variable &apos;dx1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1047-minimum-area-rectangle-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1047-minimum-area-rectangle-ii.cpp" line="34" column="29"/>
+            <symbol>dx1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dy1&apos; is assigned a value that is never used." verbose="Variable &apos;dy1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1047-minimum-area-rectangle-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1047-minimum-area-rectangle-ii.cpp" line="34" column="44"/>
+            <symbol>dy1</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dx2&apos; is assigned a value that is never used." verbose="Variable &apos;dx2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1047-minimum-area-rectangle-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1047-minimum-area-rectangle-ii.cpp" line="35" column="29"/>
+            <symbol>dx2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dy2&apos; is assigned a value that is never used." verbose="Variable &apos;dy2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1047-minimum-area-rectangle-ii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1047-minimum-area-rectangle-ii.cpp" line="35" column="43"/>
+            <symbol>dy2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minAreaFreeRect&apos; is never used." verbose="The function &apos;minAreaFreeRect&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1047-minimum-area-rectangle-ii.cpp" line="26" column="0"/>
+            <symbol>minAreaFreeRect</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

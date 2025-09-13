@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/997-reordered-power-of-2.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="0" column="0"/>
+        </error>
+        <error id="invalidFunctionArg" severity="warning" msg="Invalid log2() argument nr 1. The value is 0 but the valid values are &apos;4.94066e-324:&apos;." verbose="Invalid log2() argument nr 1. The value is 0 but the valid values are &apos;4.94066e-324:&apos;." cwe="628" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/997-reordered-power-of-2.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="30" column="34" info="Invalid argument"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="26" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="24" column="23" info="Assignment &apos;num=0&apos;, assigned value is 0"/>
+            <symbol>log2</symbol>
+        </error>
+        <error id="floatConversionOverflow" severity="error" msg="Undefined behaviour: float (-inf) to integer conversion overflow." verbose="Undefined behaviour: float (-inf) to integer conversion overflow." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/997-reordered-power-of-2.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="30" column="24" info="float to integer conversion"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="26" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="24" column="23" info="Assignment &apos;num=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reorderedPowerOf2&apos; is never used." verbose="The function &apos;reorderedPowerOf2&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\997-reordered-power-of-2.c" line="14" column="0"/>
+            <symbol>reorderedPowerOf2</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

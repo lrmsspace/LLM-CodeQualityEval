@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="oppositeInnerCondition" severity="warning" msg="Opposite inner &apos;if&apos; condition leads to a dead code block." verbose="Opposite inner &apos;if&apos; condition leads to a dead code block (outer condition is &apos;temp!=0&apos; and inner condition is &apos;temp==0&apos;)." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="26" column="25" info="opposite inner condition: temp==0"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="24" column="17" info="outer condition: temp!=0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;n &gt; 0&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="22" column="13"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="48" info="&apos;n&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;result&apos; can be declared as pointer to const" verbose="Variable &apos;result&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="17" column="12" info="Variable &apos;result&apos; can be declared as pointer to const"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;units&apos; can be declared as const array" verbose="Variable &apos;units&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="20" column="12" info="Variable &apos;units&apos; can be declared as const array"/>
+            <symbol>units</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;result&apos; is assigned a value that is never used." verbose="Variable &apos;result&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="17" column="19"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="18"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="25"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="32"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="39"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="53"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="21" column="60"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;result&apos; is allocated memory that is never used." verbose="Variable &apos;result&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1810-integer-to-english-words.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="17" column="21"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberToWords&apos; is never used." verbose="The function &apos;numberToWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1810-integer-to-english-words.c" line="16" column="0"/>
+            <symbol>numberToWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

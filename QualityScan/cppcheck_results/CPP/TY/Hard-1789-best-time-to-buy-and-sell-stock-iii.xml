@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;profit&apos; shadows outer variable" verbose="Local variable &apos;profit&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1789-best-time-to-buy-and-sell-stock-iii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1789-best-time-to-buy-and-sell-stock-iii.cpp" line="34" column="25" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1789-best-time-to-buy-and-sell-stock-iii.cpp" line="28" column="13" info="Shadowed declaration"/>
+            <symbol>profit</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: profit" verbose="Uninitialized variable: profit" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1789-best-time-to-buy-and-sell-stock-iii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1789-best-time-to-buy-and-sell-stock-iii.cpp" line="34" column="58"/>
+            <symbol>profit</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;profit[i]&apos; is assigned a value that is never used." verbose="Variable &apos;profit[i]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1789-best-time-to-buy-and-sell-stock-iii.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1789-best-time-to-buy-and-sell-stock-iii.cpp" line="40" column="23"/>
+            <symbol>profit[i]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfit&apos; is never used." verbose="The function &apos;maxProfit&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1789-best-time-to-buy-and-sell-stock-iii.cpp" line="26" column="0"/>
+            <symbol>maxProfit</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

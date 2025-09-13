@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;left&apos; can be declared as pointer to const" verbose="Variable &apos;left&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/742-different-ways-to-add-parentheses.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\742-different-ways-to-add-parentheses.c" line="32" column="10" info="Variable &apos;left&apos; can be declared as pointer to const"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;right&apos; can be declared as pointer to const" verbose="Variable &apos;right&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/742-different-ways-to-add-parentheses.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\742-different-ways-to-add-parentheses.c" line="32" column="17" info="Variable &apos;right&apos; can be declared as pointer to const"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: leftSize" verbose="Uninitialized variable: leftSize" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/742-different-ways-to-add-parentheses.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\742-different-ways-to-add-parentheses.c" line="58" column="19"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\742-different-ways-to-add-parentheses.c" line="34" column="19" info="Assuming condition is false"/>
+            <symbol>leftSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;diffWaysToCompute&apos; is never used." verbose="The function &apos;diffWaysToCompute&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\742-different-ways-to-add-parentheses.c" line="28" column="0"/>
+            <symbol>diffWaysToCompute</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

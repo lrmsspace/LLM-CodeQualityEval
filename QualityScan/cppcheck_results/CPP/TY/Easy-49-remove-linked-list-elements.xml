@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;prev==nullptr&apos; is always true" verbose="Condition &apos;prev==nullptr&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/49-remove-linked-list-elements.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\49-remove-linked-list-elements.cpp" line="39" column="25" info="Condition &apos;prev==nullptr&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\49-remove-linked-list-elements.cpp" line="35" column="26" info="Assignment &apos;prev=nullptr&apos;, assigned value is 0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;curr&apos; can be declared as pointer to const" verbose="Variable &apos;curr&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/49-remove-linked-list-elements.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\49-remove-linked-list-elements.cpp" line="34" column="19" info="Variable &apos;curr&apos; can be declared as pointer to const"/>
+            <symbol>curr</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;removeElements&apos; is never used." verbose="The function &apos;removeElements&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\49-remove-linked-list-elements.cpp" line="30" column="0"/>
+            <symbol>removeElements</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

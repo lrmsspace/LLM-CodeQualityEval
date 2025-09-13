@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/308-maximum-product-of-two-elements-in-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="19" column="21" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max1-1&apos;." verbose="Signed integer overflow for expression &apos;max1-1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/308-maximum-product-of-two-elements-in-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="39" column="18" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="23" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="21" column="16" info="Assignment &apos;max1=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max2-1&apos;." verbose="Signed integer overflow for expression &apos;max2-1&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/308-maximum-product-of-two-elements-in-an-array.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="39" column="31" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="23" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="21" column="32" info="Assignment &apos;max2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProduct&apos; is never used." verbose="The function &apos;maxProduct&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\308-maximum-product-of-two-elements-in-an-array.c" line="19" column="0"/>
+            <symbol>maxProduct</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

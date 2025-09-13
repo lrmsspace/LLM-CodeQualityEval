@@ -1,0 +1,59 @@
+/**https://leetcode.com/problems/number-of-beautiful-partitions/ */
+//You are given a string s that consists of the digits '1' to '9' and two integers k and minLength.
+//A partition of s is called beautiful if:
+//	s is partitioned into k non-intersecting substrings.
+//	Each substring has a length of at least minLength.
+//	Each substring starts with a prime digit and ends with a non-prime digit. Prime digits are '2', '3', '5', and '7', and the rest of the digits are non-prime.
+//Return the number of beautiful partitions of s. Since the answer may be very large, return it modulo 109 + 7.
+//A substring is a contiguous sequence of characters within a string.
+// 
+//Example 1:
+//Input: s = "23542185131", k = 3, minLength = 2
+//Output: 3
+//Explanation: There exists three ways to create a beautiful partition:
+//"2354 | 218 | 5131"
+//"2354 | 21851 | 31"
+//"2354218 | 51 | 31"
+//Example 2:
+//Input: s = "23542185131", k = 3, minLength = 3
+//Output: 1
+//Explanation: There exists one way to create a beautiful partition: "2354 | 218 | 5131".
+//Example 3:
+//Input: s = "3312958", k = 3, minLength = 1
+//Output: 1
+//Explanation: There exists one way to create a beautiful partition: "331 | 29 | 58".
+// 
+//Constraints:
+//	1 <= k, minLength <= s.length <= 1000
+//	s consists of the digits '1' to '9'.
+int beautifulPartitions(char * s, int k, int minLength){
+    int n = strlen(s);
+    int dp[n + 1][k + 1];
+    memset(dp, 0, sizeof(dp));
+    dp[0][0] = 1;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 0; j < k; j++) {
+            if (dp[i - 1][j]) {
+                if (s[i - 1] == '2' || s[i - 1] == '3' || s[i - 1] == '5' || s[i - 1] == '7') {
+                    dp[i][j + 1] = dp[i - 1][j];
+                }
+                if (i >= minLength && j > 0) {
+                    dp[i][j - 1] = dp[i][j - 1] + dp[i - 1][j];
+                }   
+            }
+        }
+    }
+    for (int i = n - 1; i >= 0; i--) {
+        for (int j = 0; j < k; j++) {
+            if (dp[i + 1][j]) {
+                if (s[i] != '2' && s[i] != '3' && s[i] != '5' && s[i] != '7') {
+                    dp[i][j] = dp[i + 1][j];
+                }
+                if (j > 0 && i + minLength <= n) {
+                    dp[i][j - 1] = dp[i][j - 1] + dp[i][j];
+                }
+            }
+        }
+    }
+    return dp[0][k];
+}

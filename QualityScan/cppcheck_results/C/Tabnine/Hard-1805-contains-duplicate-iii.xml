@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1805-contains-duplicate-iii.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1805-contains-duplicate-iii.c" line="34" column="28"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;containsNearbyAlmostDuplicate&apos; is never used." verbose="The function &apos;containsNearbyAlmostDuplicate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1805-contains-duplicate-iii.c" line="27" column="0"/>
+            <symbol>containsNearbyAlmostDuplicate</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

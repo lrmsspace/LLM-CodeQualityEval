@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: result[j][size-1]" verbose="Memory is allocated but not initialized: result[j][size-1]" cwe="457" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Medium/838-non-decreasing-subsequences.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="36" column="37"/>
+            <symbol>result[j][size-1]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findSubsequences&apos; is never used." verbose="The function &apos;findSubsequences&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Medium\838-non-decreasing-subsequences.c" line="19" column="0"/>
+            <symbol>findSubsequences</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

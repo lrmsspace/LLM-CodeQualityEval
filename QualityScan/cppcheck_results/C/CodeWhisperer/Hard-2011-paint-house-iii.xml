@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2011-paint-house-iii.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="0" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;cost&apos; shadows outer argument" verbose="Local variable &apos;cost&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2011-paint-house-iii.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="60" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="35" column="48" info="Shadowed declaration"/>
+            <symbol>cost</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;houses&apos; can be declared as pointer to const" verbose="Parameter &apos;houses&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2011-paint-house-iii.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="35" column="18" info="Parameter &apos;houses&apos; can be declared as pointer to const"/>
+            <symbol>houses</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: cost" verbose="Uninitialized variable: cost" cwe="457" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Hard/2011-paint-house-iii.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="60" column="49"/>
+            <symbol>cost</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minCost&apos; is never used." verbose="The function &apos;minCost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Hard\2011-paint-house-iii.c" line="35" column="0"/>
+            <symbol>minCost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

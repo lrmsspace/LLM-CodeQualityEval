@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="0" column="0"/>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: first" verbose="Possible null pointer dereference: first" cwe="476" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="60" column="15" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="29" column="12" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="27" column="30" info="Assignment &apos;first=NULL&apos;, assigned value is 0"/>
+            <symbol>first</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: first" verbose="Possible null pointer dereference: first" cwe="476" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="61" column="5" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="29" column="12" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="27" column="30" info="Assignment &apos;first=NULL&apos;, assigned value is 0"/>
+            <symbol>first</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: second" verbose="Possible null pointer dereference: second" cwe="476" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="61" column="18" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="29" column="12" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="27" column="46" info="Assignment &apos;second=NULL&apos;, assigned value is 0"/>
+            <symbol>second</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: second" verbose="Possible null pointer dereference: second" cwe="476" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/671-recover-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="62" column="5" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="29" column="12" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="27" column="46" info="Assignment &apos;second=NULL&apos;, assigned value is 0"/>
+            <symbol>second</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;recoverTree&apos; is never used." verbose="The function &apos;recoverTree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\671-recover-binary-search-tree.c" line="26" column="0"/>
+            <symbol>recoverTree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

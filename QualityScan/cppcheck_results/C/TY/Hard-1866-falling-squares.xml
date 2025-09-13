@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;res&apos; can be declared as pointer to const" verbose="Variable &apos;res&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="34" column="10" info="Variable &apos;res&apos; can be declared as pointer to const"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;max&apos; can be declared as pointer to const" verbose="Variable &apos;max&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="35" column="10" info="Variable &apos;max&apos; can be declared as pointer to const"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;left&apos; can be declared as pointer to const" verbose="Variable &apos;left&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="36" column="10" info="Variable &apos;left&apos; can be declared as pointer to const"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;right&apos; can be declared as pointer to const" verbose="Variable &apos;right&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="37" column="10" info="Variable &apos;right&apos; can be declared as pointer to const"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;height&apos; can be declared as pointer to const" verbose="Variable &apos;height&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="38" column="10" info="Variable &apos;height&apos; can be declared as pointer to const"/>
+            <symbol>height</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: height[stack[j]]" verbose="Memory is allocated but not initialized: height[stack[j]]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="46" column="39"/>
+            <symbol>height[stack[j]]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: stack[j]" verbose="Memory is allocated but not initialized: stack[j]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="46" column="45"/>
+            <symbol>stack[j]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;res&apos; is assigned a value that is never used." verbose="Variable &apos;res&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="34" column="14"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max&apos; is assigned a value that is never used." verbose="Variable &apos;max&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="35" column="14"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;left&apos; is assigned a value that is never used." verbose="Variable &apos;left&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="36" column="15"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;right&apos; is assigned a value that is never used." verbose="Variable &apos;right&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="37" column="16"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;leftPos&apos; is assigned a value that is never used." verbose="Variable &apos;leftPos&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="42" column="21"/>
+            <symbol>leftPos</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rightPos&apos; is assigned a value that is never used." verbose="Variable &apos;rightPos&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="43" column="22"/>
+            <symbol>rightPos</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="48" column="18"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;res&apos; is allocated memory that is never used." verbose="Variable &apos;res&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="34" column="29"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;max&apos; is allocated memory that is never used." verbose="Variable &apos;max&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="35" column="29"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;left&apos; is allocated memory that is never used." verbose="Variable &apos;left&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="36" column="30"/>
+            <symbol>left</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;right&apos; is allocated memory that is never used." verbose="Variable &apos;right&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1866-falling-squares.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="37" column="31"/>
+            <symbol>right</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;fallingSquares&apos; is never used." verbose="The function &apos;fallingSquares&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1866-falling-squares.c" line="32" column="0"/>
+            <symbol>fallingSquares</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

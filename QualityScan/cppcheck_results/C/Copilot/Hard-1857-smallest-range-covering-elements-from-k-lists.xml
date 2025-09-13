@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;*b&apos; is assigned an expression that holds the same value." verbose="Variable &apos;*b&apos; is assigned an expression that holds the same value." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1857-smallest-range-covering-elements-from-k-lists.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="41" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="39" column="19" info="temp is assigned &apos;*a&apos; here."/>
+            <symbol>*b</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

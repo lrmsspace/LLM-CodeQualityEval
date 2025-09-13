@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="46" column="48" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dir&apos; can be declared as const array" verbose="Variable &apos;dir&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="62" column="9" info="Variable &apos;dir&apos; can be declared as const array"/>
+            <symbol>dir</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: bx" verbose="Uninitialized variable: bx" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="65" column="18"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="49" column="23" info="Assuming condition is false"/>
+            <symbol>bx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: tx" verbose="Uninitialized variable: tx" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="65" column="27"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="49" column="23" info="Assuming condition is false"/>
+            <symbol>tx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: by" verbose="Uninitialized variable: by" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="65" column="49"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="49" column="23" info="Assuming condition is false"/>
+            <symbol>by</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: ty" verbose="Uninitialized variable: ty" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="65" column="58"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="49" column="23" info="Assuming condition is false"/>
+            <symbol>ty</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;nx&apos; is assigned a value that is never used." verbose="Variable &apos;nx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="76" column="16"/>
+            <symbol>nx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ny&apos; is assigned a value that is never used." verbose="Variable &apos;ny&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1969-minimum-moves-to-move-a-box-to-their-target-location.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="76" column="47"/>
+            <symbol>ny</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minPushBox&apos; is never used." verbose="The function &apos;minPushBox&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1969-minimum-moves-to-move-a-box-to-their-target-location.c" line="46" column="0"/>
+            <symbol>minPushBox</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

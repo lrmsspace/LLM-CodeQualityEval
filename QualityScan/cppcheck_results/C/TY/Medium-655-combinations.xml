@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;returnSize&apos; can be declared as pointer to const" verbose="Parameter &apos;returnSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="23" column="34" info="Parameter &apos;returnSize&apos; can be declared as pointer to const"/>
+            <symbol>returnSize</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="15"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="19"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="23"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="27"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k5" verbose="Unused variable: k5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="31"/>
+            <symbol>k5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k6" verbose="Unused variable: k6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="35"/>
+            <symbol>k6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k7" verbose="Unused variable: k7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="39"/>
+            <symbol>k7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k8" verbose="Unused variable: k8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="43"/>
+            <symbol>k8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k9" verbose="Unused variable: k9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="47"/>
+            <symbol>k9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k10" verbose="Unused variable: k10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="51"/>
+            <symbol>k10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k11" verbose="Unused variable: k11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="56"/>
+            <symbol>k11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k12" verbose="Unused variable: k12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="61"/>
+            <symbol>k12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k13" verbose="Unused variable: k13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="66"/>
+            <symbol>k13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k14" verbose="Unused variable: k14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="71"/>
+            <symbol>k14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k15" verbose="Unused variable: k15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="76"/>
+            <symbol>k15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k16" verbose="Unused variable: k16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="81"/>
+            <symbol>k16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k17" verbose="Unused variable: k17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="86"/>
+            <symbol>k17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k18" verbose="Unused variable: k18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="91"/>
+            <symbol>k18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k19" verbose="Unused variable: k19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="96"/>
+            <symbol>k19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k20" verbose="Unused variable: k20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="101"/>
+            <symbol>k20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k21" verbose="Unused variable: k21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="106"/>
+            <symbol>k21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k22" verbose="Unused variable: k22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="111"/>
+            <symbol>k22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k23" verbose="Unused variable: k23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="116"/>
+            <symbol>k23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k24" verbose="Unused variable: k24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="121"/>
+            <symbol>k24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k25" verbose="Unused variable: k25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="126"/>
+            <symbol>k25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k26" verbose="Unused variable: k26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="131"/>
+            <symbol>k26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k27" verbose="Unused variable: k27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="136"/>
+            <symbol>k27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k28" verbose="Unused variable: k28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="141"/>
+            <symbol>k28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k29" verbose="Unused variable: k29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="146"/>
+            <symbol>k29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k30" verbose="Unused variable: k30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="151"/>
+            <symbol>k30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k31" verbose="Unused variable: k31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="156"/>
+            <symbol>k31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k32" verbose="Unused variable: k32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="161"/>
+            <symbol>k32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k33" verbose="Unused variable: k33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="166"/>
+            <symbol>k33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k34" verbose="Unused variable: k34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="170"/>
+            <symbol>k34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k35" verbose="Unused variable: k35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="175"/>
+            <symbol>k35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k36" verbose="Unused variable: k36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="180"/>
+            <symbol>k36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k37" verbose="Unused variable: k37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/655-combinations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="24" column="185"/>
+            <symbol>k37</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;combine&apos; is never used." verbose="The function &apos;combine&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\655-combinations.c" line="23" column="0"/>
+            <symbol>combine</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

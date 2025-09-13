@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;candies&apos; can be declared as reference to const" verbose="Parameter &apos;candies&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1975-maximum-candies-you-can-get-from-boxes.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1975-maximum-candies-you-can-get-from-boxes.cpp" line="39" column="54" info="Parameter &apos;candies&apos; can be declared as reference to const"/>
+            <symbol>candies</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;keys&apos; can be declared as reference to const" verbose="Parameter &apos;keys&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1975-maximum-candies-you-can-get-from-boxes.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1975-maximum-candies-you-can-get-from-boxes.cpp" line="39" column="84" info="Parameter &apos;keys&apos; can be declared as reference to const"/>
+            <symbol>keys</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;containedBoxes&apos; can be declared as reference to const" verbose="Parameter &apos;containedBoxes&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1975-maximum-candies-you-can-get-from-boxes.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1975-maximum-candies-you-can-get-from-boxes.cpp" line="39" column="111" info="Parameter &apos;containedBoxes&apos; can be declared as reference to const"/>
+            <symbol>containedBoxes</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;initialBoxes&apos; can be declared as reference to const" verbose="Parameter &apos;initialBoxes&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/cpp/Hard/1975-maximum-candies-you-can-get-from-boxes.cpp">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1975-maximum-candies-you-can-get-from-boxes.cpp" line="39" column="140" info="Parameter &apos;initialBoxes&apos; can be declared as reference to const"/>
+            <symbol>initialBoxes</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxCandies&apos; is never used." verbose="The function &apos;maxCandies&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\cpp\Hard\1975-maximum-candies-you-can-get-from-boxes.cpp" line="39" column="0"/>
+            <symbol>maxCandies</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

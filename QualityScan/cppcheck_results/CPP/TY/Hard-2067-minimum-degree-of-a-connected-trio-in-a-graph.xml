@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;ans == 2147483647&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="45" column="20"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="34" column="19" info="&apos;ans&apos; is assigned value &apos;2147483647&apos; here."/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;degree&apos; can be reduced." verbose="The scope of the variable &apos;degree&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="38" column="25"/>
+            <symbol>degree</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;edges&apos; can be declared as reference to const" verbose="Parameter &apos;edges&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="28" column="51" info="Parameter &apos;edges&apos; can be declared as reference to const"/>
+            <symbol>edges</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;degree&apos; is assigned a value that is never used." verbose="Variable &apos;degree&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="40" column="31"/>
+            <symbol>degree</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minTrioDegree&apos; is never used." verbose="The function &apos;minTrioDegree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\2067-minimum-degree-of-a-connected-trio-in-a-graph.cpp" line="28" column="0"/>
+            <symbol>minTrioDegree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

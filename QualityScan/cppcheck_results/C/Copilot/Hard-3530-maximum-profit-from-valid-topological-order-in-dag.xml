@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;score&apos; can be declared as pointer to const" verbose="Parameter &apos;score&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Hard/3530-maximum-profit-from-valid-topological-order-in-dag.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3530-maximum-profit-from-valid-topological-order-in-dag.c" line="65" column="74" info="Parameter &apos;score&apos; can be declared as pointer to const"/>
+            <symbol>score</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: dp" verbose="Uninitialized variable: dp" cwe="457" file0="F:/Benchmark/new/Copilot/output/c/Hard/3530-maximum-profit-from-valid-topological-order-in-dag.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3530-maximum-profit-from-valid-topological-order-in-dag.c" line="92" column="12"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3530-maximum-profit-from-valid-topological-order-in-dag.c" line="67" column="23" info="Assuming condition is false"/>
+            <symbol>dp</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfit&apos; is never used." verbose="The function &apos;maxProfit&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3530-maximum-profit-from-valid-topological-order-in-dag.c" line="65" column="0"/>
+            <symbol>maxProfit</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

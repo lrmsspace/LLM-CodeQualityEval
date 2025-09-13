@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3569-maximize-count-of-distinct-primes-after-split.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3569-maximize-count-of-distinct-primes-after-split.cpp" line="0" column="0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;queries&apos; can be declared as reference to const" verbose="Parameter &apos;queries&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3569-maximize-count-of-distinct-primes-after-split.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3569-maximize-count-of-distinct-primes-after-split.cpp" line="33" column="70" info="Parameter &apos;queries&apos; can be declared as reference to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cnt&apos; is assigned a value that is never used." verbose="Variable &apos;cnt&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3569-maximize-count-of-distinct-primes-after-split.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3569-maximize-count-of-distinct-primes-after-split.cpp" line="38" column="17"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumCount&apos; is never used." verbose="The function &apos;maximumCount&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3569-maximize-count-of-distinct-primes-after-split.cpp" line="33" column="0"/>
+            <symbol>maximumCount</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

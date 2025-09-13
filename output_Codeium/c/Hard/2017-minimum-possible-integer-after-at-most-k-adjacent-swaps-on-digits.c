@@ -1,0 +1,58 @@
+/**https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/ */
+//You are given a string num representing the digits of a very large integer and an integer k. You are allowed to swap any two adjacent digits of the integer at most k times.
+//Return the minimum integer you can obtain also as a string.
+// 
+//Example 1:
+//Input: num = "4321", k = 4
+//Output: "1342"
+//Explanation: The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.
+//Example 2:
+//Input: num = "100", k = 1
+//Output: "010"
+//Explanation: It's ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.
+//Example 3:
+//Input: num = "36789", k = 1000
+//Output: "36789"
+//Explanation: We can keep the number without any swaps.
+// 
+//Constraints:
+//	1 <= num.length <= 3 * 104
+//	num consists of only digits and does not contain leading zeros.
+//	1 <= k <= 109
+char* minInteger(char* num, int k) {
+    
+    int len = strlen(num);
+    int count[10] = {0};
+    for (int i = 0; i < len; i++) {
+        count[num[i] - '0']++;
+    }
+    int i = 0;
+    while (k > 0 && i < len - 1) {
+        if (num[i] > num[i + 1]) {
+            int j = i + 1;
+            while (j < len && num[j] == num[i + 1]) j++;
+            if (j < len && num[j] < num[i]) {
+                char temp = num[i];
+                num[i] = num[j];
+                num[j] = temp;
+                k--;
+            } else {
+                int idx = i + 1;
+                for (int j = 0; j < 10; j++) {
+                    if (count[j] > 0 && j < num[i] - '0') {
+                        idx = len - 1;
+                        while (num[idx] != '0' + j) idx--;
+                        char temp = num[i];
+                        num[i] = num[idx];
+                        num[idx] = temp;
+                        count[j]--;
+                        k--;
+                        break;
+                    }
+                }
+            }
+        }
+        i++;
+    }
+    return num;
+}

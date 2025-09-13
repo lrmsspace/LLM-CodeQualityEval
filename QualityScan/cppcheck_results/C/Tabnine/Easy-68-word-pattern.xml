@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nonStandardCharLiteral" severity="portability" msg="Non-standard character literal &apos;&apos;. empty character literal" verbose="Non-standard character literal &apos;&apos;. empty character literal" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/68-word-pattern.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\68-word-pattern.c" line="35" column="22"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/68-word-pattern.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\68-word-pattern.c" line="46" column="23"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Easy/68-word-pattern.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\68-word-pattern.c" line="47" column="25"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;wordPattern&apos; is never used." verbose="The function &apos;wordPattern&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Easy\68-word-pattern.c" line="29" column="0"/>
+            <symbol>wordPattern</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

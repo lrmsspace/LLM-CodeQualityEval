@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="22" column="24" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: s1" verbose="Uninitialized variable: s1" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="42" column="8"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="30" column="14" info="Assuming condition is false"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: s2" verbose="Uninitialized variable: s2" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="42" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="30" column="14" info="Assuming condition is false"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: s3" verbose="Uninitialized variable: s3" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="59" column="15"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="46" column="14" info="Assuming condition is false"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: s4" verbose="Uninitialized variable: s4" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="61" column="19"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="46" column="14" info="Assuming condition is false"/>
+            <symbol>s4</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s1" verbose="Uninitialized variable: s1" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="34" column="13"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s2" verbose="Uninitialized variable: s2" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="38" column="13"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s3" verbose="Uninitialized variable: s3" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="50" column="17"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: s4" verbose="Uninitialized variable: s4" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="55" column="17"/>
+            <symbol>s4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s2&apos; is not assigned a value." verbose="Variable &apos;s2&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="32"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s3&apos; is not assigned a value." verbose="Variable &apos;s3&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="35"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;s4&apos; is not assigned a value." verbose="Variable &apos;s4&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="38"/>
+            <symbol>s4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s5" verbose="Unused variable: s5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="41"/>
+            <symbol>s5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s6" verbose="Unused variable: s6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="44"/>
+            <symbol>s6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s7" verbose="Unused variable: s7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="47"/>
+            <symbol>s7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s8" verbose="Unused variable: s8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="50"/>
+            <symbol>s8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s9" verbose="Unused variable: s9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="53"/>
+            <symbol>s9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s10" verbose="Unused variable: s10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="56"/>
+            <symbol>s10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s11" verbose="Unused variable: s11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="60"/>
+            <symbol>s11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s12" verbose="Unused variable: s12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="64"/>
+            <symbol>s12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s13" verbose="Unused variable: s13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="68"/>
+            <symbol>s13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s14" verbose="Unused variable: s14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="72"/>
+            <symbol>s14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s15" verbose="Unused variable: s15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="76"/>
+            <symbol>s15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s16" verbose="Unused variable: s16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="80"/>
+            <symbol>s16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s17" verbose="Unused variable: s17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="84"/>
+            <symbol>s17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s18" verbose="Unused variable: s18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="88"/>
+            <symbol>s18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s19" verbose="Unused variable: s19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="92"/>
+            <symbol>s19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s20" verbose="Unused variable: s20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="96"/>
+            <symbol>s20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s21" verbose="Unused variable: s21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="100"/>
+            <symbol>s21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s22" verbose="Unused variable: s22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="104"/>
+            <symbol>s22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s23" verbose="Unused variable: s23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="108"/>
+            <symbol>s23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s24" verbose="Unused variable: s24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="112"/>
+            <symbol>s24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s25" verbose="Unused variable: s25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="116"/>
+            <symbol>s25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s26" verbose="Unused variable: s26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="120"/>
+            <symbol>s26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s27" verbose="Unused variable: s27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="124"/>
+            <symbol>s27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s28" verbose="Unused variable: s28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="128"/>
+            <symbol>s28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s29" verbose="Unused variable: s29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="132"/>
+            <symbol>s29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s30" verbose="Unused variable: s30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="136"/>
+            <symbol>s30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s31" verbose="Unused variable: s31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="140"/>
+            <symbol>s31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s32" verbose="Unused variable: s32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="144"/>
+            <symbol>s32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s33" verbose="Unused variable: s33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="23" column="148"/>
+            <symbol>s33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s34" verbose="Unused variable: s34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="5"/>
+            <symbol>s34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s35" verbose="Unused variable: s35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="9"/>
+            <symbol>s35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s36" verbose="Unused variable: s36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="13"/>
+            <symbol>s36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s37" verbose="Unused variable: s37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="17"/>
+            <symbol>s37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s38" verbose="Unused variable: s38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="21"/>
+            <symbol>s38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s39" verbose="Unused variable: s39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="25"/>
+            <symbol>s39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s40" verbose="Unused variable: s40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="29"/>
+            <symbol>s40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s41" verbose="Unused variable: s41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="33"/>
+            <symbol>s41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s42" verbose="Unused variable: s42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="37"/>
+            <symbol>s42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s43" verbose="Unused variable: s43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="41"/>
+            <symbol>s43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s44" verbose="Unused variable: s44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="45"/>
+            <symbol>s44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s45" verbose="Unused variable: s45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="49"/>
+            <symbol>s45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s46" verbose="Unused variable: s46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="53"/>
+            <symbol>s46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s47" verbose="Unused variable: s47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="57"/>
+            <symbol>s47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s48" verbose="Unused variable: s48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="61"/>
+            <symbol>s48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s49" verbose="Unused variable: s49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="65"/>
+            <symbol>s49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s50" verbose="Unused variable: s50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="69"/>
+            <symbol>s50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s51" verbose="Unused variable: s51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="73"/>
+            <symbol>s51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s52" verbose="Unused variable: s52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="77"/>
+            <symbol>s52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s53" verbose="Unused variable: s53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="81"/>
+            <symbol>s53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s54" verbose="Unused variable: s54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="85"/>
+            <symbol>s54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s55" verbose="Unused variable: s55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="89"/>
+            <symbol>s55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s56" verbose="Unused variable: s56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="93"/>
+            <symbol>s56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s57" verbose="Unused variable: s57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="97"/>
+            <symbol>s57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s58" verbose="Unused variable: s58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="101"/>
+            <symbol>s58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s59" verbose="Unused variable: s59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="105"/>
+            <symbol>s59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s60" verbose="Unused variable: s60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="109"/>
+            <symbol>s60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s61" verbose="Unused variable: s61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="113"/>
+            <symbol>s61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s62" verbose="Unused variable: s62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="117"/>
+            <symbol>s62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s63" verbose="Unused variable: s63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="121"/>
+            <symbol>s63</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s64" verbose="Unused variable: s64" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="125"/>
+            <symbol>s64</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s65" verbose="Unused variable: s65" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="129"/>
+            <symbol>s65</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s66" verbose="Unused variable: s66" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="133"/>
+            <symbol>s66</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s67" verbose="Unused variable: s67" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="137"/>
+            <symbol>s67</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s68" verbose="Unused variable: s68" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="141"/>
+            <symbol>s68</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s69" verbose="Unused variable: s69" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="145"/>
+            <symbol>s69</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s70" verbose="Unused variable: s70" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="24" column="149"/>
+            <symbol>s70</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a12" verbose="Unused variable: a12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="23"/>
+            <symbol>a12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a13" verbose="Unused variable: a13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="29"/>
+            <symbol>a13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a14" verbose="Unused variable: a14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="35"/>
+            <symbol>a14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a15" verbose="Unused variable: a15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="41"/>
+            <symbol>a15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a16" verbose="Unused variable: a16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="47"/>
+            <symbol>a16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a17" verbose="Unused variable: a17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="53"/>
+            <symbol>a17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a18" verbose="Unused variable: a18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="59"/>
+            <symbol>a18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a19" verbose="Unused variable: a19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="25" column="65"/>
+            <symbol>a19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a20" verbose="Unused variable: a20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="11"/>
+            <symbol>a20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a21" verbose="Unused variable: a21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="17"/>
+            <symbol>a21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a22" verbose="Unused variable: a22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="23"/>
+            <symbol>a22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a23" verbose="Unused variable: a23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="29"/>
+            <symbol>a23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a24" verbose="Unused variable: a24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="35"/>
+            <symbol>a24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a25" verbose="Unused variable: a25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="41"/>
+            <symbol>a25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a26" verbose="Unused variable: a26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="47"/>
+            <symbol>a26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a27" verbose="Unused variable: a27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="53"/>
+            <symbol>a27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a28" verbose="Unused variable: a28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="59"/>
+            <symbol>a28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a29" verbose="Unused variable: a29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="26" column="65"/>
+            <symbol>a29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a30" verbose="Unused variable: a30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="27" column="11"/>
+            <symbol>a30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a31" verbose="Unused variable: a31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="27" column="17"/>
+            <symbol>a31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a32" verbose="Unused variable: a32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="11"/>
+            <symbol>a32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a33" verbose="Unused variable: a33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="17"/>
+            <symbol>a33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a34" verbose="Unused variable: a34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="23"/>
+            <symbol>a34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a35" verbose="Unused variable: a35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="29"/>
+            <symbol>a35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a36" verbose="Unused variable: a36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="35"/>
+            <symbol>a36</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a37" verbose="Unused variable: a37" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="41"/>
+            <symbol>a37</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a38" verbose="Unused variable: a38" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="47"/>
+            <symbol>a38</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a39" verbose="Unused variable: a39" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="53"/>
+            <symbol>a39</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a40" verbose="Unused variable: a40" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="59"/>
+            <symbol>a40</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a41" verbose="Unused variable: a41" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="65"/>
+            <symbol>a41</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a42" verbose="Unused variable: a42" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="71"/>
+            <symbol>a42</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a43" verbose="Unused variable: a43" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="77"/>
+            <symbol>a43</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a44" verbose="Unused variable: a44" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="83"/>
+            <symbol>a44</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a45" verbose="Unused variable: a45" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="89"/>
+            <symbol>a45</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a46" verbose="Unused variable: a46" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="95"/>
+            <symbol>a46</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a47" verbose="Unused variable: a47" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="101"/>
+            <symbol>a47</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a48" verbose="Unused variable: a48" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="107"/>
+            <symbol>a48</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a49" verbose="Unused variable: a49" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="113"/>
+            <symbol>a49</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a50" verbose="Unused variable: a50" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="119"/>
+            <symbol>a50</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a51" verbose="Unused variable: a51" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="125"/>
+            <symbol>a51</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a52" verbose="Unused variable: a52" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="131"/>
+            <symbol>a52</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a53" verbose="Unused variable: a53" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="137"/>
+            <symbol>a53</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a54" verbose="Unused variable: a54" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="143"/>
+            <symbol>a54</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a55" verbose="Unused variable: a55" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="149"/>
+            <symbol>a55</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a56" verbose="Unused variable: a56" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="155"/>
+            <symbol>a56</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a57" verbose="Unused variable: a57" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="161"/>
+            <symbol>a57</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a58" verbose="Unused variable: a58" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="166"/>
+            <symbol>a58</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a59" verbose="Unused variable: a59" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="172"/>
+            <symbol>a59</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a60" verbose="Unused variable: a60" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="178"/>
+            <symbol>a60</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a61" verbose="Unused variable: a61" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="184"/>
+            <symbol>a61</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a62" verbose="Unused variable: a62" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="190"/>
+            <symbol>a62</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a63" verbose="Unused variable: a63" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="196"/>
+            <symbol>a63</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a64" verbose="Unused variable: a64" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="202"/>
+            <symbol>a64</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a65" verbose="Unused variable: a65" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="208"/>
+            <symbol>a65</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a66" verbose="Unused variable: a66" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="214"/>
+            <symbol>a66</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a67" verbose="Unused variable: a67" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="220"/>
+            <symbol>a67</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a68" verbose="Unused variable: a68" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="226"/>
+            <symbol>a68</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a69" verbose="Unused variable: a69" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="232"/>
+            <symbol>a69</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a70" verbose="Unused variable: a70" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/299-reformat-the-string.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="28" column="238"/>
+            <symbol>a70</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;reformat&apos; is never used." verbose="The function &apos;reformat&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\299-reformat-the-string.c" line="22" column="0"/>
+            <symbol>reformat</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

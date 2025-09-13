@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariableReference" severity="style" msg="Variable &apos;op&apos; can be declared as reference to const" verbose="Variable &apos;op&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Easy/432-final-value-of-variable-after-performing-operations.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\432-final-value-of-variable-after-performing-operations.cpp" line="41" column="19" info="Variable &apos;op&apos; can be declared as reference to const"/>
+            <symbol>op</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;finalValueAfterOperations&apos; is never used." verbose="The function &apos;finalValueAfterOperations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Easy\432-final-value-of-variable-after-performing-operations.cpp" line="39" column="0"/>
+            <symbol>finalValueAfterOperations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

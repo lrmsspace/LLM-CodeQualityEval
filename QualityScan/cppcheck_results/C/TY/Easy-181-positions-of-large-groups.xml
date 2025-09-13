@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;s&apos; can be declared as pointer to const" verbose="Parameter &apos;s&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="29" column="34" info="Parameter &apos;s&apos; can be declared as pointer to const"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: count" verbose="Uninitialized variable: count" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="47" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="35" column="19" info="Assuming condition is false"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: m" verbose="Uninitialized variable: m" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="48" column="13"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: m" verbose="Uninitialized variable: m" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="53" column="19"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="30" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;m&apos; is not assigned a value." verbose="Variable &apos;m&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="30" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: end" verbose="Unused variable: end" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/181-positions-of-large-groups.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="30" column="38"/>
+            <symbol>end</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;largeGroupPositions&apos; is never used." verbose="The function &apos;largeGroupPositions&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\181-positions-of-large-groups.c" line="29" column="0"/>
+            <symbol>largeGroupPositions</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

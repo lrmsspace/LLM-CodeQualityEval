@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="sprintfOverlappingData" severity="error" msg="Undefined behavior: Variable &apos;names[i]&apos; is used as parameter and destination in sprintf()." verbose="The variable &apos;names[i]&apos; is used both as a parameter and as destination in sprintf(). The origin and destination buffers overlap. Quote from glibc (C-library) documentation (http://www.gnu.org/software/libc/manual/html_mono/libc.html#Formatted-Output-Functions): &quot;If copying takes place between objects that overlap as a result of a call to sprintf() or snprintf(), the results are undefined.&quot;" cwe="628" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1261-making-file-names-unique.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1261-making-file-names-unique.c" line="43" column="50"/>
+            <symbol>names[i]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;getFolderNames&apos; is never used." verbose="The function &apos;getFolderNames&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1261-making-file-names-unique.c" line="34" column="0"/>
+            <symbol>getFolderNames</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

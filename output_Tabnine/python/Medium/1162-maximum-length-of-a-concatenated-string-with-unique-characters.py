@@ -1,0 +1,59 @@
+#https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
+#You are given an array of strings arr. A string s is formed by the concatenation of a subsequence of arr that has unique characters.
+#Return the maximum possible length of s.
+#A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
+# 
+#Example 1:
+#Input: arr = ["un","iq","ue"]
+#Output: 4
+#Explanation: All the valid concatenations are:
+#- ""
+#- "un"
+#- "iq"
+#- "ue"
+#- "uniq" ("un" + "iq")
+#- "ique" ("iq" + "ue")
+#Maximum length is 4.
+#Example 2:
+#Input: arr = ["cha","r","act","ers"]
+#Output: 6
+#Explanation: Possible longest valid concatenations are "chaers" ("cha" + "ers") and "acters" ("act" + "ers").
+#Example 3:
+#Input: arr = ["abcdefghijklmnopqrstuvwxyz"]
+#Output: 26
+#Explanation: The only string in arr has all 26 characters.
+# 
+#Constraints:
+#	1 <= arr.length <= 16
+#	1 <= arr[i].length <= 26
+#	arr[i] contains only lowercase English letters.
+class Solution(object):
+    def maxLength(self, arr):
+        """
+        :type arr: List[str]
+        :rtype: int
+        """
+        # Initialize a set to store unique characters in each string
+        unique_chars = set()
+        
+        # Initialize a variable to store the maximum length of the concatenated string
+        max_length = 0
+        # Iterate through each string in arr
+        for s in arr:
+            # Reset the set of unique characters
+            unique_chars.clear()
+            # Iterate through each character in the string
+            for c in s:
+                # If the character is already in the set, break the loop
+                if c in unique_chars:
+                    break
+                # Add the character to the set
+                unique_chars.add(c)
+            # If the loop completes without breaking, the string has all unique characters
+            else:
+                # Update the maximum length if necessary
+                max_length = max(max_length, len(s))
+        
+        # Return the maximum length of the concatenated string
+        return max_length
+        

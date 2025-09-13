@@ -1,0 +1,63 @@
+/**https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/ */
+//Given an array of positive integers nums, return the number of distinct prime factors in the product of the elements of nums.
+//Note that:
+//	A number greater than 1 is called prime if it is divisible by only 1 and itself.
+//	An integer val1 is a factor of another integer val2 if val2 / val1 is an integer.
+// 
+//Example 1:
+//Input: nums = [2,4,3,7,10,6]
+//Output: 4
+//Explanation:
+//The product of all the elements in nums is: 2 * 4 * 3 * 7 * 10 * 6 = 10080 = 25 * 32 * 5 * 7.
+//There are 4 distinct prime factors so we return 4.
+//Example 2:
+//Input: nums = [2,4,8,16]
+//Output: 1
+//Explanation:
+//The product of all the elements in nums is: 2 * 4 * 8 * 16 = 1024 = 210.
+//There is 1 distinct prime factor so we return 1.
+// 
+//Constraints:
+//	1 <= nums.length <= 104
+//	2 <= nums[i] <= 1000
+int distinctPrimeFactors(int* nums, int numsSize){
+    int i, j, k, n, m, a[1000], b[1000], c[1000], d[1000], e[1000], f[1000], g[1000], h[1000], count = 0;
+    for (i = 0; i < numsSize; i++) {
+        n = nums[i];
+        for (j = 2; j <= n; j++) {
+            if (n% j == 0) {
+                a[count] = j;
+                n = n / j;
+                j--;
+                count++;
+            }
+        }
+    }
+    for (i = 0; i < count; i++) {
+        for (j = 0; j < count; j++) {
+            if (a[i] == a[j]) {
+                a[j] = 0;
+            }
+        }
+    }
+    for (i = 0; i < count; i++) {
+        if (a[i] != 0) {
+            b[m] = a[i];
+            m++;
+        }
+    }
+    for (i = 0; i < m; i++) {
+        for (j = 0; j < m; j++) {
+            if (b[i] == b[j]) {
+                b[j] = 0;
+            }
+        }
+    }
+    for (i = 0; i < m; i++) {
+        if (b[i] != 0) {
+            c[k] = b[i];
+            k++;
+        }
+    }
+    return k;
+}

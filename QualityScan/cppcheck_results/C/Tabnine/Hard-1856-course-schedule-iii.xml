@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/1856-course-schedule-iii.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1856-course-schedule-iii.c" line="30" column="36"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;scheduleCourse&apos; is never used." verbose="The function &apos;scheduleCourse&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\1856-course-schedule-iii.c" line="25" column="0"/>
+            <symbol>scheduleCourse</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

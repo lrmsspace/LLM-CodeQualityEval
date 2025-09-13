@@ -1,0 +1,46 @@
+/**https://leetcode.com/problems/count-different-palindromic-subsequences/ */
+//Given a string s, return the number of different non-empty palindromic subsequences in s. Since the answer may be very large, return it modulo 109 + 7.
+//A subsequence of a string is obtained by deleting zero or more characters from the string.
+//A sequence is palindromic if it is equal to the sequence reversed.
+//Two sequences a1, a2, ... and b1, b2, ... are different if there is some i for which ai != bi.
+// 
+//Example 1:
+//Input: s = "bccb"
+//Output: 6
+//Explanation: The 6 different non-empty palindromic subsequences are 'b', 'c', 'bb', 'cc', 'bcb', 'bccb'.
+//Note that 'bcb' is counted only once, even though it occurs twice.
+//Example 2:
+//Input: s = "abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba"
+//Output: 104860361
+//Explanation: There are 3104860382 different non-empty palindromic subsequences, which is 104860361 modulo 109 + 7.
+// 
+//Constraints:
+//	1 <= s.length <= 1000
+//	s[i] is either 'a', 'b', 'c', or 'd'.
+int countPalindromicSubsequences(char* s) {
+    int n = strlen(s);
+    long long mod = 1e9 + 7;
+    long long dp[n][n][4];
+    memset(dp, 0, sizeof(dp));
+
+    // Initialize base cases
+    for (int i = 0; i < n; i++) {
+        dp[i][i][s[i] - 'a'] = 1;
+    }
+    // Build up the dynamic programming table
+    for (int len = 2; len <= n; len++) {
+        for (int i = 0; i <= n - len; i++) {
+            int j = i + len - 1;
+            for (int k = 0; k < 4; k++) {
+        // If the current character is the same as the previous character
+        if (s[i] == s[j]) {
+                    dp[i][j][k] = dp[i + 1][j - 1][k] + dp[i][j - 1][k] + dp[i + 1][j][k] - dp[i + 1][j - 1][(k + 1) % 4];
+                } else {
+                    dp[i][j][k] = dp[i + 1][j][k] + dp[i][j - 1][k] - dp[i + 1][j - 1][k];
+                }
+                dp[i][j][k] %= mod;
+            }
+        }
+    }
+    return (int)dp[0][n - 1][0];    
+}

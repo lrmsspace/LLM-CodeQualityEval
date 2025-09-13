@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: row[x]" verbose="Memory is allocated but not initialized: row[x]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1940-grid-illumination.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1940-grid-illumination.c" line="45" column="12"/>
+            <symbol>row[x]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: col[y]" verbose="Memory is allocated but not initialized: col[y]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1940-grid-illumination.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1940-grid-illumination.c" line="46" column="12"/>
+            <symbol>col[y]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: diag1[x+y]" verbose="Memory is allocated but not initialized: diag1[x+y]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1940-grid-illumination.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1940-grid-illumination.c" line="47" column="14"/>
+            <symbol>diag1[x+y]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: diag2[x-y+n-1]" verbose="Memory is allocated but not initialized: diag2[x-y+n-1]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1940-grid-illumination.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1940-grid-illumination.c" line="48" column="14"/>
+            <symbol>diag2[x-y+n-1]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;gridIllumination&apos; is never used." verbose="The function &apos;gridIllumination&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1940-grid-illumination.c" line="32" column="0"/>
+            <symbol>gridIllumination</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

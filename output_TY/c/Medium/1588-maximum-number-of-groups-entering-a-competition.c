@@ -1,0 +1,41 @@
+/**https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/ */
+//You are given a positive integer array grades which represents the grades of students in a university. You would like to enter all these students into a competition in ordered non-empty groups, such that the ordering meets the following conditions:
+//	The sum of the grades of students in the ith group is less than the sum of the grades of students in the (i + 1)th group, for all groups (except the last).
+//	The total number of students in the ith group is less than the total number of students in the (i + 1)th group, for all groups (except the last).
+//Return the maximum number of groups that can be formed.
+// 
+//Example 1:
+//Input: grades = [10,6,12,7,3,5]
+//Output: 3
+//Explanation: The following is a possible way to form 3 groups of students:
+//- 1st group has the students with grades = [12]. Sum of grades: 12. Student count: 1
+//- 2nd group has the students with grades = [6,7]. Sum of grades: 6 + 7 = 13. Student count: 2
+//- 3rd group has the students with grades = [10,3,5]. Sum of grades: 10 + 3 + 5 = 18. Student count: 3
+//It can be shown that it is not possible to form more than 3 groups.
+//Example 2:
+//Input: grades = [8,8]
+//Output: 1
+//Explanation: We can only form 1 group, since forming 2 groups would lead to an equal number of students in both groups.
+// 
+//Constraints:
+//	1 <= grades.length <= 105
+//	1 <= grades[i] <= 105
+int maximumGroups(int* grades, int gradesSize){
+    int i = 0, j = 0, k = 0, n = 0, m = 0, sum = 0, max = 0;
+    for (i = 0; i < gradesSize; i++) {
+        sum += grades[i];
+        if (sum > max) {
+            max = sum;
+            n = i + 1;
+        }
+    }
+    for (i = 0; i < n;i++) {
+        for (j = 0; j < n; j++) {
+            if (i + j == n - 1) {
+                m = j;
+                break;
+            }
+        }
+    }
+    return m;
+}

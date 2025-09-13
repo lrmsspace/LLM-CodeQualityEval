@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: pre" verbose="Possible null pointer dereference: pre" cwe="476" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/2100-merge-bsts-to-create-single-bst.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2100-merge-bsts-to-create-single-bst.c" line="70" column="13" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2100-merge-bsts-to-create-single-bst.c" line="61" column="21" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2100-merge-bsts-to-create-single-bst.c" line="59" column="32" info="Assignment &apos;pre=NULL&apos;, assigned value is 0"/>
+            <symbol>pre</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;canMerge&apos; is never used." verbose="The function &apos;canMerge&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\2100-merge-bsts-to-create-single-bst.c" line="51" column="0"/>
+            <symbol>canMerge</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

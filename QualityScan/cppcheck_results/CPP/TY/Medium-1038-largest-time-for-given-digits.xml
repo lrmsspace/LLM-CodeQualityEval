@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;max_time&apos; can be reduced." verbose="The scope of the variable &apos;max_time&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="25" column="13"/>
+            <symbol>max_time</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;max_hours_index_4&apos; can be reduced." verbose="The scope of the variable &apos;max_hours_index_4&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="34" column="13"/>
+            <symbol>max_hours_index_4</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;max_minutes_index_4&apos; can be reduced." verbose="The scope of the variable &apos;max_minutes_index_4&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="35" column="13"/>
+            <symbol>max_minutes_index_4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_h&apos; is assigned a value that is never used." verbose="Variable &apos;max_h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="23" column="19"/>
+            <symbol>max_h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_m&apos; is assigned a value that is never used." verbose="Variable &apos;max_m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="24" column="19"/>
+            <symbol>max_m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_time&apos; is assigned a value that is never used." verbose="Variable &apos;max_time&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="25" column="22"/>
+            <symbol>max_time</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_minutes_index_2&apos; is assigned a value that is never used." verbose="Variable &apos;max_minutes_index_2&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="31" column="33"/>
+            <symbol>max_minutes_index_2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_minutes_index_3&apos; is assigned a value that is never used." verbose="Variable &apos;max_minutes_index_3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="33" column="33"/>
+            <symbol>max_minutes_index_3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_hours_index_4&apos; is assigned a value that is never used." verbose="Variable &apos;max_hours_index_4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="34" column="31"/>
+            <symbol>max_hours_index_4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_minutes_index_4&apos; is assigned a value that is never used." verbose="Variable &apos;max_minutes_index_4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="35" column="33"/>
+            <symbol>max_minutes_index_4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_hours_index_4&apos; is assigned a value that is never used." verbose="Variable &apos;max_hours_index_4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="90" column="43"/>
+            <symbol>max_hours_index_4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_minutes_index_4&apos; is assigned a value that is never used." verbose="Variable &apos;max_minutes_index_4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="101" column="45"/>
+            <symbol>max_minutes_index_4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;max_time&apos; is assigned a value that is never used." verbose="Variable &apos;max_time&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1038-largest-time-for-given-digits.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="103" column="30"/>
+            <symbol>max_time</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;largestTimeFromDigits&apos; is never used." verbose="The function &apos;largestTimeFromDigits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1038-largest-time-for-given-digits.cpp" line="20" column="0"/>
+            <symbol>largestTimeFromDigits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

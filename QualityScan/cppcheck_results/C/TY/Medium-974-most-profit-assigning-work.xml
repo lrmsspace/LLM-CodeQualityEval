@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;difficulty&apos; can be declared as pointer to const" verbose="Parameter &apos;difficulty&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="30" info="Parameter &apos;difficulty&apos; can be declared as pointer to const"/>
+            <symbol>difficulty</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;profit&apos; can be declared as pointer to const" verbose="Parameter &apos;profit&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="67" info="Parameter &apos;profit&apos; can be declared as pointer to const"/>
+            <symbol>profit</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: a" verbose="Uninitialized variable: a" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="30" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="26" column="19" info="Assuming condition is false"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: b" verbose="Uninitialized variable: b" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="31" column="11"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="26" column="19" info="Assuming condition is false"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: c" verbose="Uninitialized variable: c" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="39" column="12"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="32" column="19" info="Assuming condition is false"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: c[i]" verbose="Uninitialized variable: c[i]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="35" column="18"/>
+            <symbol>c[i]</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="24" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;c&apos; is not assigned a value." verbose="Variable &apos;c&apos; is not assigned a value." cwe="665" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="39"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="54"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="69"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="84"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="99"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="114"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ix" verbose="Unused variable: ix" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="129"/>
+            <symbol>ix</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: iy" verbose="Unused variable: iy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="133"/>
+            <symbol>iy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: iz" verbose="Unused variable: iz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="137"/>
+            <symbol>iz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jx" verbose="Unused variable: jx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="141"/>
+            <symbol>jx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jy" verbose="Unused variable: jy" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="145"/>
+            <symbol>jy</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: jz" verbose="Unused variable: jz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="149"/>
+            <symbol>jz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kx" verbose="Unused variable: kx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="153"/>
+            <symbol>kx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ky" verbose="Unused variable: ky" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="157"/>
+            <symbol>ky</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: kz" verbose="Unused variable: kz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="160"/>
+            <symbol>kz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: lx" verbose="Unused variable: lx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="164"/>
+            <symbol>lx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: ly" verbose="Unused variable: ly" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="168"/>
+            <symbol>ly</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: lz" verbose="Unused variable: lz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="172"/>
+            <symbol>lz</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mx" verbose="Unused variable: mx" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="176"/>
+            <symbol>mx</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: my" verbose="Unused variable: my" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="180"/>
+            <symbol>my</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: mz" verbose="Unused variable: mz" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/974-most-profit-assigning-work.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="25" column="184"/>
+            <symbol>mz</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxProfitAssignment&apos; is never used." verbose="The function &apos;maxProfitAssignment&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\974-most-profit-assigning-work.c" line="23" column="0"/>
+            <symbol>maxProfitAssignment</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

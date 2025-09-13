@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;queriesColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;queriesColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="24" column="72" info="Parameter &apos;queriesColSize&apos; can be declared as pointer to const"/>
+            <symbol>queriesColSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n3&apos; is assigned a value that is never used." verbose="Variable &apos;n3&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="13"/>
+            <symbol>n3</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n4&apos; is assigned a value that is never used." verbose="Variable &apos;n4&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="16"/>
+            <symbol>n4</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n5&apos; is assigned a value that is never used." verbose="Variable &apos;n5&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="19"/>
+            <symbol>n5</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n6&apos; is assigned a value that is never used." verbose="Variable &apos;n6&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="22"/>
+            <symbol>n6</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n7&apos; is assigned a value that is never used." verbose="Variable &apos;n7&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="25"/>
+            <symbol>n7</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n8&apos; is assigned a value that is never used." verbose="Variable &apos;n8&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="28"/>
+            <symbol>n8</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n9&apos; is assigned a value that is never used." verbose="Variable &apos;n9&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="31"/>
+            <symbol>n9</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n10&apos; is assigned a value that is never used." verbose="Variable &apos;n10&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="35"/>
+            <symbol>n10</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n11&apos; is assigned a value that is never used." verbose="Variable &apos;n11&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="39"/>
+            <symbol>n11</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n12&apos; is assigned a value that is never used." verbose="Variable &apos;n12&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="43"/>
+            <symbol>n12</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n13&apos; is assigned a value that is never used." verbose="Variable &apos;n13&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="47"/>
+            <symbol>n13</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n14&apos; is assigned a value that is never used." verbose="Variable &apos;n14&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="51"/>
+            <symbol>n14</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n15&apos; is assigned a value that is never used." verbose="Variable &apos;n15&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="55"/>
+            <symbol>n15</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n16&apos; is assigned a value that is never used." verbose="Variable &apos;n16&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="59"/>
+            <symbol>n16</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n17&apos; is assigned a value that is never used." verbose="Variable &apos;n17&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="63"/>
+            <symbol>n17</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n18&apos; is assigned a value that is never used." verbose="Variable &apos;n18&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="67"/>
+            <symbol>n18</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n19&apos; is assigned a value that is never used." verbose="Variable &apos;n19&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="71"/>
+            <symbol>n19</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n20&apos; is assigned a value that is never used." verbose="Variable &apos;n20&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="75"/>
+            <symbol>n20</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n21&apos; is assigned a value that is never used." verbose="Variable &apos;n21&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="79"/>
+            <symbol>n21</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n22&apos; is assigned a value that is never used." verbose="Variable &apos;n22&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="83"/>
+            <symbol>n22</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n23&apos; is assigned a value that is never used." verbose="Variable &apos;n23&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="87"/>
+            <symbol>n23</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n24&apos; is assigned a value that is never used." verbose="Variable &apos;n24&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="91"/>
+            <symbol>n24</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n25&apos; is assigned a value that is never used." verbose="Variable &apos;n25&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="95"/>
+            <symbol>n25</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n26&apos; is assigned a value that is never used." verbose="Variable &apos;n26&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="99"/>
+            <symbol>n26</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n27&apos; is assigned a value that is never used." verbose="Variable &apos;n27&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="103"/>
+            <symbol>n27</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n28&apos; is assigned a value that is never used." verbose="Variable &apos;n28&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="107"/>
+            <symbol>n28</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n29&apos; is assigned a value that is never used." verbose="Variable &apos;n29&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="111"/>
+            <symbol>n29</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n30&apos; is assigned a value that is never used." verbose="Variable &apos;n30&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="115"/>
+            <symbol>n30</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n31&apos; is assigned a value that is never used." verbose="Variable &apos;n31&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="119"/>
+            <symbol>n31</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n32&apos; is assigned a value that is never used." verbose="Variable &apos;n32&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="123"/>
+            <symbol>n32</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n33&apos; is assigned a value that is never used." verbose="Variable &apos;n33&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="127"/>
+            <symbol>n33</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n34&apos; is assigned a value that is never used." verbose="Variable &apos;n34&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="131"/>
+            <symbol>n34</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n35&apos; is assigned a value that is never used." verbose="Variable &apos;n35&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="26" column="135"/>
+            <symbol>n35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="25" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="25" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="25" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1733-sum-of-matrix-after-queries.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="25" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;matrixSumQueries&apos; is never used." verbose="The function &apos;matrixSumQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1733-sum-of-matrix-after-queries.c" line="24" column="0"/>
+            <symbol>matrixSumQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

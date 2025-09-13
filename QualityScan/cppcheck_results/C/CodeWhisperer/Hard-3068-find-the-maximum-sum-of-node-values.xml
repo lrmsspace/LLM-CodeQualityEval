@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="clarifyCondition" severity="style" msg="Boolean result is used in bitwise operation. Clarify expression with parentheses." verbose="Suspicious expression. Boolean result is used in bitwise operation. The operator &apos;!&apos; and the comparison operators have higher precedence than bitwise operators. It is recommended that the expression is clarified with parentheses." cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3068-find-the-maximum-sum-of-node-values.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3068-find-the-maximum-sum-of-node-values.c" line="47" column="21"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3068-find-the-maximum-sum-of-node-values.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3068-find-the-maximum-sum-of-node-values.c" line="36" column="32" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumValueSum&apos; is never used." verbose="The function &apos;maximumValueSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3068-find-the-maximum-sum-of-node-values.c" line="36" column="0"/>
+            <symbol>maximumValueSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

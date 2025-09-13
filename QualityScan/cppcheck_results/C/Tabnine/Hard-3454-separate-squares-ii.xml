@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;totalArea&apos; is assigned a value that is never used." verbose="Variable &apos;totalArea&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3454-separate-squares-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="26" column="22"/>
+            <symbol>totalArea</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;xi&apos; is assigned a value that is never used." verbose="Variable &apos;xi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3454-separate-squares-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="30" column="16"/>
+            <symbol>xi</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;yi&apos; is assigned a value that is never used." verbose="Variable &apos;yi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3454-separate-squares-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="31" column="16"/>
+            <symbol>yi</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;totalArea&apos; is assigned a value that is never used." verbose="Variable &apos;totalArea&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3454-separate-squares-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="35" column="19"/>
+            <symbol>totalArea</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;xi&apos; is assigned a value that is never used." verbose="Variable &apos;xi&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3454-separate-squares-ii.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="47" column="20"/>
+            <symbol>xi</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;separateSquares&apos; is never used." verbose="The function &apos;separateSquares&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3454-separate-squares-ii.c" line="25" column="0"/>
+            <symbol>separateSquares</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

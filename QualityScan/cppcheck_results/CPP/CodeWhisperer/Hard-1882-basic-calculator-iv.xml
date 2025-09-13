@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;Term&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;Term&apos; has a constructor with 1 argument that is not explicit. Such, so called &quot;Converting constructors&quot;, should in general be explicit for type safety reasons as that prevents unintended implicit conversions." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1882-basic-calculator-iv.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="56" column="13"/>
+            <symbol>Term</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;evalints&apos; can be declared as reference to const" verbose="Parameter &apos;evalints&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1882-basic-calculator-iv.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="85" column="100" info="Parameter &apos;evalints&apos; can be declared as reference to const"/>
+            <symbol>evalints</symbol>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::accumulate algorithm instead of a raw loop." verbose="Consider using std::accumulate algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1882-basic-calculator-iv.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="79" column="28"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1882-basic-calculator-iv.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="188" column="50"/>
+        </error>
+        <error id="useStlAlgorithm" severity="style" msg="Consider using std::find_if algorithm instead of a raw loop." verbose="Consider using std::find_if algorithm instead of a raw loop." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1882-basic-calculator-iv.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="221" column="57"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;basicCalculatorIV&apos; is never used." verbose="The function &apos;basicCalculatorIV&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1882-basic-calculator-iv.cpp" line="85" column="0"/>
+            <symbol>basicCalculatorIV</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

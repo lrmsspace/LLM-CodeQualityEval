@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unknownEvaluationOrder" severity="error" msg="Expression &apos;powers[++index]=powers[index-1]*3&apos; depends on order of evaluation of side effects" verbose="Expression &apos;powers[++index]=powers[index-1]*3&apos; depends on order of evaluation of side effects" cwe="768" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1368-check-if-number-is-a-sum-of-powers-of-three.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1368-check-if-number-is-a-sum-of-powers-of-three.c" line="31" column="25"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;checkPowersOfThree&apos; is never used." verbose="The function &apos;checkPowersOfThree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1368-check-if-number-is-a-sum-of-powers-of-three.c" line="19" column="0"/>
+            <symbol>checkPowersOfThree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

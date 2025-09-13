@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3357-minimize-the-maximum-adjacent-element-difference.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="0" column="0"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;nums[i]&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;nums[i]&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3357-minimize-the-maximum-adjacent-element-difference.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="56" column="25" info="nums[i] is overwritten"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="55" column="25" info="nums[i] is assigned"/>
+            <symbol>nums[i]</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;maxv-minv&apos;." verbose="Signed integer overflow for expression &apos;maxv-minv&apos;." cwe="190" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3357-minimize-the-maximum-adjacent-element-difference.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="43" column="25" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="35" column="36" info="Assignment &apos;minv=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="36" column="27" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="35" column="20" info="Assignment &apos;maxv=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;maxv1-minv1&apos;." verbose="Signed integer overflow for expression &apos;maxv1-minv1&apos;." cwe="190" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3357-minimize-the-maximum-adjacent-element-difference.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="54" column="40" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="47" column="46" info="Assignment &apos;minv1=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="48" column="35" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="47" column="29" info="Assignment &apos;maxv1=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;maxv2-minv2&apos;." verbose="Signed integer overflow for expression &apos;maxv2-minv2&apos;." cwe="190" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Hard/3357-minimize-the-maximum-adjacent-element-difference.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="64" column="40" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="57" column="46" info="Assignment &apos;minv2=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="58" column="35" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="57" column="29" info="Assignment &apos;maxv2=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDifference&apos; is never used." verbose="The function &apos;minDifference&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Hard\3357-minimize-the-maximum-adjacent-element-difference.cpp" line="33" column="0"/>
+            <symbol>minDifference</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

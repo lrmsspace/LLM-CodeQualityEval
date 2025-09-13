@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Copilot/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="0" column="0"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;knightMoves&apos; can be declared as const array" verbose="Variable &apos;knightMoves&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="38" column="9" info="Variable &apos;knightMoves&apos; can be declared as const array"/>
+            <symbol>knightMoves</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxMoves&apos; is never used." verbose="The function &apos;maxMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="36" column="0"/>
+            <symbol>maxMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

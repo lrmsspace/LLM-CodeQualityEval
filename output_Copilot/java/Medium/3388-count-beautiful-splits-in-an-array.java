@@ -1,0 +1,47 @@
+/*
+ You are given an array nums.
+ A split of an array nums is beautiful if:
+ The array nums is split into three subarrays: nums1, nums2, and nums3, such that nums can be formed by concatenating nums1, nums2, and nums3 in that order.
+ The subarray nums1 is a prefix of nums2 OR nums2 is a prefix of nums3.
+ Return the number of ways you can make this split.
+ Example 1:
+ Input: nums = [1,1,2,1]
+ Output: 2
+ Explanation:
+ The beautiful splits are:
+ A split with nums1 = [1], nums2 = [1,2], nums3 = [1].
+ A split with nums1 = [1], nums2 = [1], nums3 = [2,1].
+ Example 2:
+ Input: nums = [1,2,3,4]
+ Output: 0
+ Explanation:
+ There are 0 beautiful splits.
+ Constraints:
+ 1 <= nums.length <= 5000
+ 0 <= nums[i] <= 50
+*/
+
+class Solution {
+    public int beautifulSplits(int[] nums) {
+        int n = nums.length;
+        int count = 0;
+
+        for (int i = 1; i < n - 1; i++) {
+            if (isBeautifulSplit(nums, 0, i, i + 1, n - 1)) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    private boolean isBeautifulSplit(int[] nums, int start1, int end1, int start2, int end2) {
+        // Check if nums1 is a prefix of nums2 or nums2 is a prefix of nums3
+        for (int i = start1; i <= end1; i++) {
+            if (nums[i] != nums[start2 + (i - start1)]) {
+                return false;
+            }
+        }
+        return true;
+    }
+}

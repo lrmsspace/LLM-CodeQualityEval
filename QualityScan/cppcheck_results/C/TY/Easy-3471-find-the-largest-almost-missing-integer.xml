@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: flag" verbose="Uninitialized variable: flag" cwe="457" file0="F:/Benchmark/new/TY/output/c/Easy/3471-find-the-largest-almost-missing-integer.c">
+            <location file="F:\Benchmark\new\TY\output\c\Easy\3471-find-the-largest-almost-missing-integer.c" line="61" column="9"/>
+            <location file="F:\Benchmark\new\TY\output\c\Easy\3471-find-the-largest-almost-missing-integer.c" line="48" column="19" info="Assuming condition is false"/>
+            <symbol>flag</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;largestInteger&apos; is never used." verbose="The function &apos;largestInteger&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Easy\3471-find-the-largest-almost-missing-integer.c" line="37" column="0"/>
+            <symbol>largestInteger</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

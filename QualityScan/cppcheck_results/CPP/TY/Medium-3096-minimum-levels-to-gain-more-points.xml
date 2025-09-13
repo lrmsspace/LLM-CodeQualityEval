@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="0" column="0"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="41" column="17"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;leftSum&apos; is assigned a value that is never used." verbose="Variable &apos;leftSum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="53" column="25"/>
+            <symbol>leftSum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rightSum&apos; is assigned a value that is never used." verbose="Variable &apos;rightSum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="54" column="26"/>
+            <symbol>rightSum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;leftSum&apos; is assigned a value that is never used." verbose="Variable &apos;leftSum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="56" column="25"/>
+            <symbol>leftSum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rightSum&apos; is assigned a value that is never used." verbose="Variable &apos;rightSum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/cpp/Medium/3096-minimum-levels-to-gain-more-points.cpp">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="59" column="26"/>
+            <symbol>rightSum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumLevels&apos; is never used." verbose="The function &apos;minimumLevels&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\cpp\Medium\3096-minimum-levels-to-gain-more-points.cpp" line="39" column="0"/>
+            <symbol>minimumLevels</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;date1&apos; can be declared as pointer to const" verbose="Parameter &apos;date1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/284-number-of-days-between-two-dates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\284-number-of-days-between-two-dates.c" line="14" column="28" info="Parameter &apos;date1&apos; can be declared as pointer to const"/>
+            <symbol>date1</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;date2&apos; can be declared as pointer to const" verbose="Parameter &apos;date2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Easy/284-number-of-days-between-two-dates.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\284-number-of-days-between-two-dates.c" line="14" column="41" info="Parameter &apos;date2&apos; can be declared as pointer to const"/>
+            <symbol>date2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;daysBetweenDates&apos; is never used." verbose="The function &apos;daysBetweenDates&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Easy\284-number-of-days-between-two-dates.c" line="14" column="0"/>
+            <symbol>daysBetweenDates</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

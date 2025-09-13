@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;ans[2]&apos; accessed at index 2, which is out of bounds." verbose="Array &apos;ans[2]&apos; accessed at index 2, which is out of bounds." cwe="788" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="48" column="8" info="Array index out of bounds"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false" verbose="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="38" column="49" info="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="37" column="58" info="Assuming that condition &apos;stones[right]-stones[left]&lt;=n-2&apos; is not redundant"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;left&lt;n&apos; is always false" verbose="Condition &apos;left&lt;n&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="43" column="17" info="Condition &apos;left&lt;n&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="36" column="17" info="Assuming that condition &apos;left&lt;n&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false" verbose="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="45" column="49" info="Condition &apos;stones[right]-stones[left]==n-1&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="44" column="58" info="Assuming that condition &apos;stones[right]-stones[left]&lt;=n-2&apos; is not redundant"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;stones[right]&apos; and &apos;stones[left]&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="37" column="43"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;stones[right]&apos; and &apos;stones[left]&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="38" column="34"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;stones[right]&apos; and &apos;stones[left]&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="44" column="43"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;stones[right]&apos; and &apos;stones[left]&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="45" column="34"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="16" info="&apos;left&apos; is assigned value &apos;0&apos; here."/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="32" column="27" info="&apos;right&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;stones&apos; can be declared as pointer to const" verbose="Parameter &apos;stones&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1091-moving-stones-until-consecutive-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="29" column="28" info="Parameter &apos;stones&apos; can be declared as pointer to const"/>
+            <symbol>stones</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numMovesStonesII&apos; is never used." verbose="The function &apos;numMovesStonesII&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1091-moving-stones-until-consecutive-ii.c" line="29" column="0"/>
+            <symbol>numMovesStonesII</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

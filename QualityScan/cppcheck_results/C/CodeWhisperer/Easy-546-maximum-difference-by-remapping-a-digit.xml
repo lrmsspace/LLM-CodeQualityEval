@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/546-maximum-difference-by-remapping-a-digit.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="37" column="30"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="29" column="20" info="&apos;maxDigit&apos; is assigned value &apos;9&apos; here."/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/546-maximum-difference-by-remapping-a-digit.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="40" column="30"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="30" column="20" info="&apos;minDigit&apos; is assigned value &apos;0&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;maxDigitIndex&apos; is assigned a value that is never used." verbose="Variable &apos;maxDigitIndex&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/546-maximum-difference-by-remapping-a-digit.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="31" column="23"/>
+            <symbol>maxDigitIndex</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minDigitIndex&apos; is assigned a value that is never used." verbose="Variable &apos;minDigitIndex&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/546-maximum-difference-by-remapping-a-digit.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="32" column="23"/>
+            <symbol>minDigitIndex</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMaxDifference&apos; is never used." verbose="The function &apos;minMaxDifference&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\546-maximum-difference-by-remapping-a-digit.c" line="26" column="0"/>
+            <symbol>minMaxDifference</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

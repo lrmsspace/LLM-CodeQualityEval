@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;x&apos; shadows outer argument" verbose="Local variable &apos;x&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="54" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="87" info="Shadowed declaration"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;x&apos; shadows outer argument" verbose="Local variable &apos;x&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="102" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="87" info="Shadowed declaration"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="32" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;queries&apos; can be declared as pointer to const" verbose="Parameter &apos;queries&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="57" info="Parameter &apos;queries&apos; can be declared as pointer to const"/>
+            <symbol>queries</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;returnSize&apos; can be declared as pointer to const" verbose="Parameter &apos;returnSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="95" info="Parameter &apos;returnSize&apos; can be declared as pointer to const"/>
+            <symbol>returnSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;count&apos; is assigned a value that is never used." verbose="Variable &apos;count&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="35" column="19"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="12"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="29" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="14"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="18"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="22"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="26"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="30"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="34"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="38"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="46"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="50"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="54"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="58"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="62"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="66"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="70"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="74"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="78"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="82"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="86"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="90"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="94"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="98"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="102"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="106"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/new/TY/output/c/Medium/3159-find-occurrences-of-an-element-in-an-array.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="30" column="110"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;occurrencesOfElement&apos; is never used." verbose="The function &apos;occurrencesOfElement&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3159-find-occurrences-of-an-element-in-an-array.c" line="27" column="0"/>
+            <symbol>occurrencesOfElement</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

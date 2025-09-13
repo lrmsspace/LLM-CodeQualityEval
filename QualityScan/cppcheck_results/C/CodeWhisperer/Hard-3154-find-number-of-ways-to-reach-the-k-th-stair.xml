@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3154-find-number-of-ways-to-reach-the-k-th-stair.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3154-find-number-of-ways-to-reach-the-k-th-stair.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i-2&gt;=0&apos; is always true" verbose="Condition &apos;i-2&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3154-find-number-of-ways-to-reach-the-k-th-stair.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3154-find-number-of-ways-to-reach-the-k-th-stair.c" line="48" column="23" info="Condition &apos;i-2&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3154-find-number-of-ways-to-reach-the-k-th-stair.c" line="45" column="18" info="Assignment &apos;i=2&apos;, assigned value is 2"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;waysToReachStair&apos; is never used." verbose="The function &apos;waysToReachStair&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3154-find-number-of-ways-to-reach-the-k-th-stair.c" line="41" column="0"/>
+            <symbol>waysToReachStair</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

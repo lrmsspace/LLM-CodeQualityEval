@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;parents&apos; can be declared as pointer to const" verbose="Parameter &apos;parents&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="41" column="39" info="Parameter &apos;parents&apos; can be declared as pointer to const"/>
+            <symbol>parents</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ans&apos; can be declared as pointer to const" verbose="Variable &apos;ans&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="43" column="10" info="Variable &apos;ans&apos; can be declared as pointer to const"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;ans&apos; used instead of size of its data." verbose="Size of pointer &apos;ans&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*ans)&apos;." cwe="467" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="58" column="12"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="43" column="14"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;ans&apos; is allocated memory that is never used." verbose="Variable &apos;ans&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/2113-smallest-missing-genetic-value-in-each-subtree.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="43" column="29"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestMissingValueSubtree&apos; is never used." verbose="The function &apos;smallestMissingValueSubtree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\2113-smallest-missing-genetic-value-in-each-subtree.c" line="41" column="0"/>
+            <symbol>smallestMissingValueSubtree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

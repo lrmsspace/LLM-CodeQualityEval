@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;prev!=-1&apos; is always false" verbose="Condition &apos;prev!=-1&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Easy/173-minimum-distance-between-bst-nodes.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\173-minimum-distance-between-bst-nodes.c" line="35" column="18" info="Condition &apos;prev!=-1&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\173-minimum-distance-between-bst-nodes.c" line="29" column="18" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\173-minimum-distance-between-bst-nodes.c" line="26" column="17" info="Assignment &apos;prev=-1&apos;, assigned value is -1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDiffInBST&apos; is never used." verbose="The function &apos;minDiffInBST&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Easy\173-minimum-distance-between-bst-nodes.c" line="24" column="0"/>
+            <symbol>minDiffInBST</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;words&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;words&apos; nulled but not freed upon failure" cwe="401" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="49" column="9"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: words" verbose="Possible null pointer dereference: words" cwe="476" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="53" column="11" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="47" column="18" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="46" column="20" info="Assignment &apos;words=NULL&apos;, assigned value is 0"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: words" verbose="Possible null pointer dereference: words" cwe="476" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="59" column="5" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="47" column="18" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="46" column="20" info="Assignment &apos;words=NULL&apos;, assigned value is 0"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: words" verbose="Possible null pointer dereference: words" cwe="476" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="60" column="12" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="47" column="18" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="46" column="20" info="Assignment &apos;words=NULL&apos;, assigned value is 0"/>
+            <symbol>words</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;str1&apos; can be declared as pointer to const" verbose="Variable &apos;str1&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="31" column="11" info="Variable &apos;str1&apos; can be declared as pointer to const"/>
+            <symbol>str1</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;str2&apos; can be declared as pointer to const" verbose="Variable &apos;str2&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/1247-rearrange-words-in-a-sentence.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="32" column="11" info="Variable &apos;str2&apos; can be declared as pointer to const"/>
+            <symbol>str2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;arrangeWords&apos; is never used." verbose="The function &apos;arrangeWords&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\1247-rearrange-words-in-a-sentence.c" line="43" column="0"/>
+            <symbol>arrangeWords</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

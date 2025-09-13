@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="memleak" severity="error" msg="Memory leak: res" verbose="Memory leak: res" cwe="401" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="37" column="9"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: sum" verbose="Memory leak: sum" cwe="401" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="37" column="9"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: ret" verbose="Memory leak: ret" cwe="401" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="37" column="9"/>
+            <symbol>ret</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;j&apos; is assigned a value that is never used." verbose="Variable &apos;j&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="32" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findFrequentTreeSum&apos; is never used." verbose="The function &apos;findFrequentTreeSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="26" column="0"/>
+            <symbol>findFrequentTreeSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

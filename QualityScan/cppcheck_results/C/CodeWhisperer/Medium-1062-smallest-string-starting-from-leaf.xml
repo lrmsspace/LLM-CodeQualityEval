@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="47" column="5"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: buffer" verbose="Memory leak: buffer" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="35" column="9"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: buffer" verbose="Memory leak: buffer" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="40" column="9"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: result" verbose="Memory leak: result" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="48" column="1"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: buffer" verbose="Memory leak: buffer" cwe="401" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="48" column="1"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;buffer&apos; can be declared as pointer to const" verbose="Variable &apos;buffer&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="32" column="11" info="Variable &apos;buffer&apos; can be declared as pointer to const"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;resultSize&apos; is assigned a value that is never used." verbose="Variable &apos;resultSize&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="31" column="20"/>
+            <symbol>resultSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;buffer&apos; is assigned a value that is never used." verbose="Variable &apos;buffer&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="32" column="18"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bufferSize&apos; is assigned a value that is never used." verbose="Variable &apos;bufferSize&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="33" column="20"/>
+            <symbol>bufferSize</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;buffer&apos; is allocated memory that is never used." verbose="Variable &apos;buffer&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/c/Medium/1062-smallest-string-starting-from-leaf.c">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="32" column="34"/>
+            <symbol>buffer</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestFromLeaf&apos; is never used." verbose="The function &apos;smallestFromLeaf&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\c\Medium\1062-smallest-string-starting-from-leaf.c" line="29" column="0"/>
+            <symbol>smallestFromLeaf</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

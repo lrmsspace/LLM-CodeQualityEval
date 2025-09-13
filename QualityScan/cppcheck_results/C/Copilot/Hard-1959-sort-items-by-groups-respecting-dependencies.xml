@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="0" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;group&apos; shadows outer argument" verbose="Local variable &apos;group&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="89" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="27" column="35" info="Shadowed declaration"/>
+            <symbol>group</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;group&apos; can be declared as pointer to const" verbose="Parameter &apos;group&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="27" column="35" info="Parameter &apos;group&apos; can be declared as pointer to const"/>
+            <symbol>group</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;beforeItemsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;beforeItemsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="27" column="102" info="Parameter &apos;beforeItemsColSize&apos; can be declared as pointer to const"/>
+            <symbol>beforeItemsColSize</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: itemIndegree[i]" verbose="Memory is allocated but not initialized: itemIndegree[i]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="48" column="25"/>
+            <symbol>itemIndegree[i]</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: groupIndegree[group[j]]" verbose="Memory is allocated but not initialized: groupIndegree[group[j]]" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Hard/1959-sort-items-by-groups-respecting-dependencies.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="55" column="30"/>
+            <symbol>groupIndegree[group[j]]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sortItems&apos; is never used." verbose="The function &apos;sortItems&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Hard\1959-sort-items-by-groups-respecting-dependencies.c" line="27" column="0"/>
+            <symbol>sortItems</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

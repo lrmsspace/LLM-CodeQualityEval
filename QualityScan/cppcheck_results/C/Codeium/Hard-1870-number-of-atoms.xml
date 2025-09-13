@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;name&apos; shadows outer variable" verbose="Local variable &apos;name&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="57" column="24" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="34" column="12" info="Shadowed declaration"/>
+            <symbol>name</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;num&apos; shadows outer variable" verbose="Local variable &apos;num&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="62" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="35" column="9" info="Shadowed declaration"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="33" column="15"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Found suspicious operator &apos;,&apos;, result is not used." verbose="Found suspicious operator &apos;,&apos;, result is not used." cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="55" column="23"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;formula&apos; can be declared as pointer to const" verbose="Parameter &apos;formula&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="30" column="26" info="Parameter &apos;formula&apos; can be declared as pointer to const"/>
+            <symbol>formula</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;num&apos; is assigned a value that is never used." verbose="Variable &apos;num&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1870-number-of-atoms.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="35" column="13"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countOfAtoms&apos; is never used." verbose="The function &apos;countOfAtoms&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1870-number-of-atoms.c" line="30" column="0"/>
+            <symbol>countOfAtoms</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

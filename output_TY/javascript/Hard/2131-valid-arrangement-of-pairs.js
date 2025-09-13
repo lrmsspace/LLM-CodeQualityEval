@@ -1,0 +1,67 @@
+/**https://leetcode.com/problems/valid-arrangement-of-pairs/ */
+//You are given a 0-indexed 2D integer array pairs where pairs[i] = [starti, endi]. An arrangement of pairs is valid if for every index i where 1 <= i < pairs.length, we have endi-1 == starti.
+//Return any valid arrangement of pairs.
+//Note: The inputs will be generated such that there exists a valid arrangement of pairs.
+// 
+//Example 1:
+//Input: pairs = [[5,1],[4,5],[11,9],[9,4]]
+//Output: [[11,9],[9,4],[4,5],[5,1]]
+//Explanation:
+//This is a valid arrangement since endi-1 always equals starti.
+//end0 = 9 == 9 = start1 
+//end1 = 4 == 4 = start2
+//end2 = 5 == 5 = start3
+//Example 2:
+//Input: pairs = [[1,3],[3,2],[2,1]]
+//Output: [[1,3],[3,2],[2,1]]
+//Explanation:
+//This is a valid arrangement since endi-1 always equals starti.
+//end0 = 3 == 3 = start1
+//end1 = 2 == 2 = start2
+//The arrangements [[2,1],[1,3],[3,2]] and [[3,2],[2,1],[1,3]] are also valid.
+//Example 3:
+//Input: pairs = [[1,2],[1,3],[2,1]]
+//Output: [[1,2],[2,1],[1,3]]
+//Explanation:
+//This is a valid arrangement since endi-1 always equals starti.
+//end0 = 2 == 2 = start1
+//end1 = 1 == 1 = start2
+// 
+//Constraints:
+//	1 <= pairs.length <= 105
+//	pairs[i].length == 2
+//	0 <= starti, endi <= 109
+//	starti != endi
+//	No two pairs are exactly the same.
+//	There exists a valid arrangement of pairs.
+/**
+ * @param {number[][]} pairs
+ * @return {number[][]}
+ */
+var validArrangement = function(pairs) {
+    let graph = new Map();
+    let indegree = new Map();
+    for(let [u, v] of pairs){
+        if(graph.has(u)) graph.get(u).push(v);
+        else graph.set(u, [v]);
+        indegree.set(v, (indegree.get(v) || 0) + 1);
+    }
+    let start = -1;
+    for(let [u, v] of pairs){
+        if(!indegree.has(u)){
+            start = u;
+            break;
+        }
+    }
+    let ans = [];
+    let stack = [start];
+    while(stack.length){
+        let node = stack.pop();
+        ans.push(node);
+        let nextNode = graph.get(node)[0];
+        graph.get(node).shift();
+        if(graph.get(node).length === 0) indegree.delete(node);
+        if(nextNode !== undefined && !indegree.has(nextNode)) stack.push(nextNode);
+    }
+    return ans.length === n;
+};

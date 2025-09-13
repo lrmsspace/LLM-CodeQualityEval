@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;equation&apos; can be declared as pointer to const" verbose="Parameter &apos;equation&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/890-solve-the-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\890-solve-the-equation.c" line="19" column="29" info="Parameter &apos;equation&apos; can be declared as pointer to const"/>
+            <symbol>equation</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/890-solve-the-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\890-solve-the-equation.c" line="29" column="13"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\890-solve-the-equation.c" line="21" column="47" info="Assuming condition is false"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: j" verbose="Uninitialized variable: j" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/890-solve-the-equation.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\890-solve-the-equation.c" line="23" column="21"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;solveEquation&apos; is never used." verbose="The function &apos;solveEquation&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\890-solve-the-equation.c" line="19" column="0"/>
+            <symbol>solveEquation</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

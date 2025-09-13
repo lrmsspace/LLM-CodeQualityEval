@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp[1]&apos; is assigned a value that is never used." verbose="Variable &apos;tmp[1]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1877-cracking-the-safe.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1877-cracking-the-safe.c" line="45" column="20"/>
+            <symbol>tmp[1]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;visited[idx]&apos; is assigned a value that is never used." verbose="Variable &apos;visited[idx]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1877-cracking-the-safe.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1877-cracking-the-safe.c" line="47" column="26"/>
+            <symbol>visited[idx]</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp[1]&apos; is assigned a value that is never used." verbose="Variable &apos;tmp[1]&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1877-cracking-the-safe.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1877-cracking-the-safe.c" line="50" column="28"/>
+            <symbol>tmp[1]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;crackSafe&apos; is never used." verbose="The function &apos;crackSafe&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1877-cracking-the-safe.c" line="34" column="0"/>
+            <symbol>crackSafe</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

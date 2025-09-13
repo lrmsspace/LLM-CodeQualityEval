@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;cur&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;cur&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1834-k-th-smallest-in-lexicographical-order.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1834-k-th-smallest-in-lexicographical-order.cpp" line="31" column="17" info="cur is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1834-k-th-smallest-in-lexicographical-order.cpp" line="25" column="29" info="cur is assigned"/>
+            <symbol>cur</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findKthNumber&apos; is never used." verbose="The function &apos;findKthNumber&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1834-k-th-smallest-in-lexicographical-order.cpp" line="16" column="0"/>
+            <symbol>findKthNumber</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

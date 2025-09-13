@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreachableCode" severity="style" msg="Statements following &apos;return&apos; will never be executed." verbose="Statements following &apos;return&apos; will never be executed." cwe="561" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/2831-find-the-longest-equal-subarray.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\2831-find-the-longest-equal-subarray.cpp" line="43" column="1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestEqualSubarray&apos; is never used." verbose="The function &apos;longestEqualSubarray&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\2831-find-the-longest-equal-subarray.cpp" line="28" column="0"/>
+            <symbol>longestEqualSubarray</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

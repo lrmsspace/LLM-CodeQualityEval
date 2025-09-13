@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n6" verbose="Unused variable: n6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/933-monotone-increasing-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="18" column="44"/>
+            <symbol>n6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n7" verbose="Unused variable: n7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/933-monotone-increasing-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="18" column="48"/>
+            <symbol>n7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n8" verbose="Unused variable: n8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/933-monotone-increasing-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="18" column="52"/>
+            <symbol>n8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n9" verbose="Unused variable: n9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/933-monotone-increasing-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="18" column="56"/>
+            <symbol>n9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n10" verbose="Unused variable: n10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/933-monotone-increasing-digits.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="18" column="60"/>
+            <symbol>n10</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;monotoneIncreasingDigits&apos; is never used." verbose="The function &apos;monotoneIncreasingDigits&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\933-monotone-increasing-digits.c" line="17" column="0"/>
+            <symbol>monotoneIncreasingDigits</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

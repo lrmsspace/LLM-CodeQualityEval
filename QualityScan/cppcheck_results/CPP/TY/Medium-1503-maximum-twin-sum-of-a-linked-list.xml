@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uselessAssignmentPtrArg" severity="warning" msg="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" verbose="Assignment of function parameter has no effect outside the function. Did you forget dereferencing it?" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1503-maximum-twin-sum-of-a-linked-list.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="66" column="9"/>
+        </error>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: prev" verbose="Possible null pointer dereference: prev" cwe="476" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1503-maximum-twin-sum-of-a-linked-list.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="52" column="9" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="47" column="20" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="46" column="26" info="Assignment &apos;prev=nullptr&apos;, assigned value is 0"/>
+            <symbol>prev</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;head&apos; is assigned a value that is never used." verbose="Variable &apos;head&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1503-maximum-twin-sum-of-a-linked-list.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="66" column="14"/>
+            <symbol>head</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;pairSum&apos; is never used." verbose="The function &apos;pairSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1503-maximum-twin-sum-of-a-linked-list.cpp" line="43" column="0"/>
+            <symbol>pairSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

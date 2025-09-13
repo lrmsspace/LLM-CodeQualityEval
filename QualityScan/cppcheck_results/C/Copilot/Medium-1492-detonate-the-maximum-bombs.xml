@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;bombsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;bombsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1492-detonate-the-maximum-bombs.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1492-detonate-the-maximum-bombs.c" line="34" column="56" info="Parameter &apos;bombsColSize&apos; can be declared as pointer to const"/>
+            <symbol>bombsColSize</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r1&apos; is assigned a value that is never used." verbose="Variable &apos;r1&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1492-detonate-the-maximum-bombs.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1492-detonate-the-maximum-bombs.c" line="44" column="24"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximumDetonation&apos; is never used." verbose="The function &apos;maximumDetonation&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1492-detonate-the-maximum-bombs.c" line="34" column="0"/>
+            <symbol>maximumDetonation</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

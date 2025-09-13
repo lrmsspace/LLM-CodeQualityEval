@@ -1,0 +1,6 @@
+projectKey=TY_CPP
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=TY_CPP
+ceTaskId=d851a42c-a335-43b0-a02c-07fbb6cab93f
+ceTaskUrl=http://localhost:9000/api/ce/task?id=d851a42c-a335-43b0-a02c-07fbb6cab93f

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Medium/3393-count-paths-with-the-given-xor-value.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3393-count-paths-with-the-given-xor-value.c" line="0" column="0"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;%&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3393-count-paths-with-the-given-xor-value.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3393-count-paths-with-the-given-xor-value.c" line="55" column="31"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3393-count-paths-with-the-given-xor-value.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3393-count-paths-with-the-given-xor-value.c" line="36" column="59" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countPathsWithXorValue&apos; is never used." verbose="The function &apos;countPathsWithXorValue&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3393-count-paths-with-the-given-xor-value.c" line="36" column="0"/>
+            <symbol>countPathsWithXorValue</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

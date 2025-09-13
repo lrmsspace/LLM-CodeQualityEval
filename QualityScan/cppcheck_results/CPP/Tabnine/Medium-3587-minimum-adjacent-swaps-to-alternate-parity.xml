@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;evenCount&apos; is assigned a value that is never used." verbose="Variable &apos;evenCount&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/cpp/Medium/3587-minimum-adjacent-swaps-to-alternate-parity.cpp">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3587-minimum-adjacent-swaps-to-alternate-parity.cpp" line="53" column="23"/>
+            <symbol>evenCount</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minSwaps&apos; is never used." verbose="The function &apos;minSwaps&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\cpp\Medium\3587-minimum-adjacent-swaps-to-alternate-parity.cpp" line="37" column="0"/>
+            <symbol>minSwaps</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

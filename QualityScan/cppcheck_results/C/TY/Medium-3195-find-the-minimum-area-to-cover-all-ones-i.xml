@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;gridColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;gridColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="20" column="48" info="Parameter &apos;gridColSize&apos; can be declared as pointer to const"/>
+            <symbol>gridColSize</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_row-min_row&apos;." verbose="Signed integer overflow for expression &apos;max_row-min_row&apos;." cwe="190" file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="35" column="26" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="21" column="23" info="Assignment &apos;min_row=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="24" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="21" column="42" info="Assignment &apos;max_row=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_row-min_row+1&apos;." verbose="Signed integer overflow for expression &apos;max_row-min_row+1&apos;." cwe="190" file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="35" column="36" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="21" column="23" info="Assignment &apos;min_row=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="24" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="21" column="42" info="Assignment &apos;max_row=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_col-min_col&apos;." verbose="Signed integer overflow for expression &apos;max_col-min_col&apos;." cwe="190" file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="36" column="25" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="22" column="19" info="Assignment &apos;min_col=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="24" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="22" column="38" info="Assignment &apos;max_col=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_col-min_col+1&apos;." verbose="Signed integer overflow for expression &apos;max_col-min_col+1&apos;." cwe="190" file0="F:/Benchmark/new/TY/output/c/Medium/3195-find-the-minimum-area-to-cover-all-ones-i.c">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="36" column="35" info="Integer overflow"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="22" column="19" info="Assignment &apos;min_col=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="24" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="22" column="38" info="Assignment &apos;max_col=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumArea&apos; is never used." verbose="The function &apos;minimumArea&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3195-find-the-minimum-area-to-cover-all-ones-i.c" line="20" column="0"/>
+            <symbol>minimumArea</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

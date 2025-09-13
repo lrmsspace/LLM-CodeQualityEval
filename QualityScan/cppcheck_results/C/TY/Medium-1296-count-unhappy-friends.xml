@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;n13&apos; can be reduced." verbose="The scope of the variable &apos;n13&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="75"/>
+            <symbol>n13</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;n14&apos; can be reduced." verbose="The scope of the variable &apos;n14&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="80"/>
+            <symbol>n14</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;n&apos; shadows outer argument" verbose="Local variable &apos;n&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="194" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="42" column="24" info="Shadowed declaration"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n13&apos; is assigned a value that is never used." verbose="Variable &apos;n13&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="71" column="29"/>
+            <symbol>n13</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n14&apos; is assigned a value that is never used." verbose="Variable &apos;n14&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="72" column="28"/>
+            <symbol>n14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n15" verbose="Unused variable: n15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="85"/>
+            <symbol>n15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n16" verbose="Unused variable: n16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="90"/>
+            <symbol>n16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n17" verbose="Unused variable: n17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="95"/>
+            <symbol>n17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n18" verbose="Unused variable: n18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="100"/>
+            <symbol>n18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n19" verbose="Unused variable: n19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="105"/>
+            <symbol>n19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n20" verbose="Unused variable: n20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="110"/>
+            <symbol>n20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n21" verbose="Unused variable: n21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="115"/>
+            <symbol>n21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n22" verbose="Unused variable: n22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="120"/>
+            <symbol>n22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n23" verbose="Unused variable: n23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="125"/>
+            <symbol>n23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n24" verbose="Unused variable: n24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="130"/>
+            <symbol>n24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n25" verbose="Unused variable: n25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="135"/>
+            <symbol>n25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n26" verbose="Unused variable: n26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="140"/>
+            <symbol>n26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n27" verbose="Unused variable: n27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="145"/>
+            <symbol>n27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n28" verbose="Unused variable: n28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="150"/>
+            <symbol>n28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n29" verbose="Unused variable: n29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="155"/>
+            <symbol>n29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n30" verbose="Unused variable: n30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="160"/>
+            <symbol>n30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n31" verbose="Unused variable: n31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="165"/>
+            <symbol>n31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n32" verbose="Unused variable: n32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="169"/>
+            <symbol>n32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n33" verbose="Unused variable: n33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="174"/>
+            <symbol>n33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n34" verbose="Unused variable: n34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="179"/>
+            <symbol>n34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n35" verbose="Unused variable: n35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="184"/>
+            <symbol>n35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n36" verbose="Unused variable: n36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1296-count-unhappy-friends.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="43" column="189"/>
+            <symbol>n36</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;unhappyFriends&apos; is never used." verbose="The function &apos;unhappyFriends&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1296-count-unhappy-friends.c" line="42" column="0"/>
+            <symbol>unhappyFriends</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

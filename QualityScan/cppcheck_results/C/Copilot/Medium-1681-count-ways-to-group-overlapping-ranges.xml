@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;rangeA&apos; can be declared as pointer to const" verbose="Variable &apos;rangeA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1681-count-ways-to-group-overlapping-ranges.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1681-count-ways-to-group-overlapping-ranges.c" line="39" column="18" info="Variable &apos;rangeA&apos; can be declared as pointer to const"/>
+            <symbol>rangeA</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;rangeB&apos; can be declared as pointer to const" verbose="Variable &apos;rangeB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Medium/1681-count-ways-to-group-overlapping-ranges.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1681-count-ways-to-group-overlapping-ranges.c" line="40" column="18" info="Variable &apos;rangeB&apos; can be declared as pointer to const"/>
+            <symbol>rangeB</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countWays&apos; is never used." verbose="The function &apos;countWays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Medium\1681-count-ways-to-group-overlapping-ranges.c" line="47" column="0"/>
+            <symbol>countWays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

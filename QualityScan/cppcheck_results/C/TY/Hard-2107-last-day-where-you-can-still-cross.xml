@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;dir&apos; can be declared as pointer to const" verbose="Variable &apos;dir&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="33" column="10" info="Variable &apos;dir&apos; can be declared as pointer to const"/>
+            <symbol>dir</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;idx&apos; is assigned a value that is never used." verbose="Variable &apos;idx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="37" column="17"/>
+            <symbol>idx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;nidx&apos; is assigned a value that is never used." verbose="Variable &apos;nidx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/2107-last-day-where-you-can-still-cross.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="40" column="22"/>
+            <symbol>nidx</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;latestDayToCross&apos; is never used." verbose="The function &apos;latestDayToCross&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\2107-last-day-where-you-can-still-cross.c" line="30" column="0"/>
+            <symbol>latestDayToCross</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

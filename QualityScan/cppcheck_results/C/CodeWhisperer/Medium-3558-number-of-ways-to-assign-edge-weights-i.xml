@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3558-number-of-ways-to-assign-edge-weights-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3558-number-of-ways-to-assign-edge-weights-i.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;!found&apos; is always true" verbose="Condition &apos;!found&apos; is always true" cwe="571" file0="F:/Benchmark/new/CodeWhisperer/output/c/Medium/3558-number-of-ways-to-assign-edge-weights-i.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3558-number-of-ways-to-assign-edge-weights-i.c" line="82" column="34" info="Condition &apos;!found&apos; is always true"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3558-number-of-ways-to-assign-edge-weights-i.c" line="76" column="17" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3558-number-of-ways-to-assign-edge-weights-i.c" line="72" column="17" info="Assignment &apos;found=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;assignEdgeWeights&apos; is never used." verbose="The function &apos;assignEdgeWeights&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Medium\3558-number-of-ways-to-assign-edge-weights-i.c" line="29" column="0"/>
+            <symbol>assignEdgeWeights</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

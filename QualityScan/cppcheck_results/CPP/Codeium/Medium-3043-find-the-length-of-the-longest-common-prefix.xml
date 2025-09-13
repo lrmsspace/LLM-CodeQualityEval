@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;arr1&apos; can be declared as reference to const" verbose="Parameter &apos;arr1&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/3043-find-the-length-of-the-longest-common-prefix.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\3043-find-the-length-of-the-longest-common-prefix.cpp" line="27" column="42" info="Parameter &apos;arr1&apos; can be declared as reference to const"/>
+            <symbol>arr1</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;arr2&apos; can be declared as reference to const" verbose="Parameter &apos;arr2&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/new/Codeium/output/cpp/Medium/3043-find-the-length-of-the-longest-common-prefix.cpp">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\3043-find-the-length-of-the-longest-common-prefix.cpp" line="27" column="61" info="Parameter &apos;arr2&apos; can be declared as reference to const"/>
+            <symbol>arr2</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;longestCommonPrefix&apos; is never used." verbose="The function &apos;longestCommonPrefix&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\cpp\Medium\3043-find-the-length-of-the-longest-common-prefix.cpp" line="27" column="0"/>
+            <symbol>longestCommonPrefix</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

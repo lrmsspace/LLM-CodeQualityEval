@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;expression&apos; can be declared as pointer to const" verbose="Parameter &apos;expression&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1949-brace-expansion-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="43" column="33" info="Parameter &apos;expression&apos; can be declared as pointer to const"/>
+            <symbol>expression</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;tmp&apos; can be declared as pointer to const" verbose="Variable &apos;tmp&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1949-brace-expansion-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="49" column="15" info="Variable &apos;tmp&apos; can be declared as pointer to const"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tmp&apos; is assigned a value that is never used." verbose="Variable &apos;tmp&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1949-brace-expansion-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="49" column="19"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1949-brace-expansion-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="54" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;tmp&apos; is allocated memory that is never used." verbose="Variable &apos;tmp&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1949-brace-expansion-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="49" column="36"/>
+            <symbol>tmp</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;braceExpansionII&apos; is never used." verbose="The function &apos;braceExpansionII&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1949-brace-expansion-ii.c" line="43" column="0"/>
+            <symbol>braceExpansionII</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

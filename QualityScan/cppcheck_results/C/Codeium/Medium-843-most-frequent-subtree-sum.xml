@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&lt;mapIndex&apos; is always false" verbose="Condition &apos;i&lt;mapIndex&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="55" column="23" info="Condition &apos;i&lt;mapIndex&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="45" column="33" info="Assignment &apos;mapIndex=0&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="55" column="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&lt;mapIndex&apos; is always false" verbose="Condition &apos;i&lt;mapIndex&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/843-most-frequent-subtree-sum.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="66" column="23" info="Condition &apos;i&lt;mapIndex&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="45" column="33" info="Assignment &apos;mapIndex=0&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="66" column="18" info="Assignment &apos;i=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findFrequentTreeSum&apos; is never used." verbose="The function &apos;findFrequentTreeSum&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\843-most-frequent-subtree-sum.c" line="37" column="0"/>
+            <symbol>findFrequentTreeSum</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

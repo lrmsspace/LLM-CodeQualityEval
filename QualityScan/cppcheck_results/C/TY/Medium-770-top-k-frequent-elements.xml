@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="21" column="24" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: freq" verbose="Uninitialized variable: freq" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="31" column="16"/>
+            <symbol>freq</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: max" verbose="Unused variable: max" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="22" column="13"/>
+            <symbol>max</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: max_index" verbose="Unused variable: max_index" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="22" column="17"/>
+            <symbol>max_index</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: count" verbose="Unused variable: count" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="22" column="27"/>
+            <symbol>count</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: result" verbose="Unused variable: result" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="23" column="10"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: freq_index" verbose="Unused variable: freq_index" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/770-top-k-frequent-elements.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="26" column="9"/>
+            <symbol>freq_index</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;topKFrequent&apos; is never used." verbose="The function &apos;topKFrequent&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\770-top-k-frequent-elements.c" line="21" column="0"/>
+            <symbol>topKFrequent</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="34" column="27" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;moveFrom&apos; can be declared as pointer to const" verbose="Parameter &apos;moveFrom&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="34" column="52" info="Parameter &apos;moveFrom&apos; can be declared as pointer to const"/>
+            <symbol>moveFrom</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;moveTo&apos; can be declared as pointer to const" verbose="Parameter &apos;moveTo&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="34" column="85" info="Parameter &apos;moveTo&apos; can be declared as pointer to const"/>
+            <symbol>moveTo</symbol>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;ans&apos; can be declared as pointer to const" verbose="Variable &apos;ans&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="35" column="10" info="Variable &apos;ans&apos; can be declared as pointer to const"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ans&apos; is assigned a value that is never used." verbose="Variable &apos;ans&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="35" column="14"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;ans&apos; is allocated memory that is never used." verbose="Variable &apos;ans&apos; is allocated memory that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1749-relocate-marbles.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="35" column="29"/>
+            <symbol>ans</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;relocateMarbles&apos; is never used." verbose="The function &apos;relocateMarbles&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1749-relocate-marbles.c" line="34" column="0"/>
+            <symbol>relocateMarbles</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

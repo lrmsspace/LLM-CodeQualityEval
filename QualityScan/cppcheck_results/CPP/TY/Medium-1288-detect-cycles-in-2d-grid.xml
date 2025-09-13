@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;prev&apos; is assigned a value that is never used." verbose="Variable &apos;prev&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1288-detect-cycles-in-2d-grid.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1288-detect-cycles-in-2d-grid.cpp" line="33" column="30"/>
+            <symbol>prev</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;containsCycle&apos; is never used." verbose="The function &apos;containsCycle&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1288-detect-cycles-in-2d-grid.cpp" line="26" column="0"/>
+            <symbol>containsCycle</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

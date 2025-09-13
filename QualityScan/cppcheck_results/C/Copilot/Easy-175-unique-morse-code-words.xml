@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constVariable" severity="style" msg="Variable &apos;morseCode&apos; can be declared as const array" verbose="Variable &apos;morseCode&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Easy/175-unique-morse-code-words.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\175-unique-morse-code-words.c" line="30" column="11" info="Variable &apos;morseCode&apos; can be declared as const array"/>
+            <symbol>morseCode</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: temp" verbose="Memory is allocated but not initialized: temp" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Easy/175-unique-morse-code-words.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\175-unique-morse-code-words.c" line="41" column="28"/>
+            <symbol>temp</symbol>
+        </error>
+        <error id="uninitdata" severity="error" msg="Memory is allocated but not initialized: result" verbose="Memory is allocated but not initialized: result" cwe="457" file0="F:/Benchmark/GitMaterial_Copilot/ProblemInfoCrawler/output/c/Easy/175-unique-morse-code-words.c">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\175-unique-morse-code-words.c" line="41" column="20"/>
+            <symbol>result</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;uniqueMorseRepresentations&apos; is never used." verbose="The function &apos;uniqueMorseRepresentations&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Copilot\ProblemInfoCrawler\output\c\Easy\175-unique-morse-code-words.c" line="29" column="0"/>
+            <symbol>uniqueMorseRepresentations</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

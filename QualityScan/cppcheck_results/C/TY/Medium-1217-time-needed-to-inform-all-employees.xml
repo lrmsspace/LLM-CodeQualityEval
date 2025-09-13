@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="0" column="0"/>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;n&apos; shadows outer argument" verbose="Local variable &apos;n&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="194" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="28" column="22" info="Shadowed declaration"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;manager&apos; can be declared as pointer to const" verbose="Parameter &apos;manager&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="28" column="42" info="Parameter &apos;manager&apos; can be declared as pointer to const"/>
+            <symbol>manager</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;informTime&apos; can be declared as pointer to const" verbose="Parameter &apos;informTime&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="28" column="73" info="Parameter &apos;informTime&apos; can be declared as pointer to const"/>
+            <symbol>informTime</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n1" verbose="Unused variable: n1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="24"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n2" verbose="Unused variable: n2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="28"/>
+            <symbol>n2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n3" verbose="Unused variable: n3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="32"/>
+            <symbol>n3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n4" verbose="Unused variable: n4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="36"/>
+            <symbol>n4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n5" verbose="Unused variable: n5" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="40"/>
+            <symbol>n5</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n6" verbose="Unused variable: n6" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="44"/>
+            <symbol>n6</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n7" verbose="Unused variable: n7" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="48"/>
+            <symbol>n7</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n8" verbose="Unused variable: n8" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="52"/>
+            <symbol>n8</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n9" verbose="Unused variable: n9" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="56"/>
+            <symbol>n9</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n10" verbose="Unused variable: n10" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="60"/>
+            <symbol>n10</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n11" verbose="Unused variable: n11" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="65"/>
+            <symbol>n11</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n12" verbose="Unused variable: n12" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="70"/>
+            <symbol>n12</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n13" verbose="Unused variable: n13" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="75"/>
+            <symbol>n13</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n14" verbose="Unused variable: n14" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="80"/>
+            <symbol>n14</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n15" verbose="Unused variable: n15" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="85"/>
+            <symbol>n15</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n16" verbose="Unused variable: n16" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="90"/>
+            <symbol>n16</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n17" verbose="Unused variable: n17" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="95"/>
+            <symbol>n17</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n18" verbose="Unused variable: n18" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="100"/>
+            <symbol>n18</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n19" verbose="Unused variable: n19" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="105"/>
+            <symbol>n19</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n20" verbose="Unused variable: n20" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="110"/>
+            <symbol>n20</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n21" verbose="Unused variable: n21" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="115"/>
+            <symbol>n21</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n22" verbose="Unused variable: n22" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="120"/>
+            <symbol>n22</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n23" verbose="Unused variable: n23" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="125"/>
+            <symbol>n23</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n24" verbose="Unused variable: n24" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="130"/>
+            <symbol>n24</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n25" verbose="Unused variable: n25" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="135"/>
+            <symbol>n25</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n26" verbose="Unused variable: n26" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="140"/>
+            <symbol>n26</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n27" verbose="Unused variable: n27" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="145"/>
+            <symbol>n27</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n28" verbose="Unused variable: n28" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="150"/>
+            <symbol>n28</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n29" verbose="Unused variable: n29" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="155"/>
+            <symbol>n29</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n30" verbose="Unused variable: n30" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="160"/>
+            <symbol>n30</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n31" verbose="Unused variable: n31" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="165"/>
+            <symbol>n31</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n32" verbose="Unused variable: n32" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="169"/>
+            <symbol>n32</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n33" verbose="Unused variable: n33" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="174"/>
+            <symbol>n33</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n34" verbose="Unused variable: n34" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="179"/>
+            <symbol>n34</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n35" verbose="Unused variable: n35" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="184"/>
+            <symbol>n35</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n36" verbose="Unused variable: n36" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1217-time-needed-to-inform-all-employees.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="29" column="189"/>
+            <symbol>n36</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numOfMinutes&apos; is never used." verbose="The function &apos;numOfMinutes&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1217-time-needed-to-inform-all-employees.c" line="28" column="0"/>
+            <symbol>numOfMinutes</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;rings&apos; can be declared as pointer to const" verbose="Parameter &apos;rings&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="35" column="24" info="Parameter &apos;rings&apos; can be declared as pointer to const"/>
+            <symbol>rings</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: A" verbose="Unused variable: A" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="45"/>
+            <symbol>A</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: B" verbose="Unused variable: B" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="47"/>
+            <symbol>B</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: C" verbose="Unused variable: C" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="49"/>
+            <symbol>C</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: D" verbose="Unused variable: D" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="51"/>
+            <symbol>D</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: E" verbose="Unused variable: E" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="53"/>
+            <symbol>E</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: F" verbose="Unused variable: F" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="55"/>
+            <symbol>F</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: G" verbose="Unused variable: G" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="57"/>
+            <symbol>G</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: H" verbose="Unused variable: H" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="59"/>
+            <symbol>H</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: I" verbose="Unused variable: I" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="61"/>
+            <symbol>I</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: J" verbose="Unused variable: J" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="63"/>
+            <symbol>J</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: K" verbose="Unused variable: K" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="65"/>
+            <symbol>K</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: L" verbose="Unused variable: L" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="67"/>
+            <symbol>L</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: M" verbose="Unused variable: M" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="69"/>
+            <symbol>M</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: N" verbose="Unused variable: N" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="71"/>
+            <symbol>N</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: O" verbose="Unused variable: O" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="73"/>
+            <symbol>O</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: P" verbose="Unused variable: P" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="75"/>
+            <symbol>P</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Q" verbose="Unused variable: Q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="77"/>
+            <symbol>Q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: R" verbose="Unused variable: R" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="79"/>
+            <symbol>R</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: S" verbose="Unused variable: S" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="81"/>
+            <symbol>S</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: T" verbose="Unused variable: T" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="83"/>
+            <symbol>T</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: U" verbose="Unused variable: U" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="85"/>
+            <symbol>U</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: V" verbose="Unused variable: V" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="87"/>
+            <symbol>V</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: W" verbose="Unused variable: W" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="89"/>
+            <symbol>W</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: X" verbose="Unused variable: X" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="91"/>
+            <symbol>X</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Y" verbose="Unused variable: Y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="93"/>
+            <symbol>Y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: Z" verbose="Unused variable: Z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/451-rings-and-rods.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="36" column="95"/>
+            <symbol>Z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countPoints&apos; is never used." verbose="The function &apos;countPoints&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\451-rings-and-rods.c" line="35" column="0"/>
+            <symbol>countPoints</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

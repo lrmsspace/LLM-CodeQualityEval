@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1633-most-profitable-path-in-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;amount&apos; can be declared as pointer to const" verbose="Parameter &apos;amount&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1633-most-profitable-path-in-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="50" column="85" info="Parameter &apos;amount&apos; can be declared as pointer to const"/>
+            <symbol>amount</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;income_sum&apos; is assigned a value that is never used." verbose="Variable &apos;income_sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1633-most-profitable-path-in-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="93" column="28"/>
+            <symbol>income_sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;path_length_sum&apos; is assigned a value that is never used." verbose="Variable &apos;path_length_sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1633-most-profitable-path-in-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="94" column="33"/>
+            <symbol>path_length_sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;path_income_sum&apos; is assigned a value that is never used." verbose="Variable &apos;path_income_sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1633-most-profitable-path-in-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="95" column="33"/>
+            <symbol>path_income_sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;mostProfitablePath&apos; is never used." verbose="The function &apos;mostProfitablePath&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1633-most-profitable-path-in-a-tree.c" line="50" column="0"/>
+            <symbol>mostProfitablePath</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

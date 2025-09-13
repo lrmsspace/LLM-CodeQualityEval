@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;-&apos; because &apos;queries[i][1]&apos; and &apos;vi&apos; represent the same value." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3243-shortest-distance-after-road-addition-queries-i.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3243-shortest-distance-after-road-addition-queries-i.c" line="45" column="35"/>
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3243-shortest-distance-after-road-addition-queries-i.c" line="42" column="28" info="&apos;vi&apos; is assigned value &apos;queries[i][1]&apos; here."/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;shortestDistanceAfterQueries&apos; is never used." verbose="The function &apos;shortestDistanceAfterQueries&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3243-shortest-distance-after-road-addition-queries-i.c" line="31" column="0"/>
+            <symbol>shortestDistanceAfterQueries</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

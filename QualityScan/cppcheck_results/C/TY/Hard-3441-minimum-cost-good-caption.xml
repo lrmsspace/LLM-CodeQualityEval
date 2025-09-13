@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="CastIntegerToAddressAtReturn" severity="portability" msg="Returning an integer in a function with pointer return type is not portable." verbose="Returning an integer (int/long/etc) in a function with pointer return type is not portable across different platforms and compilers. For example in 32-bit Windows and Linux they are same width, but in 64-bit Windows and Linux they are of different width. In worst case you end up casting 64-bit integer down to 32-bit pointer. The safe way is to always return a pointer." cwe="758" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="54" column="5"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;caption&apos; can be declared as pointer to const" verbose="Parameter &apos;caption&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="37" column="32" info="Parameter &apos;caption&apos; can be declared as pointer to const"/>
+            <symbol>caption</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: cost" verbose="Uninitialized variable: cost" cwe="457" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="54" column="12"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="42" column="19" info="Assuming condition is false"/>
+            <symbol>cost</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;min_cost&apos; is assigned a value that is never used." verbose="Variable &apos;min_cost&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="41" column="14"/>
+            <symbol>min_cost</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="38" column="15"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: cnt" verbose="Unused variable: cnt" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="38" column="24"/>
+            <symbol>cnt</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: min_cost_idx" verbose="Unused variable: min_cost_idx" cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3441-minimum-cost-good-caption.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="38" column="45"/>
+            <symbol>min_cost_idx</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minCostGoodCaption&apos; is never used." verbose="The function &apos;minCostGoodCaption&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3441-minimum-cost-good-caption.c" line="37" column="0"/>
+            <symbol>minCostGoodCaption</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

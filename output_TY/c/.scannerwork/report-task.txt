@@ -1,0 +1,6 @@
+projectKey=TY_C
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=TY_C
+ceTaskId=3773cae4-64ae-4b99-96b8-242cb1f48a54
+ceTaskUrl=http://localhost:9000/api/ce/task?id=3773cae4-64ae-4b99-96b8-242cb1f48a54

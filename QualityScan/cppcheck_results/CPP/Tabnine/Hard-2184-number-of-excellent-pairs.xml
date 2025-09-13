@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;nums&apos; can be declared as reference to const" verbose="Parameter &apos;nums&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Hard/2184-number-of-excellent-pairs.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Hard\2184-number-of-excellent-pairs.cpp" line="29" column="48" info="Parameter &apos;nums&apos; can be declared as reference to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="portability" msg="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" verbose="Shifting signed 32-bit value by 31 bits is implementation-defined behaviour" cwe="758" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/cpp/Hard/2184-number-of-excellent-pairs.cpp">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Hard\2184-number-of-excellent-pairs.cpp" line="35" column="30" info="Shift"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Hard\2184-number-of-excellent-pairs.cpp" line="34" column="26" info="Assignment &apos;i=31&apos;, assigned value is 31"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;countExcellentPairs&apos; is never used." verbose="The function &apos;countExcellentPairs&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\cpp\Hard\2184-number-of-excellent-pairs.cpp" line="29" column="0"/>
+            <symbol>countExcellentPairs</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="18" column="22" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: j5 " verbose="Uninitialized variable: j5 " cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="496"/>
+            <symbol>j5 </symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="63"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="66"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="69"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="72"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="75"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="78"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="81"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="84"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j1" verbose="Unused variable: j1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="87"/>
+            <symbol>j1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k1" verbose="Unused variable: k1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="91"/>
+            <symbol>k1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l1" verbose="Unused variable: l1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="95"/>
+            <symbol>l1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m1" verbose="Unused variable: m1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="99"/>
+            <symbol>m1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n1" verbose="Unused variable: n1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="103"/>
+            <symbol>n1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o1" verbose="Unused variable: o1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="107"/>
+            <symbol>o1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p1" verbose="Unused variable: p1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="111"/>
+            <symbol>p1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q1" verbose="Unused variable: q1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="115"/>
+            <symbol>q1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r1" verbose="Unused variable: r1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="119"/>
+            <symbol>r1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s1" verbose="Unused variable: s1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="123"/>
+            <symbol>s1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t1" verbose="Unused variable: t1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="127"/>
+            <symbol>t1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u1" verbose="Unused variable: u1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="131"/>
+            <symbol>u1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v1" verbose="Unused variable: v1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="135"/>
+            <symbol>v1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w1" verbose="Unused variable: w1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="139"/>
+            <symbol>w1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x1" verbose="Unused variable: x1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="143"/>
+            <symbol>x1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y1" verbose="Unused variable: y1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="147"/>
+            <symbol>y1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z1" verbose="Unused variable: z1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="151"/>
+            <symbol>z1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a1" verbose="Unused variable: a1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="154"/>
+            <symbol>a1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b1" verbose="Unused variable: b1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="158"/>
+            <symbol>b1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c1" verbose="Unused variable: c1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="162"/>
+            <symbol>c1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d1" verbose="Unused variable: d1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="166"/>
+            <symbol>d1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e1" verbose="Unused variable: e1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="170"/>
+            <symbol>e1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f1" verbose="Unused variable: f1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="174"/>
+            <symbol>f1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g1" verbose="Unused variable: g1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="178"/>
+            <symbol>g1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h1" verbose="Unused variable: h1" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="182"/>
+            <symbol>h1</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j2" verbose="Unused variable: j2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="186"/>
+            <symbol>j2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k2" verbose="Unused variable: k2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="190"/>
+            <symbol>k2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l2" verbose="Unused variable: l2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="194"/>
+            <symbol>l2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m2" verbose="Unused variable: m2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="198"/>
+            <symbol>m2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n2" verbose="Unused variable: n2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="202"/>
+            <symbol>n2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o2" verbose="Unused variable: o2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="206"/>
+            <symbol>o2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p2" verbose="Unused variable: p2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="210"/>
+            <symbol>p2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q2" verbose="Unused variable: q2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="214"/>
+            <symbol>q2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r2" verbose="Unused variable: r2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="218"/>
+            <symbol>r2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s2" verbose="Unused variable: s2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="222"/>
+            <symbol>s2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t2" verbose="Unused variable: t2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="226"/>
+            <symbol>t2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u2" verbose="Unused variable: u2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="230"/>
+            <symbol>u2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v2" verbose="Unused variable: v2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="234"/>
+            <symbol>v2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w2" verbose="Unused variable: w2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="238"/>
+            <symbol>w2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x2" verbose="Unused variable: x2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="242"/>
+            <symbol>x2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y2" verbose="Unused variable: y2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="246"/>
+            <symbol>y2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z2" verbose="Unused variable: z2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="250"/>
+            <symbol>z2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a2" verbose="Unused variable: a2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="253"/>
+            <symbol>a2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b2" verbose="Unused variable: b2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="257"/>
+            <symbol>b2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c2" verbose="Unused variable: c2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="261"/>
+            <symbol>c2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d2" verbose="Unused variable: d2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="265"/>
+            <symbol>d2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e2" verbose="Unused variable: e2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="269"/>
+            <symbol>e2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f2" verbose="Unused variable: f2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="273"/>
+            <symbol>f2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g2" verbose="Unused variable: g2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="277"/>
+            <symbol>g2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h2" verbose="Unused variable: h2" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="281"/>
+            <symbol>h2</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j3" verbose="Unused variable: j3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="285"/>
+            <symbol>j3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k3" verbose="Unused variable: k3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="289"/>
+            <symbol>k3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l3" verbose="Unused variable: l3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="293"/>
+            <symbol>l3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m3" verbose="Unused variable: m3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="297"/>
+            <symbol>m3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n3" verbose="Unused variable: n3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="301"/>
+            <symbol>n3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o3" verbose="Unused variable: o3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="305"/>
+            <symbol>o3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p3" verbose="Unused variable: p3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="309"/>
+            <symbol>p3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q3" verbose="Unused variable: q3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="313"/>
+            <symbol>q3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r3" verbose="Unused variable: r3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="317"/>
+            <symbol>r3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s3" verbose="Unused variable: s3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="321"/>
+            <symbol>s3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t3" verbose="Unused variable: t3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="325"/>
+            <symbol>t3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u3" verbose="Unused variable: u3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="329"/>
+            <symbol>u3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v3" verbose="Unused variable: v3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="333"/>
+            <symbol>v3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w3" verbose="Unused variable: w3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="337"/>
+            <symbol>w3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x3" verbose="Unused variable: x3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="341"/>
+            <symbol>x3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y3" verbose="Unused variable: y3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="345"/>
+            <symbol>y3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z3" verbose="Unused variable: z3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="349"/>
+            <symbol>z3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a3" verbose="Unused variable: a3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="352"/>
+            <symbol>a3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b3" verbose="Unused variable: b3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="356"/>
+            <symbol>b3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c3" verbose="Unused variable: c3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="360"/>
+            <symbol>c3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d3" verbose="Unused variable: d3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="364"/>
+            <symbol>d3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e3" verbose="Unused variable: e3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="368"/>
+            <symbol>e3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f3" verbose="Unused variable: f3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="372"/>
+            <symbol>f3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g3" verbose="Unused variable: g3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="376"/>
+            <symbol>g3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h3" verbose="Unused variable: h3" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="380"/>
+            <symbol>h3</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j4" verbose="Unused variable: j4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="384"/>
+            <symbol>j4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k4" verbose="Unused variable: k4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="388"/>
+            <symbol>k4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l4" verbose="Unused variable: l4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="392"/>
+            <symbol>l4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m4" verbose="Unused variable: m4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="396"/>
+            <symbol>m4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n4" verbose="Unused variable: n4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="400"/>
+            <symbol>n4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o4" verbose="Unused variable: o4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="404"/>
+            <symbol>o4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p4" verbose="Unused variable: p4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="408"/>
+            <symbol>p4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q4" verbose="Unused variable: q4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="412"/>
+            <symbol>q4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r4" verbose="Unused variable: r4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="416"/>
+            <symbol>r4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s4" verbose="Unused variable: s4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="420"/>
+            <symbol>s4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t4" verbose="Unused variable: t4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="424"/>
+            <symbol>t4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u4" verbose="Unused variable: u4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="428"/>
+            <symbol>u4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v4" verbose="Unused variable: v4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="432"/>
+            <symbol>v4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w4" verbose="Unused variable: w4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="436"/>
+            <symbol>w4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x4" verbose="Unused variable: x4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="440"/>
+            <symbol>x4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y4" verbose="Unused variable: y4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="444"/>
+            <symbol>y4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z4" verbose="Unused variable: z4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="448"/>
+            <symbol>z4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a4" verbose="Unused variable: a4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="451"/>
+            <symbol>a4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b4" verbose="Unused variable: b4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="455"/>
+            <symbol>b4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c4" verbose="Unused variable: c4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="459"/>
+            <symbol>c4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d4" verbose="Unused variable: d4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="463"/>
+            <symbol>d4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e4" verbose="Unused variable: e4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="467"/>
+            <symbol>e4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f4" verbose="Unused variable: f4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="471"/>
+            <symbol>f4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g4" verbose="Unused variable: g4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="475"/>
+            <symbol>g4</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h4" verbose="Unused variable: h4" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1741-special-permutations.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="19" column="479"/>
+            <symbol>h4</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;specialPerm&apos; is never used." verbose="The function &apos;specialPerm&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1741-special-permutations.c" line="18" column="0"/>
+            <symbol>specialPerm</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

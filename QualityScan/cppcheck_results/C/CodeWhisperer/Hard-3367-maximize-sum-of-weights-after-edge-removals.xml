@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variables: edgeArr.u, edgeArr.v, edgeArr.w" verbose="Uninitialized variables: edgeArr.u, edgeArr.v, edgeArr.w" cwe="457" file0="F:/Benchmark/new/CodeWhisperer/output/c/Hard/3367-maximize-sum-of-weights-after-edge-removals.c">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3367-maximize-sum-of-weights-after-edge-removals.c" line="59" column="11"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3367-maximize-sum-of-weights-after-edge-removals.c" line="50" column="22" info="Assuming condition is false"/>
+            <symbol>edgeArr</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maximizeSumOfWeights&apos; is never used." verbose="The function &apos;maximizeSumOfWeights&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\c\Hard\3367-maximize-sum-of-weights-after-edge-removals.c" line="47" column="0"/>
+            <symbol>maximizeSumOfWeights</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

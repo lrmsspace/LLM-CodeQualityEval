@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1510-k-highest-ranked-items-within-a-price-range.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="0" column="0"/>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;pricing&apos; can be declared as reference to const" verbose="Parameter &apos;pricing&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1510-k-highest-ranked-items-within-a-price-range.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="63" column="85" info="Parameter &apos;pricing&apos; can be declared as reference to const"/>
+            <symbol>pricing</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;start&apos; can be declared as reference to const" verbose="Parameter &apos;start&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1510-k-highest-ranked-items-within-a-price-range.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="63" column="107" info="Parameter &apos;start&apos; can be declared as reference to const"/>
+            <symbol>start</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;a&apos; can be declared as reference to const" verbose="Parameter &apos;a&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1510-k-highest-ranked-items-within-a-price-range.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="91" column="54" info="Parameter &apos;a&apos; can be declared as reference to const"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="constParameterReference" severity="style" msg="Parameter &apos;b&apos; can be declared as reference to const" verbose="Parameter &apos;b&apos; can be declared as reference to const" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/1510-k-highest-ranked-items-within-a-price-range.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="91" column="70" info="Parameter &apos;b&apos; can be declared as reference to const"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;highestRankedKItems&apos; is never used." verbose="The function &apos;highestRankedKItems&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\1510-k-highest-ranked-items-within-a-price-range.cpp" line="63" column="0"/>
+            <symbol>highestRankedKItems</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

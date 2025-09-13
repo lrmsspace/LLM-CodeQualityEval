@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;ans[*returnSize-1][1]&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;ans[*returnSize-1][1]&apos; is reassigned a value before the old one has been used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1005-spiral-matrix-iii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1005-spiral-matrix-iii.c" line="30" column="29" info="ans[*returnSize-1][1] is overwritten"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1005-spiral-matrix-iii.c" line="29" column="29" info="ans[*returnSize-1][1] is assigned"/>
+            <symbol>ans[*returnSize-1][1]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;spiralMatrixIII&apos; is never used." verbose="The function &apos;spiralMatrixIII&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1005-spiral-matrix-iii.c" line="22" column="0"/>
+            <symbol>spiralMatrixIII</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

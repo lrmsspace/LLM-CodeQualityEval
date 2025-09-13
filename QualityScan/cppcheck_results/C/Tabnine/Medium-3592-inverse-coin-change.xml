@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="AssignmentAddressToInteger" severity="portability" msg="Assigning a pointer to an integer is not portable." verbose="Assigning a pointer to an integer (int/long/etc) is not portable across different platforms and compilers. For example in 32-bit Windows and linux they are same width, but in 64-bit Windows and linux they are of different width. In worst case you end up assigning 64-bit address to 32-bit integer. The safe way is to store addresses only in pointer types (or typedefs like uintptr_t)." cwe="758" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3592-inverse-coin-change.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3592-inverse-coin-change.c" line="82" column="15"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;numWays&apos; can be declared as pointer to const" verbose="Parameter &apos;numWays&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3592-inverse-coin-change.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3592-inverse-coin-change.c" line="78" column="21" info="Parameter &apos;numWays&apos; can be declared as pointer to const"/>
+            <symbol>numWays</symbol>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;dp&apos; used instead of size of its data." verbose="Size of pointer &apos;dp&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*dp)&apos;." cwe="467" file0="F:/Benchmark/new/Tabnine/output/c/Medium/3592-inverse-coin-change.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3592-inverse-coin-change.c" line="80" column="10"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findCoins&apos; is never used." verbose="The function &apos;findCoins&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Medium\3592-inverse-coin-change.c" line="78" column="0"/>
+            <symbol>findCoins</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

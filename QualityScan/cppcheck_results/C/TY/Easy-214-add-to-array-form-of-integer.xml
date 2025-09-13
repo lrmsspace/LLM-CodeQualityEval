@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="0" column="0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;j&lt;0&apos; is always false" verbose="Condition &apos;j&lt;0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="32" column="29" info="Condition &apos;j&lt;0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="30" column="13" info="Assignment &apos;j=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;j&gt;=0&apos; is always true" verbose="Condition &apos;j&gt;=0&apos; is always true" cwe="571" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="37" column="15" info="Condition &apos;j&gt;=0&apos; is always true"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="30" column="13" info="Assignment &apos;j=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;i&lt;numSize&apos; is always false" verbose="Condition &apos;i&lt;numSize&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="45" column="14" info="Condition &apos;i&lt;numSize&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="43" column="5" info="i is incremented&apos;, new value is symbolic=numSize"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="32" column="14" info="Assuming that condition &apos;i&lt;numSize&apos; is not redundant"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;j&gt;=0&apos; is always false" verbose="Condition &apos;j&gt;=0&apos; is always false" cwe="570" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="45" column="29" info="Condition &apos;j&gt;=0&apos; is always false"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="44" column="5" info="j is decremented&apos;, new value is -1"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="30" column="13" info="Assignment &apos;j=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;num&apos; can be declared as pointer to const" verbose="Parameter &apos;num&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="27" column="26" info="Parameter &apos;num&apos; can be declared as pointer to const"/>
+            <symbol>num</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="33" column="17"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="35" column="17"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;sum&apos; is assigned a value that is never used." verbose="Variable &apos;sum&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/214-add-to-array-form-of-integer.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="38" column="17"/>
+            <symbol>sum</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;addToArrayForm&apos; is never used." verbose="The function &apos;addToArrayForm&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\214-add-to-array-form-of-integer.c" line="27" column="0"/>
+            <symbol>addToArrayForm</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

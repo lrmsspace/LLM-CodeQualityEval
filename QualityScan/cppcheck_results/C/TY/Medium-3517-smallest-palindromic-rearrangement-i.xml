@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestPalindrome&apos; is never used." verbose="The function &apos;smallestPalindrome&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Medium\3517-smallest-palindromic-rearrangement-i.c" line="25" column="0"/>
+            <symbol>smallestPalindrome</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

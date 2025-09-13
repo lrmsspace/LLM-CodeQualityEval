@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3568-minimum-moves-to-clean-the-classroom.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="0" column="0"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dx&apos; can be declared as const array" verbose="Variable &apos;dx&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3568-minimum-moves-to-clean-the-classroom.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="59" column="13" info="Variable &apos;dx&apos; can be declared as const array"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dy&apos; can be declared as const array" verbose="Variable &apos;dy&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3568-minimum-moves-to-clean-the-classroom.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="60" column="13" info="Variable &apos;dy&apos; can be declared as const array"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sx" verbose="Uninitialized variable: sx" cwe="457" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3568-minimum-moves-to-clean-the-classroom.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="71" column="17"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>sx</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: sy" verbose="Uninitialized variable: sy" cwe="457" file0="F:/Benchmark/new/CodeWhisperer/output/cpp/Medium/3568-minimum-moves-to-clean-the-classroom.cpp">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="71" column="21"/>
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="51" column="27" info="Assuming condition is false"/>
+            <symbol>sy</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minMoves&apos; is never used." verbose="The function &apos;minMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\CodeWhisperer\output\cpp\Medium\3568-minimum-moves-to-clean-the-classroom.cpp" line="47" column="0"/>
+            <symbol>minMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

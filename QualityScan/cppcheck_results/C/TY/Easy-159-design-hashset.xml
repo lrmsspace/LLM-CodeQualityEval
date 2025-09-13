@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="38" column="1"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="50" column="1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="40" column="30" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="44" column="33" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="48" column="35" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;obj&apos; can be declared as pointer to const" verbose="Parameter &apos;obj&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Easy/159-design-hashset.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="52" column="31" info="Parameter &apos;obj&apos; can be declared as pointer to const"/>
+            <symbol>obj</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myHashSetCreate&apos; is never used." verbose="The function &apos;myHashSetCreate&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="36" column="0"/>
+            <symbol>myHashSetCreate</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myHashSetAdd&apos; is never used." verbose="The function &apos;myHashSetAdd&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="40" column="0"/>
+            <symbol>myHashSetAdd</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myHashSetRemove&apos; is never used." verbose="The function &apos;myHashSetRemove&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="44" column="0"/>
+            <symbol>myHashSetRemove</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myHashSetContains&apos; is never used." verbose="The function &apos;myHashSetContains&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="48" column="0"/>
+            <symbol>myHashSetContains</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;myHashSetFree&apos; is never used." verbose="The function &apos;myHashSetFree&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Easy\159-design-hashset.c" line="52" column="0"/>
+            <symbol>myHashSetFree</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

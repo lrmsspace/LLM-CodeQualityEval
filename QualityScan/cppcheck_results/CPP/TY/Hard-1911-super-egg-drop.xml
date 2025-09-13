@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="legacyUninitvar" severity="error" msg="Uninitialized variable: dp[0][m]" verbose="Uninitialized variable: dp[0][m]" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Hard/1911-super-egg-drop.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1911-super-egg-drop.cpp" line="30" column="21"/>
+            <symbol>dp[0][m]</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;superEggDrop&apos; is never used." verbose="The function &apos;superEggDrop&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Hard\1911-super-egg-drop.cpp" line="27" column="0"/>
+            <symbol>superEggDrop</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

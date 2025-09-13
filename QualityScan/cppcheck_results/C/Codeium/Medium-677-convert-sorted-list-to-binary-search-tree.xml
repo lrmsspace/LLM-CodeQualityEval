@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nullPointer" severity="warning" msg="Possible null pointer dereference: prev" verbose="Possible null pointer dereference: prev" cwe="476" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Medium/677-convert-sorted-list-to-binary-search-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\677-convert-sorted-list-to-binary-search-tree.c" line="45" column="5" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\677-convert-sorted-list-to-binary-search-tree.c" line="36" column="25" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\677-convert-sorted-list-to-binary-search-tree.c" line="35" column="29" info="Assignment &apos;prev=NULL&apos;, assigned value is 0"/>
+            <symbol>prev</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;sortedListToBST&apos; is never used." verbose="The function &apos;sortedListToBST&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Medium\677-convert-sorted-list-to-binary-search-tree.c" line="30" column="0"/>
+            <symbol>sortedListToBST</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

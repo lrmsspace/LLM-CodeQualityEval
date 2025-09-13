@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;k&apos; shadows outer argument" verbose="Local variable &apos;k&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="44" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="26" column="36" info="Shadowed declaration"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="shadowArgument" severity="style" msg="Local variable &apos;n&apos; shadows outer argument" verbose="Local variable &apos;n&apos; shadows outer argument" cwe="398" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="47" column="17" info="Shadow variable"/>
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="26" column="29" info="Shadowed declaration"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="36" column="19"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="37" column="19"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="38" column="19"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="39" column="19"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="40" column="19"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;f&apos; is assigned a value that is never used." verbose="Variable &apos;f&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="41" column="19"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;g&apos; is assigned a value that is never used." verbose="Variable &apos;g&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="42" column="19"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;h&apos; is assigned a value that is never used." verbose="Variable &apos;h&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="43" column="19"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;k&apos; is assigned a value that is never used." verbose="Variable &apos;k&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="44" column="19"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;l&apos; is assigned a value that is never used." verbose="Variable &apos;l&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="45" column="19"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;m&apos; is assigned a value that is never used." verbose="Variable &apos;m&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="46" column="19"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;n&apos; is assigned a value that is never used." verbose="Variable &apos;n&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="47" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;o&apos; is assigned a value that is never used." verbose="Variable &apos;o&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="48" column="19"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;p&apos; is assigned a value that is never used." verbose="Variable &apos;p&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="49" column="19"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;q&apos; is assigned a value that is never used." verbose="Variable &apos;q&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="50" column="19"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;r&apos; is assigned a value that is never used." verbose="Variable &apos;r&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="51" column="19"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s&apos; is assigned a value that is never used." verbose="Variable &apos;s&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="52" column="19"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;t&apos; is assigned a value that is never used." verbose="Variable &apos;t&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="53" column="19"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;u&apos; is assigned a value that is never used." verbose="Variable &apos;u&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/TY/output/c/Hard/3260-find-the-largest-palindrome-divisible-by-k.c">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="54" column="19"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;largestPalindrome&apos; is never used." verbose="The function &apos;largestPalindrome&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\TY\output\c\Hard\3260-find-the-largest-palindrome-divisible-by-k.c" line="26" column="0"/>
+            <symbol>largestPalindrome</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

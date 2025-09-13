@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shiftNegativeLHS" severity="portability" msg="Shifting a negative value is technically undefined behaviour" verbose="Shifting a negative value is technically undefined behaviour" cwe="758" file0="F:/Benchmark/new/Codeium/output/c/Medium/3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k.c">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k.c" line="143" column="67"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findMaximumNumber&apos; is never used." verbose="The function &apos;findMaximumNumber&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Codeium\output\c\Medium\3007-maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k.c" line="139" column="0"/>
+            <symbol>findMaximumNumber</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

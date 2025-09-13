@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;numsColSize&apos; can be declared as pointer to const" verbose="Parameter &apos;numsColSize&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1857-smallest-range-covering-elements-from-k-lists.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="25" column="51" info="Parameter &apos;numsColSize&apos; can be declared as pointer to const"/>
+            <symbol>numsColSize</symbol>
+        </error>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;max_val-min_val&apos;." verbose="Signed integer overflow for expression &apos;max_val-min_val&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1857-smallest-range-covering-elements-from-k-lists.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="31" column="29" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="26" column="19" info="Assignment &apos;min_val=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="27" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="26" column="38" info="Assignment &apos;max_val=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;min_range&apos; is assigned a value that is never used." verbose="Variable &apos;min_range&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_Codeium/ProblemInfoCrawler/output/c/Hard/1857-smallest-range-covering-elements-from-k-lists.c">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="31" column="19"/>
+            <symbol>min_range</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;smallestRange&apos; is never used." verbose="The function &apos;smallestRange&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Codeium\ProblemInfoCrawler\output\c\Hard\1857-smallest-range-covering-elements-from-k-lists.c" line="25" column="0"/>
+            <symbol>smallestRange</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

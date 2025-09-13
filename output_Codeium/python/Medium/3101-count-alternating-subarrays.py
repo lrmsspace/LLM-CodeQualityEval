@@ -1,0 +1,35 @@
+# You are given a binary array nums.
+# We call a subarray alternating if no two adjacent elements in the subarray have the same value.
+# Return the number of alternating subarrays in nums.
+# Example 1:
+# Input: nums = [0,1,1,1]
+# Output: 5
+# Explanation:
+# The following subarrays are alternating: [0], [1], [1], [1], and [0,1].
+# Example 2:
+# Input: nums = [1,0,1,0]
+# Output: 10
+# Explanation:
+# Every subarray of the array is alternating. There are 10 possible subarrays that we can choose.
+# Constraints:
+# 1 <= nums.length <= 105
+# nums[i] is either 0 or 1.
+
+class Solution(object):
+    def countAlternatingSubarrays(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        count = 0
+        length = 1  # to keep track of the current alternating subarray length
+        
+        for i in range(1, len(nums)):
+            if nums[i] != nums[i - 1]:
+                length += 1  # extend the current alternating subarray
+            else:
+                length = 1  # reset the length to 1
+            count += length  # add the length of the current subarray to the count
+        
+        # Add the count of single element subarrays
+        return count + len(nums)

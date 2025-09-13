@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;currentBoostB&gt;currentBoostA&apos; is always false" verbose="Condition &apos;currentBoostB&gt;currentBoostA&apos; is always false" cwe="570" file0="F:/Benchmark/new/Copilot/output/c/Medium/3259-maximum-energy-boost-from-two-drinks.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Medium\3259-maximum-energy-boost-from-two-drinks.c" line="36" column="43" info="Condition &apos;currentBoostB&gt;currentBoostA&apos; is always false"/>
+            <location file="F:\Benchmark\new\Copilot\output\c\Medium\3259-maximum-energy-boost-from-two-drinks.c" line="35" column="59" info="Assignment &apos;currentBoostA=currentBoostA&gt;currentBoostB?currentBoostA:currentBoostB&apos;, assigned value is greater than symbolic=currentBoostB-1"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;energyDrinkA&apos; can be declared as pointer to const" verbose="Parameter &apos;energyDrinkA&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Medium/3259-maximum-energy-boost-from-two-drinks.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Medium\3259-maximum-energy-boost-from-two-drinks.c" line="25" column="31" info="Parameter &apos;energyDrinkA&apos; can be declared as pointer to const"/>
+            <symbol>energyDrinkA</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;energyDrinkB&apos; can be declared as pointer to const" verbose="Parameter &apos;energyDrinkB&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/new/Copilot/output/c/Medium/3259-maximum-energy-boost-from-two-drinks.c">
+            <location file="F:\Benchmark\new\Copilot\output\c\Medium\3259-maximum-energy-boost-from-two-drinks.c" line="25" column="72" info="Parameter &apos;energyDrinkB&apos; can be declared as pointer to const"/>
+            <symbol>energyDrinkB</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxEnergyBoost&apos; is never used." verbose="The function &apos;maxEnergyBoost&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Copilot\output\c\Medium\3259-maximum-energy-boost-from-two-drinks.c" line="25" column="0"/>
+            <symbol>maxEnergyBoost</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

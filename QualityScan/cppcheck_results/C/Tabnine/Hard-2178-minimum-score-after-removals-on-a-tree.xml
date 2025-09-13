@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="integerOverflow" severity="error" msg="Signed integer overflow for expression &apos;maxScore-minScore&apos;." verbose="Signed integer overflow for expression &apos;maxScore-minScore&apos;." cwe="190" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2178-minimum-score-after-removals-on-a-tree.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2178-minimum-score-after-removals-on-a-tree.c" line="86" column="21" info="Integer overflow"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2178-minimum-score-after-removals-on-a-tree.c" line="70" column="20" info="Assignment &apos;minScore=2147483647&apos;, assigned value is 2147483647"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2178-minimum-score-after-removals-on-a-tree.c" line="72" column="23" info="Assuming condition is false"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2178-minimum-score-after-removals-on-a-tree.c" line="71" column="20" info="Assignment &apos;maxScore=-2147483648&apos;, assigned value is -2147483648"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumScore&apos; is never used." verbose="The function &apos;minimumScore&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2178-minimum-score-after-removals-on-a-tree.c" line="38" column="0"/>
+            <symbol>minimumScore</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

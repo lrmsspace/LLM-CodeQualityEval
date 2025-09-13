@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;dx&apos; shadows outer variable" verbose="Local variable &apos;dx&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2038-maximum-number-of-visible-points.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="37" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="31" column="9" info="Shadowed declaration"/>
+            <symbol>dx</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;dy&apos; shadows outer variable" verbose="Local variable &apos;dy&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2038-maximum-number-of-visible-points.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="38" column="13" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="32" column="9" info="Shadowed declaration"/>
+            <symbol>dy</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;location&apos; can be declared as pointer to const" verbose="Parameter &apos;location&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_Tabnine/ProblemInfoCrawler/output/c/Hard/2038-maximum-number-of-visible-points.c">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="28" column="85" info="Parameter &apos;location&apos; can be declared as pointer to const"/>
+            <symbol>location</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;visiblePoints&apos; is never used." verbose="The function &apos;visiblePoints&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_Tabnine\ProblemInfoCrawler\output\c\Hard\2038-maximum-number-of-visible-points.c" line="28" column="0"/>
+            <symbol>visiblePoints</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

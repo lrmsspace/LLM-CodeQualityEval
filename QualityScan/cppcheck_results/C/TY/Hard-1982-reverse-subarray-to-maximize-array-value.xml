@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;b&apos; can be reduced." verbose="The scope of the variable &apos;b&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="11"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;c&apos; can be reduced." verbose="The scope of the variable &apos;c&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="13"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;d&apos; can be reduced." verbose="The scope of the variable &apos;d&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="15"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;e&apos; can be reduced." verbose="The scope of the variable &apos;e&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="17"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="17" column="31" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;bb&apos; is assigned a value that is never used." verbose="Variable &apos;bb&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="10"/>
+            <symbol>bb</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;cc&apos; is assigned a value that is never used." verbose="Variable &apos;cc&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="13"/>
+            <symbol>cc</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dd&apos; is assigned a value that is never used." verbose="Variable &apos;dd&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="16"/>
+            <symbol>dd</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ee&apos; is assigned a value that is never used." verbose="Variable &apos;ee&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="19"/>
+            <symbol>ee</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ff&apos; is assigned a value that is never used." verbose="Variable &apos;ff&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="22"/>
+            <symbol>ff</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;gg&apos; is assigned a value that is never used." verbose="Variable &apos;gg&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="25"/>
+            <symbol>gg</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hh&apos; is assigned a value that is never used." verbose="Variable &apos;hh&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="28"/>
+            <symbol>hh</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ii&apos; is assigned a value that is never used." verbose="Variable &apos;ii&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="31"/>
+            <symbol>ii</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;jj&apos; is assigned a value that is never used." verbose="Variable &apos;jj&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="34"/>
+            <symbol>jj</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;kk&apos; is assigned a value that is never used." verbose="Variable &apos;kk&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="37"/>
+            <symbol>kk</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ll&apos; is assigned a value that is never used." verbose="Variable &apos;ll&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="22" column="40"/>
+            <symbol>ll</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;mm&apos; is assigned a value that is never used." verbose="Variable &apos;mm&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="7"/>
+            <symbol>mm</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;nn&apos; is assigned a value that is never used." verbose="Variable &apos;nn&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="10"/>
+            <symbol>nn</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;oo&apos; is assigned a value that is never used." verbose="Variable &apos;oo&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="13"/>
+            <symbol>oo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;pp&apos; is assigned a value that is never used." verbose="Variable &apos;pp&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="16"/>
+            <symbol>pp</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;qq&apos; is assigned a value that is never used." verbose="Variable &apos;qq&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="19"/>
+            <symbol>qq</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;rr&apos; is assigned a value that is never used." verbose="Variable &apos;rr&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="22"/>
+            <symbol>rr</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ss&apos; is assigned a value that is never used." verbose="Variable &apos;ss&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="25"/>
+            <symbol>ss</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;tt&apos; is assigned a value that is never used." verbose="Variable &apos;tt&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="28"/>
+            <symbol>tt</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;uu&apos; is assigned a value that is never used." verbose="Variable &apos;uu&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="31"/>
+            <symbol>uu</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;vv&apos; is assigned a value that is never used." verbose="Variable &apos;vv&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="34"/>
+            <symbol>vv</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;ww&apos; is assigned a value that is never used." verbose="Variable &apos;ww&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="37"/>
+            <symbol>ww</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;xx&apos; is assigned a value that is never used." verbose="Variable &apos;xx&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="40"/>
+            <symbol>xx</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;yy&apos; is assigned a value that is never used." verbose="Variable &apos;yy&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="43"/>
+            <symbol>yy</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;zz&apos; is assigned a value that is never used." verbose="Variable &apos;zz&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="23" column="46"/>
+            <symbol>zz</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;a&apos; is assigned a value that is never used." verbose="Variable &apos;a&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="29" column="10"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;b&apos; is assigned a value that is never used." verbose="Variable &apos;b&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="30" column="10"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;c&apos; is assigned a value that is never used." verbose="Variable &apos;c&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="31" column="10"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;d&apos; is assigned a value that is never used." verbose="Variable &apos;d&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="32" column="10"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;e&apos; is assigned a value that is never used." verbose="Variable &apos;e&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="33" column="10"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i" verbose="Unused variable: i" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="9"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="11"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="13"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="15"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="17"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="19"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="21"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="23"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="25"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="27"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="29"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="31"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="33"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="35"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="37"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="39"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="41"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="18" column="43"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="19"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="21"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="23"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j" verbose="Unused variable: j" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="27"/>
+            <symbol>j</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k" verbose="Unused variable: k" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="29"/>
+            <symbol>k</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="31"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="33"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="35"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="37"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="39"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="41"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="43"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="45"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="47"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="49"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="51"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="53"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="55"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Hard/1982-reverse-subarray-to-maximize-array-value.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="19" column="59"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxValueAfterReverse&apos; is never used." verbose="The function &apos;maxValueAfterReverse&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Hard\1982-reverse-subarray-to-maximize-array-value.c" line="17" column="0"/>
+            <symbol>maxValueAfterReverse</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/691-copy-list-with-random-pointer.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="0" column="0"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;cur!=nullptr&apos; is redundant or there is possible null pointer dereference: newCur." verbose="Either the condition &apos;cur!=nullptr&apos; is redundant or there is possible null pointer dereference: newCur." cwe="476" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Medium/691-copy-list-with-random-pointer.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="65" column="25" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="70" column="28" info="Assignment &apos;newCur=newCur-&gt;next&apos;, assigned value is 0"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="65" column="31" info="Assignment to &apos;cur-&gt;next=newCur-&gt;next&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="66" column="22" info="Assignment to &apos;cur=cur-&gt;next&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="67" column="21" info="Assuming that condition &apos;cur!=nullptr&apos; is not redundant"/>
+            <symbol>newCur</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;copyRandomList&apos; is never used." verbose="The function &apos;copyRandomList&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Medium\691-copy-list-with-random-pointer.cpp" line="43" column="0"/>
+            <symbol>copyRandomList</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

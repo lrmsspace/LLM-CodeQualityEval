@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l" verbose="Unused variable: l" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="18"/>
+            <symbol>l</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m" verbose="Unused variable: m" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="21"/>
+            <symbol>m</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n" verbose="Unused variable: n" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="24"/>
+            <symbol>n</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o" verbose="Unused variable: o" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="27"/>
+            <symbol>o</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p" verbose="Unused variable: p" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="30"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q" verbose="Unused variable: q" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="33"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r" verbose="Unused variable: r" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="36"/>
+            <symbol>r</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s" verbose="Unused variable: s" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="39"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t" verbose="Unused variable: t" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="42"/>
+            <symbol>t</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u" verbose="Unused variable: u" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="45"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v" verbose="Unused variable: v" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="48"/>
+            <symbol>v</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w" verbose="Unused variable: w" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="51"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x" verbose="Unused variable: x" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="54"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y" verbose="Unused variable: y" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="57"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z" verbose="Unused variable: z" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="32" column="60"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: a" verbose="Unused variable: a" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="9"/>
+            <symbol>a</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: b" verbose="Unused variable: b" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="12"/>
+            <symbol>b</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: c" verbose="Unused variable: c" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="15"/>
+            <symbol>c</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: d" verbose="Unused variable: d" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="18"/>
+            <symbol>d</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: e" verbose="Unused variable: e" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="21"/>
+            <symbol>e</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: f" verbose="Unused variable: f" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="24"/>
+            <symbol>f</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: g" verbose="Unused variable: g" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="27"/>
+            <symbol>g</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: h" verbose="Unused variable: h" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="30"/>
+            <symbol>h</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: i0" verbose="Unused variable: i0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="33"/>
+            <symbol>i0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: j0" verbose="Unused variable: j0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="37"/>
+            <symbol>j0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: k0" verbose="Unused variable: k0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="41"/>
+            <symbol>k0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: l0" verbose="Unused variable: l0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="45"/>
+            <symbol>l0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: m0" verbose="Unused variable: m0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="49"/>
+            <symbol>m0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: n0" verbose="Unused variable: n0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="53"/>
+            <symbol>n0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: o0" verbose="Unused variable: o0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="57"/>
+            <symbol>o0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: p0" verbose="Unused variable: p0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="61"/>
+            <symbol>p0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: q0" verbose="Unused variable: q0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="65"/>
+            <symbol>q0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: r0" verbose="Unused variable: r0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="69"/>
+            <symbol>r0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: s0" verbose="Unused variable: s0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="73"/>
+            <symbol>s0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: t0" verbose="Unused variable: t0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="77"/>
+            <symbol>t0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: u0" verbose="Unused variable: u0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="81"/>
+            <symbol>u0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: v0" verbose="Unused variable: v0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="85"/>
+            <symbol>v0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w0" verbose="Unused variable: w0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="89"/>
+            <symbol>w0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x0" verbose="Unused variable: x0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="93"/>
+            <symbol>x0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y0" verbose="Unused variable: y0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="96"/>
+            <symbol>y0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z0" verbose="Unused variable: z0" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="33" column="100"/>
+            <symbol>z0</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w01" verbose="Unused variable: w01" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="34" column="9"/>
+            <symbol>w01</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x01" verbose="Unused variable: x01" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="34" column="14"/>
+            <symbol>x01</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y01" verbose="Unused variable: y01" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="34" column="19"/>
+            <symbol>y01</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z01" verbose="Unused variable: z01" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="34" column="24"/>
+            <symbol>z01</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: w02" verbose="Unused variable: w02" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="35" column="9"/>
+            <symbol>w02</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: x02" verbose="Unused variable: x02" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="35" column="14"/>
+            <symbol>x02</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: y02" verbose="Unused variable: y02" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="35" column="19"/>
+            <symbol>y02</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: z02" verbose="Unused variable: z02" cwe="563" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1042-delete-columns-to-make-sorted-ii.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="35" column="24"/>
+            <symbol>z02</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minDeletionSize&apos; is never used." verbose="The function &apos;minDeletionSize&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1042-delete-columns-to-make-sorted-ii.c" line="31" column="0"/>
+            <symbol>minDeletionSize</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

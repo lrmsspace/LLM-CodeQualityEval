@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="negativeIndex" severity="error" msg="Array &apos;dp[1001]&apos; accessed at index -1, which is out of bounds." verbose="Array &apos;dp[1001]&apos; accessed at index -1, which is out of bounds." cwe="786" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/cpp/Medium/1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.cpp">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.cpp" line="29" column="39" info="Negative array index"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.cpp" line="28" column="22" info="Assignment &apos;i=1&apos;, assigned value is 1"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;numberOfWays&apos; is never used." verbose="The function &apos;numberOfWays&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\cpp\Medium\1605-number-of-ways-to-reach-a-position-after-exactly-k-steps.cpp" line="24" column="0"/>
+            <symbol>numberOfWays</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;prev==NULL&apos; is redundant or there is possible null pointer dereference: head." verbose="Either the condition &apos;prev==NULL&apos; is redundant or there is possible null pointer dereference: head." cwe="476" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1641-remove-nodes-from-linked-list.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="49" column="16" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="51" column="16" info="Assignment to &apos;prev=head&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="48" column="16" info="Assuming that condition &apos;prev==NULL&apos; is not redundant"/>
+            <symbol>head</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;prev==NULL&apos; is redundant or there is possible null pointer dereference: head." verbose="Either the condition &apos;prev==NULL&apos; is redundant or there is possible null pointer dereference: head." cwe="476" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1641-remove-nodes-from-linked-list.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="50" column="9" info="Null pointer dereference"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="51" column="16" info="Assignment to &apos;prev=head&apos;"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="48" column="16" info="Assuming that condition &apos;prev==NULL&apos; is not redundant"/>
+            <symbol>head</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;removeNodes&apos; is never used." verbose="The function &apos;removeNodes&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1641-remove-nodes-from-linked-list.c" line="28" column="0"/>
+            <symbol>removeNodes</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

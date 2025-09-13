@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="0" column="0"/>
+        </error>
+        <error id="constParameterPointer" severity="style" msg="Parameter &apos;nums&apos; can be declared as pointer to const" verbose="Parameter &apos;nums&apos; can be declared as pointer to const" cwe="398" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="35" column="23" info="Parameter &apos;nums&apos; can be declared as pointer to const"/>
+            <symbol>nums</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: q" verbose="Uninitialized variable: q" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="57" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="52" column="19" info="Assuming condition is false"/>
+            <symbol>q</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: s" verbose="Uninitialized variable: s" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="63" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="58" column="19" info="Assuming condition is false"/>
+            <symbol>s</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: u" verbose="Uninitialized variable: u" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="69" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="64" column="19" info="Assuming condition is false"/>
+            <symbol>u</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: w" verbose="Uninitialized variable: w" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="75" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="70" column="19" info="Assuming condition is false"/>
+            <symbol>w</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: y" verbose="Uninitialized variable: y" cwe="457" file0="F:/Benchmark/GitMaterial_tongyi/ProblemInfoCrawler/output/c/Medium/1756-minimum-index-of-a-valid-split.c">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="81" column="9"/>
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="76" column="19" info="Assuming condition is false"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;minimumIndex&apos; is never used." verbose="The function &apos;minimumIndex&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_tongyi\ProblemInfoCrawler\output\c\Medium\1756-minimum-index-of-a-valid-split.c" line="35" column="0"/>
+            <symbol>minimumIndex</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1900-guess-the-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="0" column="0"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1900-guess-the-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="70" column="28"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;&lt;&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1900-guess-the-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="93" column="32"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;matches&apos; shadows outer variable" verbose="Local variable &apos;matches&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1900-guess-the-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="64" column="21" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="56" column="17" info="Shadowed declaration"/>
+            <symbol>matches</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;matches&apos; shadows outer variable" verbose="Local variable &apos;matches&apos; shadows outer variable" cwe="398" file0="F:/Benchmark/GitMaterial_CodeWhisperer/ProblemInfoCrawler/output/cpp/Hard/1900-guess-the-word.cpp">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="87" column="25" info="Shadow variable"/>
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="56" column="17" info="Shadowed declaration"/>
+            <symbol>matches</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;findSecretWord&apos; is never used." verbose="The function &apos;findSecretWord&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\GitMaterial_CodeWhisperer\ProblemInfoCrawler\output\cpp\Hard\1900-guess-the-word.cpp" line="44" column="0"/>
+            <symbol>findSecretWord</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 167/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

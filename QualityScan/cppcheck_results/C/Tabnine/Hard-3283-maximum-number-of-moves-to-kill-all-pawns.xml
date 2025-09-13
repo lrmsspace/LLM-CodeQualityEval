@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.16.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="0" column="0"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;minMove&apos; can be reduced." verbose="The scope of the variable &apos;minMove&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="60" column="13"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;knightMoves&apos; can be declared as const array" verbose="Variable &apos;knightMoves&apos; can be declared as const array" cwe="398" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="42" column="9" info="Variable &apos;knightMoves&apos; can be declared as const array"/>
+            <symbol>knightMoves</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="57" column="15"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;y&apos; is assigned a value that is never used." verbose="Variable &apos;y&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="58" column="15"/>
+            <symbol>y</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minMove&apos; is assigned a value that is never used." verbose="Variable &apos;minMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="60" column="21"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;minMove&apos; is assigned a value that is never used." verbose="Variable &apos;minMove&apos; is assigned a value that is never used." cwe="563" file0="F:/Benchmark/new/Tabnine/output/c/Hard/3283-maximum-number-of-moves-to-kill-all-pawns.c">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="67" column="25"/>
+            <symbol>minMove</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;maxMoves&apos; is never used." verbose="The function &apos;maxMoves&apos; is never used." cwe="561">
+            <location file="F:\Benchmark\new\Tabnine\output\c\Hard\3283-maximum-number-of-moves-to-kill-all-pawns.c" line="36" column="0"/>
+            <symbol>maxMoves</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 108/836 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>
