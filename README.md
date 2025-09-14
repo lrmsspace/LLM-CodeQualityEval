@@ -9,7 +9,7 @@
 
 
 ## Introduction
-We collected 2,000 programming problems from LeetCode and tested five mainstream code generation tools: GitHub Copilot, Amazon CodeWhisperer, Tongyi Lingma, Tabnine, and Codeium. Together, they produced 65,325 code suggestions in C, C++, Java, JavaScript, and Python. We recorded their execution results from LeetCode and performed static analysis with Cppcheck and SonarQube, covering four quality dimensions: functional correctness, reliability, maintainability, and complexity.
+We collected 2,613 programming problems from LeetCode and tested five mainstream code generation tools: GitHub Copilot, Amazon CodeWhisperer, Tongyi Lingma, Tabnine, and Codeium. Together, they produced 65,325 code suggestions in C, C++, Java, JavaScript, and Python. We recorded their execution results from LeetCode and performed static analysis with Cppcheck and SonarQube, covering four quality dimensions: functional correctness, reliability, maintainability, and complexity.
 
 Our research questions are as follows:
 
